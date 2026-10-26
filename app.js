@@ -9,7 +9,7 @@ const T = {
   pl: {
     kicker: 'Mapa dyplomatyczna', title: 'Ambasady i konsulaty',
     navLabel: 'Główne', navHome: 'Strona główna', navPublications: 'Publikacje', navProjects: 'Projekty', navAbout: 'O nas',
-    menu: 'Menu', close: 'Zamknij', dark: 'Tryb ciemny', changeLang: 'Zmień język', languages: 'Języki',
+    city: 'Miasto', menu: 'Menu', close: 'Zamknij', dark: 'Tryb ciemny', changeLang: 'Zmień język', languages: 'Języki',
     search: 'Szukaj kraju lub ulicy', show: 'Pokaż', all: 'Wszystkie', embassies: 'Ambasady', consulates: 'Konsulaty',
     empty: 'Brak wyników.', source: 'Dane', loading: 'Wczytywanie placówek…', live: 'na żywo',
     failed: 'Nie udało się wczytać danych z OpenStreetMap.', retry: 'Spróbuj ponownie',
@@ -26,7 +26,7 @@ const T = {
   en: {
     kicker: 'Diplomatic map', title: 'Embassies and consulates',
     navLabel: 'Primary', navHome: 'Home', navPublications: 'Publications', navProjects: 'Projects', navAbout: 'About Terra',
-    menu: 'Menu', close: 'Close', dark: 'Dark mode', changeLang: 'Change language', languages: 'Languages',
+    city: 'City', menu: 'Menu', close: 'Close', dark: 'Dark mode', changeLang: 'Change language', languages: 'Languages',
     search: 'Search a country or street', show: 'Show', all: 'All', embassies: 'Embassies', consulates: 'Consulates',
     empty: 'Nothing matches.', source: 'Data', loading: 'Loading missions…', live: 'live',
     failed: 'Could not load data from OpenStreetMap.', retry: 'Try again',
@@ -52,7 +52,7 @@ function savedLang() {
 /* Senders with no ISO region code, so Intl.DisplayNames can't name them. */
 const NON_STATE = { SMOM: { pl: 'Zakon Maltański', en: 'Order of Malta' } };
 
-const state = { lang: savedLang(), city: null, data: null, missions: [], group: 'all', query: '', active: null };
+const state = { lang: savedLang(), cities: [], city: null, data: null, missions: [], group: 'all', query: '', active: null };
 const t = () => T[state.lang];
 const kindLabel = (m) => t().kinds[m.kind] || t().mission;
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -104,6 +104,7 @@ function applyLang() {
   if (state.city) {
     $('[data-city]').textContent = state.city.name[state.lang];
     document.title = `${t().title} — ${state.city.name[state.lang]} · Terra Cracovianum`;
+    $('#cities').innerHTML = state.cities.map((c) => `<a href="?city=${c.slug}"${c === state.city ? ' aria-current="page"' : ''}>${esc(c.name[state.lang])}</a>`).join('');
   }
   if (state.data) prepare();
 }
@@ -294,9 +295,9 @@ async function start() {
   status.hidden = true;
 }
 
-const cities = await (await fetch('data/cities.json')).json();
+state.cities = await (await fetch('data/cities.json')).json();
 const slug = new URLSearchParams(location.search).get('city');
-state.city = cities.find((c) => c.slug === slug) || cities[0];
+state.city = state.cities.find((c) => c.slug === slug) || state.cities[0];
 map.setView(state.city.center, state.city.zoom);
 applyLang();
 start();

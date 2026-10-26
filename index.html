@@ -56,7 +56,10 @@ try{var t=localStorage.getItem('tc-theme');if(t==='dark'||t==='light')document.d
     <span class="kicker" data-t="kicker">Mapa dyplomatyczna</span>
     <h1><span data-t="title">Ambasady i konsulaty</span> — <em data-city>Warszawa</em></h1>
   </div>
-  <span class="count" id="count" aria-live="polite"></span>
+  <div class="tool-head-right">
+    <nav class="cities" id="cities" data-t-label="city" aria-label="Miasto"></nav>
+    <span class="count" id="count" aria-live="polite"></span>
+  </div>
 </section>
 
 <main class="atlas">
