@@ -1,6 +1,6 @@
 {
  "city": "warsaw",
- "generated": "2026-10-26T13:17:40.061Z",
+ "generated": "2026-10-26T13:26:07.600Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 118,
  "missions": [
@@ -15,7 +15,14 @@
    "lon": 21.003914,
    "address": "Złota 59, 00-120 Warszawa",
    "website": "https://www.mofa.gov.ae/en/Missions/Warsaw",
-   "phone": "+48 22 222 20 20"
+   "phone": "+48 22 222 20 20",
+   "wikidata": "Q9149634",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Z%C5%82ote_Tarasy.jpg/500px-Z%C5%82ote_Tarasy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Z%C5%82ote_Tarasy.jpg",
+    "author": "Stas Kozlovskiy",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/952642978",
@@ -28,7 +35,9 @@
    "lon": 21.072046,
    "address": "Goplańska 1, 02-954 Warszawa",
    "website": "https://www.afghanembassy.com.pl/",
-   "phone": "+48 22 88 55 410"
+   "phone": "+48 22 88 55 410",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8350714995",
@@ -41,7 +50,14 @@
    "lon": 21.021784,
    "address": "Ignacego Krasickiego 10, 02-628 Warszawa",
    "website": "http://www.algerianembassy.pl",
-   "phone": "+48 22 617 58 55"
+   "phone": "+48 22 617 58 55",
+   "wikidata": "Q9149450",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ambasada_Algierii_w_Warszawie_2021.jpg/500px-Ambasada_Algierii_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Algierii_w_Warszawie_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/380156425",
@@ -54,7 +70,14 @@
    "lon": 20.961627,
    "address": "Altowa 1, 02-386 Warszawa",
    "website": "https://ambasadat.gov.al/poland/en",
-   "phone": "+48 22 824 14 27"
+   "phone": "+48 22 824 14 27",
+   "wikidata": "Q9149446",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Ambasada_Albanii_w_Warszawie_2021.jpg/500px-Ambasada_Albanii_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Albanii_w_Warszawie_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/8832540841",
@@ -67,7 +90,14 @@
    "lon": 21.022521,
    "address": "Bekasów 50, 02-803 Warszawa",
    "website": "https://poland.mfa.am/en",
-   "phone": "+48 22 899 09 40"
+   "phone": "+48 22 899 09 40",
+   "wikidata": "Q9149455",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ambasada_Armenii_w_Warszawie_2022.jpg/500px-Ambasada_Armenii_w_Warszawie_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Armenii_w_Warszawie_2022.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/8820767587",
@@ -80,7 +110,14 @@
    "lon": 21.079192,
    "address": "Urodzajna 12, 02-954 Warszawa",
    "website": "http://embangola.pl",
-   "phone": "+48 22 844 09 83"
+   "phone": "+48 22 844 09 83",
+   "wikidata": "Q9149452",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ambasada_ANGOLI_02.jpg/500px-Ambasada_ANGOLI_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_ANGOLI_02.jpg",
+    "author": "Andrzej Błaszczak",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/140044943",
@@ -93,7 +130,14 @@
    "lon": 21.035818,
    "address": "Jurija Gagarina 34, 00-748 Warszawa",
    "website": "https://www.bmeia.gv.at/pl/ambasada-austrii-warszawa/",
-   "phone": "+48 22 841 00 81"
+   "phone": "+48 22 841 00 81",
+   "wikidata": "Q9149461",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ambasada_Austrii_w_Warszawie_2019.jpg/500px-Ambasada_Austrii_w_Warszawie_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Austrii_w_Warszawie_2019.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/11803360927",
@@ -106,7 +150,14 @@
    "lon": 20.999569,
    "address": "Rondo ONZ 1, 00-124 Warszawa",
    "website": "https://poland.embassy.gov.au/",
-   "phone": "+48 22 521 34 44"
+   "phone": "+48 22 521 34 44",
+   "wikidata": "Q9149460",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Ambasada_Australii_w_Warszawie.jpg/500px-Ambasada_Australii_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Australii_w_Warszawie.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/503826343",
@@ -119,7 +170,14 @@
    "lon": 21.053474,
    "address": "Zwycięzców 12, 03-941 Warszawa",
    "website": "https://warsaw.mfa.gov.az/pl",
-   "phone": "+48 22 617 67 28"
+   "phone": "+48 22 617 67 28",
+   "wikidata": "Q9149463",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ambasada_Azerbejd%C5%BCanu_w_Warszawie.jpg/500px-Ambasada_Azerbejd%C5%BCanu_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Azerbejd%C5%BCanu_w_Warszawie.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/11759199521",
@@ -132,7 +190,14 @@
    "lon": 21.020011,
    "address": "Ignacego Krasickiego 35, 02-611 Warszawa",
    "website": null,
-   "phone": "+48 22 856 99 35"
+   "phone": "+48 22 856 99 35",
+   "wikidata": "Q9149466",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Ambasada_BiH_w_Warszawie_%282024.06.02%29.jpg/500px-Ambasada_BiH_w_Warszawie_%282024.06.02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_BiH_w_Warszawie_(2024.06.02).jpg",
+    "author": "Niegodzisie",
+    "license": "CC BY 4.0"
+   }
   },
   {
    "id": "node/8820587721",
@@ -145,7 +210,14 @@
    "lon": 21.077834,
    "address": "Wiertnicza 107, 02-952 Warszawa",
    "website": "https://warsaw.mofa.gov.bd/",
-   "phone": "+48 22 550 06 10"
+   "phone": "+48 22 550 06 10",
+   "wikidata": "Q24944139",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Ambasada_BANGLADESZU_03.jpg/500px-Ambasada_BANGLADESZU_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_BANGLADESZU_03.jpg",
+    "author": "Andrzej Błaszczak",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/11313774640",
@@ -158,7 +230,14 @@
    "lon": 21.003723,
    "address": "Senatorska 34, 00-095 Warszawa",
    "website": "https://poland.diplomatie.belgium.be/pl",
-   "phone": "+48 22 551 28 00"
+   "phone": "+48 22 551 28 00",
+   "wikidata": "Q9149462",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pa%C5%82ac_Mniszch%C3%B3w_w_Warszawie_2022.jpg/500px-Pa%C5%82ac_Mniszch%C3%B3w_w_Warszawie_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_Mniszch%C3%B3w_w_Warszawie_2022.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/11777561530",
@@ -171,7 +250,14 @@
    "lon": 21.023144,
    "address": "Aleje Ujazdowskie 33/35, 00-540 Warszawa",
    "website": "https://www.mfa.bg/en/embassies/poland",
-   "phone": "+48 22 629 40 71"
+   "phone": "+48 22 629 40 71",
+   "wikidata": "Q24283244",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Waw_bulgaria11.jpg/500px-Waw_bulgaria11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Waw_bulgaria11.jpg",
+    "author": "Isee1",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/8920017854",
@@ -184,7 +270,14 @@
    "lon": 21.057409,
    "address": "Bajońska 15, 03-963 Warszawa",
    "website": "http://varsovia.itamaraty.gov.br/",
-   "phone": "+48 22 617 48 00"
+   "phone": "+48 22 617 48 00",
+   "wikidata": "Q94496103",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ambasada_Brazylii_w_Warszawie_2020.jpg/500px-Ambasada_Brazylii_w_Warszawie_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Brazylii_w_Warszawie_2020.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/11834735349",
@@ -197,7 +290,9 @@
    "lon": 21.012684,
    "address": "Trębacka 4, 00-074 Warszawa",
    "website": null,
-   "phone": "+48 22 630 97 31"
+   "phone": "+48 22 630 97 31",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8820915625",
@@ -210,7 +305,14 @@
    "lon": 21.081903,
    "address": "Wiertnicza 58, 02-952 Warszawa",
    "website": "https://poland.mfa.gov.by/pl/",
-   "phone": "+48 22 742 09 90"
+   "phone": "+48 22 742 09 90",
+   "wikidata": "Q9149465",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg/500px-Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/462251191",
@@ -223,7 +325,14 @@
    "lon": 21.025765,
    "address": "Jana Matejki 1/5, 00-481 Warszawa",
    "website": "https://www.international.gc.ca/country-pays/poland-pologne/index.aspx?lang=eng",
-   "phone": "+48 22 584 31 00"
+   "phone": "+48 22 584 31 00",
+   "wikidata": "Q2841867",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ambasada_Kanady_w_Warszawie_2022.jpg/500px-Ambasada_Kanady_w_Warszawie_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Kanady_w_Warszawie_2022.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/948290072",
@@ -236,7 +345,9 @@
    "lon": 21.023796,
    "address": "Bogatki 3, 02-837 Warszawa",
    "website": "https://www.ambassaderdcpologne.com/",
-   "phone": "+48 22 645 85 18"
+   "phone": "+48 22 645 85 18",
+   "wikidata": "Q9149483",
+   "photo": null
   },
   {
    "id": "node/11836043571",
@@ -249,7 +360,9 @@
    "lon": 21.077089,
    "address": null,
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/437153219",
@@ -262,7 +375,14 @@
    "lon": 21.023391,
    "address": "Aleje Ujazdowskie 27",
    "website": "https://www.eda.admin.ch/warsaw",
-   "phone": "+48 22 628 04 81"
+   "phone": "+48 22 628 04 81",
+   "wikidata": "Q9149606",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Pa%C5%82acyk_Raua_w_Warszawie_2021.jpg/500px-Pa%C5%82acyk_Raua_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pa%C5%82acyk_Raua_w_Warszawie_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/895201987",
@@ -275,7 +395,14 @@
    "lon": 21.063014,
    "address": "Okrężna 62, 02-925 Warszawa",
    "website": "https://www.chile.gob.cl/polonia/en",
-   "phone": "+48 22 858 23 30"
+   "phone": "+48 22 858 23 30",
+   "wikidata": "Q9149472",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Ambasada_Chile_w_Warszawie.jpg/500px-Ambasada_Chile_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Chile_w_Warszawie.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4888555760",
@@ -288,7 +415,9 @@
    "lon": 21.001995,
    "address": "Bonifraterska 1, 00-203 Warszawa",
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/212337223",
@@ -301,7 +430,14 @@
    "lon": 21.00184,
    "address": "Bonifraterska 1, 00-203 Warszawa",
    "website": "https://pl.china-embassy.gov.cn/pol/",
-   "phone": "+48 22 831 38 36"
+   "phone": "+48 22 831 38 36",
+   "wikidata": "Q9149475",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Ambasada_Chi%C5%84skiej_Republiki_Ludowej_w_Polsce_2023.jpg/500px-Ambasada_Chi%C5%84skiej_Republiki_Ludowej_w_Polsce_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Chi%C5%84skiej_Republiki_Ludowej_w_Polsce_2023.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY 3.0 pl"
+   }
   },
   {
    "id": "way/503826344",
@@ -314,7 +450,14 @@
    "lon": 21.056511,
    "address": "Zwycięzców 29, 03-936 Warszawa",
    "website": "https://polonia.embajada.gov.co/",
-   "phone": "+48 22 617 09 73"
+   "phone": "+48 22 617 09 73",
+   "wikidata": "Q9149525",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Ambasada_kolumbii.jpg/500px-Ambasada_kolumbii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_kolumbii.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/3835161128",
@@ -327,7 +470,14 @@
    "lon": 20.996907,
    "address": "Domaniewska 48, 02-672 Warszawa",
    "website": "http://misiones.minrex.gob.cu/es/polonia",
-   "phone": "+48 22 848 17 15"
+   "phone": "+48 22 848 17 15",
+   "wikidata": "Q9149528",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ambassador_Office_Building_-_01.jpg/500px-Ambassador_Office_Building_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassador_Office_Building_-_01.jpg",
+    "author": "Jolanta Dyr",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/140003758",
@@ -340,7 +490,14 @@
    "lon": 21.011955,
    "address": "Jarosława Dąbrowskiego 70, 02-561 Warszawa",
    "website": "http://www.mfa.gov.cy/embassywarsaw",
-   "phone": "+48 22 844 45 77;+48 22 844 08 16"
+   "phone": "+48 22 844 45 77;+48 22 844 08 16",
+   "wikidata": "Q11685562",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ambasada_Cypru%2C_Warszawa.jpg/500px-Ambasada_Cypru%2C_Warszawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Cypru,_Warszawa.jpg",
+    "author": "Raf24",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/194448939",
@@ -353,7 +510,9 @@
    "lon": 21.021638,
    "address": "Aleja Róż 12, 00-555 Warszawa",
    "website": "https://www.mzv.cz/warsaw",
-   "phone": "+48 22 525 18 50"
+   "phone": "+48 22 525 18 50",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/30861534",
@@ -366,7 +525,14 @@
    "lon": 21.020732,
    "address": "Koszykowa 18, 00-555 Warszawa",
    "website": "https://mzv.gov.cz/warsaw",
-   "phone": "+48 22 525 18 50"
+   "phone": "+48 22 525 18 50",
+   "wikidata": "Q9149481",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Embassy_of_the_Czech_Republic_in_Warsaw_2016.jpg/500px-Embassy_of_the_Czech_Republic_in_Warsaw_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_the_Czech_Republic_in_Warsaw_2016.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/460833744",
@@ -379,7 +545,14 @@
    "lon": 21.029525,
    "address": "Jazdów 12, 00-467 Warszawa",
    "website": "https://polen.diplo.de/pl-pl",
-   "phone": "+48 22 584 17 00"
+   "phone": "+48 22 584 17 00",
+   "wikidata": "Q9149551",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Ambasada_Niemiec_w_Warszawie_2021.jpg/500px-Ambasada_Niemiec_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Niemiec_w_Warszawie_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/3835170197",
@@ -392,7 +565,14 @@
    "lon": 21.007533,
    "address": "Marszałkowska 142, 00-061 Warszawa",
    "website": "https://polen.um.dk/pl",
-   "phone": "+48 22 565 29 00"
+   "phone": "+48 22 565 29 00",
+   "wikidata": "Q9149486",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Embassy_of_Denmark_in_Poland.jpg/500px-Embassy_of_Denmark_in_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_Denmark_in_Poland.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/947313631",
@@ -405,7 +585,14 @@
    "lon": 20.999914,
    "address": "Karwińska 1, 02-639 Warszawa",
    "website": "https://warsaw.mfa.ee/pl/",
-   "phone": "+48 22 881 18 10;+48 22 881 18 11"
+   "phone": "+48 22 881 18 10;+48 22 881 18 11",
+   "wikidata": "Q18913125",
+   "photo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Estonian_embassy_in_Poland%2C_Warsaw..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Estonian_embassy_in_Poland,_Warsaw..JPG",
+    "author": "Warschauer",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/12475545062",
@@ -418,7 +605,9 @@
    "lon": 21.0744,
    "address": null,
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/390483316",
@@ -431,7 +620,14 @@
    "lon": 21.038112,
    "address": "Myśliwiecka 4, 00-459 Warszawa",
    "website": "https://www.exteriores.gob.es/Embajadas/varsovia/pl/Paginas/index.aspx",
-   "phone": "+48 22 583 40 00;+48 22 583 40 01"
+   "phone": "+48 22 583 40 00;+48 22 583 40 01",
+   "wikidata": "Q11685565",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Kawalerii_Street_in_Warsaw_DSC_1556.JPG/500px-Kawalerii_Street_in_Warsaw_DSC_1556.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kawalerii_Street_in_Warsaw_DSC_1556.JPG",
+    "author": "Wistula",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/9202994790",
@@ -444,7 +640,14 @@
    "lon": 21.0227,
    "address": "Fryderyka Chopina 4/8, 00-559 Warszawa",
    "website": "https://finlandabroad.fi/web/pol/frontpage",
-   "phone": "+48 22 598 95 00"
+   "phone": "+48 22 598 95 00",
+   "wikidata": "Q9149494",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ambasada_Finlandii_w_Warszawie_2022.jpg/500px-Ambasada_Finlandii_w_Warszawie_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Finlandii_w_Warszawie_2022.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/460833686",
@@ -457,7 +660,14 @@
    "lon": 21.027486,
    "address": "Piękna 1, 00-477 Warszawa",
    "website": "https://pl.ambafrance.org/",
-   "phone": "+48 22 529 30 00"
+   "phone": "+48 22 529 30 00",
+   "wikidata": "Q2841777",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ambasada_Francji_w_Warszawie_2022.jpg/500px-Ambasada_Francji_w_Warszawie_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Francji_w_Warszawie_2022.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/380808708",
@@ -470,7 +680,14 @@
    "lon": 21.039832,
    "address": "Kawalerii 12, 00-468 Warszawa",
    "website": "https://www.gov.uk/world/organisations/british-embassy-warsaw",
-   "phone": null
+   "phone": null,
+   "wikidata": "Q9149629",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Kawalerii_Street_in_Warsaw_DSC_1555.JPG/500px-Kawalerii_Street_in_Warsaw_DSC_1555.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kawalerii_Street_in_Warsaw_DSC_1555.JPG",
+    "author": "Wistula",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/152335006",
@@ -483,7 +700,14 @@
    "lon": 21.052772,
    "address": "Kryniczna 2, 03-934 Warszawa",
    "website": "https://poland.mfa.gov.ge/pl",
-   "phone": "+48 22 616 62 21"
+   "phone": "+48 22 616 62 21",
+   "wikidata": "Q11685563",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ambasada_GRUZJI.jpg/500px-Ambasada_GRUZJI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_GRUZJI.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/11836043574",
@@ -496,7 +720,9 @@
    "lon": 21.215322,
    "address": "Michalinki 8, 04-977 Warszawa",
    "website": null,
-   "phone": "+48 22 833 17 75"
+   "phone": "+48 22 833 17 75",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/11836043573",
@@ -509,7 +735,9 @@
    "lon": 21.232875,
    "address": "Piotrusia Pana 27, 05-077 Warszawa",
    "website": "https://www.gambia.pl/",
-   "phone": "+48 22 425 55 57"
+   "phone": "+48 22 425 55 57",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/194448970",
@@ -522,7 +750,14 @@
    "lon": 21.032621,
    "address": "Górnośląska 35, 00-432 Warszawa",
    "website": "http://www.mfa.gov.gr/warsaw",
-   "phone": "+48226229460;+48226229461"
+   "phone": "+48226229460;+48226229461",
+   "wikidata": "Q9149499",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/AMBASADA_Grecji_w_Warszawie.jpg/500px-AMBASADA_Grecji_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:AMBASADA_Grecji_w_Warszawie.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/11860902456",
@@ -535,7 +770,14 @@
    "lon": 21.001804,
    "address": "Emilii Plater 53, 00-113 Warszawa",
    "website": null,
-   "phone": "+48 22 375 98 70"
+   "phone": "+48 22 375 98 70",
+   "wikidata": "Q122794651",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Warsaw_Financial_Center_WFC.jpg/500px-Warsaw_Financial_Center_WFC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Warsaw_Financial_Center_WFC.jpg",
+    "author": null,
+    "license": "CC BY-SA 2.5"
+   }
   },
   {
    "id": "node/11836043575",
@@ -548,7 +790,9 @@
    "lon": 21.012915,
    "address": "Trębacka 4, 00-074 Warszawa",
    "website": null,
-   "phone": "+48 22 630 97 31"
+   "phone": "+48 22 630 97 31",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8954427538",
@@ -561,7 +805,14 @@
    "lon": 21.020084,
    "address": "Ignacego Krasickiego 25, 02-611 Warszawa",
    "website": "https://mvep.gov.hr/",
-   "phone": "+48228442393;+48228443994"
+   "phone": "+48228442393;+48228443994",
+   "wikidata": "Q11685561",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Ambasada_Chorwacji_w_Polsce_2021.jpg/500px-Ambasada_Chorwacji_w_Polsce_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Chorwacji_w_Polsce_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/29092778",
@@ -574,7 +825,14 @@
    "lon": 21.02371,
    "address": "Fryderyka Chopina 2, 00-559 Warszawa",
    "website": "https://varso.mfa.gov.hu/pol",
-   "phone": "+48226284451"
+   "phone": "+48226284451",
+   "wikidata": "Q16494353",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Embassy_of_Hungary_in_Warsaw_2016.jpg/500px-Embassy_of_Hungary_in_Warsaw_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_Hungary_in_Warsaw_2016.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/503826352",
@@ -587,7 +845,14 @@
    "lon": 21.048292,
    "address": "Estońska 3/5, 03-903 Warszawa",
    "website": "https://www.kemlu.go.id/warsaw/lc",
-   "phone": "+48226175179;+48226175108"
+   "phone": "+48226175179;+48226175108",
+   "wikidata": "Q11685566",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ambasada_Indonezji_ul._Esto%C5%84ska_3-5_w_Warszawie.jpg/500px-Ambasada_Indonezji_ul._Esto%C5%84ska_3-5_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Indonezji_ul._Esto%C5%84ska_3-5_w_Warszawie.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/3836567161",
@@ -600,7 +865,14 @@
    "lon": 21.020088,
    "address": "Mysia 5, 00-496 Warszawa",
    "website": "https://www.dfa.ie/irish-embassy/poland/",
-   "phone": "+48 225642200"
+   "phone": "+48 225642200",
+   "wikidata": "Q11685568",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Biurowiec_Liberty_Corner_w_Warszawie_2021.jpg/500px-Biurowiec_Liberty_Corner_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Biurowiec_Liberty_Corner_w_Warszawie_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/947739597",
@@ -613,7 +885,14 @@
    "lon": 21.000196,
    "address": "Ludwika Krzywickiego 24, 02-078 Warszawa",
    "website": "http://www.israel.pl/",
-   "phone": "+48 22 597 05 00"
+   "phone": "+48 22 597 05 00",
+   "wikidata": "Q9149512",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ambasada_izraela_w_warszawie.JPG/500px-Ambasada_izraela_w_warszawie.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_izraela_w_warszawie.JPG",
+    "author": "Panek",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/261354477",
@@ -626,7 +905,14 @@
    "lon": 21.038235,
    "address": "Myśliwiecka 2, 00-459 Warszawa",
    "website": "https://www.indianembassywarsaw.gov.in/",
-   "phone": "+48 22 540 00 00"
+   "phone": "+48 22 540 00 00",
+   "wikidata": "Q9149504",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ambasada_Indii_od_strony_ulicy_Kawalerii.jpg/500px-Ambasada_Indii_od_strony_ulicy_Kawalerii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Indii_od_strony_ulicy_Kawalerii.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/503826342",
@@ -639,7 +925,14 @@
    "lon": 21.050162,
    "address": "Dąbrowiecka 9A, 03-932 Warszawa",
    "website": "https://mofa.gov.iq/warsaw/",
-   "phone": "+48 22 617 49 11;+48 22 617 57 73"
+   "phone": "+48 22 617 49 11;+48 22 617 57 73",
+   "wikidata": "Q9149509",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ambasada_Iraku.jpg/500px-Ambasada_Iraku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Iraku.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/503826345",
@@ -652,7 +945,14 @@
    "lon": 21.055917,
    "address": "Królowej Aldony 22, 03-928 Warszawa",
    "website": "https://poland.mfa.gov.ir/en",
-   "phone": "+48 22 617 15 85;+48 22 617 42 93"
+   "phone": "+48 22 617 15 85;+48 22 617 42 93",
+   "wikidata": "Q11685567",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/AMBASADA_IRANU.jpg/500px-AMBASADA_IRANU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:AMBASADA_IRANU.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/8352243239",
@@ -665,7 +965,9 @@
    "lon": 21.031547,
    "address": "Parkowa 13/17, 00-759 Warszawa",
    "website": "https://ihc.waw.pl",
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/10829101378",
@@ -678,7 +980,14 @@
    "lon": 21.00779,
    "address": "Aleja Armii Ludowej 26, 00-609 Warszawa",
    "website": "https://www.government.is/other-languages/ambasada-islandii-w-warszawie/",
-   "phone": "+48 519 190 373"
+   "phone": "+48 519 190 373",
+   "wikidata": "Q117812368",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Warszawa-Focus-perspective-edit.jpg/500px-Warszawa-Focus-perspective-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Warszawa-Focus-perspective-edit.jpg",
+    "author": "sfu",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "relation/3262190",
@@ -691,7 +1000,14 @@
    "lon": 21.010191,
    "address": "Plac Jana Henryka Dąbrowskiego 6, 00-055 Warszawa",
    "website": "https://ambvarsavia.esteri.it/",
-   "phone": "+48 22 826 34 71;+48 22 826 34 72"
+   "phone": "+48 22 826 34 71;+48 22 826 34 72",
+   "wikidata": "Q2377634",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Szlenkier_Palace.jpg/500px-Szlenkier_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Szlenkier_Palace.jpg",
+    "author": "Andrew J.Kurbiko",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/360620749",
@@ -704,7 +1020,9 @@
    "lon": 21.022775,
    "address": null,
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/26118666",
@@ -717,7 +1035,14 @@
    "lon": 21.04085,
    "address": "Szwoleżerów 8, 00-464 Warszawa",
    "website": "https://www.pl.emb-japan.go.jp/itprtop_pl/index.html",
-   "phone": "+48 22 696 50 00"
+   "phone": "+48 22 696 50 00",
+   "wikidata": "Q9149515",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Waw_japonia98.jpg/500px-Waw_japonia98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Waw_japonia98.jpg",
+    "author": "Isee1",
+    "license": "CC BY 2.5 pl"
+   }
   },
   {
    "id": "way/218986469",
@@ -730,7 +1055,9 @@
    "lon": 21.045678,
    "address": "Bobrowiecka 1A, 00-728 Warszawa",
    "website": "http://krld.pl/krld/",
-   "phone": "+48228405813"
+   "phone": "+48228405813",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/390483318",
@@ -743,7 +1070,14 @@
    "lon": 21.041869,
    "address": "Szwoleżerów 6, 00-464 Warszawa",
    "website": "https://overseas.mofa.go.kr/pl-pl/index.do",
-   "phone": "+48 22 559 29 00"
+   "phone": "+48 22 559 29 00",
+   "wikidata": "Q9149522",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ambasada_Korei_w_Warszawie_2021.jpg/500px-Ambasada_Korei_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Korei_w_Warszawie_2021.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/8820767820",
@@ -756,7 +1090,14 @@
    "lon": 21.077468,
    "address": "Królowej Marysieńki 14, 02-954 Warszawa",
    "website": "https://www.gov.kz/memleket/entities/mfa-warsaw?lang=pl",
-   "phone": "+48 22 651 58 61"
+   "phone": "+48 22 651 58 61",
+   "wikidata": "Q9149521",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Kazakh_Embassy_in_Warsaw.jpg/500px-Kazakh_Embassy_in_Warsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kazakh_Embassy_in_Warsaw.jpg",
+    "author": "Joshua Lim (Sky Harbor)",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/930821983",
@@ -769,7 +1110,9 @@
    "lon": 20.961745,
    "address": "Usypiskowa 8, 02-386 Warszawa",
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/3837961557",
@@ -782,7 +1125,14 @@
    "lon": 21.015397,
    "address": "Wiśniowa 40, 02-516 Warszawa",
    "website": "http://www.lebanon.com.pl",
-   "phone": "+48 22 844 50 65;+48 22 646 35 46"
+   "phone": "+48 22 844 50 65;+48 22 646 35 46",
+   "wikidata": "Q9149530",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Budynek_przy_ul._Rejtana_15_w_Warszawie_2020.jpg/500px-Budynek_przy_ul._Rejtana_15_w_Warszawie_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Budynek_przy_ul._Rejtana_15_w_Warszawie_2020.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "node/14155831243",
@@ -795,7 +1145,9 @@
    "lon": 21.073817,
    "address": null,
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8352902237",
@@ -808,7 +1160,14 @@
    "lon": 21.084641,
    "address": "Chorągwi Pancernej 8, 02-951 Warszawa",
    "website": "https://srilankaembassy.com.pl/",
-   "phone": "+48 22 853 88 97"
+   "phone": "+48 22 853 88 97",
+   "wikidata": "Q9149597",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Ambasada_SRI_LANKI_03.jpg/500px-Ambasada_SRI_LANKI_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_SRI_LANKI_03.jpg",
+    "author": "Andrzej Błaszczak",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/599353883",
@@ -821,7 +1180,14 @@
    "lon": 21.023974,
    "address": "Aleje Ujazdowskie 14, 00-478 Warszawa",
    "website": "https://pl.mfa.lt/",
-   "phone": "+48 22 625 34 10;+48 22 625 33 68"
+   "phone": "+48 22 625 34 10;+48 22 625 33 68",
+   "wikidata": "Q9149535",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pa%C5%82ac_pod_Karczochem_w_Warszawie_2016.jpg/500px-Pa%C5%82ac_pod_Karczochem_w_Warszawie_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_pod_Karczochem_w_Warszawie_2016.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/200944688",
@@ -834,7 +1200,14 @@
    "lon": 21.025411,
    "address": "Słoneczna 15, 00-789 Warszawa",
    "website": "https://varsovie.mae.lu/",
-   "phone": "+48 22 507 86 50"
+   "phone": "+48 22 507 86 50",
+   "wikidata": "Q9149536",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Ambasada_Luksemburga_ul._S%C5%82oneczna_15.jpg/500px-Ambasada_Luksemburga_ul._S%C5%82oneczna_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Luksemburga_ul._S%C5%82oneczna_15.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
   },
   {
    "id": "way/30847473",
@@ -847,7 +1220,14 @@
    "lon": 21.055571,
    "address": "Królowej Aldony 19, 03-928 Warszawa",
    "website": "https://www2.mfa.gov.lv/en/poland",
-   "phone": "+48 22 617 11 05"
+   "phone": "+48 22 617 11 05",
+   "wikidata": "Q9149637",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Latvijas.vestnieciba.polija2.JPG/500px-Latvijas.vestnieciba.polija2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latvijas.vestnieciba.polija2.JPG",
+    "author": "Warschauer",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/380471068",
@@ -860,7 +1240,14 @@
    "lon": 21.028337,
    "address": "Żołny 26/26B, 02-815 Warszawa",
    "website": null,
-   "phone": "+48 22 566 65 09;+48 22 566 65 10"
+   "phone": "+48 22 566 65 09;+48 22 566 65 10",
+   "wikidata": "Q11685570",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AMBASADA_LIBII.jpg/500px-AMBASADA_LIBII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:AMBASADA_LIBII.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/140003764",
@@ -873,7 +1260,14 @@
    "lon": 21.011696,
    "address": "Jarosława Dąbrowskiego 72, 02-561 Warszawa",
    "website": null,
-   "phone": "+48 22 849 63 41"
+   "phone": "+48 22 849 63 41",
+   "wikidata": "Q9149549",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ambasada_Maroka_w_Warszawie.jpg/500px-Ambasada_Maroka_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Maroka_w_Warszawie.jpg",
+    "author": "Darpaw",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/11836043578",
@@ -886,7 +1280,9 @@
    "lon": 21.02477,
    "address": "Aleje Ujazdowskie 10, 00-478 Warszawa",
    "website": null,
-   "phone": "+48 22 437 84 66"
+   "phone": "+48 22 437 84 66",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8824687850",
@@ -899,7 +1295,9 @@
    "lon": 21.034627,
    "address": "Imielińska 1, 02-710 Warszawa",
    "website": "https://polonia.mfa.gov.md/",
-   "phone": "+48 22 843 73 44"
+   "phone": "+48 22 843 73 44",
+   "wikidata": "Q9149550",
+   "photo": null
   },
   {
    "id": "node/3838109941",
@@ -912,7 +1310,9 @@
    "lon": 21.023228,
    "address": "Aleje Ujazdowskie 41, 00-540 Warszawa",
    "website": null,
-   "phone": "+48 22 375 97 45"
+   "phone": "+48 22 375 97 45",
+   "wikidata": "Q9149476",
+   "photo": null
   },
   {
    "id": "node/8820489944",
@@ -925,7 +1325,9 @@
    "lon": 21.073423,
    "address": "Królowej Marysieńki 40, 02-954 Warszawa",
    "website": "https://warsaw.mfa.gov.mk/en",
-   "phone": "+48 22 651 72 91"
+   "phone": "+48 22 651 72 91",
+   "wikidata": "Q11685572",
+   "photo": null
   },
   {
    "id": "node/11836043577",
@@ -938,7 +1340,9 @@
    "lon": 20.957696,
    "address": "Podborska 6, 02-221 Warszawa",
    "website": "https://konsulat-mali.pl/",
-   "phone": "+48 729 301 653"
+   "phone": "+48 729 301 653",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/11860902458",
@@ -951,7 +1355,9 @@
    "lon": 21.088551,
    "address": "Biedronki 13A, 02-946 Warszawa",
    "website": "https://ambasadamongolii.pl/",
-   "phone": "+48 22 849 26 19"
+   "phone": "+48 22 849 26 19",
+   "wikidata": "Q15618184",
+   "photo": null
   },
   {
    "id": "node/3838067836",
@@ -964,7 +1370,9 @@
    "lon": 21.015213,
    "address": "Wiśniowa 40/4, 02-520 Warszawa",
    "website": "https://foreign.gov.mt/missions/me-warsaw/",
-   "phone": "+48 22 646 46 39"
+   "phone": "+48 22 646 46 39",
+   "wikidata": "Q9149546",
+   "photo": null
   },
   {
    "id": "node/11836043576",
@@ -977,7 +1385,9 @@
    "lon": 21.04869,
    "address": "Berezyńska 6A, 03-904 Warszawa",
    "website": null,
-   "phone": "+48 602 214 667"
+   "phone": "+48 602 214 667",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/3838101694",
@@ -990,7 +1400,9 @@
    "lon": 20.991515,
    "address": "Aleje Jerozolimskie 123A",
    "website": "https://www.sre.gob.mx/polonia",
-   "phone": "+48 22 3112900"
+   "phone": "+48 22 3112900",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/11759199520",
@@ -1003,7 +1415,9 @@
    "lon": 21.079766,
    "address": "Kosiarzy 22B, 02-953 Warszawa",
    "website": "https://warsaw.foreignaffairs.gov.ng/",
-   "phone": "+48 22 651 53 05"
+   "phone": "+48 22 651 53 05",
+   "wikidata": "Q11685575",
+   "photo": null
   },
   {
    "id": "way/390483317",
@@ -1016,7 +1430,9 @@
    "lon": 21.041319,
    "address": "Kawalerii 10, 00-468 Warszawa",
    "website": "https://www.netherlandsandyou.nl/web/poland/",
-   "phone": "+48 22 559 12 00"
+   "phone": "+48 22 559 12 00",
+   "wikidata": "Q9149503",
+   "photo": null
   },
   {
    "id": "node/8591481911",
@@ -1029,7 +1445,9 @@
    "lon": 21.007853,
    "address": "Aleja Armii Ludowej 26, 00-609 Warszawa",
    "website": "https://www.norway.no/poland/",
-   "phone": "+48 22 696 40 30"
+   "phone": "+48 22 696 40 30",
+   "wikidata": "Q11685574",
+   "photo": null
   },
   {
    "id": "node/11836043580",
@@ -1042,7 +1460,9 @@
    "lon": 20.978945,
    "address": "Stefana Starzyńskiego 26A, 05-090 Dawidy Bankowe",
    "website": null,
-   "phone": "+48 606 853 837"
+   "phone": "+48 606 853 837",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/3838146524",
@@ -1055,7 +1475,9 @@
    "lon": 21.022868,
    "address": "Aleje Ujazdowskie 51, 00-536 Warszawa",
    "website": "https://www.mfat.govt.nz/en/countries-and-regions/europe/poland/new-zealand-embassy/",
-   "phone": "+48 22 5210500"
+   "phone": "+48 22 5210500",
+   "wikidata": "Q9149557",
+   "photo": null
   },
   {
    "id": "node/11469141400",
@@ -1068,7 +1490,9 @@
    "lon": 21.075373,
    "address": "Królewicza Jakuba 33, 02-956 Warszawa",
    "website": null,
-   "phone": "+48 22 642 21 43"
+   "phone": "+48 22 642 21 43",
+   "wikidata": "Q9149563",
+   "photo": null
   },
   {
    "id": "node/13427105012",
@@ -1081,7 +1505,9 @@
    "lon": 21.015785,
    "address": "Wiśniowa 40",
    "website": "http://www.perupol.pl/",
-   "phone": "+48 22 646 88 06;+48 22 646 88 07"
+   "phone": "+48 22 646 88 06;+48 22 646 88 07",
+   "wikidata": "Q107470045",
+   "photo": null
   },
   {
    "id": "node/8820726679",
@@ -1094,7 +1520,9 @@
    "lon": 21.076628,
    "address": "Stanisława Lentza 11, 02-956 Warszawa",
    "website": "https://warsawpe.dfa.gov.ph/",
-   "phone": "+48 22 490 20 25"
+   "phone": "+48 22 490 20 25",
+   "wikidata": "Q9149491",
+   "photo": null
   },
   {
    "id": "node/8820647405",
@@ -1107,7 +1535,9 @@
    "lon": 21.08138,
    "address": "Wiertnicza 63, 02-952 Warszawa",
    "website": "https://mofa.gov.pk/warsaw-poland",
-   "phone": "+48 22 8494808"
+   "phone": "+48 22 8494808",
+   "wikidata": "Q4374035",
+   "photo": null
   },
   {
    "id": "way/380493777",
@@ -1120,7 +1550,9 @@
    "lon": 21.033044,
    "address": "Ludwika Idzikowskiego 7/9, 02-704 Warszawa",
    "website": "https://www.palestine.pl/",
-   "phone": "+48 22 849 77 72"
+   "phone": "+48 22 849 77 72",
+   "wikidata": "Q9149560",
+   "photo": null
   },
   {
    "id": "way/964346854",
@@ -1133,7 +1565,9 @@
    "lon": 21.066241,
    "address": "Ateńska 37, 03-978 Warszawa",
    "website": "https://varsovia.embaixadaportugal.mne.gov.pt/pl/",
-   "phone": "+48 22 511 10 10"
+   "phone": "+48 22 511 10 10",
+   "wikidata": "Q11685579",
+   "photo": null
   },
   {
    "id": "node/3838913962",
@@ -1146,7 +1580,9 @@
    "lon": 21.025155,
    "address": null,
    "website": null,
-   "phone": "+48 22 622 22 88;+48 22 622 88 88"
+   "phone": "+48 22 622 22 88;+48 22 622 88 88",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/9202994783",
@@ -1159,7 +1595,9 @@
    "lon": 21.02193,
    "address": "Fryderyka Chopina 10, 00-559 Warszawa",
    "website": "https://varsovia.mae.ro/en",
-   "phone": "+48 22 621 59 83"
+   "phone": "+48 22 621 59 83",
+   "wikidata": "Q9149591",
+   "photo": null
   },
   {
    "id": "way/133736823",
@@ -1172,7 +1610,9 @@
    "lon": 21.022351,
    "address": "Aleja Róż 5, 00-556 Warszawa",
    "website": "https://warsaw.mfa.gov.rs/",
-   "phone": "+48 22 628 51 61;+48 22 625 60 41"
+   "phone": "+48 22 628 51 61;+48 22 625 60 41",
+   "wikidata": "Q9149596",
+   "photo": null
   },
   {
    "id": "way/437158654",
@@ -1185,7 +1625,9 @@
    "lon": 21.028603,
    "address": "Belwederska 25C, 00-761 Warszawa",
    "website": "https://warsaw.kdmid.ru/",
-   "phone": "+48 22 849 51 11;+48 22 641 20 60"
+   "phone": "+48 22 849 51 11;+48 22 641 20 60",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/437159081",
@@ -1198,7 +1640,9 @@
    "lon": 21.026903,
    "address": "Belwederska 49, 00-761 Warszawa",
    "website": "https://poland.mid.ru",
-   "phone": "+48226213453;+48226215575;+48226215954"
+   "phone": "+48226213453;+48226215575;+48226215954",
+   "wikidata": "Q570535",
+   "photo": null
   },
   {
    "id": "node/11999160124",
@@ -1211,7 +1655,9 @@
    "lon": 21.000401,
    "address": "Karwińska 21",
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/428474238",
@@ -1224,7 +1670,9 @@
    "lon": 21.084251,
    "address": "Wiertnicza 30, 02-952 Warszawa",
    "website": "https://embassies.mofa.gov.sa/sites/poland/EN/Pages/default.aspx",
-   "phone": "+48 22 160 50 00"
+   "phone": "+48 22 160 50 00",
+   "wikidata": "Q9149454",
+   "photo": null
   },
   {
    "id": "way/1423022349",
@@ -1237,7 +1685,9 @@
    "lon": 21.025354,
    "address": "Bagatela 3",
    "website": "https://www.swedenabroad.se/pl/embassies/polska-warszawa/",
-   "phone": "+48 22 640 89 00"
+   "phone": "+48 22 640 89 00",
+   "wikidata": "Q9149608",
+   "photo": null
   },
   {
    "id": "node/8868316652",
@@ -1250,7 +1700,9 @@
    "lon": 21.022684,
    "address": "Aleja Jana Chrystiana Szucha 19, 00-580 Warszawa",
    "website": "http://www.warsaw.embassy.si",
-   "phone": "+48 22 849 82 82"
+   "phone": "+48 22 849 82 82",
+   "wikidata": "Q12805347",
+   "photo": null
   },
   {
    "id": "way/30876235",
@@ -1263,7 +1715,9 @@
    "lon": 21.022166,
    "address": "Litewska 6, 00-581 Warszawa",
    "website": "https://www.mzv.sk/varsava",
-   "phone": "+48 22 525 81 10"
+   "phone": "+48 22 525 81 10",
+   "wikidata": "Q9149612",
+   "photo": null
   },
   {
    "id": "node/3838210935",
@@ -1276,7 +1730,9 @@
    "lon": 21.038587,
    "address": "Jazgarzewska 17/54, 00-730 Warszawa",
    "website": "https://polandembassy.orderofmalta.int/pl/",
-   "phone": "+48 22 827 25 46"
+   "phone": "+48 22 827 25 46",
+   "wikidata": "Q24949169",
+   "photo": null
   },
   {
    "id": "node/8817487875",
@@ -1289,7 +1745,9 @@
    "lon": 21.084537,
    "address": "Biedronki 63, 02-959 Warszawa",
    "website": null,
-   "phone": "+48226516036"
+   "phone": "+48226516036",
+   "wikidata": "Q24944854",
+   "photo": null
   },
   {
    "id": "node/11836043572",
@@ -1302,7 +1760,9 @@
    "lon": 21.012798,
    "address": "Trębacka 4, 00-074 Warszawa",
    "website": null,
-   "phone": "+48 22 630 96 36"
+   "phone": "+48 22 630 96 36",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8768702697",
@@ -1315,7 +1775,9 @@
    "lon": 21.018403,
    "address": "Świeradowska 38A, 02-662 Warszawa",
    "website": "http://mofaex.gov.sy/warsaw-embassy/",
-   "phone": "+48 22 849 14 56;+48 22 848 48 09"
+   "phone": "+48 22 849 14 56;+48 22 848 48 09",
+   "wikidata": "Q9149604",
+   "photo": null
   },
   {
    "id": "way/170628163",
@@ -1328,7 +1790,9 @@
    "lon": 21.024037,
    "address": "Willowa 7, 00-790 Warszawa",
    "website": "https://warsaw.thaiembassy.org/",
-   "phone": "+48 22 849 26 55;+48 22 849 64 14;+48 22 849 14 06"
+   "phone": "+48 22 849 26 55;+48 22 849 64 14;+48 22 849 14 06",
+   "wikidata": "Q9149617",
+   "photo": null
   },
   {
    "id": "way/194448942",
@@ -1341,7 +1805,9 @@
    "lon": 21.032161,
    "address": "Myśliwiecka 14, 00-459 Warszawa",
    "website": null,
-   "phone": "+4822628 63 30;+4822628 25 86"
+   "phone": "+4822628 63 30;+4822628 25 86",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/4742014349",
@@ -1354,7 +1820,9 @@
    "lon": 21.016779,
    "address": "Rakowiecka 19, 02-517 Warszawa",
    "website": "https://varsova-be.mfa.gov.tr",
-   "phone": "+48 22 854 61 10;+48 22 854 61 11"
+   "phone": "+48 22 854 61 10;+48 22 854 61 11",
+   "wikidata": "Q1791649",
+   "photo": null
   },
   {
    "id": "node/8353241520",
@@ -1367,7 +1835,9 @@
    "lon": 21.001947,
    "address": "Emilii Plater 53, 00-113 Warszawa",
    "website": "https://www.taiwanembassy.org/pl_pl/",
-   "phone": "+48 22 213 00 60"
+   "phone": "+48 22 213 00 60",
+   "wikidata": "Q9173928",
+   "photo": null
   },
   {
    "id": "node/7986121985",
@@ -1380,7 +1850,9 @@
    "lon": 21.020652,
    "address": "Antoniego Malczewskiego 17, 02-617 Warszawa",
    "website": "https://poland.mfa.gov.ua/",
-   "phone": "+48 22 621 39 79"
+   "phone": "+48 22 621 39 79",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/30876231",
@@ -1393,7 +1865,9 @@
    "lon": 21.02193,
    "address": "Aleja Jana Chrystiana Szucha 7, 00-580 Warszawa",
    "website": "https://poland.mfa.gov.ua/",
-   "phone": "+48 22 622 47 97"
+   "phone": "+48 22 622 47 97",
+   "wikidata": "Q2339271",
+   "photo": null
   },
   {
    "id": "node/9203055348",
@@ -1406,7 +1880,9 @@
    "lon": 21.022557,
    "address": "Piękna 12, 00-539 Warszawa",
    "website": "https://pl.usembassy.gov/pl/",
-   "phone": "+48 22 504 20 00"
+   "phone": "+48 22 504 20 00",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/437153220",
@@ -1419,7 +1895,9 @@
    "lon": 21.02265,
    "address": "Aleje Ujazdowskie 29/31, 00-540 Warszawa",
    "website": "https://pl.usembassy.gov/pl/",
-   "phone": "+48 22 504 20 00"
+   "phone": "+48 22 504 20 00",
+   "wikidata": "Q9149601",
+   "photo": null
   },
   {
    "id": "node/8669831937",
@@ -1432,7 +1910,9 @@
    "lon": 21.025098,
    "address": "Wernyhory 21, 02-727 Warszawa",
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8832540840",
@@ -1445,7 +1925,9 @@
    "lon": 21.02396,
    "address": "Kraski 21, 02-804 Warszawa",
    "website": "http://www.uzbekistan.pl/",
-   "phone": "+48 22 894 62 30"
+   "phone": "+48 22 894 62 30",
+   "wikidata": "Q9149627",
+   "photo": null
   },
   {
    "id": "node/9203413298",
@@ -1458,7 +1940,9 @@
    "lon": 21.023327,
    "address": "Aleja Jana Chrystiana Szucha 12, 00-582 Warszawa",
    "website": "https://nuncjatura.pl/",
-   "phone": "+48 22 596 93 20"
+   "phone": "+48 22 596 93 20",
+   "wikidata": "Q1992500",
+   "photo": null
   },
   {
    "id": "way/242044234",
@@ -1471,7 +1955,9 @@
    "lon": 21.064374,
    "address": "Brukselska 9, 03-973 Warszawa",
    "website": "https://www.venez.pl/",
-   "phone": "+48 22 646 87 59"
+   "phone": "+48 22 646 87 59",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/317855320",
@@ -1484,7 +1970,9 @@
    "lon": 21.067171,
    "address": "Resorowa 36, 02-956 Warszawa",
    "website": "https://vnembassy-warsaw.mofa.gov.vn/en-us/Pages/default.aspx",
-   "phone": "+48 22 651 60 98"
+   "phone": "+48 22 651 60 98",
+   "wikidata": "Q9149630",
+   "photo": null
   },
   {
    "id": "node/12040468146",
@@ -1497,7 +1985,9 @@
    "lon": 21.013183,
    "address": "Koszykowa 54, 00-675 Warszawa",
    "website": null,
-   "phone": null
+   "phone": null,
+   "wikidata": "Q126974519",
+   "photo": null
   },
   {
    "id": "node/8820588223",
@@ -1510,7 +2000,9 @@
    "lon": 21.073866,
    "address": "Królewicza Jakuba 54, 02-956 Warszawa",
    "website": "https://www.embassy-of-yemen.pl/",
-   "phone": "+48 22 617 60 25"
+   "phone": "+48 22 617 60 25",
+   "wikidata": "Q11685571",
+   "photo": null
   },
   {
    "id": "node/3839073374",
@@ -1523,7 +2015,9 @@
    "lon": 21.01312,
    "address": "Koszykowa 54, 00-675 Warszawa",
    "website": "https://dirco1.azurewebsites.net/warsaw/",
-   "phone": "+48 22 622 10 31"
+   "phone": "+48 22 622 10 31",
+   "wikidata": "Q9149589",
+   "photo": null
   },
   {
    "id": "node/4940799556",
@@ -1536,7 +2030,9 @@
    "lon": 21.048756,
    "address": "Berezyńska 6A, 03-904 Warszawa",
    "website": null,
-   "phone": "+48 602 687 880"
+   "phone": "+48 602 687 880",
+   "wikidata": null,
+   "photo": null
   }
  ]
 }
