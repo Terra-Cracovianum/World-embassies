@@ -44,8 +44,10 @@ export class Globe {
       this.dots.push({ p, v, fromHome: Math.acos(clamp(v[0] * k[0] + v[1] * k[1] + v[2] * k[2], -1, 1)) });
     }
 
-    this.cities = cities.map((c) => {
+    this.cities = cities.map((c, i) => {
       const pin = document.createElement('button');
+      pin.style.setProperty('--i', i);                              // rise-in order
+      pin.style.setProperty('--ring', `${((i * 0.37) % 2.4).toFixed(2)}s`); // rings out of step, never in unison
       pin.type = 'button';
       pin.className = `gpin gpin-${c.labelSide || 'e'}${c.slug === 'krakow' ? ' is-home' : ''}`;
       pin.dataset.slug = c.slug;
@@ -181,10 +183,12 @@ export class Globe {
     ctx.beginPath(); path(this.graticule);
     ctx.strokeStyle = `rgba(243,238,227,${0.07 * this.reveal})`; ctx.lineWidth = 0.6; ctx.stroke();
 
-    if (near > 0) {
+    // Coastlines come in a little before the fill, so a close view of Europe still reads as Europe.
+    const coast = Math.max(0.55 * near, 0.22 * smooth(450, 900, view.scale));
+    if (coast > 0) {
       ctx.beginPath(); path(this.land);
-      ctx.fillStyle = `rgba(217,160,107,${0.12 * near})`; ctx.fill();
-      ctx.strokeStyle = `rgba(217,160,107,${0.55 * near})`; ctx.lineWidth = 0.8; ctx.stroke();
+      if (near > 0) { ctx.fillStyle = `rgba(217,160,107,${0.12 * near})`; ctx.fill(); }
+      ctx.strokeStyle = `rgba(217,160,107,${coast})`; ctx.lineWidth = 0.8; ctx.stroke();
     }
 
     if (near < 1) {

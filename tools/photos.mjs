@@ -118,8 +118,12 @@ export async function addPhotos(data, city, log = () => {}, previous = {}) {
   let failed = 0;
   for (const m of data.missions) {
     try {
-      // An override may already have set the photo (or null, to hide a bad one).
-      if (!('photo' in m)) m.photo = await photoFor(m, city);
+      // An override may already have set the photo (or null, to hide a bad one). A photo found on an
+      // earlier run is kept without asking again, so the weekly run only looks for the missing ones;
+      // PHOTO_REFRESH=1 re-checks everything.
+      if (!('photo' in m)) {
+        m.photo = (!process.env.PHOTO_REFRESH && previous[m.id]) || await photoFor(m, city);
+      }
     } catch (err) {
       m.photo = previous[m.id] ?? null;
       failed++;

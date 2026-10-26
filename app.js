@@ -367,7 +367,7 @@ function renderStations() {
     <li style="--i:${i}"><button type="button" class="station" data-slug="${c.slug}">
       <span class="station-n">${String(i + 1).padStart(2, '0')}</span>
       <span class="station-name">${esc(c.name[state.lang])}</span>
-      <span class="station-meta">${coordsOf(c)}${countOf(c) != null ? ` · ${t().count(countOf(c)).replace(/<\/?b>/g, '')}` : ''}</span>
+      <span class="station-meta">${countOf(c) != null ? t().count(countOf(c)).replace(/<\/?b>/g, '') : coordsOf(c)}</span>
       <span class="station-go" aria-hidden="true">→</span>
     </button></li>`).join('');
 }
@@ -378,13 +378,14 @@ $('#stations').addEventListener('focusin', (e) => globe?.highlight(e.target.clos
 $('#cities').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b && b.dataset.slug !== state.city?.slug) navigate(b.dataset.slug); });
 $('#back').addEventListener('click', () => navigate(null));
 
-/* The globe's resting place: Europe, beside the copy on desktop, under it on phones. */
+/* The globe's resting place: close over Europe, so twenty cities have room. On desktop it sits just
+   right of the copy and runs off the screen's edge; on phones it fills the width under the headline. */
 function homeView() {
   const { w, h } = globe;
-  const phone = w < 761;
-  return phone
-    ? { lon: 12, lat: 38, scale: Math.min(w * 0.46, h * 0.3), x: w / 2, y: h * 0.6 }
-    : { lon: 12, lat: 40, scale: Math.min(w * 0.27, h * 0.44), x: w * 0.7, y: h * 0.53 };
+  if (w < 761) return { lon: 15, lat: 50, scale: w * 0.95, x: w / 2, y: h * 0.56 };
+  // Europe centred in the space right of the copy; the globe's limb sweeps off behind the text.
+  const copyRight = $('.landing-copy').getBoundingClientRect().right - stage.getBoundingClientRect().left;
+  return { lon: 13, lat: 50, scale: Math.min(h * 1.05, w * 0.62), x: copyRight + (w - copyRight) * 0.5, y: h * 0.52 };
 }
 
 /* Where the city sits on screen when the map is at DIVE_ZOOM around it: the map pane's centre. */
@@ -498,7 +499,7 @@ async function fly(from, to) {
   const km = distanceKm(a, b);
   // Pull up until both cities fit in about half the frame, but always far enough to feel the lift.
   const fit = (Math.min(globe.w, globe.h) * 0.55) / (2 * Math.sin(Math.max(km / 6371, 0.002) / 2));
-  const altitude = Math.max(homeView().scale * 1.15, Math.min(fit, start.scale * 0.62));
+  const altitude = Math.max(homeView().scale * 0.6, Math.min(fit, start.scale * 0.62));
   const mid = greatCircle(a, b)(0.5);
   globe.route = { a, b, t: 0 };
   const tickReadout = (t) => {

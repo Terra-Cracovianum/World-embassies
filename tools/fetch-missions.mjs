@@ -11,8 +11,11 @@ const overrides = JSON.parse(await readFile(new URL('data/overrides.json', root)
 const only = process.argv[2];
 
 let failed = false;
+let first = true;
 for (const city of cities) {
   if (only && city.slug !== only) continue;
+  if (!first) await new Promise((r) => setTimeout(r, 10000)); // a breath between cities: Overpass throttles bursts
+  first = false;
   try {
     const data = await fetchMissions(city, {
       headers: { 'User-Agent': 'TerraCracovianum-WorldEmbassies/1.0 (+https://github.com/Terra-Cracovianum/World-embassies)' },

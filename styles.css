@@ -332,11 +332,18 @@ body.is-moving .stage{pointer-events:none}
 #globe{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
 #globe.is-dragging{cursor:grabbing}
 
-.landing{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(36px,8vh,96px) var(--gutter) clamp(18px,3vh,28px)}
-.landing-copy{pointer-events:auto;max-width:min(560px,44vw)}
+.landing{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(28px,5.5vh,72px) var(--gutter) clamp(18px,3vh,28px)}
+.landing-copy{pointer-events:auto;max-width:min(620px,46vw)}
+.landing::before{ /* a scrim behind the copy, so the headline and index read over the globe's limb */
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;
+  background:linear-gradient(90deg,#10140f 0,rgba(16,20,15,.92) 34%,rgba(16,20,15,.55) 46%,transparent 58%);
+  transition:opacity .6s var(--wipe);
+}
+.landing.is-leaving::before{opacity:0}
+.landing{z-index:1}
 .kicker.on-ink{color:#d9a06b;margin-bottom:clamp(14px,2.4vh,24px)}
 .display{
-  font-family:var(--serif);font-weight:340;font-size:clamp(56px,8.6vw,150px);
+  font-family:var(--serif);font-weight:340;font-size:clamp(52px,7vw,124px);
   line-height:.9;letter-spacing:-.03em;color:#f3eee3;
 }
 .display .line{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
@@ -344,24 +351,29 @@ body.is-moving .stage{pointer-events:none}
 .display em{font-style:italic;font-weight:300;color:#d9a06b}
 .landing-lede{max-width:400px;margin-top:clamp(18px,3vh,30px);font-size:clamp(15px,1.25vw,17px);color:var(--soft);text-wrap:pretty}
 
-.stations{list-style:none;margin-top:clamp(22px,4.5vh,48px);border-top:1px solid var(--hair);counter-reset:none}
+/* the stations: a compact index of every city, three columns of survey entries */
+.stations{list-style:none;margin-top:clamp(18px,3.5vh,36px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:18px;border-top:1px solid var(--hair)}
 .station{
-  width:100%;display:grid;grid-template-columns:34px 1fr auto;grid-template-areas:"n name go" "n meta go";
-  align-items:baseline;column-gap:14px;text-align:left;background:none;border:0;border-bottom:1px solid var(--hair);
-  color:#f3eee3;padding:14px 4px;cursor:pointer;position:relative;isolation:isolate;
+  width:100%;display:grid;grid-template-columns:22px 1fr;grid-template-areas:"n name" "n meta";
+  align-items:baseline;column-gap:8px;text-align:left;background:none;border:0;border-bottom:1px solid var(--hair);
+  color:#f3eee3;padding:9px 2px 8px;cursor:pointer;position:relative;isolation:isolate;
 }
 .station::before{ /* the site's wipe hover */
-  content:"";position:absolute;inset:0;z-index:-1;background:rgba(243,238,227,.06);
+  content:"";position:absolute;inset:0;z-index:-1;background:rgba(243,238,227,.07);
   transform:scaleY(0);transform-origin:bottom;transition:transform .45s var(--wipe);
 }
 .station:hover::before,.station:focus-visible::before,.station.is-lit::before{transform:scaleY(1);transform-origin:top}
 .station:focus-visible{outline:2px solid #d9a06b;outline-offset:-2px}
-.station-n{grid-area:n;font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:#d9a06b}
-.station-name{grid-area:name;font-family:var(--serif);font-size:clamp(24px,2.3vw,32px);font-weight:340;line-height:1.1;transition:font-style .2s,color .3s}
+.station-n{grid-area:n;font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:#d9a06b}
+.station-name{grid-area:name;font-family:var(--serif);font-size:clamp(17px,1.4vw,21px);font-weight:350;line-height:1.15;transition:color .3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .station:hover .station-name,.station.is-lit .station-name{font-style:italic;color:#d9a06b}
-.station-meta{grid-area:meta;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-top:4px;font-variant-numeric:tabular-nums}
-.station-go{grid-area:go;align-self:center;font-family:var(--mono);color:var(--soft);transition:transform .4s var(--arrive),color .3s}
-.station:hover .station-go,.station.is-lit .station-go{transform:translateX(6px) rotate(-45deg);color:#d4572c}
+.station-meta{grid-area:meta;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-top:2px;font-variant-numeric:tabular-nums}
+.station-go{display:none}
+@media (max-height:820px) and (min-width:761px){
+  .landing-lede{display:none}
+  .display{font-size:clamp(48px,6vw,96px)}
+  .station{padding:7px 2px 6px}
+}
 
 .landing-foot{display:flex;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#d9a06b;pointer-events:none}
 .landing-foot .hint{color:var(--soft);letter-spacing:.14em;display:flex;align-items:center;gap:10px}
@@ -373,7 +385,7 @@ body.is-moving .stage{pointer-events:none}
 .landing .kicker,.landing-lede,.stations li,.landing-foot{animation:introFade .8s var(--arrive) backwards}
 .landing .kicker{animation-delay:.05s}
 .landing-lede{animation-delay:.3s}
-.stations li{animation-delay:calc(.45s + var(--i) * .08s)}
+.stations li{animation-delay:calc(.4s + var(--i) * .035s)}
 .landing-foot{animation-delay:.9s}
 @keyframes introLine{from{transform:translateY(105%)}to{transform:none}}
 @keyframes introFade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
@@ -396,36 +408,37 @@ body.is-moving .stage{pointer-events:none}
 }
 .gpin.is-away{opacity:0;pointer-events:none}
 .gpin-mark{position:absolute;left:-16px;top:-16px;width:32px;height:32px;display:block} /* the tap target */
+@media (pointer:fine){.gpin-mark{left:-11px;top:-11px;width:22px;height:22px}} /* cities sit close in Europe */
 .gpin-mark::before{ /* the diamond */
-  content:"";position:absolute;left:10px;top:10px;width:12px;height:12px;background:#d4572c;border:1.5px solid #f3eee3;
+  content:"";position:absolute;left:50%;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;background:#d4572c;border:1.5px solid #f3eee3;
   transform:rotate(45deg);transition:transform .4s var(--arrive);
 }
-.gpin-mark::after{ /* radar ring, as on the hero's cities */
-  content:"";position:absolute;inset:-6px;border:1.5px solid #d4572c;border-radius:50%;
+.gpin-mark::after{ /* radar ring, as on the hero's cities, each out of step with the others */
+  content:"";position:absolute;left:50%;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border:1px solid rgba(212,87,44,.8);border-radius:50%;
   animation:ring 2.4s var(--arrive) infinite;animation-delay:var(--ring,0s);
 }
 .gpin.is-home .gpin-mark::after{border-color:#d9a06b;animation:none;transform:scale(.62);opacity:.9} /* Kraków: the steady home ring */
 @keyframes ring{from{transform:scale(.25);opacity:1}to{transform:scale(1.15);opacity:0}}
-.gpin:hover .gpin-mark::before,.gpin:focus-visible .gpin-mark::before,.gpin.is-lit .gpin-mark::before{transform:rotate(45deg) scale(1.45)}
+.gpin:hover,.gpin:focus-visible,.gpin.is-lit{z-index:2}
+.gpin:hover .gpin-mark::before,.gpin:focus-visible .gpin-mark::before,.gpin.is-lit .gpin-mark::before{transform:rotate(45deg) scale(1.5);background:#d9a06b}
 .gpin:focus-visible{outline:none}
 .gpin:focus-visible .gpin-mark{outline:2px solid #d9a06b;outline-offset:2px;border-radius:50%}
+/* the label: a survey slip that appears for the city you point at (twenty always-on labels would bury Europe) */
 .gpin-label{
-  position:absolute;white-space:nowrap;display:flex;flex-direction:column;gap:2px;text-align:left;
-  padding-left:30px;top:-12px;left:0;pointer-events:none;
+  position:absolute;white-space:nowrap;display:flex;flex-direction:column;gap:3px;text-align:left;
+  padding:7px 10px 7px 12px;margin-left:22px;top:-18px;left:0;pointer-events:none;
+  background:rgba(16,20,15,.88);border:1px solid rgba(243,238,227,.28);
+  opacity:0;transform:translateX(-6px);transition:opacity .3s var(--arrive),transform .4s var(--arrive);
 }
-.gpin-label::before{content:"";position:absolute;left:12px;top:12px;width:14px;height:1px;background:rgba(243,238,227,.5)} /* leader line */
-.gpin-label b{font-family:var(--serif);font-weight:370;font-size:19px;line-height:1;transition:color .3s,font-style .3s}
+.gpin:hover .gpin-label,.gpin:focus-visible .gpin-label,.gpin.is-lit .gpin-label{opacity:1;transform:none}
+.gpin-label b{font-family:var(--serif);font-weight:370;font-size:19px;line-height:1;font-style:italic;color:#f3eee3}
 .gpin-label small{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:#d9a06b}
-.gpin:hover .gpin-label b,.gpin.is-lit .gpin-label b{color:#d9a06b;font-style:italic}
-.gpin-ne .gpin-label{top:-34px}
-.gpin-se .gpin-label{top:2px}
-.gpin-w .gpin-label{left:auto;right:0;padding-left:0;padding-right:30px;text-align:right;align-items:flex-end}
-.gpin-w .gpin-label::before{left:auto;right:12px}
+.gpin-w .gpin-label{left:auto;right:0;margin-left:0;margin-right:22px;text-align:right;align-items:flex-end;transform:translateX(6px)}
+.gpin-w:hover .gpin-label,.gpin-w:focus-visible .gpin-label,.gpin-w.is-lit .gpin-label{transform:none}
 /* pins rise in, one after another, once the globe settles */
-.gpin .gpin-mark,.gpin .gpin-label{transition:opacity .6s var(--arrive),transform .6s var(--arrive)}
-.gpin.is-away .gpin-mark,.gpin.is-away .gpin-label{opacity:0;transform:translateY(8px)}
-.gpin:nth-child(2){--ring:.8s}.gpin:nth-child(2) .gpin-mark,.gpin:nth-child(2) .gpin-label{transition-delay:.12s}
-.gpin:nth-child(3){--ring:1.6s}.gpin:nth-child(3) .gpin-mark,.gpin:nth-child(3) .gpin-label{transition-delay:.24s}
+.gpin .gpin-mark{transition:opacity .6s var(--arrive),transform .6s var(--arrive);transition-delay:calc(var(--i,0) * 45ms)}
+.gpin.is-away .gpin-mark{opacity:0;transform:translateY(8px)}
+.gpin.is-away .gpin-label{opacity:0}
 
 /* a flight's live readout, riding the head of the route */
 .route-readout{
@@ -563,13 +576,17 @@ body.is-moving .stage{pointer-events:none}
 @media (max-width:760px){
   .map-view{overflow-y:auto;display:block}
   .landing{padding:28px 16px 14px;justify-content:flex-start}
+  .landing::before{background:linear-gradient(180deg,#10140f 0,rgba(16,20,15,.8) 24%,transparent 38%,transparent 78%,rgba(16,20,15,.85) 90%)}
   .landing-copy{max-width:none}
   .display{font-size:clamp(46px,14vw,64px)}
   .landing-lede{display:none}
-  .stations{position:absolute;left:16px;right:16px;bottom:44px;margin:0;display:grid;grid-template-columns:repeat(3,1fr);border:0;gap:6px}
+  .stations{position:absolute;left:0;right:0;bottom:44px;margin:0;display:flex;gap:6px;border:0;padding:0 16px;
+    overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16px,#000 85%,transparent);mask-image:linear-gradient(90deg,transparent 0,#000 16px,#000 85%,transparent)}
+  .stations::-webkit-scrollbar{display:none}
+  .stations li{flex:0 0 128px;scroll-snap-align:start}
   .station{grid-template-columns:1fr;grid-template-areas:"n" "name" "meta";border:1px solid var(--hair);padding:10px 10px 9px;
     background:rgba(16,20,15,.78);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-  .station-go{display:none}
   .station-name{font-size:19px}
   .station-meta{font-size:9px;letter-spacing:.06em}
   .landing-foot{position:absolute;left:16px;right:16px;bottom:14px;font-size:9.5px;justify-content:center}

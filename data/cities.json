@@ -61,5 +61,362 @@
     "zoom": 12,
     "code": "PAR",
     "labelSide": "w"
+  },
+  {
+    "slug": "london",
+    "name": {
+      "pl": "Londyn",
+      "en": "London"
+    },
+    "country": "GB",
+    "bbox": [
+      51.2868,
+      -0.5103,
+      51.6919,
+      0.334
+    ],
+    "center": [
+      51.5074,
+      -0.1278
+    ],
+    "zoom": 11,
+    "code": "LON",
+    "labelSide": "w"
+  },
+  {
+    "slug": "kyiv",
+    "name": {
+      "pl": "Kijów",
+      "en": "Kyiv"
+    },
+    "country": "UA",
+    "bbox": [
+      50.2133,
+      30.2394,
+      50.59,
+      30.8259
+    ],
+    "center": [
+      50.4501,
+      30.5234
+    ],
+    "zoom": 11,
+    "code": "IEV",
+    "labelSide": "e"
+  },
+  {
+    "slug": "berlin",
+    "name": {
+      "pl": "Berlin",
+      "en": "Berlin"
+    },
+    "country": "DE",
+    "bbox": [
+      52.3383,
+      13.0884,
+      52.6755,
+      13.7612
+    ],
+    "center": [
+      52.52,
+      13.405
+    ],
+    "zoom": 11,
+    "code": "BER",
+    "labelSide": "e"
+  },
+  {
+    "slug": "rome",
+    "name": {
+      "pl": "Rzym",
+      "en": "Rome"
+    },
+    "country": "IT",
+    "bbox": [
+      41.76,
+      12.34,
+      42.05,
+      12.64
+    ],
+    "center": [
+      41.9028,
+      12.4964
+    ],
+    "zoom": 12,
+    "code": "ROM",
+    "labelSide": "e"
+  },
+  {
+    "slug": "madrid",
+    "name": {
+      "pl": "Madryt",
+      "en": "Madrid"
+    },
+    "country": "ES",
+    "bbox": [
+      40.3121,
+      -3.8889,
+      40.5643,
+      -3.518
+    ],
+    "center": [
+      40.4168,
+      -3.7038
+    ],
+    "zoom": 12,
+    "code": "MAD",
+    "labelSide": "w"
+  },
+  {
+    "slug": "lisbon",
+    "name": {
+      "pl": "Lizbona",
+      "en": "Lisbon"
+    },
+    "country": "PT",
+    "bbox": [
+      38.6913,
+      -9.2298,
+      38.796,
+      -9.0901
+    ],
+    "center": [
+      38.7223,
+      -9.1393
+    ],
+    "zoom": 13,
+    "code": "LIS",
+    "labelSide": "w"
+  },
+  {
+    "slug": "vienna",
+    "name": {
+      "pl": "Wiedeń",
+      "en": "Vienna"
+    },
+    "country": "AT",
+    "bbox": [
+      48.1183,
+      16.1826,
+      48.3231,
+      16.5775
+    ],
+    "center": [
+      48.2082,
+      16.3738
+    ],
+    "zoom": 12,
+    "code": "VIE",
+    "labelSide": "e"
+  },
+  {
+    "slug": "prague",
+    "name": {
+      "pl": "Praga",
+      "en": "Prague"
+    },
+    "country": "CZ",
+    "bbox": [
+      49.9419,
+      14.2244,
+      50.1774,
+      14.7067
+    ],
+    "center": [
+      50.0755,
+      14.4378
+    ],
+    "zoom": 12,
+    "code": "PRG",
+    "labelSide": "e"
+  },
+  {
+    "slug": "budapest",
+    "name": {
+      "pl": "Budapeszt",
+      "en": "Budapest"
+    },
+    "country": "HU",
+    "bbox": [
+      47.3493,
+      18.9251,
+      47.6131,
+      19.3349
+    ],
+    "center": [
+      47.4979,
+      19.0402
+    ],
+    "zoom": 12,
+    "code": "BUD",
+    "labelSide": "e"
+  },
+  {
+    "slug": "brussels",
+    "name": {
+      "pl": "Bruksela",
+      "en": "Brussels"
+    },
+    "country": "BE",
+    "bbox": [
+      50.7637,
+      4.2438,
+      50.9136,
+      4.4827
+    ],
+    "center": [
+      50.8503,
+      4.3517
+    ],
+    "zoom": 12,
+    "code": "BRU",
+    "labelSide": "w"
+  },
+  {
+    "slug": "amsterdam",
+    "name": {
+      "pl": "Amsterdam",
+      "en": "Amsterdam"
+    },
+    "country": "NL",
+    "bbox": [
+      52.2782,
+      4.7287,
+      52.4311,
+      5.0791
+    ],
+    "center": [
+      52.3676,
+      4.9041
+    ],
+    "zoom": 12,
+    "code": "AMS",
+    "labelSide": "w"
+  },
+  {
+    "slug": "copenhagen",
+    "name": {
+      "pl": "Kopenhaga",
+      "en": "Copenhagen"
+    },
+    "country": "DK",
+    "bbox": [
+      55.615,
+      12.4533,
+      55.76,
+      12.65
+    ],
+    "center": [
+      55.6761,
+      12.5683
+    ],
+    "zoom": 12,
+    "code": "CPH",
+    "labelSide": "e"
+  },
+  {
+    "slug": "stockholm",
+    "name": {
+      "pl": "Sztokholm",
+      "en": "Stockholm"
+    },
+    "country": "SE",
+    "bbox": [
+      59.235,
+      17.85,
+      59.415,
+      18.2
+    ],
+    "center": [
+      59.3293,
+      18.0686
+    ],
+    "zoom": 12,
+    "code": "STO",
+    "labelSide": "e"
+  },
+  {
+    "slug": "helsinki",
+    "name": {
+      "pl": "Helsinki",
+      "en": "Helsinki"
+    },
+    "country": "FI",
+    "bbox": [
+      60.13,
+      24.8,
+      60.26,
+      25.1
+    ],
+    "center": [
+      60.1699,
+      24.9384
+    ],
+    "zoom": 12,
+    "code": "HEL",
+    "labelSide": "e"
+  },
+  {
+    "slug": "oslo",
+    "name": {
+      "pl": "Oslo",
+      "en": "Oslo"
+    },
+    "country": "NO",
+    "bbox": [
+      59.88,
+      10.6,
+      59.99,
+      10.86
+    ],
+    "center": [
+      59.9139,
+      10.7522
+    ],
+    "zoom": 12,
+    "code": "OSL",
+    "labelSide": "w"
+  },
+  {
+    "slug": "dublin",
+    "name": {
+      "pl": "Dublin",
+      "en": "Dublin"
+    },
+    "country": "IE",
+    "bbox": [
+      53.29,
+      -6.39,
+      53.41,
+      -6.11
+    ],
+    "center": [
+      53.3498,
+      -6.2603
+    ],
+    "zoom": 12,
+    "code": "DUB",
+    "labelSide": "w"
+  },
+  {
+    "slug": "athens",
+    "name": {
+      "pl": "Ateny",
+      "en": "Athens"
+    },
+    "country": "GR",
+    "bbox": [
+      37.9,
+      23.65,
+      38.08,
+      23.85
+    ],
+    "center": [
+      37.9838,
+      23.7275
+    ],
+    "zoom": 12,
+    "code": "ATH",
+    "labelSide": "e"
   }
 ]
