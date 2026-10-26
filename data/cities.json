@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "warsaw",
+    "name": "Warsaw",
+    "nameLocal": "Warszawa",
+    "country": "PL",
+    "osmRelation": 336075,
+    "center": [52.2297, 21.0122],
+    "zoom": 12
+  }
+]

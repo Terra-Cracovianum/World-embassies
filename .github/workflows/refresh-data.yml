@@ -1,0 +1,46 @@
+name: Refresh mission data
+
+# Pulls embassies and consulates from OpenStreetMap into data/<city>.json and commits the result.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * 1' # Mondays, 04:17 UTC
+  push:
+    paths:
+      - 'data/cities.json'
+      - 'lib/missions.mjs'
+      - 'tools/fetch-missions.mjs'
+      - '.github/workflows/refresh-data.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/fetch-missions.mjs
+      - name: Commit changed data
+        run: |
+          git add data/*.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          # `generated` changes on every run; only commit when the missions themselves moved.
+          if git diff --cached -U0 -- data/ | grep '^[+-] ' | grep -vq '"generated"'; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Refresh mission data from OpenStreetMap"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "Only the timestamp changed; skipping commit."
+          fi

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f3eee3">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<title>Embassies of Warsaw — Terra Cracovianum</title>
+<meta name="description" content="Every embassy and consulate in Warsaw on one map. A Terra Cracovianum instrument, drawn from OpenStreetMap.">
+<meta property="og:title" content="Embassies of Warsaw — Terra Cracovianum">
+<meta property="og:description" content="Every embassy and consulate in Warsaw on one map.">
+<meta property="og:type" content="website">
+<link rel="preload" href="assets/fonts/fraunces-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/fraunces-roman-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header>
+  <div class="header-bar">
+    <a class="brand" href="https://terracracovianum.org/" aria-label="Terra Cracovianum — home">
+      <img class="brand-logo" src="assets/logo.svg" alt="Terra Cracovianum">
+    </a>
+    <nav class="desktop" aria-label="Institute">
+      <a class="wide" href="https://terracracovianum.org/publications/">Publications</a>
+      <a href="https://terracracovianum.org/projects/">Projects</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <span class="kicker">Instrument — Diplomatic map</span>
+  <h1 id="title">Embassies of <em data-city-name>Warsaw</em></h1>
+  <div class="page-hero-foot">
+    <p class="page-hero-lede">Every embassy and consulate in the city, on one sheet. Pick a mission from the register or a mark on the map to see its address and how to reach it.</p>
+    <div class="page-hero-index" aria-live="polite">
+      <div><b>MISSIONS</b> <span data-count="all">—</span></div>
+      <div><b>EMBASSIES</b> <span data-count="embassy">—</span></div>
+      <div><b>CONSULATES</b> <span data-count="consulate">—</span></div>
+      <div data-city-coords>52°13′N 21°00′E</div>
+    </div>
+  </div>
+</section>
+
+<section class="atlas" aria-labelledby="title">
+  <div class="register">
+    <div class="register-tools">
+      <label class="search">
+        <span class="visually-hidden">Search by country, name or street</span>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="m11 11 4 4"/></svg>
+        <input id="q" type="search" placeholder="Country, name or street" autocomplete="off" spellcheck="false">
+      </label>
+      <div class="filters" role="group" aria-label="Show">
+        <button class="filter" data-group="all" aria-pressed="true">All <span class="n" data-count="all"></span></button>
+        <button class="filter" data-group="embassy" aria-pressed="false">Embassies <span class="n" data-count="embassy"></span></button>
+        <button class="filter" data-group="consulate" aria-pressed="false">Consulates <span class="n" data-count="consulate"></span></button>
+        <button class="filter" data-group="other" aria-pressed="false" hidden>Other <span class="n" data-count="other"></span></button>
+      </div>
+    </div>
+    <ul class="register-list" id="list" aria-label="Missions"></ul>
+    <p class="register-empty" id="empty" hidden>No mission matches that search.</p>
+    <div class="register-foot">
+      <span id="shown" aria-live="polite"></span>
+      <span>Data <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a> <span id="updated"></span></span>
+    </div>
+  </div>
+
+  <div class="map-wrap">
+    <div id="map" role="region" aria-label="Map of diplomatic missions"></div>
+    <div class="map-readout" id="readout" aria-hidden="true"><b>POS</b> <span>—</span></div>
+    <div class="map-status" id="status"><p>Surveying missions…</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-grid">
+    <div class="foot-col">
+      <h5>About this map</h5>
+      <p>A Terra Cracovianum instrument. Missions are drawn from OpenStreetMap and refreshed every week, so a move or a new consulate can take a few days to appear.</p>
+      <p>This is not an official register. Before you travel, check opening hours and appointments with the mission itself or with the Polish Ministry of Foreign Affairs.</p>
+    </div>
+    <div class="foot-col">
+      <h5>Institute</h5>
+      <a href="https://terracracovianum.org/projects/">Projects</a>
+      <a href="https://terracracovianum.org/about/">About Terra</a>
+      <a href="https://github.com/Terra-Cracovianum/World-embassies" target="_blank" rel="noopener">Source on GitHub</a>
+      <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener">Fix a mission on OSM</a>
+    </div>
+  </div>
+  <span class="foot-mark">Terra <em>Cracovianum</em></span>
+  <div class="foot-base">
+    <span>© 2026 Stowarzyszenie Terra Cracovianum</span>
+    <span>50°03′N 19°56′E</span>
+  </div>
+</footer>
+
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
