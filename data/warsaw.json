@@ -1,8 +1,8 @@
 {
  "city": "warsaw",
- "generated": "2026-10-26T13:12:15.179Z",
+ "generated": "2026-10-26T13:17:40.061Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 119,
+ "count": 118,
  "missions": [
   {
    "id": "node/3841172328",
@@ -728,22 +728,9 @@
    "nameLocal": "Ambasada Korei Północnej",
    "lat": 52.196301,
    "lon": 21.045678,
-   "address": null,
+   "address": "Bobrowiecka 1A, 00-728 Warszawa",
    "website": "http://krld.pl/krld/",
    "phone": "+48228405813"
-  },
-  {
-   "id": "way/965715869",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "KP",
-   "name": "Ambasada Korei Północnej",
-   "nameLocal": "Ambasada Korei Północnej",
-   "lat": 52.196627,
-   "lon": 21.046432,
-   "address": "Bobrowiecka 1A, 00-728 Warszawa",
-   "website": null,
-   "phone": null
   },
   {
    "id": "way/390483318",
