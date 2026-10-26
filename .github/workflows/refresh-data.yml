@@ -11,6 +11,7 @@ on:
       - 'data/overrides.json'
       - 'lib/missions.mjs'
       - 'tools/fetch-missions.mjs'
+      - 'tools/photos.mjs'
       - '.github/workflows/refresh-data.yml'
 
 permissions:

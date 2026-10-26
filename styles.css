@@ -254,6 +254,14 @@ h1 em{font-style:italic;font-weight:300;color:var(--moss)}
 .leaflet-popup-content{margin:0;min-width:220px;font-family:var(--sans);font-size:13.5px;line-height:1.5}
 .leaflet-container a.leaflet-popup-close-button{width:32px;height:32px;font:400 18px/32px var(--mono);color:var(--ink-soft)}
 .slip{padding:14px 16px 12px}
+.slip.has-photo{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:16px;align-items:start;width:min(460px,calc(100vw - 80px))}
+.slip-photo{margin:22px 0 0} /* clear of the close button */
+.slip-photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border:1px solid var(--hairline);background:var(--parchment-deep)}
+.slip-photo figcaption{margin-top:5px;font-family:var(--mono);font-size:9.5px;letter-spacing:.04em;line-height:1.4;color:var(--ink-soft)}
+.slip-photo figcaption a{text-decoration:none;border-bottom:1px solid var(--hairline)}
+/* flags: a small plate with a hairline, so white-edged flags (Japan, Poland) still read on parchment */
+.flag{display:inline-block;width:20px;height:15px;margin-right:9px;vertical-align:-1px;object-fit:cover;outline:1px solid var(--hairline)}
+.slip h3 .flag{width:24px;height:18px;vertical-align:0}
 .slip-kind{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sienna-ink);padding-right:22px}
 .slip h3{font-family:var(--serif);font-weight:370;font-size:21px;line-height:1.2;margin:4px 0 6px}
 .slip p{color:var(--ink-soft)}
@@ -274,5 +282,12 @@ h1 em{font-style:italic;font-weight:300;color:var(--moss)}
   .filter{min-height:40px;flex:1;justify-content:center}
   .list{overflow:visible}
   .row{padding:12px 16px}
+}
+/* phones: the map is only ~half the screen tall, so the photo stays beside the text, narrower */
+@media (max-width:520px){
+  .slip{padding:12px 12px 10px}
+  .slip.has-photo{grid-template-columns:minmax(0,1fr) 92px;gap:12px}
+  .slip h3{font-size:19px}
+  .slip-photo figcaption{font-size:8.5px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}

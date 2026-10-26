@@ -12,7 +12,7 @@ const T = {
     empty: 'Brak wyników.', source: 'Dane', loading: 'Wczytywanie placówek…', live: 'na żywo',
     failed: 'Nie udało się wczytać danych z OpenStreetMap.', retry: 'Spróbuj ponownie',
     count: (n) => `<b>${n}</b> ${n === 1 ? 'placówka' : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 >= 20) ? 'placówki' : 'placówek'}`,
-    website: 'Strona', directions: 'Dojazd',
+    website: 'Strona', directions: 'Dojazd', photo: 'Fot.',
     kinds: {
       embassy: 'Ambasada', high_commission: 'Wysoka komisja', nunciature: 'Nuncjatura apostolska',
       consulate: 'Konsulat', consulate_general: 'Konsulat generalny', vice_consulate: 'Wicekonsulat',
@@ -27,7 +27,7 @@ const T = {
     empty: 'Nothing matches.', source: 'Data', loading: 'Loading missions…', live: 'live',
     failed: 'Could not load data from OpenStreetMap.', retry: 'Try again',
     count: (n) => `<b>${n}</b> ${n === 1 ? 'mission' : 'missions'}`,
-    website: 'Website', directions: 'Directions',
+    website: 'Website', directions: 'Directions', photo: 'Photo',
     kinds: {
       embassy: 'Embassy', high_commission: 'High commission', nunciature: 'Apostolic nunciature',
       consulate: 'Consulate', consulate_general: 'Consulate general', vice_consulate: 'Vice-consulate',
@@ -64,18 +64,28 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 map.attributionControl.setPrefix(false);
 const markers = new Map();
 
+const flag = (m) => `<img class="flag" src="assets/flags/${esc(m.country.toLowerCase())}.svg" alt="" width="20" height="15" loading="lazy" onerror="this.remove()">`;
+
 function slip(m) {
   const links = [
     m.website && `<a href="${esc(m.website)}" target="_blank" rel="noopener">${t().website} ↗</a>`,
     `<a href="https://www.google.com/maps/dir/?api=1&amp;destination=${m.lat},${m.lon}" target="_blank" rel="noopener">${t().directions} ↗</a>`,
   ].filter(Boolean).join('');
-  return `<div class="slip">
-    <div class="slip-kind">${esc(kindLabel(m))}</div>
-    <h3>${esc(m.label)}</h3>
-    ${m.nameLocal && m.nameLocal !== m.label ? `<p class="slip-name">${esc(m.nameLocal)}</p>` : ''}
-    ${m.address ? `<p>${esc(m.address)}</p>` : ''}
-    ${m.phone ? `<p><a href="tel:${esc(m.phone.replace(/[^\d+]/g, ''))}">${esc(m.phone)}</a></p>` : ''}
-    <div class="slip-links">${links}</div>
+  const p = m.photo;
+  const credit = p && [p.author, p.license].filter(Boolean).join(' · ');
+  return `<div class="slip${p ? ' has-photo' : ''}">
+    <div class="slip-text">
+      <div class="slip-kind">${esc(kindLabel(m))}</div>
+      <h3>${flag(m)}${esc(m.label)}</h3>
+      ${m.nameLocal && m.nameLocal !== m.label ? `<p class="slip-name">${esc(m.nameLocal)}</p>` : ''}
+      ${m.address ? `<p>${esc(m.address)}</p>` : ''}
+      ${m.phone ? `<p><a href="tel:${esc(m.phone.replace(/[^\d+]/g, ''))}">${esc(m.phone)}</a></p>` : ''}
+      <div class="slip-links">${links}</div>
+    </div>
+    ${p ? `<figure class="slip-photo">
+      <a href="${esc(p.page)}" target="_blank" rel="noopener"><img src="${esc(p.thumb)}" alt="${esc(m.nameLocal || m.label)}" loading="lazy"></a>
+      <figcaption>${t().photo}: <a href="${esc(p.page)}" target="_blank" rel="noopener">${esc(credit || 'Wikimedia Commons')}</a></figcaption>
+    </figure>` : ''}
   </div>`;
 }
 
@@ -123,7 +133,7 @@ function render() {
     (state.group === 'all' || m.group === state.group) && (!state.query || m.haystack.includes(state.query)));
   $('#list').innerHTML = shown.map((m) => `
     <li><button class="row" data-id="${esc(m.id)}" data-group="${m.group}"${m.id === state.active ? ' aria-current="true"' : ''}>
-      <span><span class="row-name">${esc(m.label)}</span>
+      <span><span class="row-name">${flag(m)}${esc(m.label)}</span>
       <span class="row-meta">${esc(kindLabel(m))}${m.address ? ' · ' + esc(m.address.split(',')[0]) : ''}</span></span>
     </button></li>`).join('');
   $('#empty').hidden = shown.length > 0;
@@ -157,7 +167,10 @@ function select(id, fromMap = false) {
     }
   } else {
     const zoom = Math.max(map.getZoom(), 15);
+    // Open the popup once the map has settled: Leaflet can't pan a popup into view mid-flight.
+    map.once('moveend', () => marker.openPopup());
     reduced ? map.setView([m.lat, m.lon], zoom) : map.flyTo([m.lat, m.lon], zoom, { duration: 0.7 });
+    return;
   }
   marker.openPopup();
 }
@@ -202,8 +215,12 @@ async function start() {
     const marker = L.marker([m.lat, m.lon], {
       icon: L.divIcon({ className: 'pin', html: '<span></span>', iconSize: [28, 28], iconAnchor: [14, 14], popupAnchor: [0, -8] }),
       riseOnHover: true,
-    }).bindPopup('', { maxWidth: 300, autoPanPadding: [30, 30] });
+    }).bindPopup('', { maxWidth: Math.min(500, innerWidth - 40), minWidth: 220, autoPanPadding: [20, 20] });
     marker.on('click', () => select(m.id, true));
+    // The photo arrives after the popup has panned into view; re-fit once it has a size.
+    marker.on('popupopen', (e) => {
+      e.popup.getElement()?.querySelector('.slip-photo img')?.addEventListener('load', () => e.popup.update(), { once: true });
+    });
     marker.on('add', () => {
       const el = marker.getElement();
       el.dataset.group = m.group;

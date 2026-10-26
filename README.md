@@ -21,7 +21,12 @@ Like the election maps, the page is just the tool, with no masthead or footer, s
 - `data/<city>.json`: a snapshot of the city's missions from OpenStreetMap, written by `tools/fetch-missions.mjs`.
   The **Refresh mission data** GitHub Action runs it every Monday, on demand, and whenever the data code changes, then commits the result.
   Ambassadors' residences are left out.
+- Photos come from Wikimedia Commons, found by `tools/photos.mjs` in the same Action, using the mission's OSM
+  `wikimedia_commons` / `image` / `wikidata` tags first, then categories like "Embassy of Mexico in Warsaw".
+  Each popup credits the author and licence and links to the file.
+- Flags: `assets/flags`, from [flag-icons](https://github.com/lipis/flag-icons) (MIT).
 - `data/overrides.json`: fixes for OpenStreetMap errors, keyed by OSM id. Better still, fix the error on openstreetmap.org and delete the override.
+  For a wrong photo, set `"commons": "File:Better photo.jpg"` (or `"photo": null` to hide it).
 - If a city has no snapshot yet, the page asks OpenStreetMap (Overpass API) live instead.
 
 ## Add a city

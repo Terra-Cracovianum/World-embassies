@@ -3,6 +3,7 @@
    Run by .github/workflows/refresh-data.yml; also works locally: `node tools/fetch-missions.mjs [slug]`. */
 import { readFile, writeFile } from 'node:fs/promises';
 import { fetchMissions } from '../lib/missions.mjs';
+import { addPhotos } from './photos.mjs';
 
 const root = new URL('../', import.meta.url);
 const cities = JSON.parse(await readFile(new URL('data/cities.json', root), 'utf8'));
@@ -19,8 +20,9 @@ for (const city of cities) {
       timeoutMs: 150000,
       log: (line) => console.log(`  ${line}`),
     });
-    for (const m of data.missions) Object.assign(m, overrides[m.id]?.set);
     if (data.count === 0) throw new Error('Overpass returned no missions — refusing to overwrite with an empty file');
+    for (const m of data.missions) Object.assign(m, overrides[m.id]?.set);
+    await addPhotos(data, city, (line) => console.log(`  ${line}`));
     await writeFile(new URL(`data/${city.slug}.json`, root), JSON.stringify(data, null, 1) + '\n');
     const by = data.missions.reduce((n, m) => ({ ...n, [m.group]: (n[m.group] || 0) + 1 }), {});
     console.log(`${city.slug}: ${data.count} missions`, by);
