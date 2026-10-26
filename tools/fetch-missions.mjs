@@ -6,6 +6,7 @@ import { fetchMissions } from '../lib/missions.mjs';
 
 const root = new URL('../', import.meta.url);
 const cities = JSON.parse(await readFile(new URL('data/cities.json', root), 'utf8'));
+const overrides = JSON.parse(await readFile(new URL('data/overrides.json', root), 'utf8'));
 const only = process.argv[2];
 
 let failed = false;
@@ -18,6 +19,7 @@ for (const city of cities) {
       timeoutMs: 150000,
       log: (line) => console.log(`  ${line}`),
     });
+    for (const m of data.missions) Object.assign(m, overrides[m.id]?.set);
     if (data.count === 0) throw new Error('Overpass returned no missions — refusing to overwrite with an empty file');
     await writeFile(new URL(`data/${city.slug}.json`, root), JSON.stringify(data, null, 1) + '\n');
     const by = data.missions.reduce((n, m) => ({ ...n, [m.group]: (n[m.group] || 0) + 1 }), {});

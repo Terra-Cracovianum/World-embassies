@@ -1,0 +1,6 @@
+{
+  "node/8350714995": {
+    "why": "Tagged country=AL (Albania) in OpenStreetMap, but the mission is named 'Embassy of Algieria'. Remove once fixed on OSM.",
+    "set": { "country": "DZ" }
+  }
+}

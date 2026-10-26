@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - 'data/cities.json'
+      - 'data/overrides.json'
       - 'lib/missions.mjs'
       - 'tools/fetch-missions.mjs'
       - '.github/workflows/refresh-data.yml'
