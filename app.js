@@ -176,8 +176,10 @@ function prepare() {
     if (NON_STATE[code]) return NON_STATE[code][state.lang];
     try { return names.of(code) || code; } catch { return code; }
   };
+  // A code Intl can't name (ZZ, a typo) reads as "Unknown Region"; the mission's own name says more.
+  const unnamed = (code) => { try { return names.of(code) === names.of('ZZ'); } catch { return true; } };
   state.missions = state.data.missions.map((m) => {
-    const label = nameOf(m.country);
+    const label = !NON_STATE[m.country] && unnamed(m.country) && (m.nameLocal || m.name) ? (m.nameLocal || m.name) : nameOf(m.country);
     return { ...m, label, haystack: [label, m.country, m.name, m.nameLocal, m.address].filter(Boolean).join(' ').toLowerCase() };
   }).sort((a, b) => a.label.localeCompare(b.label, state.lang) || a.group.localeCompare(b.group));
 
