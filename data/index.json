@@ -3,18 +3,18 @@
   "count": 118,
   "embassies": 98,
   "consulates": 19,
-  "generated": "2026-10-26T13:50:26.313Z"
+  "generated": "2026-10-26T14:20:14.119Z"
  },
  "krakow": {
   "count": 17,
   "embassies": 0,
   "consulates": 16,
-  "generated": "2026-10-26T13:59:03.375Z"
+  "generated": "2026-10-26T14:22:01.291Z"
  },
  "paris": {
-  "count": 218,
+  "count": 219,
   "embassies": 173,
-  "consulates": 33,
-  "generated": "2026-10-26T14:00:54.165Z"
+  "consulates": 34,
+  "generated": "2026-10-26T14:22:55.029Z"
  }
 }

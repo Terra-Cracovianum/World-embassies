@@ -1,8 +1,8 @@
 {
  "city": "paris",
- "generated": "2026-10-26T14:00:54.165Z",
+ "generated": "2026-10-26T14:22:55.029Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 218,
+ "count": 219,
  "missions": [
   {
    "id": "node/4663578723",
@@ -840,26 +840,6 @@
    }
   },
   {
-   "id": "node/4663700858",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CR",
-   "name": "Ambassade du Costa Rica",
-   "nameLocal": "Ambassade du Costa Rica",
-   "lat": 48.858615,
-   "lon": 2.300954,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": "Q20127464",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Costa_Rican_embassy_in_France.JPG/500px-Costa_Rican_embassy_in_France.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Costa_Rican_embassy_in_France.JPG",
-    "author": "Pymouss",
-    "license": "CC BY-SA 3.0"
-   }
-  },
-  {
    "id": "node/4680267908",
    "group": "embassy",
    "kind": "embassy",
@@ -1443,6 +1423,21 @@
     "author": "Celette",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "way/82230179",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "GM",
+   "name": "Ambassade de Gambie en France",
+   "nameLocal": "Ambassade de Gambie en France",
+   "lat": 48.902135,
+   "lon": 2.277098,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/80897214",
@@ -2471,16 +2466,16 @@
   },
   {
    "id": "way/54740869",
-   "group": "embassy",
-   "kind": "embassy",
+   "group": "consulate",
+   "kind": "consulate",
    "country": "MX",
-   "name": "Ambassade du Mexique",
-   "nameLocal": "Ambassade du Mexique",
+   "name": "Section consulaire de l'Ambassade du Mexique",
+   "nameLocal": "Section consulaire de l'Ambassade du Mexique",
    "lat": 48.866654,
    "lon": 2.341281,
    "address": null,
-   "website": "https://embamex.sre.gob.mx/francia",
-   "phone": null,
+   "website": "https://consulmex.sre.gob.mx/francia/",
+   "phone": "+33 1 42 86 56 20",
    "wikidata": null,
    "photo": null
   },
@@ -2494,8 +2489,8 @@
    "lat": 48.864679,
    "lon": 2.292294,
    "address": null,
-   "website": null,
-   "phone": null,
+   "website": "https://embamex.sre.gob.mx/francia/",
+   "phone": "+33 1 53 70 27 70",
    "wikidata": "Q6018519",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Embajada_de_M%C3%A9xico%2C_Par%C3%ADs.jpg/500px-Embajada_de_M%C3%A9xico%2C_Par%C3%ADs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2925,7 +2920,7 @@
    "kind": "liaison",
    "country": "PS",
    "name": "Embassy of the State of Palestine",
-   "nameLocal": "Bureau de Représentation de Palestine",
+   "nameLocal": "Ambassade de Palestine en France",
    "lat": 48.838473,
    "lon": 2.292483,
    "address": null,
@@ -3044,7 +3039,7 @@
    "lat": 48.858074,
    "lon": 2.30322,
    "address": null,
-   "website": null,
+   "website": "http://paris.mae.ro/",
    "phone": null,
    "wikidata": "Q20051110",
    "photo": {
@@ -3348,6 +3343,21 @@
     "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "node/13690614442",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "SK",
+   "name": "KVAC",
+   "nameLocal": "KVAC",
+   "lat": 48.849152,
+   "lon": 2.380042,
+   "address": "Rue Crozatier 56, 75012 Paris",
+   "website": "https://www.visaforkorea.eu",
+   "phone": "+33 1 43 14 31 37",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/83741309",
