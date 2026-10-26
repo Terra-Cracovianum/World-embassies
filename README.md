@@ -30,4 +30,4 @@ Like the election maps, the page is just the tool, with no masthead or footer, s
 2. Push. The Action writes `data/<slug>.json`.
 3. Open `?city=<slug>`.
 
-Data © OpenStreetMap contributors, ODbL. Basemap © CARTO.
+Data and map tiles © OpenStreetMap contributors, ODbL.
