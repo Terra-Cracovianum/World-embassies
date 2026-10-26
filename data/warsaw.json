@@ -1,6 +1,6 @@
 {
  "city": "warsaw",
- "generated": "2026-10-26T13:26:07.600Z",
+ "generated": "2026-10-26T13:39:24.688Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 118,
  "missions": [
@@ -752,12 +752,7 @@
    "website": "http://www.mfa.gov.gr/warsaw",
    "phone": "+48226229460;+48226229461",
    "wikidata": "Q9149499",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/AMBASADA_Grecji_w_Warszawie.jpg/500px-AMBASADA_Grecji_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:AMBASADA_Grecji_w_Warszawie.jpg",
-    "author": "Darpaw",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "node/11860902456",
@@ -772,12 +767,7 @@
    "website": null,
    "phone": "+48 22 375 98 70",
    "wikidata": "Q122794651",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Warsaw_Financial_Center_WFC.jpg/500px-Warsaw_Financial_Center_WFC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Warsaw_Financial_Center_WFC.jpg",
-    "author": null,
-    "license": "CC BY-SA 2.5"
-   }
+   "photo": null
   },
   {
    "id": "node/11836043575",
@@ -807,12 +797,7 @@
    "website": "https://mvep.gov.hr/",
    "phone": "+48228442393;+48228443994",
    "wikidata": "Q11685561",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Ambasada_Chorwacji_w_Polsce_2021.jpg/500px-Ambasada_Chorwacji_w_Polsce_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Chorwacji_w_Polsce_2021.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/29092778",
@@ -827,12 +812,7 @@
    "website": "https://varso.mfa.gov.hu/pol",
    "phone": "+48226284451",
    "wikidata": "Q16494353",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Embassy_of_Hungary_in_Warsaw_2016.jpg/500px-Embassy_of_Hungary_in_Warsaw_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_Hungary_in_Warsaw_2016.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/503826352",
@@ -847,12 +827,7 @@
    "website": "https://www.kemlu.go.id/warsaw/lc",
    "phone": "+48226175179;+48226175108",
    "wikidata": "Q11685566",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ambasada_Indonezji_ul._Esto%C5%84ska_3-5_w_Warszawie.jpg/500px-Ambasada_Indonezji_ul._Esto%C5%84ska_3-5_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Indonezji_ul._Esto%C5%84ska_3-5_w_Warszawie.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "node/3836567161",
@@ -867,12 +842,7 @@
    "website": "https://www.dfa.ie/irish-embassy/poland/",
    "phone": "+48 225642200",
    "wikidata": "Q11685568",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Biurowiec_Liberty_Corner_w_Warszawie_2021.jpg/500px-Biurowiec_Liberty_Corner_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Biurowiec_Liberty_Corner_w_Warszawie_2021.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/947739597",
@@ -887,12 +857,7 @@
    "website": "http://www.israel.pl/",
    "phone": "+48 22 597 05 00",
    "wikidata": "Q9149512",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ambasada_izraela_w_warszawie.JPG/500px-Ambasada_izraela_w_warszawie.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_izraela_w_warszawie.JPG",
-    "author": "Panek",
-    "license": "CC BY-SA 3.0"
-   }
+   "photo": null
   },
   {
    "id": "way/261354477",
@@ -907,12 +872,7 @@
    "website": "https://www.indianembassywarsaw.gov.in/",
    "phone": "+48 22 540 00 00",
    "wikidata": "Q9149504",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ambasada_Indii_od_strony_ulicy_Kawalerii.jpg/500px-Ambasada_Indii_od_strony_ulicy_Kawalerii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Indii_od_strony_ulicy_Kawalerii.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/503826342",
@@ -927,12 +887,7 @@
    "website": "https://mofa.gov.iq/warsaw/",
    "phone": "+48 22 617 49 11;+48 22 617 57 73",
    "wikidata": "Q9149509",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Ambasada_Iraku.jpg/500px-Ambasada_Iraku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Iraku.jpg",
-    "author": "Darpaw",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "way/503826345",
@@ -947,12 +902,7 @@
    "website": "https://poland.mfa.gov.ir/en",
    "phone": "+48 22 617 15 85;+48 22 617 42 93",
    "wikidata": "Q11685567",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/AMBASADA_IRANU.jpg/500px-AMBASADA_IRANU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:AMBASADA_IRANU.jpg",
-    "author": "Darpaw",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "node/8352243239",
@@ -982,12 +932,7 @@
    "website": "https://www.government.is/other-languages/ambasada-islandii-w-warszawie/",
    "phone": "+48 519 190 373",
    "wikidata": "Q117812368",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Warszawa-Focus-perspective-edit.jpg/500px-Warszawa-Focus-perspective-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Warszawa-Focus-perspective-edit.jpg",
-    "author": "sfu",
-    "license": "CC BY-SA 3.0"
-   }
+   "photo": null
   },
   {
    "id": "relation/3262190",
@@ -1002,12 +947,7 @@
    "website": "https://ambvarsavia.esteri.it/",
    "phone": "+48 22 826 34 71;+48 22 826 34 72",
    "wikidata": "Q2377634",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Szlenkier_Palace.jpg/500px-Szlenkier_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Szlenkier_Palace.jpg",
-    "author": "Andrew J.Kurbiko",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "node/360620749",
@@ -1037,12 +977,7 @@
    "website": "https://www.pl.emb-japan.go.jp/itprtop_pl/index.html",
    "phone": "+48 22 696 50 00",
    "wikidata": "Q9149515",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Waw_japonia98.jpg/500px-Waw_japonia98.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Waw_japonia98.jpg",
-    "author": "Isee1",
-    "license": "CC BY 2.5 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/218986469",
@@ -1072,12 +1007,7 @@
    "website": "https://overseas.mofa.go.kr/pl-pl/index.do",
    "phone": "+48 22 559 29 00",
    "wikidata": "Q9149522",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ambasada_Korei_w_Warszawie_2021.jpg/500px-Ambasada_Korei_w_Warszawie_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Korei_w_Warszawie_2021.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "node/8820767820",
@@ -1092,12 +1022,7 @@
    "website": "https://www.gov.kz/memleket/entities/mfa-warsaw?lang=pl",
    "phone": "+48 22 651 58 61",
    "wikidata": "Q9149521",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Kazakh_Embassy_in_Warsaw.jpg/500px-Kazakh_Embassy_in_Warsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Kazakh_Embassy_in_Warsaw.jpg",
-    "author": "Joshua Lim (Sky Harbor)",
-    "license": "CC BY-SA 3.0"
-   }
+   "photo": null
   },
   {
    "id": "way/930821983",
@@ -1127,12 +1052,7 @@
    "website": "http://www.lebanon.com.pl",
    "phone": "+48 22 844 50 65;+48 22 646 35 46",
    "wikidata": "Q9149530",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Budynek_przy_ul._Rejtana_15_w_Warszawie_2020.jpg/500px-Budynek_przy_ul._Rejtana_15_w_Warszawie_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Budynek_przy_ul._Rejtana_15_w_Warszawie_2020.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "node/14155831243",
@@ -1162,12 +1082,7 @@
    "website": "https://srilankaembassy.com.pl/",
    "phone": "+48 22 853 88 97",
    "wikidata": "Q9149597",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Ambasada_SRI_LANKI_03.jpg/500px-Ambasada_SRI_LANKI_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_SRI_LANKI_03.jpg",
-    "author": "Andrzej Błaszczak",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "node/599353883",
@@ -1182,12 +1097,7 @@
    "website": "https://pl.mfa.lt/",
    "phone": "+48 22 625 34 10;+48 22 625 33 68",
    "wikidata": "Q9149535",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pa%C5%82ac_pod_Karczochem_w_Warszawie_2016.jpg/500px-Pa%C5%82ac_pod_Karczochem_w_Warszawie_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_pod_Karczochem_w_Warszawie_2016.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/200944688",
@@ -1202,12 +1112,7 @@
    "website": "https://varsovie.mae.lu/",
    "phone": "+48 22 507 86 50",
    "wikidata": "Q9149536",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Ambasada_Luksemburga_ul._S%C5%82oneczna_15.jpg/500px-Ambasada_Luksemburga_ul._S%C5%82oneczna_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Luksemburga_ul._S%C5%82oneczna_15.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
-   }
+   "photo": null
   },
   {
    "id": "way/30847473",
@@ -1222,12 +1127,7 @@
    "website": "https://www2.mfa.gov.lv/en/poland",
    "phone": "+48 22 617 11 05",
    "wikidata": "Q9149637",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Latvijas.vestnieciba.polija2.JPG/500px-Latvijas.vestnieciba.polija2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Latvijas.vestnieciba.polija2.JPG",
-    "author": "Warschauer",
-    "license": "CC BY-SA 3.0"
-   }
+   "photo": null
   },
   {
    "id": "way/380471068",
@@ -1242,12 +1142,7 @@
    "website": null,
    "phone": "+48 22 566 65 09;+48 22 566 65 10",
    "wikidata": "Q11685570",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/AMBASADA_LIBII.jpg/500px-AMBASADA_LIBII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:AMBASADA_LIBII.jpg",
-    "author": "Darpaw",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "way/140003764",
@@ -1262,12 +1157,7 @@
    "website": null,
    "phone": "+48 22 849 63 41",
    "wikidata": "Q9149549",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ambasada_Maroka_w_Warszawie.jpg/500px-Ambasada_Maroka_w_Warszawie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Maroka_w_Warszawie.jpg",
-    "author": "Darpaw",
-    "license": "CC BY-SA 4.0"
-   }
+   "photo": null
   },
   {
    "id": "node/11836043578",
