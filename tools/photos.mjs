@@ -8,12 +8,27 @@ const COMMONS = 'https://commons.wikimedia.org/w/api.php';
 const IMAGE = /\.(jpe?g|png|webp|tiff?)$/i;
 const english = new Intl.DisplayNames(['en'], { type: 'region' });
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const GAP_MS = 250; // ~4 requests a second: Wikimedia answers 429 to anything much faster
+let last = 0;
+
+/* Paced, and retried when Wikimedia says "too many" (429) or is briefly down (5xx). */
 async function getJSON(url, params) {
   const u = new URL(url);
   if (params) for (const [k, v] of Object.entries({ format: 'json', ...params })) u.searchParams.set(k, v);
-  const res = await fetch(u, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
-  if (!res.ok) throw new Error(`${u.host} answered ${res.status}`);
-  return res.json();
+  for (let attempt = 0; ; attempt++) {
+    const wait = last + GAP_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    last = Date.now();
+    const res = await fetch(u, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
+    if (res.ok) return res.json();
+    if ((res.status === 429 || res.status >= 500) && attempt < 4) {
+      const after = Number(res.headers.get('retry-after'));
+      await sleep(Math.min(60, after > 0 ? after : 5 * 2 ** attempt) * 1000);
+      continue;
+    }
+    throw new Error(`${u.host} answered ${res.status}`);
+  }
 }
 
 const fileTitle = (name) => `File:${decodeURIComponent(name).replace(/^(File|Image):/i, '').replace(/_/g, ' ')}`;
@@ -96,19 +111,23 @@ async function photoFor(m, city) {
   return photo;
 }
 
-export async function addPhotos(data, city, log = () => {}) {
+/* `previous` maps mission id → the photo from the last snapshot. A lookup that fails keeps it,
+   so one bad run against Wikimedia can't strip the map of its photos. */
+export async function addPhotos(data, city, log = () => {}, previous = {}) {
   let found = 0;
+  let failed = 0;
   for (const m of data.missions) {
     try {
       // An override may already have set the photo (or null, to hide a bad one).
       if (!('photo' in m)) m.photo = await photoFor(m, city);
     } catch (err) {
-      m.photo = null;
-      log(`${m.id} (${m.country}): ${err.message}`);
+      m.photo = previous[m.id] ?? null;
+      failed++;
+      log(`${m.id} (${m.country}): ${err.message}${m.photo ? ' — kept the previous photo' : ''}`);
     }
     if (m.photo) found++;
     delete m.commons;
     delete m.image;
   }
-  log(`photos: ${found} of ${data.missions.length}`);
+  log(`photos: ${found} of ${data.missions.length}${failed ? ` (${failed} lookups failed)` : ''}`);
 }

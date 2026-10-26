@@ -22,7 +22,10 @@ for (const city of cities) {
     });
     if (data.count === 0) throw new Error('Overpass returned no missions — refusing to overwrite with an empty file');
     for (const m of data.missions) Object.assign(m, overrides[m.id]?.set);
-    await addPhotos(data, city, (line) => console.log(`  ${line}`));
+    const previous = await readFile(new URL(`data/${city.slug}.json`, root), 'utf8')
+      .then((text) => Object.fromEntries(JSON.parse(text).missions.filter((m) => m.photo).map((m) => [m.id, m.photo])))
+      .catch(() => ({}));
+    await addPhotos(data, city, (line) => console.log(`  ${line}`), previous);
     await writeFile(new URL(`data/${city.slug}.json`, root), JSON.stringify(data, null, 1) + '\n');
     const by = data.missions.reduce((n, m) => ({ ...n, [m.group]: (n[m.group] || 0) + 1 }), {});
     console.log(`${city.slug}: ${data.count} missions`, by);

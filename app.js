@@ -182,6 +182,11 @@ function prepare() {
     const label = !NON_STATE[m.country] && unnamed(m.country) && (m.nameLocal || m.name) ? (m.nameLocal || m.name) : nameOf(m.country);
     return { ...m, label, haystack: [label, m.country, m.name, m.nameLocal, m.address].filter(Boolean).join(' ').toLowerCase() };
   }).sort((a, b) => a.label.localeCompare(b.label, state.lang) || a.group.localeCompare(b.group));
+  // Where a country has two entries of one kind (a consular section, an office mapped twice),
+  // the list shows each entry's own name so they can be told apart.
+  const seen = {};
+  for (const m of state.missions) seen[m.country + m.group] = (seen[m.country + m.group] || 0) + 1;
+  for (const m of state.missions) m.twin = seen[m.country + m.group] > 1;
 
   for (const m of state.missions) markers.get(m.id)?.setPopupContent(slip(m));
   $('#updated').textContent = state.data.generated
@@ -196,7 +201,7 @@ function render() {
   $('#list').innerHTML = shown.map((m) => `
     <li><button class="row" data-id="${esc(m.id)}" data-group="${m.group}"${m.id === state.active ? ' aria-current="true"' : ''}>
       <span><span class="row-name">${flag(m)}${esc(m.label)}</span>
-      <span class="row-meta">${esc(kindLabel(m))}${m.address ? ' · ' + esc(m.address.split(',')[0]) : ''}</span></span>
+      <span class="row-meta">${esc(m.twin && m.nameLocal ? m.nameLocal : kindLabel(m))}${m.address ? ' · ' + esc(m.address.split(',')[0]) : ''}</span></span>
     </button></li>`).join('');
   $('#empty').hidden = shown.length > 0;
   $('#count').innerHTML = t().count(shown.length);
