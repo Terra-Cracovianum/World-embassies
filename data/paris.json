@@ -1,8 +1,8 @@
 {
  "city": "paris",
- "generated": "2026-10-26T14:22:55.029Z",
+ "generated": "2026-10-26T15:33:34.912Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 219,
+ "count": 224,
  "missions": [
   {
    "id": "node/4663578723",
@@ -263,6 +263,22 @@
     "author": "Pymouss44",
     "license": "CC BY-SA 3.0"
    }
+  },
+  {
+   "id": "node/14131026177",
+   "group": "other",
+   "kind": "mission",
+   "country": "AZ",
+   "name": "Azerbaïdjan",
+   "nameLocal": "Azerbaïdjan",
+   "lat": 48.856642,
+   "lon": 2.293961,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/4511012836",
@@ -1815,6 +1831,22 @@
    }
   },
   {
+   "id": "node/11740478505",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "JP",
+   "name": "Consulat du Japon",
+   "nameLocal": "Consulat du Japon",
+   "lat": 48.888238,
+   "lon": 2.26579,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/3688015008",
    "group": "embassy",
    "kind": "embassy",
@@ -2223,6 +2255,22 @@
     "author": "Pymouss",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "node/11903142772",
+   "group": "other",
+   "kind": "mission",
+   "country": "MA",
+   "name": "General Consulate of Morocco",
+   "nameLocal": "Consulat général du Maroc",
+   "lat": 48.832334,
+   "lon": 2.295015,
+   "address": "Rue de la Saïda 12, 75015",
+   "website": "http://consulat.ma",
+   "phone": "+33 1 56 56 72 01",
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/83665037",
@@ -3525,6 +3573,22 @@
    "photo": null
   },
   {
+   "id": "way/69883492",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "SY",
+   "name": "Centre Culturel Arabe Syrien",
+   "nameLocal": "Centre Culturel Arabe Syrien",
+   "lat": 48.854293,
+   "lon": 2.308219,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/80868590",
    "group": "embassy",
    "kind": "embassy",
@@ -3998,6 +4062,22 @@
     "author": "Pymouss",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "node/12630604801",
+   "group": "other",
+   "kind": "mission",
+   "country": "YT",
+   "name": "Délégation de Mayotte à Paris",
+   "nameLocal": "Délégation de Mayotte à Paris",
+   "lat": 48.852748,
+   "lon": 2.264793,
+   "address": "Rue du Docteur Blanche 51, 75016 Paris",
+   "website": null,
+   "phone": "+33 1 55 03 03 03",
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/103187108",

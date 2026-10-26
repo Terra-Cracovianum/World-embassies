@@ -1,8 +1,8 @@
 {
  "city": "warsaw",
- "generated": "2026-10-26T14:20:14.119Z",
+ "generated": "2026-10-26T15:35:44.762Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 118,
+ "count": 120,
  "missions": [
   {
    "id": "node/3841172328",
@@ -607,6 +607,21 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "node/8920030031",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "EG",
+   "name": "Embassy of Egypt",
+   "nameLocal": "Ambasada Egiptu",
+   "lat": 52.226089,
+   "lon": 21.064507,
+   "address": "03-972",
+   "website": null,
+   "phone": "+48 22 590 66 00",
+   "wikidata": "Q9149489",
    "photo": null
   },
   {
@@ -1828,6 +1843,21 @@
     "author": "Adrian Grycuk",
     "license": "CC BY-SA 3.0 pl"
    }
+  },
+  {
+   "id": "node/9980182402",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "SM",
+   "name": "Konsulat Singapuru",
+   "nameLocal": "Konsulat Singapuru",
+   "lat": 52.23652,
+   "lon": 21.010513,
+   "address": "Jasna 26",
+   "website": null,
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/3838210935",
