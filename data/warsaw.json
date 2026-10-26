@@ -1,8 +1,8 @@
 {
  "city": "warsaw",
- "generated": "2026-10-26T13:08:34.978Z",
+ "generated": "2026-10-26T13:12:15.179Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 127,
+ "count": 119,
  "missions": [
   {
    "id": "node/3841172328",
@@ -34,7 +34,7 @@
    "id": "node/8350714995",
    "group": "embassy",
    "kind": "embassy",
-   "country": "AL",
+   "country": "DZ",
    "name": "Embassy of Algieria",
    "nameLocal": "Ambasada Algierii",
    "lat": 52.190998,
@@ -94,19 +94,6 @@
    "address": "Jurija Gagarina 34, 00-748 Warszawa",
    "website": "https://www.bmeia.gv.at/pl/ambasada-austrii-warszawa/",
    "phone": "+48 22 841 00 81"
-  },
-  {
-   "id": "way/978418472",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "AT",
-   "name": "Rezydencja Ambasadora Austrii",
-   "nameLocal": "Rezydencja Ambasadora Austrii",
-   "lat": 52.20736,
-   "lon": 21.025001,
-   "address": "Willowa 3, 00-790 Warszawa",
-   "website": null,
-   "phone": null
   },
   {
    "id": "node/11803360927",
@@ -408,19 +395,6 @@
    "phone": "+48 22 565 29 00"
   },
   {
-   "id": "node/9500891396",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "DK",
-   "name": "Rezydencja Ambasadora Danii",
-   "nameLocal": "Rezydencja Ambasadora Danii",
-   "lat": 52.218606,
-   "lon": 21.00388,
-   "address": null,
-   "website": null,
-   "phone": null
-  },
-  {
    "id": "way/947313631",
    "group": "embassy",
    "kind": "embassy",
@@ -642,19 +616,6 @@
    "phone": "+48 22 597 05 00"
   },
   {
-   "id": "node/9202943362",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "IN",
-   "name": "Residence of the Embassy of India",
-   "nameLocal": "Rezydencja Ambasady Indii",
-   "lat": 52.221675,
-   "lon": 21.023022,
-   "address": "Aleja Róż 3, 00-556 Warszawa",
-   "website": null,
-   "phone": null
-  },
-  {
    "id": "way/261354477",
    "group": "embassy",
    "kind": "embassy",
@@ -772,6 +733,19 @@
    "phone": "+48228405813"
   },
   {
+   "id": "way/965715869",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "KP",
+   "name": "Ambasada Korei Północnej",
+   "nameLocal": "Ambasada Korei Północnej",
+   "lat": 52.196627,
+   "lon": 21.046432,
+   "address": "Bobrowiecka 1A, 00-728 Warszawa",
+   "website": null,
+   "phone": null
+  },
+  {
    "id": "way/390483318",
    "group": "embassy",
    "kind": "embassy",
@@ -783,19 +757,6 @@
    "address": "Szwoleżerów 6, 00-464 Warszawa",
    "website": "https://overseas.mofa.go.kr/pl-pl/index.do",
    "phone": "+48 22 559 29 00"
-  },
-  {
-   "id": "way/965715869",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "KRLD",
-   "name": "Ambasada Korei Północnej",
-   "nameLocal": "Ambasada Korei Północnej",
-   "lat": 52.196627,
-   "lon": 21.046432,
-   "address": "Bobrowiecka 1A, 00-728 Warszawa",
-   "website": null,
-   "phone": null
   },
   {
    "id": "node/8820767820",
@@ -1097,19 +1058,6 @@
    "phone": "+48 606 853 837"
   },
   {
-   "id": "node/13627119032",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "NZ",
-   "name": "Rezydencja Ambasadora Nowej Zelandii",
-   "nameLocal": "Rezydencja Ambasadora Nowej Zelandii",
-   "lat": 52.200631,
-   "lon": 21.014601,
-   "address": null,
-   "website": null,
-   "phone": null
-  },
-  {
    "id": "node/3838146524",
    "group": "embassy",
    "kind": "embassy",
@@ -1186,19 +1134,6 @@
    "address": "Ludwika Idzikowskiego 7/9, 02-704 Warszawa",
    "website": "https://www.palestine.pl/",
    "phone": "+48 22 849 77 72"
-  },
-  {
-   "id": "way/152217265",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "PT",
-   "name": "Rezydencja ambasadora Portugalii",
-   "nameLocal": "Rezydencja ambasadora Portugalii",
-   "lat": 52.233608,
-   "lon": 21.053209,
-   "address": "Poselska 28/30, 03-931 Warszawa",
-   "website": null,
-   "phone": null
   },
   {
    "id": "way/964346854",
@@ -1396,19 +1331,6 @@
    "phone": "+48 22 849 14 56;+48 22 848 48 09"
   },
   {
-   "id": "node/11469141395",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "TH",
-   "name": "Rezydencja Ambasadora Tajlandii",
-   "nameLocal": "Rezydencja Ambasadora Tajlandii",
-   "lat": 52.169547,
-   "lon": 21.081304,
-   "address": "Rumiana 10B, 02-956 Warszawa",
-   "website": null,
-   "phone": null
-  },
-  {
    "id": "way/170628163",
    "group": "embassy",
    "kind": "embassy",
@@ -1446,19 +1368,6 @@
    "address": "Rakowiecka 19, 02-517 Warszawa",
    "website": "https://varsova-be.mfa.gov.tr",
    "phone": "+48 22 854 61 10;+48 22 854 61 11"
-  },
-  {
-   "id": "way/30847453",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "TR",
-   "name": "Rezydencja ambasadora Turcji",
-   "nameLocal": "Rezydencja ambasadora Turcji",
-   "lat": 52.233892,
-   "lon": 21.056253,
-   "address": "Królowej Aldony 18, 03-928 Warszawa",
-   "website": null,
-   "phone": null
   },
   {
    "id": "node/8353241520",
@@ -1511,19 +1420,6 @@
    "address": "Piękna 12, 00-539 Warszawa",
    "website": "https://pl.usembassy.gov/pl/",
    "phone": "+48 22 504 20 00"
-  },
-  {
-   "id": "way/237472360",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "US",
-   "name": "Rezydencja Ambasadora USA",
-   "nameLocal": "Rezydencja Ambasadora USA",
-   "lat": 52.186946,
-   "lon": 21.027852,
-   "address": "Ludwika Idzikowskiego 34, 02-704 Warszawa",
-   "website": null,
-   "phone": null
   },
   {
    "id": "way/437153220",
