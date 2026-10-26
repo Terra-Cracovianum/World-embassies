@@ -1,8 +1,8 @@
 {
  "city": "paris",
- "generated": "2026-10-26T13:47:23.264Z",
+ "generated": "2026-10-26T14:00:54.165Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 225,
+ "count": 218,
  "missions": [
   {
    "id": "node/4663578723",
@@ -315,21 +315,6 @@
    }
   },
   {
-   "id": "way/67341195",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "BE",
-   "name": "Résidence de l'ambassadeur de Belgique",
-   "nameLocal": "Résidence de l'ambassadeur de Belgique",
-   "lat": 48.870994,
-   "lon": 2.319615,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/84322982",
    "group": "embassy",
    "kind": "embassy",
@@ -352,7 +337,7 @@
   {
    "id": "node/8438621449",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "BF",
    "name": "Consultat général du Burkina Faso",
    "nameLocal": "Consultat général du Burkina Faso",
@@ -590,26 +575,6 @@
    }
   },
   {
-   "id": "way/164482960",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CA",
-   "name": "Résidence de l'ambassadeur du Canada",
-   "nameLocal": "Résidence de l'ambassadeur du Canada",
-   "lat": 48.87342,
-   "lon": 2.308028,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Voiture_du_corps_diplomatique_canadien_%C3%A0_Paris_2018.jpg/500px-Voiture_du_corps_diplomatique_canadien_%C3%A0_Paris_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Voiture_du_corps_diplomatique_canadien_%C3%A0_Paris_2018.jpg",
-    "author": "Mohatatou",
-    "license": "CC BY-SA 4.0"
-   }
-  },
-  {
    "id": "way/80551306",
    "group": "other",
    "kind": "liaison",
@@ -712,7 +677,7 @@
   {
    "id": "node/12236167336",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "CI",
    "name": "Consulat général de Côte d'Ivoire",
    "nameLocal": "Consulat général de Côte d'Ivoire",
@@ -737,7 +702,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q15639479",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Ambassade_de_C%C3%B4te_d%27Ivoire_en_France%2C_102_avenue_Raymond-Poincar%C3%A9%2C_Paris_16e_2.jpg/500px-Ambassade_de_C%C3%B4te_d%27Ivoire_en_France%2C_102_avenue_Raymond-Poincar%C3%A9%2C_Paris_16e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_C%C3%B4te_d%27Ivoire_en_France,_102_avenue_Raymond-Poincar%C3%A9,_Paris_16e_2.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/102350257",
@@ -752,7 +722,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669715",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ambassade_du_Chili_en_France%2C_2_avenue_de_La_Motte-Picquet%2C_Paris_7e_6.jpg/500px-Ambassade_du_Chili_en_France%2C_2_avenue_de_La_Motte-Picquet%2C_Paris_7e_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Chili_en_France,_2_avenue_de_La_Motte-Picquet,_Paris_7e_6.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/86280044",
@@ -767,7 +742,12 @@
    "website": "https://diploconsult.com/",
    "phone": "+33 1 47 43 98 33",
    "wikidata": "Q16303685",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Cameroonian_Embassy_Paris_6028.JPG/500px-Cameroonian_Embassy_Paris_6028.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cameroonian_Embassy_Paris_6028.JPG",
+    "author": "Kenyh",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/1223280850",
@@ -797,12 +777,17 @@
    "website": null,
    "phone": null,
    "wikidata": "Q19951337",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Chinese_embassy_in_Paris.jpg/500px-Chinese_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chinese_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/1301330747",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "CO",
    "name": "Consulat général de Colombie",
    "nameLocal": "Consulat général de Colombie",
@@ -812,7 +797,12 @@
    "website": "http://www.consulatcolombie.com",
    "phone": "+33145613155",
    "wikidata": "Q16507557",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Ambassade_de_Colombie_Rue_de_Berri_%28Paris%29.jpg/500px-Ambassade_de_Colombie_Rue_de_Berri_%28Paris%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Colombie_Rue_de_Berri_(Paris).jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0"
+   }
   },
   {
    "id": "node/9791175798",
@@ -842,7 +832,32 @@
    "website": "http://www.embcolfrancia.com/",
    "phone": "+33142654608",
    "wikidata": "Q5369639",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ambassade_Colombie_Paris_1.jpg/500px-Ambassade_Colombie_Paris_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_Colombie_Paris_1.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "node/4663700858",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "CR",
+   "name": "Ambassade du Costa Rica",
+   "nameLocal": "Ambassade du Costa Rica",
+   "lat": 48.858615,
+   "lon": 2.300954,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": "Q20127464",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Costa_Rican_embassy_in_France.JPG/500px-Costa_Rican_embassy_in_France.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Costa_Rican_embassy_in_France.JPG",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/4680267908",
@@ -857,7 +872,12 @@
    "website": "http://misiones.minrex.gob.cu/fr/france/ambassade-de-cuba-en-france",
    "phone": "+33 1 45 67 55 35",
    "wikidata": "Q2841604",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Ambassade_de_Cuba_en_France%2C_16_rue_de_Presles%2C_Paris_15e_6.jpg/500px-Ambassade_de_Cuba_en_France%2C_16_rue_de_Presles%2C_Paris_15e_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Cuba_en_France,_16_rue_de_Presles,_Paris_15e_6.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/68658500",
@@ -872,7 +892,12 @@
    "website": "https://www.consulatducapvert.com/formalites.php",
    "phone": "+33 1 42 12 73 50",
    "wikidata": "Q2841861",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Cape_Verdean_Embassy_in_France.JPG/500px-Cape_Verdean_Embassy_in_France.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cape_Verdean_Embassy_in_France.JPG",
+    "author": "Xfigpower",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/79395646",
@@ -887,7 +912,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841602",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/23_rue_Galil%C3%A9e%2C_Paris_16e_3-1.jpg/500px-23_rue_Galil%C3%A9e%2C_Paris_16e_3-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:23_rue_Galil%C3%A9e,_Paris_16e_3-1.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/5496461951",
@@ -917,7 +947,12 @@
    "website": "https://www.mzv.cz/paris",
    "phone": "+33 1 40 65 13 00",
    "wikidata": "Q11879193",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Czech_embassy_Paris_6309.JPG/500px-Czech_embassy_Paris_6309.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Czech_embassy_Paris_6309.JPG",
+    "author": "Krokodyl",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "node/5394133421",
@@ -932,7 +967,12 @@
    "website": "http://www.allemagneenfrance.diplo.de/Vertretung/frankreich/fr/01-missions-france/01-ambassade/00-ambassade-hbseite.html",
    "phone": "+33 1 53 83 45 00",
    "wikidata": "Q2841843",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/24_rue_Marbeau%2C_Paris_16e_4.jpg/500px-24_rue_Marbeau%2C_Paris_16e_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:24_rue_Marbeau,_Paris_16e_4.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/63564160",
@@ -947,7 +987,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q966399",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/H%C3%B4tel_de_Beauharnais.jpg/500px-H%C3%B4tel_de_Beauharnais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Beauharnais.jpg",
+    "author": "Jospe",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/69330625",
@@ -962,12 +1007,17 @@
    "website": "https://allemagneenfrance.diplo.de",
    "phone": "+33 1 53 64 76 70",
    "wikidata": "Q15953187",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/German_Embassy_in_Paris_4.jpg/500px-German_Embassy_in_Paris_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:German_Embassy_in_Paris_4.jpg",
+    "author": "Lionel Allorge",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/82239097",
-   "group": "embassy",
-   "kind": "embassy",
+   "group": "other",
+   "kind": "permanent_mission",
    "country": "DE",
    "name": "Permanent Mission of the Federal Republic of Germany to the United Nations Educational, Scientific and Cultural Organization",
    "nameLocal": "Ständige Vertretung der Bundesrepublik Deutschland bei der OECD",
@@ -977,7 +1027,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2360201",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/German_Embassy_in_Paris_4.jpg/500px-German_Embassy_in_Paris_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:German_Embassy_in_Paris_4.jpg",
+    "author": "Lionel Allorge",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/5408261357",
@@ -1007,7 +1062,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841608",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ambassade_de_Djibouti_en_France%2C_26_rue_%C3%89mile-Menier%2C_Paris_16e_2.jpg/500px-Ambassade_de_Djibouti_en_France%2C_26_rue_%C3%89mile-Menier%2C_Paris_16e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Djibouti_en_France,_26_rue_%C3%89mile-Menier,_Paris_16e_2.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/79368481",
@@ -1022,7 +1082,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841863",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ambassade_du_Danemark_en_France%2C_77_avenue_Marceau%2C_Paris_16e.jpg/500px-Ambassade_du_Danemark_en_France%2C_77_avenue_Marceau%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Danemark_en_France,_77_avenue_Marceau,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4527150301",
@@ -1037,12 +1102,17 @@
    "website": "http://www.embajadadominicanaenfrancia.com",
    "phone": "+33 1 53 53 95 95",
    "wikidata": "Q20669704",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Ambassade_de_la_R%C3%A9publique_dominicaine_en_France%2C_45_rue_de_Courcelles%2C_Paris_8e.jpg/500px-Ambassade_de_la_R%C3%A9publique_dominicaine_en_France%2C_45_rue_de_Courcelles%2C_Paris_8e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_la_R%C3%A9publique_dominicaine_en_France,_45_rue_de_Courcelles,_Paris_8e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/8659107997",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "DZ",
    "name": "Consulat Général d'Algérie",
    "nameLocal": "Consulat Général d'Algérie",
@@ -1050,21 +1120,6 @@
    "lon": 2.398361,
    "address": null,
    "website": "https://consulat-paris-algerie.fr",
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "way/1021662265",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "DZ",
-   "name": "École Internationale Algérienne en France",
-   "nameLocal": "École Internationale Algérienne en France",
-   "lat": 48.844252,
-   "lon": 2.263271,
-   "address": null,
-   "website": "https://eiaf.fr/",
    "phone": null,
    "wikidata": null,
    "photo": null
@@ -1082,7 +1137,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841572",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Algerian_embassy_in_France.jpg/500px-Algerian_embassy_in_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Algerian_embassy_in_France.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "relation/1075820",
@@ -1097,7 +1157,12 @@
    "website": "http://francia.embajada.gob.ec",
    "phone": "+33 1 45 61 10 04",
    "wikidata": "Q16020983",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Ambassade_d%27%C3%89quateur_en_France%2C_34_avenue_de_Messine%2C_Paris_8e.jpg/500px-Ambassade_d%27%C3%89quateur_en_France%2C_34_avenue_de_Messine%2C_Paris_8e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27%C3%89quateur_en_France,_34_avenue_de_Messine,_Paris_8e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/68805529",
@@ -1112,7 +1177,12 @@
    "website": "https://paris.mfa.ee",
    "phone": "+33 1 56 62 22 00",
    "wikidata": "Q20669699",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ambassade_d%27Estonie_en_France%2C_17_rue_de_La_Baume%2C_Paris_8e.jpg/500px-Ambassade_d%27Estonie_en_France%2C_17_rue_de_La_Baume%2C_Paris_8e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Estonie_en_France,_17_rue_de_La_Baume,_Paris_8e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/81203813",
@@ -1157,12 +1227,17 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303648",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Immeuble_1_Rue_Germaine_Sta%C3%ABl_-_Paris_XV_%28FR75%29_-_2026-06-28_-_1.jpg/500px-Immeuble_1_Rue_Germaine_Sta%C3%ABl_-_Paris_XV_%28FR75%29_-_2026-06-28_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Immeuble_1_Rue_Germaine_Sta%C3%ABl_-_Paris_XV_(FR75)_-_2026-06-28_-_1.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/2121959661",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "ES",
    "name": "Consulat Général d'Espagne",
    "nameLocal": "Consulat Général d'Espagne",
@@ -1187,7 +1262,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q17346971",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ambassade_d%27Espagne_en_France_1.jpg/500px-Ambassade_d%27Espagne_en_France_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Espagne_en_France_1.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/69032637",
@@ -1232,12 +1312,17 @@
    "website": "https://finlandabroad.fi/web/fra",
    "phone": "+33 1 70 91 72 45",
    "wikidata": "Q2841610",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Finnish_embassy_in_Paris.jpg/500px-Finnish_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Finnish_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/9442224650",
-   "group": "embassy",
-   "kind": "embassy",
+   "group": "other",
+   "kind": "permanent_mission",
    "country": "FR",
    "name": "Représentation permanente de la France auprès de l'OCDE",
    "nameLocal": "Représentation permanente de la France auprès de l'OCDE",
@@ -1247,7 +1332,12 @@
    "website": "https://ocde.delegfrance.org",
    "phone": "+33 1 43 17 58 30",
    "wikidata": "Q88580728",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Repr%C3%A9sentation_permanente_France_OCDE%2C_5_rue_Oswaldo_Cruz_3.jpg/500px-Repr%C3%A9sentation_permanente_France_OCDE%2C_5_rue_Oswaldo_Cruz_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Repr%C3%A9sentation_permanente_France_OCDE,_5_rue_Oswaldo_Cruz_3.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/83665048",
@@ -1267,7 +1357,7 @@
   {
    "id": "node/12165356043",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "GB",
    "name": "British Consulate",
    "nameLocal": "Consulat général britannique",
@@ -1292,7 +1382,12 @@
    "website": "https://www.gov.uk/world/organisations/british-embassy-paris",
    "phone": null,
    "wikidata": "Q18794353",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/British_embassy_Paris_7460.JPG/500px-British_embassy_Paris_7460.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:British_embassy_Paris_7460.JPG",
+    "author": "Krokodyl",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "node/3076412126",
@@ -1307,7 +1402,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20127463",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ambassade_de_G%C3%A9orgie_en_France%2C_104_avenue_Raymond-Poincar%C3%A9%2C_Paris_16e_2.jpg/500px-Ambassade_de_G%C3%A9orgie_en_France%2C_104_avenue_Raymond-Poincar%C3%A9%2C_Paris_16e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_G%C3%A9orgie_en_France,_104_avenue_Raymond-Poincar%C3%A9,_Paris_16e_2.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/1023989901",
@@ -1337,22 +1437,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303656",
-   "photo": null
-  },
-  {
-   "id": "way/82230179",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "GM",
-   "name": "Ambassade de Gambie en France",
-   "nameLocal": "Ambassade de Gambie en France",
-   "lat": 48.902135,
-   "lon": 2.277098,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ambassades_de_Gambie_et_de_Tanzanie_en_France%2C_7_ter_rue_L%C3%A9onard-de-Vinci%2C_Paris_16e.jpg/500px-Ambassades_de_Gambie_et_de_Tanzanie_en_France%2C_7_ter_rue_L%C3%A9onard-de-Vinci%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassades_de_Gambie_et_de_Tanzanie_en_France,_7_ter_rue_L%C3%A9onard-de-Vinci,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/80897214",
@@ -1367,7 +1457,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303658",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ambassade_de_Guin%C3%A9e_en_France%2C_51_rue_de_la_Faisanderie%2C_Paris_16e_1.jpg/500px-Ambassade_de_Guin%C3%A9e_en_France%2C_51_rue_de_la_Faisanderie%2C_Paris_16e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Guin%C3%A9e_en_France,_51_rue_de_la_Faisanderie,_Paris_16e_1.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/6573246985",
@@ -1397,7 +1492,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q17346973",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Greek_embassy_in_Paris.jpg/500px-Greek_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_embassy_in_Paris.jpg",
+    "author": "Pymouss44",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/4510962326",
@@ -1412,7 +1512,12 @@
    "website": "https://francia.minex.gob.gt/home/home.aspx",
    "phone": "+33 1 42 27 78 63",
    "wikidata": "Q20669716",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Avenue_des_Ternes_vs_Rue_Villebois-Mareuil_%28Paris%29.jpg/500px-Avenue_des_Ternes_vs_Rue_Villebois-Mareuil_%28Paris%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Avenue_des_Ternes_vs_Rue_Villebois-Mareuil_(Paris).jpg",
+    "author": "Tangopaso",
+    "license": "Public domain"
+   }
   },
   {
    "id": "node/4512612824",
@@ -1442,7 +1547,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20127465",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ambassade_16e_arrondissement_de_Paris.jpg/500px-Ambassade_16e_arrondissement_de_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_16e_arrondissement_de_Paris.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/81221057",
@@ -1457,12 +1567,17 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669703",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ambassade_de_Croatie_en_France%2C_7_square_Thiers%2C_Paris_16e.jpg/500px-Ambassade_de_Croatie_en_France%2C_7_square_Thiers%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Croatie_en_France,_7_square_Thiers,_Paris_16e.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/84328416",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "HT",
    "name": "Consulat général d'Haïti",
    "nameLocal": "Consulat général d'Haïti",
@@ -1472,7 +1587,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16507558",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Consulat_g%C3%A9n%C3%A9ral_d%27Ha%C3%AFti_en_France%2C_35_avenue_de_Villiers%2C_Paris_17e.jpg/500px-Consulat_g%C3%A9n%C3%A9ral_d%27Ha%C3%AFti_en_France%2C_35_avenue_de_Villiers%2C_Paris_17e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulat_g%C3%A9n%C3%A9ral_d%27Ha%C3%AFti_en_France,_35_avenue_de_Villiers,_Paris_17e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4511012835",
@@ -1487,7 +1607,12 @@
    "website": "http://www.ambassadehaitifrance.org/consulat-haiti-france.php",
    "phone": "+33 1 47 63 47 78",
    "wikidata": "Q20051092",
-   "photo": null
+   "photo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/40/Embassy_of_Haiti_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_Haiti_in_Paris.jpg",
+    "author": "Antiguide de la ville",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/1787821158",
@@ -1517,7 +1642,12 @@
    "website": "https://parizs.mfa.gov.hu",
    "phone": null,
    "wikidata": "Q16010348",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Photo_du_b%C3%A2timent_actuel_de_l%27Ambassade_de_Hongrie_en_France.jpeg/500px-Photo_du_b%C3%A2timent_actuel_de_l%27Ambassade_de_Hongrie_en_France.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Photo_du_b%C3%A2timent_actuel_de_l%27Ambassade_de_Hongrie_en_France.jpeg",
+    "author": "Ambassade de Hongrie en France",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/81992677",
@@ -1532,7 +1662,12 @@
    "website": "https://kemlu.go.id/paris/lc",
    "phone": "+33 1 45 03 07 60",
    "wikidata": "Q2841589",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Ambassade_d%27Indon%C3%A9sie_en_France%2C_49_rue_Cortambert%2C_Paris_16e_3.jpg/500px-Ambassade_d%27Indon%C3%A9sie_en_France%2C_49_rue_Cortambert%2C_Paris_16e_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Indon%C3%A9sie_en_France,_49_rue_Cortambert,_Paris_16e_3.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/80368621",
@@ -1547,7 +1682,12 @@
    "website": "https://www.ireland.ie/en/france/paris",
    "phone": "+33 1 44 17 67 00",
    "wikidata": "Q18164757",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Hotel_de_breteuil76.jpg/500px-Hotel_de_breteuil76.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_de_breteuil76.jpg",
+    "author": "Ralf.treinen",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/67056548",
@@ -1562,7 +1702,12 @@
    "website": "http://embassies.gov.il/paris",
    "phone": null,
    "wikidata": "Q2841593",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Rue_Rabelais_-_Paris_VIII_%28FR75%29_-_2021-08-23_-_2.jpg/500px-Rue_Rabelais_-_Paris_VIII_%28FR75%29_-_2021-08-23_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rue_Rabelais_-_Paris_VIII_(FR75)_-_2021-08-23_-_2.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/83419956",
@@ -1577,7 +1722,12 @@
    "website": "https://www.ambinde.fr",
    "phone": "+33140507070",
    "wikidata": "Q20669700",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Ambassade_d%27Inde_en_France%2C_13-15_rue_Alfred_Dehodencq%2C_Paris_16e.jpg/500px-Ambassade_d%27Inde_en_France%2C_13-15_rue_Alfred_Dehodencq%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Inde_en_France,_13-15_rue_Alfred_Dehodencq,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4536055840",
@@ -1592,7 +1742,12 @@
    "website": "https://www.mofa.gov.iq/paris/",
    "phone": "+33 1 45 53 33 70",
    "wikidata": "Q2841590",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ambassade_d%27Irak_en_France%2C_avenue_Foch_2.jpg/500px-Ambassade_d%27Irak_en_France%2C_avenue_Foch_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Irak_en_France,_avenue_Foch_2.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/79273499",
@@ -1622,12 +1777,17 @@
    "website": null,
    "phone": null,
    "wikidata": "Q15149867",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Embassy_of_Iceland_in_Paris.JPG/500px-Embassy_of_Iceland_in_Paris.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_Iceland_in_Paris.JPG",
+    "author": "Aquintero82",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/6875387269",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "IT",
    "name": "Consulat Général d'Italie",
    "nameLocal": "Consulat Général d'Italie",
@@ -1652,7 +1812,12 @@
    "website": "https://ambparigi.esteri.it",
    "phone": null,
    "wikidata": "Q15149869",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Paris_7e_H%C3%B4tel_de_la_Rochefoucauld-Doudeauville_85.JPG/500px-Paris_7e_H%C3%B4tel_de_la_Rochefoucauld-Doudeauville_85.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_7e_H%C3%B4tel_de_la_Rochefoucauld-Doudeauville_85.JPG",
+    "author": "Reinhardhauke",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/3688015008",
@@ -1667,7 +1832,12 @@
    "website": "https://www.fr.emb-japan.go.jp",
    "phone": "+33 1 48 88 62 00",
    "wikidata": "Q2841871",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Ambassade_du_Japon%2C_avenue_Hoche.jpg/500px-Ambassade_du_Japon%2C_avenue_Hoche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Japon,_avenue_Hoche.jpg",
+    "author": "Tangopaso",
+    "license": "Public domain"
+   }
   },
   {
    "id": "node/4536295076",
@@ -1682,7 +1852,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303692",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Ambassade_du_Kenya_en_France%2C_3_rue_Freycinet%2C_Paris_16e.jpg/500px-Ambassade_du_Kenya_en_France%2C_3_rue_Freycinet%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Kenya_en_France,_3_rue_Freycinet,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/79873743",
@@ -1727,7 +1902,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20051104",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Ambassade_du_Cambodge_en_France%2C_4_rue_Adolphe-Yvon%2C_Paris_16e_3.jpg/500px-Ambassade_du_Cambodge_en_France%2C_4_rue_Adolphe-Yvon%2C_Paris_16e_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Cambodge_en_France,_4_rue_Adolphe-Yvon,_Paris_16e_3.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/80535980",
@@ -1742,7 +1922,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841844",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Ambassade_des_Comores_en_France%2C_20_rue_Marbeau%2C_Paris_16e_2-2.jpg/500px-Ambassade_des_Comores_en_France%2C_20_rue_Marbeau%2C_Paris_16e_2-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_des_Comores_en_France,_20_rue_Marbeau,_Paris_16e_2-2.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/495662726",
@@ -1757,7 +1942,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q30754406",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/D%C3%A9l%C3%A9gation_g%C3%A9n%C3%A9rale_de_la_R%C3%A9publique_populaire_d%C3%A9mocratique_de_Cor%C3%A9e_%28Cor%C3%A9e_du_Nord%29_en_France%2C_Paris_-_DSC_0569.JPG/500px-D%C3%A9l%C3%A9gation_g%C3%A9n%C3%A9rale_de_la_R%C3%A9publique_populaire_d%C3%A9mocratique_de_Cor%C3%A9e_%28Cor%C3%A9e_du_Nord%29_en_France%2C_Paris_-_DSC_0569.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%A9l%C3%A9gation_g%C3%A9n%C3%A9rale_de_la_R%C3%A9publique_populaire_d%C3%A9mocratique_de_Cor%C3%A9e_(Cor%C3%A9e_du_Nord)_en_France,_Paris_-_DSC_0569.JPG",
+    "author": "Trizek",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "relation/1076838",
@@ -1772,7 +1962,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q15695344",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Rue_de_Grenelle%2C_125.jpg/500px-Rue_de_Grenelle%2C_125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rue_de_Grenelle,_125.jpg",
+    "author": "Tangopaso",
+    "license": "Public domain"
+   }
   },
   {
    "id": "way/79639632",
@@ -1787,7 +1982,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841872",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Ambassade_du_Kowe%C3%AFt_en_France%2C_1_place_des_%C3%89tats-Unis%2C_Paris_16e.jpg/500px-Ambassade_du_Kowe%C3%AFt_en_France%2C_1_place_des_%C3%89tats-Unis%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Kowe%C3%AFt_en_France,_1_place_des_%C3%89tats-Unis,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4536295077",
@@ -1802,7 +2002,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669717",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/3_Rue_de_Tilsitt%2C_Paris_-_panoramio_%28650%29.jpg/500px-3_Rue_de_Tilsitt%2C_Paris_-_panoramio_%28650%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:3_Rue_de_Tilsitt,_Paris_-_panoramio_(650).jpg",
+    "author": "Patrick Nouhailler's…",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/80286778",
@@ -1817,7 +2022,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20127466",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/P1170698_Paris_XVI_avenue_Raymond-Poincar%C3%A9_rwk.jpg/500px-P1170698_Paris_XVI_avenue_Raymond-Poincar%C3%A9_rwk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:P1170698_Paris_XVI_avenue_Raymond-Poincar%C3%A9_rwk.jpg",
+    "author": "Mbzt",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "way/80264675",
@@ -1832,7 +2042,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841874",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Lebanese_embassy_in_Paris.jpg/500px-Lebanese_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lebanese_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/4536055836",
@@ -1847,7 +2062,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669723",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ambassade_du_Sri_Lanka_en_France%2C_16_rue_Spontini%2C_Paris_16e_2-1.jpg/500px-Ambassade_du_Sri_Lanka_en_France%2C_16_rue_Spontini%2C_Paris_16e_2-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Sri_Lanka_en_France,_16_rue_Spontini,_Paris_16e_2-1.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/67350028",
@@ -1877,7 +2097,12 @@
    "website": "https://embassyofliberia-paris.org/",
    "phone": "+33 1 47 63 58 55",
    "wikidata": "Q16303697",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ambassade_du_Liberia_en_France%2C_12_place_du_G%C3%A9n%C3%A9ral-Catroux%2C_Paris_17e_2.jpg/500px-Ambassade_du_Liberia_en_France%2C_12_place_du_G%C3%A9n%C3%A9ral-Catroux%2C_Paris_17e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Liberia_en_France,_12_place_du_G%C3%A9n%C3%A9ral-Catroux,_Paris_17e_2.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/84332906",
@@ -1892,7 +2117,12 @@
    "website": "http://fr.mfa.lt/fr/fr",
    "phone": "+33 1 40 54 50 50",
    "wikidata": "Q20669706",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Bd_de_Courcelles_22.JPG/500px-Bd_de_Courcelles_22.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bd_de_Courcelles_22.JPG",
+    "author": "FLLL",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/69073337",
@@ -1907,7 +2137,12 @@
    "website": "https://paris.mae.lu/",
    "phone": "+33 1 45 55 13 37",
    "wikidata": "Q19843704",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Luxembourg_embassy_in_France.JPG/500px-Luxembourg_embassy_in_France.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Luxembourg_embassy_in_France.JPG",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/80551278",
@@ -1952,7 +2187,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q15149886",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Ambassade_de_Libye_en_France%2C_6-8_rue_Chasseloup-Laubat%2C_Paris_15e.jpg/500px-Ambassade_de_Libye_en_France%2C_6-8_rue_Chasseloup-Laubat%2C_Paris_15e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Libye_en_France,_6-8_rue_Chasseloup-Laubat,_Paris_15e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/9100489463",
@@ -1982,7 +2222,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841876",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Moroccan_embassy_in_Paris.jpg/500px-Moroccan_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Moroccan_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/83665037",
@@ -1997,7 +2242,12 @@
    "website": "https://ambassade-en-france.gouv.mc",
    "phone": "+33 1 45 04 74 54",
    "wikidata": "Q2841821",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ambassade_de_Monaco_en_France%2C_22_boulevard_Suchet%2C_Paris_16e.jpg/500px-Ambassade_de_Monaco_en_France%2C_22_boulevard_Suchet%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Monaco_en_France,_22_boulevard_Suchet,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4529297863",
@@ -2027,7 +2277,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16010352",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ambassade_du_Mont%C3%A9n%C3%A9gro_en_France%2C_90_boulevard_Flandrin%2C_Paris_16e_1-2.jpg/500px-Ambassade_du_Mont%C3%A9n%C3%A9gro_en_France%2C_90_boulevard_Flandrin%2C_Paris_16e_1-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Mont%C3%A9n%C3%A9gro_en_France,_90_boulevard_Flandrin,_Paris_16e_1-2.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/83422698",
@@ -2042,7 +2297,12 @@
    "website": "https://www.ambassade-madagascar.fr/",
    "phone": null,
    "wikidata": "Q2841813",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ambassade_de_Madagascar_en_France.jpg/500px-Ambassade_de_Madagascar_en_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Madagascar_en_France.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4536055838",
@@ -2062,7 +2322,7 @@
   {
    "id": "node/2697748533",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "ML",
    "name": "Consulat général du Mali",
    "nameLocal": "Consulat général du Mali",
@@ -2072,7 +2332,12 @@
    "website": "http://consulatdumalienfrance.fr",
    "phone": null,
    "wikidata": "Q16507645",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Consulat_G%C3%A9n%C3%A9ral_du_Mali_%C3%A0_Paris_%2820251007%29.jpg/500px-Consulat_G%C3%A9n%C3%A9ral_du_Mali_%C3%A0_Paris_%2820251007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulat_G%C3%A9n%C3%A9ral_du_Mali_%C3%A0_Paris_(20251007).jpg",
+    "author": "ArtyElAnanas",
+    "license": "CC BY 4.0"
+   }
   },
   {
    "id": "way/81616950",
@@ -2087,7 +2352,12 @@
    "website": "http://www.consulatdumalienfrance.fr",
    "phone": "+33 1 55 82 08 30",
    "wikidata": null,
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Consulat_G%C3%A9n%C3%A9ral_du_Mali_%C3%A0_Paris_%2820251007%29.jpg/500px-Consulat_G%C3%A9n%C3%A9ral_du_Mali_%C3%A0_Paris_%2820251007%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulat_G%C3%A9n%C3%A9ral_du_Mali_%C3%A0_Paris_(20251007).jpg",
+    "author": "ArtyElAnanas",
+    "license": "CC BY 4.0"
+   }
   },
   {
    "id": "way/229167631",
@@ -2102,7 +2372,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303699",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ambassade_du_Mali_Paris.jpg/500px-Ambassade_du_Mali_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Mali_Paris.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/826851185",
@@ -2117,7 +2392,12 @@
    "website": null,
    "phone": "+33 1 56 88 15 90",
    "wikidata": "Q20669702",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/60_rue_de_Courcelles%2C_Paris_8e_2.jpg/500px-60_rue_de_Courcelles%2C_Paris_8e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:60_rue_de_Courcelles,_Paris_8e_2.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/624715218",
@@ -2147,7 +2427,12 @@
    "website": "https://www.ambassaderimparis.com",
    "phone": "+33 1 45 05 88 54",
    "wikidata": "Q2425395",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ambassade_de_Mauritanie_en_France%2C_5_rue_de_Montevideo%2C_Paris_16e_2.jpg/500px-Ambassade_de_Mauritanie_en_France%2C_5_rue_de_Montevideo%2C_Paris_16e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Mauritanie_en_France,_5_rue_de_Montevideo,_Paris_16e_2.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/8384000377",
@@ -2162,7 +2447,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841814",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/23_rue_d%27Artois.jpg/500px-23_rue_d%27Artois.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:23_rue_d%27Artois.jpg",
+    "author": "Thomon",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/2836203901",
@@ -2181,16 +2471,16 @@
   },
   {
    "id": "way/54740869",
-   "group": "consulate",
-   "kind": "consulate",
+   "group": "embassy",
+   "kind": "embassy",
    "country": "MX",
-   "name": "Section consulaire de l'Ambassade du Mexique",
-   "nameLocal": "Section consulaire de l'Ambassade du Mexique",
+   "name": "Ambassade du Mexique",
+   "nameLocal": "Ambassade du Mexique",
    "lat": 48.866654,
    "lon": 2.341281,
    "address": null,
-   "website": "https://consulmex.sre.gob.mx/francia/",
-   "phone": "+33 1 42 86 56 20",
+   "website": "https://embamex.sre.gob.mx/francia",
+   "phone": null,
    "wikidata": null,
    "photo": null
   },
@@ -2204,10 +2494,15 @@
    "lat": 48.864679,
    "lon": 2.292294,
    "address": null,
-   "website": "https://embamex.sre.gob.mx/francia/",
-   "phone": "+33 1 53 70 27 70",
+   "website": null,
+   "phone": null,
    "wikidata": "Q6018519",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Embajada_de_M%C3%A9xico%2C_Par%C3%ADs.jpg/500px-Embajada_de_M%C3%A9xico%2C_Par%C3%ADs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Embajada_de_M%C3%A9xico,_Par%C3%ADs.jpg",
+    "author": "Aquintero82",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/80897201",
@@ -2222,7 +2517,12 @@
    "website": "https://www.kln.gov.my/web/fra_paris",
    "phone": null,
    "wikidata": "Q20669708",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Ambassade_de_Malaisie_en_France.jpg/500px-Ambassade_de_Malaisie_en_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Malaisie_en_France.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/6573246886",
@@ -2237,7 +2537,12 @@
    "website": "http://ambassademozambiquefrance.fr",
    "phone": "+33 1 47 64 91 32",
    "wikidata": "Q16506785",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Ambassade_du_Mozambique.jpg/500px-Ambassade_du_Mozambique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Mozambique.jpg",
+    "author": "Thomon",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/87420043",
@@ -2252,7 +2557,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303666",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Ambassade_de_Namibie_42_rue_Boileau.jpg/500px-Ambassade_de_Namibie_42_rue_Boileau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Namibie_42_rue_Boileau.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/80897207",
@@ -2267,7 +2577,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303704",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ambassade_du_Niger_en_France%2C_154_rue_de_Longchamp%2C_Paris_16e_1.jpg/500px-Ambassade_du_Niger_en_France%2C_154_rue_de_Longchamp%2C_Paris_16e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Niger_en_France,_154_rue_de_Longchamp,_Paris_16e_1.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/81221122",
@@ -2282,7 +2597,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303706",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ambassade_du_Nigeria_en_France%2C_173_avenue_Victor-Hugo%2C_Paris_16e_3.jpg/500px-Ambassade_du_Nigeria_en_France%2C_173_avenue_Victor-Hugo%2C_Paris_16e_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Nigeria_en_France,_173_avenue_Victor-Hugo,_Paris_16e_3.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/80848711",
@@ -2297,7 +2617,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669721",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ambassade_du_Nicaragua_en_France.jpg/500px-Ambassade_du_Nicaragua_en_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Nicaragua_en_France.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4680131749",
@@ -2312,7 +2637,12 @@
    "website": "https://www.paysbasmondial.nl/pays/france",
    "phone": "+33 1 40 62 33 00",
    "wikidata": "Q2841848",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Dutch_embassy_in_France.jpg/500px-Dutch_embassy_in_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dutch_embassy_in_France.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/181396848",
@@ -2357,7 +2687,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841823",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Norwegian_embassy_in_Paris.jpg/500px-Norwegian_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Norwegian_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/3030290891",
@@ -2372,7 +2707,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669720",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Nepali_embassy_in_Paris.jpg/500px-Nepali_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nepali_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/4663796152",
@@ -2387,7 +2727,12 @@
    "website": "https://www.mfat.govt.nz/fr/countries-and-regions/europe/france/new-zealand-embassy/",
    "phone": "+33 1 45014343",
    "wikidata": "Q30055449",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/T%C3%A9l%C3%A9graphe_de_Chappe_Paris_7e_001.jpg/500px-T%C3%A9l%C3%A9graphe_de_Chappe_Paris_7e_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:T%C3%A9l%C3%A9graphe_de_Chappe_Paris_7e_001.jpg",
+    "author": "Moonik",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/4086280793",
@@ -2402,7 +2747,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303652",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Omani_embassy_in_Paris.jpg/500px-Omani_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Omani_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/79276831",
@@ -2417,7 +2767,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303652",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Omani_embassy_in_Paris.jpg/500px-Omani_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Omani_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4680186200",
@@ -2432,7 +2787,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20127467",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Panamanian_embassy_in_Paris.jpg/500px-Panamanian_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Panamanian_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/9463656310",
@@ -2462,7 +2822,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q5707495",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paris_16_-_Ambassade_du_P%C3%A9rou_-1.JPG/500px-Paris_16_-_Ambassade_du_P%C3%A9rou_-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_16_-_Ambassade_du_P%C3%A9rou_-1.JPG",
+    "author": "MOSSOT",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "node/7799077041",
@@ -2492,7 +2857,12 @@
    "website": "https://www.parispe.dfa.gov.ph/about-us/the-embassy",
    "phone": "+33 1 44 14 57 00",
    "wikidata": "Q20669713",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ambassade_des_Philippines_en_France%2C_Paris_16e.jpg/500px-Ambassade_des_Philippines_en_France%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_des_Philippines_en_France,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/70187648",
@@ -2507,7 +2877,12 @@
    "website": "https://www.pakembparis.com",
    "phone": null,
    "wikidata": "Q2841877",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Ambassade_pakistanaise_%C3%A0_Paris_-_rue_Byron.jpg/500px-Ambassade_pakistanaise_%C3%A0_Paris_-_rue_Byron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_pakistanaise_%C3%A0_Paris_-_rue_Byron.jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0"
+   }
   },
   {
    "id": "way/80897194",
@@ -2537,7 +2912,12 @@
    "website": "https://www.gov.pl/web/francja/",
    "phone": "+33 1 43 17 34 00",
    "wikidata": "Q2841831",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Polish_Embassy_in_Paris_002.JPG/500px-Polish_Embassy_in_Paris_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Polish_Embassy_in_Paris_002.JPG",
+    "author": "Moonik",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/5714718131",
@@ -2545,19 +2925,24 @@
    "kind": "liaison",
    "country": "PS",
    "name": "Embassy of the State of Palestine",
-   "nameLocal": "Ambassade de Palestine en France",
+   "nameLocal": "Bureau de Représentation de Palestine",
    "lat": 48.838473,
    "lon": 2.292483,
    "address": null,
    "website": null,
    "phone": null,
    "wikidata": "Q29424493",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/B%C3%A2timent_Mission_Palestine_France_-_Paris_XV_%28FR75%29_-_2026-02-21_-_1.jpg/500px-B%C3%A2timent_Mission_Palestine_France_-_Paris_XV_%28FR75%29_-_2026-02-21_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:B%C3%A2timent_Mission_Palestine_France_-_Paris_XV_(FR75)_-_2026-02-21_-_1.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/84331400",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "PT",
    "name": "Consulat général du Portugal",
    "nameLocal": "Consulat général du Portugal",
@@ -2567,22 +2952,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16507634",
-   "photo": null
-  },
-  {
-   "id": "node/13814369534",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "PT",
-   "name": "Delegação de Portugal Junto da OCDE",
-   "nameLocal": "Delegação de Portugal Junto da OCDE",
-   "lat": 48.862285,
-   "lon": 2.271293,
-   "address": null,
-   "website": "https://ocde.missaoportugal.mne.gov.pt/pt/",
-   "phone": null,
-   "wikidata": null,
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Portuguese_consulate_general_in_Paris.jpg/500px-Portuguese_consulate_general_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Portuguese_consulate_general_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/80868603",
@@ -2597,6 +2972,26 @@
    "website": "https://paris.embaixadaportugal.mne.gov.pt",
    "phone": "+33 1 47 27 35 29",
    "wikidata": "Q20051130",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Portuguese_embassy_in_Paris.jpg/500px-Portuguese_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Portuguese_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "node/13814369534",
+   "group": "other",
+   "kind": "permanent_mission",
+   "country": "PT",
+   "name": "Delegação de Portugal Junto da OCDE",
+   "nameLocal": "Delegação de Portugal Junto da OCDE",
+   "lat": 48.862285,
+   "lon": 2.271293,
+   "address": null,
+   "website": "https://ocde.missaoportugal.mne.gov.pt/pt/",
+   "phone": null,
+   "wikidata": null,
    "photo": null
   },
   {
@@ -2612,7 +3007,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669722",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/1RueStDominique-P7-017.jpg/500px-1RueStDominique-P7-017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:1RueStDominique-P7-017.jpg",
+    "author": "Bruno befreetv",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/1656279010",
@@ -2627,7 +3027,12 @@
    "website": "http://www.qatarambassade.com",
    "phone": "+33145519071",
    "wikidata": "Q2841879",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Qatari_embassy_Paris_6351.JPG/500px-Qatari_embassy_Paris_6351.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Qatari_embassy_Paris_6351.JPG",
+    "author": "Krokodyl",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "way/69859785",
@@ -2639,10 +3044,15 @@
    "lat": 48.858074,
    "lon": 2.30322,
    "address": null,
-   "website": "http://paris.mae.ro/",
+   "website": null,
    "phone": null,
    "wikidata": "Q20051110",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Paris_-_H%C3%B4tel_de_B%C3%A9arn_-_123_rue_Saint-Dominique_-_001.jpg/500px-Paris_-_H%C3%B4tel_de_B%C3%A9arn_-_123_rue_Saint-Dominique_-_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_de_B%C3%A9arn_-_123_rue_Saint-Dominique_-_001.jpg",
+    "author": "Thesupermat",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/2705531428",
@@ -2657,21 +3067,6 @@
    "website": "http://paris.mfa.gov.rs",
    "phone": "+33 1 40 72 24 24",
    "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/3066567546",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "RS",
-   "name": "Résidence de l'ambassadeur de Serbie",
-   "nameLocal": "Résidence de l'ambassadeur de Serbie",
-   "lat": 48.85936,
-   "lon": 2.287659,
-   "address": "75016",
-   "website": null,
-   "phone": null,
-   "wikidata": "Q7452846",
    "photo": null
   },
   {
@@ -2702,7 +3097,12 @@
    "website": "https://centrerusbranly.mid.ru/fr_FR/",
    "phone": null,
    "wikidata": "Q104383248",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Amphit.jpg/500px-Amphit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Amphit.jpg",
+    "author": "Poupée en bois",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/330244520",
@@ -2717,7 +3117,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841832",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Russian_Embassy_in_Paris.jpg/500px-Russian_Embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Russian_Embassy_in_Paris.jpg",
+    "author": "(RJG) from Glasgow, Scotland",
+    "license": "CC BY-SA 2.0"
+   }
   },
   {
    "id": "way/82325113",
@@ -2732,12 +3137,17 @@
    "website": "http://www.france.mid.ru",
    "phone": null,
    "wikidata": "Q2841832",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Russian_Embassy_in_Paris.jpg/500px-Russian_Embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Russian_Embassy_in_Paris.jpg",
+    "author": "(RJG) from Glasgow, Scotland",
+    "license": "CC BY-SA 2.0"
+   }
   },
   {
    "id": "way/84329293",
-   "group": "embassy",
-   "kind": "embassy",
+   "group": "other",
+   "kind": "permanent_mission",
    "country": "RU",
    "name": "Délégation de la Russie auprès de l'Unesco",
    "nameLocal": "Délégation de la Russie auprès de l'Unesco",
@@ -2777,7 +3187,12 @@
    "website": "http://www.ambarwanda-paris.fr",
    "phone": "+33 1 71 19 91 91",
    "wikidata": "Q2841883",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Rue_Jadin%2C_12.jpg/500px-Rue_Jadin%2C_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rue_Jadin,_12.jpg",
+    "author": "Tangopaso",
+    "license": "Public domain"
+   }
   },
   {
    "id": "way/67544181",
@@ -2807,7 +3222,12 @@
    "website": "https://embassies.mofa.gov.sa/sites/France/FR",
    "phone": "+33 1 56 79 40 00",
    "wikidata": "Q1862835",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ambassade_d%27Arabie_saoudite_en_France%2C_92_rue_de_Courcelles%2C_Paris_8e.jpg/500px-Ambassade_d%27Arabie_saoudite_en_France%2C_92_rue_de_Courcelles%2C_Paris_8e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Arabie_saoudite_en_France,_92_rue_de_Courcelles,_Paris_8e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "relation/12770261",
@@ -2822,7 +3242,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q1862835",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ambassade_d%27Arabie_saoudite_en_France%2C_92_rue_de_Courcelles%2C_Paris_8e.jpg/500px-Ambassade_d%27Arabie_saoudite_en_France%2C_92_rue_de_Courcelles%2C_Paris_8e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Arabie_saoudite_en_France,_92_rue_de_Courcelles,_Paris_8e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/83741367",
@@ -2837,7 +3262,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303679",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/51_avenue_Mozart_Paris_ambassade_des_Seychelles_MB_2.jpg/500px-51_avenue_Mozart_Paris_ambassade_des_Seychelles_MB_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:51_avenue_Mozart_Paris_ambassade_des_Seychelles_MB_2.jpg",
+    "author": "Marc Baronnet",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4663578722",
@@ -2852,7 +3282,12 @@
    "website": "https://www.embassypages.com/missions/embassy17801/",
    "phone": null,
    "wikidata": "Q16303710",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Ambassade_du_Soudan_en_France%2C_11_rue_Alfred_Dehodencq%2C_Paris_16e.jpg/500px-Ambassade_du_Soudan_en_France%2C_11_rue_Alfred_Dehodencq%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Soudan_en_France,_11_rue_Alfred_Dehodencq,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/1968929733",
@@ -2867,7 +3302,12 @@
    "website": "https://www.swedenabroad.com/fr-FR/Embassies/Paris/",
    "phone": null,
    "wikidata": "Q2841853",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Ambassade_de_Su%C3%A8de_en_France.jpg/500px-Ambassade_de_Su%C3%A8de_en_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Su%C3%A8de_en_France.jpg",
+    "author": "Hugo Rota",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/68828952",
@@ -2882,7 +3322,12 @@
    "website": "https://www.mfa.gov.sg/paris",
    "phone": "+33 1 56 79 68 00",
    "wikidata": "Q2841835",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/P1260059_Paris_VIII_rue_Murillo_n16_rwk.jpg/500px-P1260059_Paris_VIII_rue_Murillo_n16_rwk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:P1260059_Paris_VIII_rue_Murillo_n16_rwk.jpg",
+    "author": "Mbzt",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4663645316",
@@ -2897,22 +3342,12 @@
    "website": "https://pariz.veleposlanistvo.si",
    "phone": "+33 1 44 96 50 60",
    "wikidata": "Q20669711",
-   "photo": null
-  },
-  {
-   "id": "node/13690614442",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "SK",
-   "name": "KVAC",
-   "nameLocal": "KVAC",
-   "lat": 48.849152,
-   "lon": 2.380042,
-   "address": "Rue Crozatier 56, 75012 Paris",
-   "website": "https://www.visaforkorea.eu",
-   "phone": "+33 1 43 14 31 37",
-   "wikidata": null,
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ambassade_de_Slov%C3%A9nie_en_France%2C_28_rue_Bois-Le-Vent%2C_Paris_16e_2.jpg/500px-Ambassade_de_Slov%C3%A9nie_en_France%2C_28_rue_Bois-Le-Vent%2C_Paris_16e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Slov%C3%A9nie_en_France,_28_rue_Bois-Le-Vent,_Paris_16e_2.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/83741309",
@@ -2927,7 +3362,12 @@
    "website": null,
    "phone": "+33 1 71 93 73 33",
    "wikidata": "Q2841837",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Slovak_embassy_Paris_6140.JPG/500px-Slovak_embassy_Paris_6140.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Slovak_embassy_Paris_6140.JPG",
+    "author": "Kenyh",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/8232223059",
@@ -2947,7 +3387,7 @@
   {
    "id": "way/79639966",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "SN",
    "name": "Consulat général du Sénégal",
    "nameLocal": "Consulat général du Sénégal",
@@ -2957,22 +3397,12 @@
    "website": "https://www.ambasseneparis.com/",
    "phone": null,
    "wikidata": "Q16507659",
-   "photo": null
-  },
-  {
-   "id": "node/2953119940",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "SN",
-   "name": "Résidence de l'ambassadeur du Sénégal",
-   "nameLocal": "Résidence de l'ambassadeur du Sénégal",
-   "lat": 48.859999,
-   "lon": 2.284251,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Consulat_du_S%C3%A9n%C3%A9gal_en_France%2C_22_rue_de_l%27Amiral_Hamelin%2C_Paris_16e_2.jpg/500px-Consulat_du_S%C3%A9n%C3%A9gal_en_France%2C_22_rue_de_l%27Amiral_Hamelin%2C_Paris_16e_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulat_du_S%C3%A9n%C3%A9gal_en_France,_22_rue_de_l%27Amiral_Hamelin,_Paris_16e_2.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/103187113",
@@ -2987,7 +3417,12 @@
    "website": "https://www.ambasseneparis.com/",
    "phone": "+33147053945",
    "wikidata": "Q2841885",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Ambassade_du_S%C3%A9n%C3%A9gal_en_France%2C_14_avenue_Robert-Schuman%2C_Paris_7e.jpg/500px-Ambassade_du_S%C3%A9n%C3%A9gal_en_France%2C_14_avenue_Robert-Schuman%2C_Paris_7e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_S%C3%A9n%C3%A9gal_en_France,_14_avenue_Robert-Schuman,_Paris_7e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/79395640",
@@ -3017,7 +3452,12 @@
    "website": null,
    "phone": "+33 1 45 25 93 00",
    "wikidata": "Q20127468",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Ambassade_du_Suriname_en_France%2C_94_rue_du_Ranelagh%2C_Paris_16e_1.jpg/500px-Ambassade_du_Suriname_en_France%2C_94_rue_du_Ranelagh%2C_Paris_16e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Suriname_en_France,_94_rue_du_Ranelagh,_Paris_16e_1.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4536295075",
@@ -3032,7 +3472,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303708",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Ambassade_du_Soudan_du_Sud%2C_9_rue_Kepler%2C_Paris_16e.jpg/500px-Ambassade_du_Soudan_du_Sud%2C_9_rue_Kepler%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Soudan_du_Sud,_9_rue_Kepler,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4536194533",
@@ -3047,7 +3492,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q73428076",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ambassade_du_Salvador_en_France.jpg/500px-Ambassade_du_Salvador_en_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Salvador_en_France.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/68568757",
@@ -3077,7 +3527,12 @@
    "website": "http://ambatchad-paris.org/",
    "phone": null,
    "wikidata": "Q16303714",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ambassade_du_Tchad_%C3%A0_Paris.jpg/500px-Ambassade_du_Tchad_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Tchad_%C3%A0_Paris.jpg",
+    "author": "Aquintero82",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/84323527",
@@ -3092,7 +3547,12 @@
    "website": "https://www.france.ambassadetogo.org",
    "phone": "+33 1 43 80 12 13",
    "wikidata": "Q15149892",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Immeuble_8_Rue_Alfred_Roll_-_Paris_XVII_%28FR75%29_-_2026-06-27_-_6.jpg/500px-Immeuble_8_Rue_Alfred_Roll_-_Paris_XVII_%28FR75%29_-_2026-06-27_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Immeuble_8_Rue_Alfred_Roll_-_Paris_XVII_(FR75)_-_2026-06-27_-_6.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "relation/1225521",
@@ -3107,7 +3567,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q20669712",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Ambassade_de_Tha%C3%AFlande_en_France%2C_8_rue_Greuze%2C_Paris_16e_1.jpg/500px-Ambassade_de_Tha%C3%AFlande_en_France%2C_8_rue_Greuze%2C_Paris_16e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Tha%C3%AFlande_en_France,_8_rue_Greuze,_Paris_16e_1.jpg",
+    "author": "Thank you to indicate this credit line next to the image in case of reuse: Credi",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4536194532",
@@ -3137,7 +3602,12 @@
    "website": "https://france.tmembassy.gov.tm/fr",
    "phone": null,
    "wikidata": "Q20669725",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ambassade_du_Turkm%C3%A9nistan_en_France%2C_13_rue_Picot%2C_Paris_16e_2-3.jpg/500px-Ambassade_du_Turkm%C3%A9nistan_en_France%2C_13_rue_Picot%2C_Paris_16e_2-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Turkm%C3%A9nistan_en_France,_13_rue_Picot,_Paris_16e_2-3.jpg",
+    "author": "Polymagou",
+    "license": "CC0"
+   }
   },
   {
    "id": "node/2869268001",
@@ -3172,7 +3642,7 @@
   {
    "id": "way/79642059",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "TN",
    "name": "Consulat général de Tunisie",
    "nameLocal": "Consulat général de Tunisie",
@@ -3182,7 +3652,12 @@
    "website": "http://www.cgt-paris.diplomatie.gov.tn",
    "phone": "+33 1 53 70 69 10",
    "wikidata": "Q16507619",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Consulat_g%C3%A9n%C3%A9ral_de_Tunisie_%C3%A0_Paris.jpg/500px-Consulat_g%C3%A9n%C3%A9ral_de_Tunisie_%C3%A0_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulat_g%C3%A9n%C3%A9ral_de_Tunisie_%C3%A0_Paris.jpg",
+    "author": "Mohatatou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/104446385",
@@ -3197,12 +3672,17 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841840",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Centre_de_vote_Ambassade_%28France_1%29%2C_%C3%A9lections_l%C3%A9gislatives_tunisiennes_2019-1.jpg/500px-Centre_de_vote_Ambassade_%28France_1%29%2C_%C3%A9lections_l%C3%A9gislatives_tunisiennes_2019-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Centre_de_vote_Ambassade_(France_1),_%C3%A9lections_l%C3%A9gislatives_tunisiennes_2019-1.jpg",
+    "author": "Mohatatou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/73206386",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "TR",
    "name": "Turkish Consulate",
    "nameLocal": "Consulat Général de Turquie",
@@ -3212,36 +3692,6 @@
    "website": "https://paris-bk.mfa.gov.tr",
    "phone": "+33 1 47 12 30 30",
    "wikidata": "Q16507643",
-   "photo": null
-  },
-  {
-   "id": "node/12114388966",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "TR",
-   "name": "Permanent Delegation of Türkiye to the OECD",
-   "nameLocal": "Délégation Permanente de Türkiye auprès de l’OCDE",
-   "lat": 48.860555,
-   "lon": 2.27068,
-   "address": null,
-   "website": "https://oecd-dt.mfa.gov.tr",
-   "phone": "+33 1 42 88 50 02",
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/12114452816",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "TR",
-   "name": "Permanent Representation of Türkiye to UNESCO",
-   "nameLocal": "Permanent Representation of Türkiye to UNESCO",
-   "lat": 48.845646,
-   "lon": 2.305796,
-   "address": null,
-   "website": "https://unesco-dt.mfa.gov.tr",
-   "phone": "+33 1 45 68 27 15;+33 1 45 68 27 16;+33 1 45 68 27 17;+33 1 45 68 27 18;+33 1 45 68 27 19",
-   "wikidata": null,
    "photo": null
   },
   {
@@ -3257,6 +3707,41 @@
    "website": "https://paris-be.mfa.gov.tr",
    "phone": "+33 1 53 92 71 11;+33 1 53 92 71 12;+33 1 53 92 71 13",
    "wikidata": "Q2464752",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Turkish_embassy_in_Paris-Erd1.jpg/500px-Turkish_embassy_in_Paris-Erd1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_embassy_in_Paris-Erd1.jpg",
+    "author": "User:Erdrokan",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "node/12114388966",
+   "group": "other",
+   "kind": "permanent_mission",
+   "country": "TR",
+   "name": "Permanent Delegation of Türkiye to the OECD",
+   "nameLocal": "Délégation Permanente de Türkiye auprès de l’OCDE",
+   "lat": 48.860555,
+   "lon": 2.27068,
+   "address": null,
+   "website": "https://oecd-dt.mfa.gov.tr",
+   "phone": "+33 1 42 88 50 02",
+   "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "node/12114452816",
+   "group": "other",
+   "kind": "permanent_mission",
+   "country": "TR",
+   "name": "Permanent Representation of Türkiye to UNESCO",
+   "nameLocal": "Permanent Representation of Türkiye to UNESCO",
+   "lat": 48.845646,
+   "lon": 2.305796,
+   "address": null,
+   "website": "https://unesco-dt.mfa.gov.tr",
+   "phone": "+33 1 45 68 27 15;+33 1 45 68 27 16;+33 1 45 68 27 17;+33 1 45 68 27 18;+33 1 45 68 27 19",
+   "wikidata": null,
    "photo": null
   },
   {
@@ -3287,7 +3772,12 @@
    "website": "https://tanzaniaembassy.fr",
    "phone": "+33 1 53 70 63 66",
    "wikidata": "Q15622116",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ambassades_de_Gambie_et_de_Tanzanie_en_France%2C_7_ter_rue_L%C3%A9onard-de-Vinci%2C_Paris_16e.jpg/500px-Ambassades_de_Gambie_et_de_Tanzanie_en_France%2C_7_ter_rue_L%C3%A9onard-de-Vinci%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassades_de_Gambie_et_de_Tanzanie_en_France,_7_ter_rue_L%C3%A9onard-de-Vinci,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/68910538",
@@ -3302,7 +3792,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841607",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Embassy_of_Ukraine_in_Paris.jpg/500px-Embassy_of_Ukraine_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_Ukraine_in_Paris.jpg",
+    "author": "Jirnov",
+    "license": "Public domain"
+   }
   },
   {
    "id": "way/81770970",
@@ -3317,22 +3812,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16303654",
-   "photo": null
-  },
-  {
-   "id": "way/217860711",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "US",
-   "name": "Résidence des États-Unis",
-   "nameLocal": "Résidence des États-Unis",
-   "lat": 48.869463,
-   "lon": 2.318418,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": "Q3145932",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ugandan_%26_Tanzanian_embassies_in_Paris.jpg/500px-Ugandan_%26_Tanzanian_embassies_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ugandan_%26_Tanzanian_embassies_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/67233932",
@@ -3347,13 +3832,18 @@
    "website": "https://fr.usembassy.gov",
    "phone": "+33 1 4312 2222",
    "wikidata": "Q894836",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/US_embassy_Paris_6375.JPG/500px-US_embassy_Paris_6375.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:US_embassy_Paris_6375.JPG",
+    "author": "Krokodyl (talk · contribs)",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "way/83422686",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "USA",
+   "group": "other",
+   "kind": "permanent_mission",
+   "country": "US",
    "name": "United States Mission to OECD",
    "nameLocal": "United States Mission to OECD",
    "lat": 48.860184,
@@ -3362,7 +3852,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q136379752",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/22-8-27%2C_d%C3%A9l%C3%A9gation_communiste_conduite_par_Piquemal%2C_d%C3%A9put%C3%A9%2C_quitte_l%27ambassade_d%27Am%C3%A9rique_%28rue_de_Chaillot%29_-_btv1b53187999j.jpg/500px-22-8-27%2C_d%C3%A9l%C3%A9gation_communiste_conduite_par_Piquemal%2C_d%C3%A9put%C3%A9%2C_quitte_l%27ambassade_d%27Am%C3%A9rique_%28rue_de_Chaillot%29_-_btv1b53187999j.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:22-8-27,_d%C3%A9l%C3%A9gation_communiste_conduite_par_Piquemal,_d%C3%A9put%C3%A9,_quitte_l%27ambassade_d%27Am%C3%A9rique_(rue_de_Chaillot)_-_btv1b53187999j.jpg",
+    "author": "Agence Rol. Agence photographique (commanditaire)",
+    "license": "Public domain"
+   }
   },
   {
    "id": "way/79395717",
@@ -3377,7 +3872,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q18578134",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ambassade_d%27Uruguay_en_France%2C_33_rue_Jean-Giraudoux%2C_Paris_16e.jpg/500px-Ambassade_d%27Uruguay_en_France%2C_33_rue_Jean-Giraudoux%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_d%27Uruguay_en_France,_33_rue_Jean-Giraudoux,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/1504098189",
@@ -3392,7 +3892,12 @@
    "website": "https://old.ouzbekistan.fr",
    "phone": null,
    "wikidata": "Q2841596",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Uzbekistani_embassy_Paris_7472.JPG/500px-Uzbekistani_embassy_Paris_7472.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Uzbekistani_embassy_Paris_7472.JPG",
+    "author": "Krokodyl",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "way/79232291",
@@ -3422,7 +3927,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841886",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Venezuelan_embassy_in_Paris.jpg/500px-Venezuelan_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Venezuelan_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/6322606885",
@@ -3437,7 +3947,12 @@
    "website": null,
    "phone": "+33 1 44 14 64 00",
    "wikidata": "Q20127469",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ambassade_du_Vi%C3%AAt_Nam_en_France%2C_62%2C_rue_Boileau%2C_Paris_16e.jpg/500px-Ambassade_du_Vi%C3%AAt_Nam_en_France%2C_62%2C_rue_Boileau%2C_Paris_16e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_du_Vi%C3%AAt_Nam_en_France,_62,_rue_Boileau,_Paris_16e.jpg",
+    "author": "Celette",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/5600363144",
@@ -3467,7 +3982,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q2841888",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Yemenite_embassy_in_Paris.jpg/500px-Yemenite_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Yemenite_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/103187108",
@@ -3482,7 +4002,12 @@
    "website": "https://www.afriquesud.net/",
    "phone": "+33153592323",
    "wikidata": "Q2391616",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/South_African_embassy_in_Paris.jpg/500px-South_African_embassy_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:South_African_embassy_in_Paris.jpg",
+    "author": "Pymouss",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/4663734512",
@@ -3497,7 +4022,12 @@
    "website": null,
    "phone": null,
    "wikidata": "Q15952651",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Ambassade_de_Zambie_en_France%2C_18_avenue_de_Tourville%2C_Paris_7e_3.jpg/500px-Ambassade_de_Zambie_en_France%2C_18_avenue_de_Tourville%2C_Paris_7e_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_Zambie_en_France,_18_avenue_de_Tourville,_Paris_7e_3.jpg",
+    "author": "Polymagou",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/84327495",
@@ -3512,7 +4042,12 @@
    "website": "http://www.zimparis.gov.zw",
    "phone": "+33 1 56 88 16 00",
    "wikidata": "Q15952656",
-   "photo": null
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Immeuble_10_Rue_Jacques_Bingen_-_Paris_XVII_%28FR75%29_-_2026-07-06_-_1.jpg/500px-Immeuble_10_Rue_Jacques_Bingen_-_Paris_XVII_%28FR75%29_-_2026-07-06_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Immeuble_10_Rue_Jacques_Bingen_-_Paris_XVII_(FR75)_-_2026-07-06_-_1.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0"
+   }
   }
  ]
 }
