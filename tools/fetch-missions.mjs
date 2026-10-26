@@ -12,7 +12,12 @@ let failed = false;
 for (const city of cities) {
   if (only && city.slug !== only) continue;
   try {
-    const data = await fetchMissions(city);
+    const data = await fetchMissions(city, {
+      headers: { 'User-Agent': 'TerraCracovianum-WorldEmbassies/1.0 (+https://github.com/Terra-Cracovianum/World-embassies)' },
+      rounds: 3,
+      timeoutMs: 150000,
+      log: (line) => console.log(`  ${line}`),
+    });
     if (data.count === 0) throw new Error('Overpass returned no missions — refusing to overwrite with an empty file');
     await writeFile(new URL(`data/${city.slug}.json`, root), JSON.stringify(data, null, 1) + '\n');
     const by = data.missions.reduce((n, m) => ({ ...n, [m.group]: (n[m.group] || 0) + 1 }), {});

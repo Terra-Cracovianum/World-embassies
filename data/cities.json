@@ -1,10 +1,9 @@
 [
   {
     "slug": "warsaw",
-    "name": "Warsaw",
-    "nameLocal": "Warszawa",
+    "name": { "pl": "Warszawa", "en": "Warsaw" },
     "country": "PL",
-    "osmRelation": 336075,
+    "bbox": [52.0977, 20.8516, 52.3681, 21.2711],
     "center": [52.2297, 21.0122],
     "zoom": 12
   }
