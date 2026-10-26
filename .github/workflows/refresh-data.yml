@@ -41,6 +41,8 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
             git commit -m "Refresh mission data from OpenStreetMap"
+            # Someone may have pushed while Overpass was answering; only data/*.json is ours.
+            git pull --rebase origin ${{ github.ref_name }}
             git push origin HEAD:${{ github.ref_name }}
           else
             echo "Only the timestamp changed; skipping commit."
