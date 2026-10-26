@@ -1,6 +1,6 @@
 {
  "city": "warsaw",
- "generated": "2026-10-26T13:39:24.688Z",
+ "generated": "2026-10-26T13:45:50.099Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 118,
  "missions": [
@@ -907,7 +907,7 @@
   {
    "id": "node/8352243239",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "honorary_consulate",
    "country": "IS",
    "name": "Konsulat honorowy Islandii",
    "nameLocal": "Konsulat honorowy Islandii",
@@ -1792,7 +1792,7 @@
   {
    "id": "node/8669831937",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "UZ",
    "name": "General Consulate of the Republic of Uzbekistan",
    "nameLocal": "Konsulat Uzbekistanu",
@@ -1867,7 +1867,7 @@
   {
    "id": "node/12040468146",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "XK",
    "name": "Consulate General of Kosova",
    "nameLocal": "Konsulat Generalny Kosowa",

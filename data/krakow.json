@@ -1,13 +1,13 @@
 {
  "city": "krakow",
- "generated": "2026-10-26T13:40:00.700Z",
+ "generated": "2026-10-26T13:46:42.903Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 16,
+ "count": 17,
  "missions": [
   {
    "id": "way/39393941",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "AT",
    "name": "Konsulat Generalny Austrii w Krakowie",
    "nameLocal": "Konsulat Generalny Austrii w Krakowie",
@@ -57,7 +57,7 @@
   {
    "id": "node/473538579",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "DE",
    "name": "Konsulat Generalny Republiki Federalnej Niemiec",
    "nameLocal": "Konsulat Generalny Republiki Federalnej Niemiec",
@@ -87,7 +87,7 @@
   {
    "id": "node/490986398",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "honorary_consulate",
    "country": "EE",
    "name": "Konsulat Honorowy Republiki Estonii",
    "nameLocal": "Konsulat Honorowy Republiki Estonii",
@@ -117,7 +117,7 @@
   {
    "id": "node/2503127477",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "FR",
    "name": "Konsulat Generalny Republiki Francuskiej",
    "nameLocal": "Konsulat Generalny Republiki Francuskiej",
@@ -147,7 +147,7 @@
   {
    "id": "node/3775841587",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "HU",
    "name": "Konsulat Generalny Węgier",
    "nameLocal": "Konsulat Generalny Węgier",
@@ -182,12 +182,27 @@
   {
    "id": "node/488258069",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "SE",
    "name": "Consulate General of Sweden",
    "nameLocal": "Konsulat Generalny Szwecji",
    "lat": 50.061707,
    "lon": 19.934752,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "node/9714591286",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "SE",
+   "name": "Konsulat Szwecji",
+   "nameLocal": "Konsulat Szwecji",
+   "lat": 50.061736,
+   "lon": 19.934652,
    "address": "Świętej Anny 5, 31-008 Kraków",
    "website": "http://nordichouse.pl/index.php/s/tresci/idk/8/m/21/d/132",
    "phone": null,
@@ -197,7 +212,7 @@
   {
    "id": "node/1514597798",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "SK",
    "name": "Consulat General of the Slovak Republic in Cracow",
    "nameLocal": "Konsulat Generalny Republiki Słowackiej",
@@ -212,7 +227,7 @@
   {
    "id": "way/162605617",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "UA",
    "name": "General Consulate of Ukraine in Krakow",
    "nameLocal": "Konsulat Generalny Ukrainy w Krakowie",
@@ -227,7 +242,7 @@
   {
    "id": "node/2503121599",
    "group": "consulate",
-   "kind": "consulate",
+   "kind": "consulate_general",
    "country": "US",
    "name": "Consulate General of the United States",
    "nameLocal": "Konsulat Generalny Stanów Zjednoczonych Ameryki",
