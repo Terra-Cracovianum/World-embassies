@@ -1,7 +1,7 @@
 # World Embassies
 
 A Terra Cracovianum tool: every embassy and consulate in a city, on one map. Polish by default, English via the PL/EN switch (or `?lang=en`).
-Cities: **Warsaw** and **Kraków** (switch with the buttons under the header, or `?city=krakow`).
+Cities: **Warsaw**, **Kraków** and **Paris** (switch with the buttons under the header, or `?city=krakow`).
 
 Live: https://terra-cracovianum.github.io/World-embassies/
 
