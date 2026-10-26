@@ -132,8 +132,7 @@
   --veil:rgba(243,238,227,.86);       /* status overlay, attribution */
   --on-ink-soft:rgba(243,238,227,.72);/* secondary text on an ink fill (the selected row) */
   --logo-filter:none;
-  --tiles:grayscale(1) contrast(.85) brightness(1.12);
-  --tiles-blend:multiply;
+  --tiles:grayscale(1) sepia(.22) contrast(.82) brightness(1.04);
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){
@@ -144,7 +143,7 @@
     --hairline:rgba(243,238,227,.16);
     --bar-bg:rgba(16,20,15,.86);--veil:rgba(16,20,15,.86);--on-ink-soft:rgba(16,20,15,.68);
     --logo-filter:invert(.95) sepia(.18);
-    --tiles:grayscale(1) invert(1) brightness(.78) contrast(.9);--tiles-blend:normal;
+    --tiles:grayscale(1) invert(1) brightness(.78) contrast(.9);
     color-scheme:dark;
   }
 }
@@ -155,7 +154,7 @@
   --hairline:rgba(243,238,227,.16);
   --bar-bg:rgba(16,20,15,.86);--veil:rgba(16,20,15,.86);--on-ink-soft:rgba(16,20,15,.68);
   --logo-filter:invert(.95) sepia(.18);
-  --tiles:grayscale(1) invert(1) brightness(.78) contrast(.9);--tiles-blend:normal;
+  --tiles:grayscale(1) invert(1) brightness(.78) contrast(.9);
   color-scheme:dark;
 }
 
@@ -329,6 +328,8 @@ body.is-moving .stage{pointer-events:none}
   background-size:64px 64px;opacity:.16;
   -webkit-mask-image:radial-gradient(120% 90% at 0% 40%,#000 15%,transparent 70%);mask-image:radial-gradient(120% 90% at 0% 40%,#000 15%,transparent 70%);
 }
+.globe-view.is-off{visibility:hidden} /* behind an open map: no painting, no running rings */
+.globe-view.is-off *{animation-play-state:paused!important}
 #globe{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
 #globe.is-dragging{cursor:grabbing}
 
@@ -507,8 +508,10 @@ body.is-moving .stage{pointer-events:none}
 
 .map-wrap{position:relative;min-width:0;min-height:0;isolation:isolate}
 #map{position:absolute;inset:0;background:var(--parchment-deep);font-family:var(--sans)}
-/* OSM's colourful tiles, pressed into the site's palette: grey, lightened, then multiplied onto parchment */
-#map .leaflet-tile-pane{filter:var(--tiles);mix-blend-mode:var(--tiles-blend);opacity:.9}
+/* OSM's colourful tiles, pressed into the site's palette. The filter sits on each tile, not on the
+   pane: a tile is filtered once and then only moved, where a filter (or blend) on the whole pane is
+   recomputed over the full map on every frame of a pan or zoom, which is what made opening a city lag. */
+#map .leaflet-tile{filter:var(--tiles)}
 .status{
   position:absolute;inset:0;z-index:700;display:grid;place-items:center;padding:24px;text-align:center;
   background:var(--veil);

@@ -1,4 +1,4 @@
-import { fetchMissions } from './lib/missions.mjs';
+import { fetchMissions, OVERPASS_ENDPOINTS } from './lib/missions.mjs';
 import { Globe, ease, distanceKm, greatCircle } from './globe.js';
 
 const $ = (sel) => document.querySelector(sel);
@@ -277,7 +277,7 @@ async function loadData(city) {
     if (res.ok) data = await res.json();
   } catch {}
   // No snapshot for this city yet: ask OpenStreetMap directly.
-  data ??= await fetchMissions(city, { timeoutMs: 30000 });
+  data ??= await fetchMissions(city, { timeoutMs: 20000, endpoints: OVERPASS_ENDPOINTS.slice(0, 2) });
   cache.set(city.slug, data);
   return data;
 }
@@ -311,6 +311,8 @@ async function loadCity(city) {
     return;
   }
   if (state.city !== city) return; // the visitor moved on while this loaded
+  await gate; // a move in progress builds the markers and list in its own quiet moment, not mid-animation
+  if (state.city !== city) return;
   state.data = data;
   for (const m of data.missions) {
     const marker = L.marker([m.lat, m.lon], {
@@ -334,6 +336,17 @@ async function loadCity(city) {
   status.hidden = true;
   if (mapOpen) rise();
 }
+
+/* Building ~200 markers and rows is one long task; a move opens the gate when a frame can spare it. */
+let gate = Promise.resolve();
+let openGate = () => {};
+function closeGate() { gate = new Promise((r) => { openGate = r; }); }
+
+/* Wait for the city's data, but never hold a move for it: slow data (a live query) arrives later. */
+const settle = (loading) => Promise.race([loading, new Promise((r) => setTimeout(r, 400))]);
+
+/* The globe band is switched off entirely behind an open map. */
+const globeOn = (on) => globeView.classList.toggle('is-off', !on);
 
 /* The markers rise in, scattered: played when the map is actually on screen. */
 let mapOpen = false;
@@ -441,14 +454,16 @@ async function diveInto(city) {
   globe.showPins(false);
   mapView.style.clipPath = 'circle(0px at 50% 50%)';
   showMapLayer(city);
+  closeGate();
   const loading = loadCity(city);
   const target = diveView(city);
   await globe.animate({ lon: target.lon, lat: target.lat, scale: globe.view.scale * 1.15, x: target.x, y: target.y }, { duration: 900, curve: ease.inOut });
   await globe.animate(target, { duration: 1100, curve: (t) => t * t * t }); // accelerating into the ground
+  openGate(); await settle(loading); // the beat between landing and opening: build the city here
   setView('map');
   await iris(true, target);
   mapOpen = true; rise();
-  globe.stop();
+  globe.stop(); globeOn(false);
   await flyMap(city.center, city.zoom, 1.6);
   await loading;
 }
@@ -458,6 +473,7 @@ async function riseFrom(city) {
   map.closePopup();
   await flyMap(city.center, DIVE_ZOOM, 1.1);
   const at = diveView(city);
+  globeOn(true);
   globe.drift = false;
   globe.view = { ...at };
   globe.reveal = 1;
@@ -485,6 +501,7 @@ async function fly(from, to) {
   const a = [from.center[1], from.center[0]];
   const b = [to.center[1], to.center[0]];
   const start = diveView(from);
+  globeOn(true);
   globe.drift = false;
   globe.view = { ...start };
   globe.reveal = 1;
@@ -519,13 +536,15 @@ async function fly(from, to) {
   });
   readout.classList.remove('is-on');
   showMapLayer(to);
+  closeGate();
   const loading = loadCity(to);
   await globe.animate(diveView(to), { duration: 900, curve: (t) => t * t * t });
   globe.route = null;
+  openGate(); await settle(loading);
   setView('map');
   await iris(true, diveView(to));
   mapOpen = true; rise();
-  globe.stop();
+  globe.stop(); globeOn(false);
   await flyMap(to.center, to.zoom, 1.4);
   await loading;
 }
@@ -574,6 +593,7 @@ if (first) {
   showMapLayer(first);
   map.setView(first.center, first.zoom, { animate: false });
   globe.view = homeView();
+  globeOn(false);
   mapOpen = true;
   loadCity(first);
 } else {

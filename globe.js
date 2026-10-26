@@ -67,8 +67,14 @@ export class Globe {
     this.resize();
   }
 
+  /* clipExtent: geometry off the canvas is cut before it is resampled or filled, which is most of
+     it once the globe is many screens wide. precision eases as the globe grows: half a pixel of
+     curve accuracy matters on a whole globe, and nothing on a coastline seen from low altitude. */
   projection(view = this.view) {
-    return geoOrthographic().rotate([-view.lon, -view.lat]).scale(view.scale).translate([view.x, view.y]).clipAngle(90).precision(0.6);
+    const pad = 20;
+    return geoOrthographic().rotate([-view.lon, -view.lat]).scale(view.scale).translate([view.x, view.y])
+      .clipAngle(90).clipExtent([[-pad, -pad], [(this.w || 0) + pad, (this.h || 0) + pad]])
+      .precision(view.scale > 1200 ? 2 : view.scale > 600 ? 1 : 0.6);
   }
 
   /* The scale at which the globe matches a Leaflet map at `zoom` around `lat`, so the dive can
@@ -192,20 +198,29 @@ export class Globe {
     }
 
     if (near < 1) {
-      const c = unit([view.lon, view.lat]);
+      // The dots are projected by hand: for an orthographic view with north up, a point's screen
+      // position is two dot products with the view's east and north vectors. Thousands of these a
+      // frame cost almost nothing, where d3's general projection pipeline per point did not.
+      const lon = view.lon * RAD, lat = view.lat * RAD;
+      const c = [Math.cos(lat) * Math.cos(lon), Math.cos(lat) * Math.sin(lon), Math.sin(lat)];
+      const e = [-Math.sin(lon), Math.cos(lon), 0];
+      const n = [-Math.sin(lat) * Math.cos(lon), -Math.sin(lat) * Math.sin(lon), Math.cos(lat)];
       const size = clamp(view.scale / 220, 1.1, 3);
       const front = this.reveal * Math.PI * 1.05;
+      const revealing = this.reveal < 1;
       ctx.fillStyle = '#d9a06b';
       for (const d of this.dots) {
-        const facing = d.v[0] * c[0] + d.v[1] * c[1] + d.v[2] * c[2];
-        if (facing <= 0.02) continue;
-        if (d.fromHome > front) continue;
-        const p = proj(d.p);
-        if (!p || p[0] < -4 || p[1] < -4 || p[0] > w + 4 || p[1] > h + 4) continue;
-        const band = this.reveal < 1 ? Math.max(0, 1 - Math.abs(front - d.fromHome) / 0.18) : 0; // the bright survey front
+        const v = d.v;
+        const facing = v[0] * c[0] + v[1] * c[1] + v[2] * c[2];
+        if (facing <= 0.02 || d.fromHome > front) continue;
+        const x = view.x + view.scale * (v[0] * e[0] + v[1] * e[1]);
+        if (x < -4 || x > w + 4) continue;
+        const y = view.y - view.scale * (v[0] * n[0] + v[1] * n[1] + v[2] * n[2]);
+        if (y < -4 || y > h + 4) continue;
+        const band = revealing ? Math.max(0, 1 - Math.abs(front - d.fromHome) / 0.18) : 0; // the bright survey front
         ctx.globalAlpha = (0.18 + 0.6 * facing) * (1 - near) + band * 0.6;
         const s = size * (0.55 + 0.45 * facing);
-        ctx.fillRect(p[0] - s / 2, p[1] - s / 2, s, s);
+        ctx.fillRect(x - s / 2, y - s / 2, s, s);
       }
       ctx.globalAlpha = 1;
     }
