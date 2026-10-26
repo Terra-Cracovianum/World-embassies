@@ -34,4 +34,15 @@ for (const city of cities) {
     console.error(`${city.slug}: ${err.message}`);
   }
 }
+// A small summary for the globe's opening screen, so it can count missions without loading every city.
+const index = {};
+for (const city of cities) {
+  try {
+    const { missions, generated } = JSON.parse(await readFile(new URL(`data/${city.slug}.json`, root), 'utf8'));
+    const count = (g) => missions.filter((m) => m.group === g).length;
+    index[city.slug] = { count: missions.length, embassies: count('embassy'), consulates: count('consulate'), generated };
+  } catch { /* not snapshotted yet: the page falls back to a live query */ }
+}
+await writeFile(new URL('data/index.json', root), JSON.stringify(index, null, 1) + '\n');
+
 process.exit(failed ? 1 : 0);

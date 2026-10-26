@@ -2,31 +2,64 @@
   {
     "slug": "warsaw",
     "name": {
-      "pl": "Warszawa", "en": "Warsaw"
+      "pl": "Warszawa",
+      "en": "Warsaw"
     },
     "country": "PL",
-    "bbox": [52.0977, 20.8516, 52.3681, 21.2711],
-    "center": [52.2297, 21.0122],
-    "zoom": 12
+    "bbox": [
+      52.0977,
+      20.8516,
+      52.3681,
+      21.2711
+    ],
+    "center": [
+      52.2297,
+      21.0122
+    ],
+    "zoom": 12,
+    "code": "WAW",
+    "labelSide": "ne"
   },
   {
     "slug": "krakow",
     "name": {
-      "pl": "Kraków", "en": "Kraków"
+      "pl": "Kraków",
+      "en": "Kraków"
     },
     "country": "PL",
-    "bbox": [49.9674, 19.7922, 50.1262, 20.2173],
-    "center": [50.0614, 19.9366],
-    "zoom": 13
+    "bbox": [
+      49.9674,
+      19.7922,
+      50.1262,
+      20.2173
+    ],
+    "center": [
+      50.0614,
+      19.9366
+    ],
+    "zoom": 13,
+    "code": "KRK",
+    "labelSide": "se"
   },
   {
     "slug": "paris",
     "name": {
-      "pl": "Paryż", "en": "Paris"
+      "pl": "Paryż",
+      "en": "Paris"
     },
     "country": "FR",
-    "bbox": [48.8156, 2.2242, 48.9022, 2.4699],
-    "center": [48.8566, 2.3522],
-    "zoom": 12
+    "bbox": [
+      48.8156,
+      2.2242,
+      48.9022,
+      2.4699
+    ],
+    "center": [
+      48.8566,
+      2.3522
+    ],
+    "zoom": 12,
+    "code": "PAR",
+    "labelSide": "w"
   }
 ]

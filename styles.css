@@ -175,7 +175,7 @@ button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--sienna-ink);outline-offset:2px}
 
 /* ---------- masthead: the institute's header bar ---------- */
-header{position:sticky;top:0;z-index:1000;flex:0 0 auto}
+header{position:relative;z-index:1000;flex:0 0 auto}
 .header-bar{
   display:flex;align-items:center;justify-content:space-between;gap:16px;
   padding:14px var(--gutter);position:relative;
@@ -281,20 +281,166 @@ html.nav-open{overflow:hidden}
   padding:14px var(--gutter) 12px;border-bottom:1px solid var(--ink);
 }
 .kicker{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sienna-ink)}
-h1{font-family:var(--serif);font-weight:370;font-size:clamp(22px,2.6vw,32px);line-height:1.15;letter-spacing:-.01em;margin-top:2px}
-h1 em{font-style:italic;font-weight:300;color:var(--moss)}
+.tool-head h2{font-family:var(--serif);font-weight:370;font-size:clamp(22px,2.6vw,32px);line-height:1.15;letter-spacing:-.01em;margin-top:2px}
+.tool-head h2 em{font-style:italic;font-weight:300;color:var(--moss)}
+.tool-head-left{display:flex;align-items:flex-end;gap:clamp(14px,2vw,26px)}
+.back-btn{margin-bottom:3px;gap:10px}
+.back-btn span[aria-hidden]{transition:transform .35s var(--arrive)}
+.back-btn:hover span[aria-hidden]{transform:translateX(-4px)}
 .tool-head-right{display:flex;align-items:center;gap:18px;padding-bottom:2px}
 /* city switcher: the publications register's instrument toggles */
 .cities{display:flex;gap:6px}
-.cities a{
+.cities button{
+  background:none;cursor:pointer;
   font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;
   color:var(--ink-soft);border:1px solid var(--hairline);padding:0 12px;min-height:32px;
   display:inline-flex;align-items:center;transition:border-color .25s,color .25s,background .25s;
 }
-.cities a:hover{border-color:var(--ink);color:var(--ink)}
-.cities a[aria-current="page"]{background:var(--ink);border-color:var(--ink);color:var(--parchment)}
+.cities button:hover{border-color:var(--ink);color:var(--ink)}
+.cities button[aria-current="page"]{background:var(--ink);border-color:var(--ink);color:var(--parchment)}
 .count{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-variant-numeric:tabular-nums;white-space:nowrap;padding-bottom:4px}
 .count b{color:var(--sienna-ink);font-weight:500}
+
+/* ---------- the stage: the globe and the map, stacked ---------- */
+.stage{position:relative;flex:1;min-height:0;overflow:hidden}
+.map-view{position:absolute;inset:0;display:flex;flex-direction:column;background:var(--parchment);z-index:2}
+.map-view[hidden]{display:none}
+
+/* While the globe or a flight is on screen the masthead is ink, part of the band (as the site
+   does over its dark bands). It fades over the site's .45s. */
+body[data-view="globe"] .header-bar,body[data-view="flight"] .header-bar{background:#10140f;border-bottom-color:rgba(243,238,227,.22)}
+body[data-view="globe"] .header-bar::after,body[data-view="flight"] .header-bar::after{background:repeating-linear-gradient(90deg,rgba(243,238,227,.22) 0 1px,transparent 1px 12px)}
+body[data-view="globe"] .brand-logo,body[data-view="flight"] .brand-logo{filter:invert(.95) sepia(.18)}
+body[data-view="globe"] nav.desktop a,body[data-view="flight"] nav.desktop a,
+body[data-view="globe"] .pill,body[data-view="flight"] .pill{color:#f3eee3;border-color:#f3eee3}
+body[data-view="globe"] .pill:hover,body[data-view="globe"] .lang.open .pill{background:#f3eee3;color:#10140f}
+.header-bar,.header-bar::after,nav.desktop a,.pill{transition:background-color .45s,border-color .45s,color .45s}
+body.is-moving{cursor:progress}
+body.is-moving .stage{pointer-events:none}
+
+/* ---------- the globe band: always ink, in either theme ---------- */
+.globe-view{
+  position:absolute;inset:0;background:#10140f;color:#f3eee3;overflow:hidden;z-index:1;
+  --hair:rgba(243,238,227,.22);--soft:rgba(243,238,227,.68);
+}
+.globe-view::before{ /* the dark band's graticule, fading toward the globe */
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(var(--hair) 1px,transparent 1px),linear-gradient(90deg,var(--hair) 1px,transparent 1px);
+  background-size:64px 64px;opacity:.16;
+  -webkit-mask-image:radial-gradient(120% 90% at 0% 40%,#000 15%,transparent 70%);mask-image:radial-gradient(120% 90% at 0% 40%,#000 15%,transparent 70%);
+}
+#globe{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
+#globe.is-dragging{cursor:grabbing}
+
+.landing{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(36px,8vh,96px) var(--gutter) clamp(18px,3vh,28px)}
+.landing-copy{pointer-events:auto;max-width:min(560px,44vw)}
+.kicker.on-ink{color:#d9a06b;margin-bottom:clamp(14px,2.4vh,24px)}
+.display{
+  font-family:var(--serif);font-weight:340;font-size:clamp(56px,8.6vw,150px);
+  line-height:.9;letter-spacing:-.03em;color:#f3eee3;
+}
+.display .line{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
+.display .line>span{display:inline-block}
+.display em{font-style:italic;font-weight:300;color:#d9a06b}
+.landing-lede{max-width:400px;margin-top:clamp(18px,3vh,30px);font-size:clamp(15px,1.25vw,17px);color:var(--soft);text-wrap:pretty}
+
+.stations{list-style:none;margin-top:clamp(22px,4.5vh,48px);border-top:1px solid var(--hair);counter-reset:none}
+.station{
+  width:100%;display:grid;grid-template-columns:34px 1fr auto;grid-template-areas:"n name go" "n meta go";
+  align-items:baseline;column-gap:14px;text-align:left;background:none;border:0;border-bottom:1px solid var(--hair);
+  color:#f3eee3;padding:14px 4px;cursor:pointer;position:relative;isolation:isolate;
+}
+.station::before{ /* the site's wipe hover */
+  content:"";position:absolute;inset:0;z-index:-1;background:rgba(243,238,227,.06);
+  transform:scaleY(0);transform-origin:bottom;transition:transform .45s var(--wipe);
+}
+.station:hover::before,.station:focus-visible::before,.station.is-lit::before{transform:scaleY(1);transform-origin:top}
+.station:focus-visible{outline:2px solid #d9a06b;outline-offset:-2px}
+.station-n{grid-area:n;font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:#d9a06b}
+.station-name{grid-area:name;font-family:var(--serif);font-size:clamp(24px,2.3vw,32px);font-weight:340;line-height:1.1;transition:font-style .2s,color .3s}
+.station:hover .station-name,.station.is-lit .station-name{font-style:italic;color:#d9a06b}
+.station-meta{grid-area:meta;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-top:4px;font-variant-numeric:tabular-nums}
+.station-go{grid-area:go;align-self:center;font-family:var(--mono);color:var(--soft);transition:transform .4s var(--arrive),color .3s}
+.station:hover .station-go,.station.is-lit .station-go{transform:translateX(6px) rotate(-45deg);color:#d4572c}
+
+.landing-foot{display:flex;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#d9a06b;pointer-events:none}
+.landing-foot .hint{color:var(--soft);letter-spacing:.14em;display:flex;align-items:center;gap:10px}
+.landing-foot .hint::before{content:"";width:7px;height:7px;border:1px solid currentColor;transform:rotate(45deg)}
+
+/* the opening: the headline rises out of its lines, the rest follows (the site's intro, in CSS) */
+.display .line>span{animation:introLine .9s var(--arrive) backwards} /* backwards, not both: a held end state would block the leaving transition */
+.display .line:nth-child(2)>span{animation-delay:.1s}
+.landing .kicker,.landing-lede,.stations li,.landing-foot{animation:introFade .8s var(--arrive) backwards}
+.landing .kicker{animation-delay:.05s}
+.landing-lede{animation-delay:.3s}
+.stations li{animation-delay:calc(.45s + var(--i) * .08s)}
+.landing-foot{animation-delay:.9s}
+@keyframes introLine{from{transform:translateY(105%)}to{transform:none}}
+@keyframes introFade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+
+/* leaving for a city: the copy lifts away on the mechanical curve, staggered */
+.landing-copy>*,.landing-foot{transition:opacity .5s var(--wipe),transform .6s var(--wipe)}
+.landing.is-leaving .landing-copy>*,.landing.is-leaving .landing-foot{opacity:0;transform:translateY(-22px);pointer-events:none}
+.landing.is-leaving .landing-copy>:nth-child(2){transition-delay:.05s}
+.landing.is-leaving .landing-copy>:nth-child(3){transition-delay:.1s}
+.landing.is-leaving .landing-copy>:nth-child(4){transition-delay:.15s}
+.landing:not(.is-leaving) .landing-copy>:nth-child(2){transition-delay:.12s}
+.landing:not(.is-leaving) .landing-copy>:nth-child(3){transition-delay:.2s}
+.landing:not(.is-leaving) .landing-copy>:nth-child(4){transition-delay:.28s}
+
+/* globe pins: a sienna station diamond with a radar ring, labelled like a survey slip */
+.gpins{position:absolute;inset:0;pointer-events:none}
+.gpin{
+  position:absolute;left:0;top:0;width:0;height:0;padding:0;border:0;background:none;color:#f3eee3;
+  pointer-events:auto;cursor:pointer;transition:opacity .5s var(--arrive);
+}
+.gpin.is-away{opacity:0;pointer-events:none}
+.gpin-mark{position:absolute;left:-16px;top:-16px;width:32px;height:32px;display:block} /* the tap target */
+.gpin-mark::before{ /* the diamond */
+  content:"";position:absolute;left:10px;top:10px;width:12px;height:12px;background:#d4572c;border:1.5px solid #f3eee3;
+  transform:rotate(45deg);transition:transform .4s var(--arrive);
+}
+.gpin-mark::after{ /* radar ring, as on the hero's cities */
+  content:"";position:absolute;inset:-6px;border:1.5px solid #d4572c;border-radius:50%;
+  animation:ring 2.4s var(--arrive) infinite;animation-delay:var(--ring,0s);
+}
+.gpin.is-home .gpin-mark::after{border-color:#d9a06b;animation:none;transform:scale(.62);opacity:.9} /* Kraków: the steady home ring */
+@keyframes ring{from{transform:scale(.25);opacity:1}to{transform:scale(1.15);opacity:0}}
+.gpin:hover .gpin-mark::before,.gpin:focus-visible .gpin-mark::before,.gpin.is-lit .gpin-mark::before{transform:rotate(45deg) scale(1.45)}
+.gpin:focus-visible{outline:none}
+.gpin:focus-visible .gpin-mark{outline:2px solid #d9a06b;outline-offset:2px;border-radius:50%}
+.gpin-label{
+  position:absolute;white-space:nowrap;display:flex;flex-direction:column;gap:2px;text-align:left;
+  padding-left:30px;top:-12px;left:0;pointer-events:none;
+}
+.gpin-label::before{content:"";position:absolute;left:12px;top:12px;width:14px;height:1px;background:rgba(243,238,227,.5)} /* leader line */
+.gpin-label b{font-family:var(--serif);font-weight:370;font-size:19px;line-height:1;transition:color .3s,font-style .3s}
+.gpin-label small{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:#d9a06b}
+.gpin:hover .gpin-label b,.gpin.is-lit .gpin-label b{color:#d9a06b;font-style:italic}
+.gpin-ne .gpin-label{top:-34px}
+.gpin-se .gpin-label{top:2px}
+.gpin-w .gpin-label{left:auto;right:0;padding-left:0;padding-right:30px;text-align:right;align-items:flex-end}
+.gpin-w .gpin-label::before{left:auto;right:12px}
+/* pins rise in, one after another, once the globe settles */
+.gpin .gpin-mark,.gpin .gpin-label{transition:opacity .6s var(--arrive),transform .6s var(--arrive)}
+.gpin.is-away .gpin-mark,.gpin.is-away .gpin-label{opacity:0;transform:translateY(8px)}
+.gpin:nth-child(2){--ring:.8s}.gpin:nth-child(2) .gpin-mark,.gpin:nth-child(2) .gpin-label{transition-delay:.12s}
+.gpin:nth-child(3){--ring:1.6s}.gpin:nth-child(3) .gpin-mark,.gpin:nth-child(3) .gpin-label{transition-delay:.24s}
+
+/* a flight's live readout, riding the head of the route */
+.route-readout{
+  position:absolute;left:0;top:0;z-index:3;pointer-events:none;white-space:nowrap;
+  margin:-44px 0 0 14px;padding:7px 11px;background:rgba(16,20,15,.82);border:1px solid rgba(243,238,227,.3);
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#f3eee3;font-variant-numeric:tabular-nums;
+  opacity:0;transition:opacity .4s;
+}
+.route-readout.is-on{opacity:1}
+.route-readout b{font-weight:500;color:#d9a06b}
+.route-readout span{margin-left:10px;color:#f3eee3}
+
+/* map markers rise in, scattered, as the map opens */
+#map.is-rising .pin span{animation:pinRise .7s var(--arrive) both;animation-delay:var(--d,0s)}
+@keyframes pinRise{from{opacity:0;transform:translateY(-14px) rotate(45deg) scale(.4)}to{opacity:1;transform:rotate(45deg) scale(1)}}
 
 /* ---------- body: list + map ---------- */
 .atlas{flex:1;min-height:0;display:grid;grid-template-columns:var(--panel) minmax(0,1fr)}
@@ -415,11 +561,25 @@ h1 em{font-style:italic;font-weight:300;color:var(--moss)}
   .menu-btn{display:inline-flex}
 }
 @media (max-width:760px){
-  body{display:block;height:auto}
+  .map-view{overflow-y:auto;display:block}
+  .landing{padding:28px 16px 14px;justify-content:flex-start}
+  .landing-copy{max-width:none}
+  .display{font-size:clamp(46px,14vw,64px)}
+  .landing-lede{display:none}
+  .stations{position:absolute;left:16px;right:16px;bottom:44px;margin:0;display:grid;grid-template-columns:repeat(3,1fr);border:0;gap:6px}
+  .station{grid-template-columns:1fr;grid-template-areas:"n" "name" "meta";border:1px solid var(--hair);padding:10px 10px 9px;
+    background:rgba(16,20,15,.78);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+  .station-go{display:none}
+  .station-name{font-size:19px}
+  .station-meta{font-size:9px;letter-spacing:.06em}
+  .landing-foot{position:absolute;left:16px;right:16px;bottom:14px;font-size:9.5px;justify-content:center}
+  .landing-foot>span:first-child{display:none}
+  .gpin-label b{font-size:16px}
+  .tool-head-left{flex-direction:column;align-items:flex-start;gap:8px}
   .header-bar::after{display:none}
   .count{display:none}
   .tool-head{flex-direction:column;align-items:flex-start;gap:10px}
-  .cities a{min-height:40px}
+  .cities button{min-height:40px}
   .atlas{display:flex;flex-direction:column}
   .map-wrap{order:-1;height:56svh;border-bottom:1px solid var(--ink)}
   .panel{border-right:0}
@@ -435,4 +595,8 @@ h1 em{font-style:italic;font-weight:300;color:var(--moss)}
   .slip h3{font-size:19px}
   .slip-photo figcaption{font-size:8.5px}
 }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important}
+  .display .line>span,.landing .kicker,.landing-lede,.stations li,.landing-foot,#map.is-rising .pin span{animation:none!important}
+  .gpin-mark::after{animation:none}
+}

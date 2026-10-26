@@ -15,6 +15,17 @@ Like the election maps, the page is just the tool, with no masthead or footer, s
 
 ## How it works
 
+- **The globe** (`globe.js`) opens the page: Natural Earth land drawn as survey dots with d3-geo on a canvas,
+  one pin per city. `app.js` choreographs three moves out of it:
+  - globe → city: the globe turns and dives; at the scale where it matches the map at zoom 5
+    (`Globe.scaleForZoom`), the map irises open around the city and flies down to street level;
+  - city → globe: the reverse;
+  - city → city: a flight. Up out of the map, the great-circle route draws itself with the distance
+    counting, then down into the next city.
+  Each city has its own address (`?city=paris`), and the browser's back button replays the moves.
+  `prefers-reduced-motion` turns every move into a cut.
+- `assets/globe/` holds the land and dot layers, built by `tools/build-globe.mjs` (instructions inside).
+
 - `index.html` · `styles.css` · `app.js`: a static page with no build step. Leaflet is vendored in `assets/vendor/leaflet`.
   Fonts and colour tokens are copied from the institute's site (see `DESIGN.md` in `Terra-Cracovianum-Website-`).
 - `data/cities.json`: the cities the map knows, each with a bounding box.

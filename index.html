@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#f3eee3">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<title>Ambasady i konsulaty — Warszawa · Terra Cracovianum</title>
-<meta name="description" content="Wszystkie ambasady i konsulaty w Warszawie na jednej mapie. Narzędzie Terra Cracovianum, dane z OpenStreetMap.">
+<title>Ambasady świata · Terra Cracovianum</title>
+<meta name="description" content="Ambasady i konsulaty w Warszawie, Krakowie i Paryżu na jednej mapie. Narzędzie Terra Cracovianum, dane z OpenStreetMap.">
 <link rel="preload" href="assets/fonts/fraunces-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="styles.css">
@@ -51,41 +51,76 @@ try{var t=localStorage.getItem('tc-theme');if(t==='dark'||t==='light')document.d
   <div class="mobile-nav-foot">Kraków · 50°03′N 19°56′E</div>
 </div>
 
-<section class="tool-head">
-  <div>
-    <span class="kicker" data-t="kicker">Mapa dyplomatyczna</span>
-    <h1><span data-t="title">Ambasady i konsulaty</span> — <em data-city>Warszawa</em></h1>
-  </div>
-  <div class="tool-head-right">
-    <nav class="cities" id="cities" data-t-label="city" aria-label="Miasto"></nav>
-    <span class="count" id="count" aria-live="polite"></span>
-  </div>
-</section>
+<main class="stage" id="stage">
 
-<main class="atlas">
-  <div class="panel">
-    <div class="panel-tools">
-      <label class="search">
-        <span class="visually-hidden" data-t="search">Szukaj kraju lub ulicy</span>
-        <input id="q" type="search" autocomplete="off" spellcheck="false" data-t-placeholder="search" placeholder="Szukaj kraju lub ulicy">
-      </label>
-      <div class="filters" role="group" data-t-label="show" aria-label="Pokaż">
-        <button class="filter" data-group="all" aria-pressed="true" data-t="all">Wszystkie</button>
-        <button class="filter" data-group="embassy" aria-pressed="false" data-t="embassies">Ambasady</button>
-        <button class="filter" data-group="consulate" aria-pressed="false" data-t="consulates">Konsulaty</button>
+  <!-- the opening: a survey globe of the cities the map covers -->
+  <section class="globe-view" id="globe-view" aria-labelledby="landing-title">
+    <canvas id="globe" aria-hidden="true"></canvas>
+    <div class="gpins" id="gpins" role="group" data-t-label="cities" aria-label="Miasta"></div>
+    <div class="route-readout" id="readout" aria-hidden="true"></div>
+
+    <div class="landing" id="landing">
+      <div class="landing-copy">
+        <span class="kicker on-ink" data-t="kickerLanding">Terra Cracovianum · Mapa dyplomatyczna</span>
+        <h1 class="display" id="landing-title">
+          <span class="line"><span data-t="heroA">Ambasady</span></span>
+          <span class="line"><span><em data-t="heroB">świata</em></span></span>
+        </h1>
+        <p class="landing-lede" data-t="lede">Każda ambasada i konsulat w mieście — na jednej mapie. Wybierz miasto na globusie albo z listy.</p>
+        <ol class="stations" id="stations"></ol>
+      </div>
+      <div class="landing-foot">
+        <span>Kraków · 50°03′N 19°56′E</span>
+        <span class="hint" data-t="drag">Przeciągnij, aby obrócić</span>
       </div>
     </div>
-    <ul class="list" id="list"></ul>
-    <p class="empty" id="empty" hidden data-t="empty">Brak wyników.</p>
-    <p class="source"><span data-t="source">Dane</span>: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a> <span id="updated"></span></p>
-  </div>
+  </section>
 
-  <div class="map-wrap">
-    <div id="map"></div>
-    <div class="status" id="status"><p data-t="loading">Wczytywanie placówek…</p></div>
-  </div>
+  <!-- a city: the register beside the map -->
+  <section class="map-view" id="map-view" hidden aria-labelledby="city-title">
+    <div class="tool-head">
+      <div class="tool-head-left">
+        <button class="pill back-btn" id="back" type="button"><span aria-hidden="true">←</span> <span data-t="globe">Globus</span></button>
+        <div>
+          <span class="kicker" data-t="kicker">Mapa dyplomatyczna</span>
+          <h2 id="city-title"><span data-t="title">Ambasady i konsulaty</span> — <em data-city>Warszawa</em></h2>
+        </div>
+      </div>
+      <div class="tool-head-right">
+        <nav class="cities" id="cities" data-t-label="city" aria-label="Miasto"></nav>
+        <span class="count" id="count" aria-live="polite"></span>
+      </div>
+    </div>
+
+    <div class="atlas">
+      <div class="panel">
+        <div class="panel-tools">
+          <label class="search">
+            <span class="visually-hidden" data-t="search">Szukaj kraju lub ulicy</span>
+            <input id="q" type="search" autocomplete="off" spellcheck="false" data-t-placeholder="search" placeholder="Szukaj kraju lub ulicy">
+          </label>
+          <div class="filters" role="group" data-t-label="show" aria-label="Pokaż">
+            <button class="filter" data-group="all" aria-pressed="true" data-t="all">Wszystkie</button>
+            <button class="filter" data-group="embassy" aria-pressed="false" data-t="embassies">Ambasady</button>
+            <button class="filter" data-group="consulate" aria-pressed="false" data-t="consulates">Konsulaty</button>
+          </div>
+        </div>
+        <ul class="list" id="list"></ul>
+        <p class="empty" id="empty" hidden data-t="empty">Brak wyników.</p>
+        <p class="source"><span data-t="source">Dane</span>: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a> <span id="updated"></span></p>
+      </div>
+
+      <div class="map-wrap">
+        <div id="map"></div>
+        <div class="status" id="status" hidden><p data-t="loading">Wczytywanie placówek…</p></div>
+      </div>
+    </div>
+  </section>
+
 </main>
 
+<script src="assets/vendor/d3/d3-array.min.js"></script>
+<script src="assets/vendor/d3/d3-geo.min.js"></script>
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script type="module" src="app.js"></script>
 </body>
