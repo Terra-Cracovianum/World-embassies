@@ -8,6 +8,8 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const T = {
   pl: {
     kicker: 'Mapa dyplomatyczna', title: 'Ambasady i konsulaty',
+    navLabel: 'Główne', navHome: 'Strona główna', navPublications: 'Publikacje', navProjects: 'Projekty', navAbout: 'O nas',
+    menu: 'Menu', close: 'Zamknij', dark: 'Tryb ciemny', changeLang: 'Zmień język', languages: 'Języki',
     search: 'Szukaj kraju lub ulicy', show: 'Pokaż', all: 'Wszystkie', embassies: 'Ambasady', consulates: 'Konsulaty',
     empty: 'Brak wyników.', source: 'Dane', loading: 'Wczytywanie placówek…', live: 'na żywo',
     failed: 'Nie udało się wczytać danych z OpenStreetMap.', retry: 'Spróbuj ponownie',
@@ -23,6 +25,8 @@ const T = {
   },
   en: {
     kicker: 'Diplomatic map', title: 'Embassies and consulates',
+    navLabel: 'Primary', navHome: 'Home', navPublications: 'Publications', navProjects: 'Projects', navAbout: 'About Terra',
+    menu: 'Menu', close: 'Close', dark: 'Dark mode', changeLang: 'Change language', languages: 'Languages',
     search: 'Search a country or street', show: 'Show', all: 'All', embassies: 'Embassies', consulates: 'Consulates',
     empty: 'Nothing matches.', source: 'Data', loading: 'Loading missions…', live: 'live',
     failed: 'Could not load data from OpenStreetMap.', retry: 'Try again',
@@ -95,7 +99,8 @@ function applyLang() {
   $$('[data-t]').forEach((el) => { el.textContent = t()[el.dataset.t]; });
   $$('[data-t-placeholder]').forEach((el) => { el.placeholder = t()[el.dataset.tPlaceholder]; });
   $$('[data-t-label]').forEach((el) => { el.setAttribute('aria-label', t()[el.dataset.tLabel]); });
-  $$('.lang button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === state.lang)));
+  $('#lang-code').textContent = state.lang.toUpperCase();
+  $$('.lang-menu [data-lang]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.lang === state.lang)));
   if (state.city) {
     $('[data-city]').textContent = state.city.name[state.lang];
     document.title = `${t().title} — ${state.city.name[state.lang]} · Terra Cracovianum`;
@@ -103,11 +108,65 @@ function applyLang() {
   if (state.data) prepare();
 }
 
-$$('.lang button').forEach((b) => b.addEventListener('click', () => {
+/* language dropdown — the site's switcher */
+const lang = $('#lang');
+const langBtn = $('#lang .pill');
+function setLangOpen(open) {
+  lang.classList.toggle('open', open);
+  langBtn.setAttribute('aria-expanded', String(open));
+}
+langBtn.addEventListener('click', () => setLangOpen(!lang.classList.contains('open')));
+$$('.lang-menu [data-lang]').forEach((b) => b.addEventListener('click', () => {
   state.lang = b.dataset.lang;
   try { localStorage.setItem('tc-lang', state.lang); } catch {}
   applyLang();
+  setLangOpen(false);
+  langBtn.focus();
 }));
+document.addEventListener('click', (e) => { if (!lang.contains(e.target)) setLangOpen(false); });
+
+/* dark mode: follows the system until the visitor chooses */
+const darkQuery = matchMedia('(prefers-color-scheme: dark)');
+const isDark = () => (document.documentElement.dataset.theme || (darkQuery.matches ? 'dark' : 'light')) === 'dark';
+function paintTheme() {
+  const dark = isDark();
+  document.body.toggleAttribute('data-dark', dark);
+  $('#theme').setAttribute('aria-pressed', String(dark));
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#10140f' : '#f3eee3';
+}
+$('#theme').addEventListener('click', () => {
+  const next = isDark() ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem('tc-theme', next); } catch {}
+  paintTheme();
+});
+darkQuery.addEventListener('change', paintTheme);
+paintTheme();
+
+/* mobile menu — a modal, as on the site: focus moves in, Tab stays in, Escape closes */
+const nav = $('#mobile-nav');
+const menuBtn = $('#menu');
+function setMenuOpen(open) {
+  nav.classList.toggle('open', open);
+  nav.setAttribute('aria-hidden', String(!open));
+  menuBtn.setAttribute('aria-expanded', String(open));
+  document.documentElement.classList.toggle('nav-open', open);
+  (open ? $('#menu-close') : menuBtn).focus();
+}
+menuBtn.addEventListener('click', () => setMenuOpen(true));
+$('#menu-close').addEventListener('click', () => setMenuOpen(false));
+nav.addEventListener('keydown', (e) => {
+  if (e.key !== 'Tab') return;
+  const items = $$('#mobile-nav button, #mobile-nav a');
+  const first = items[0], last = items[items.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (nav.classList.contains('open')) setMenuOpen(false);
+  else if (lang.classList.contains('open')) { setLangOpen(false); langBtn.focus(); }
+});
 
 /* ---------- list ---------- */
 function prepare() {

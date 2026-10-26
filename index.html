@@ -10,22 +10,54 @@
 <link rel="preload" href="assets/fonts/fraunces-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="styles.css">
+<script>/* apply a saved theme before the first paint, so a dark-mode visitor never sees a light flash */
+try{var t=localStorage.getItem('tc-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 
-<header class="bar">
-  <div>
-    <span class="kicker">Terra Cracovianum<span class="kicker-tail"> · <span data-t="kicker">Mapa dyplomatyczna</span></span></span>
-    <h1><span data-t="title">Ambasady i konsulaty</span> — <em data-city>Warszawa</em></h1>
-  </div>
-  <div class="bar-right">
-    <span class="count" id="count" aria-live="polite"></span>
-    <div class="lang" role="group" aria-label="Język / Language">
-      <button data-lang="pl" aria-pressed="true">PL</button>
-      <button data-lang="en" aria-pressed="false">EN</button>
+<header>
+  <div class="header-bar">
+    <a class="brand" href="https://terracracovianum.org/" aria-label="Terra Cracovianum">
+      <img class="brand-logo" src="assets/logo.svg" alt="Terra Cracovianum">
+    </a>
+    <div class="header-right">
+      <nav class="desktop" data-t-label="navLabel" aria-label="Główne">
+        <a href="https://terracracovianum.org/publications/" data-t="navPublications">Publikacje</a>
+        <a href="https://terracracovianum.org/projects/" data-t="navProjects">Projekty</a>
+        <a href="https://terracracovianum.org/about-terra/" data-t="navAbout">O nas</a>
+      </nav>
+      <button class="pill theme-btn" id="theme" type="button" aria-pressed="false" data-t-label="dark" aria-label="Tryb ciemny">
+        <svg class="moon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1Z"/></svg>
+        <svg class="sun" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="8" cy="8" r="3"/><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></svg>
+      </button>
+      <div class="lang" id="lang">
+        <button class="pill" type="button" aria-haspopup="listbox" aria-expanded="false" data-t-label="changeLang" aria-label="Zmień język"><span id="lang-code">PL</span></button>
+        <ul class="lang-menu" role="listbox" data-t-label="languages" aria-label="Języki">
+          <li><button type="button" role="option" data-lang="pl" aria-selected="true">Polski <span class="code">PL</span></button></li>
+          <li><button type="button" role="option" data-lang="en" aria-selected="false">English <span class="code">EN</span></button></li>
+        </ul>
+      </div>
+      <button class="pill menu-btn" id="menu" type="button" aria-expanded="false" aria-controls="mobile-nav" data-t="menu">Menu</button>
     </div>
   </div>
 </header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <button class="mobile-close" id="menu-close" type="button" data-t="close">Zamknij</button>
+  <a href="https://terracracovianum.org/"><em>01</em><span data-t="navHome">Strona główna</span></a>
+  <a href="https://terracracovianum.org/publications/"><em>02</em><span data-t="navPublications">Publikacje</span></a>
+  <a href="https://terracracovianum.org/projects/"><em>03</em><span data-t="navProjects">Projekty</span></a>
+  <a href="https://terracracovianum.org/about-terra/"><em>04</em><span data-t="navAbout">O nas</span></a>
+  <div class="mobile-nav-foot">Kraków · 50°03′N 19°56′E</div>
+</div>
+
+<section class="tool-head">
+  <div>
+    <span class="kicker" data-t="kicker">Mapa dyplomatyczna</span>
+    <h1><span data-t="title">Ambasady i konsulaty</span> — <em data-city>Warszawa</em></h1>
+  </div>
+  <span class="count" id="count" aria-live="polite"></span>
+</section>
 
 <main class="atlas">
   <div class="panel">
