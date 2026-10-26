@@ -8,11 +8,13 @@ import { addPhotos } from './photos.mjs';
 const root = new URL('../', import.meta.url);
 const cities = JSON.parse(await readFile(new URL('data/cities.json', root), 'utf8'));
 const overrides = JSON.parse(await readFile(new URL('data/overrides.json', root), 'utf8'));
-const only = process.argv[2];
+// `node tools/fetch-missions.mjs [slug]` fetches one city (or all); `--index-only` just rebuilds data/index.json.
+const indexOnly = process.argv.includes('--index-only');
+const only = process.argv.slice(2).find((a) => !a.startsWith('--'));
 
 let failed = false;
 let first = true;
-for (const city of cities) {
+for (const city of indexOnly ? [] : cities) {
   if (only && city.slug !== only) continue;
   if (!first) await new Promise((r) => setTimeout(r, 10000)); // a breath between cities: Overpass throttles bursts
   first = false;

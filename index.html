@@ -87,7 +87,12 @@ try{var t=localStorage.getItem('tc-theme');if(t==='dark'||t==='light')document.d
         </div>
       </div>
       <div class="tool-head-right">
-        <nav class="cities" id="cities" data-t-label="city" aria-label="Miasto"></nav>
+        <div class="city-picker" id="city-picker">
+          <button class="pill" id="city-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="cities">
+            <span class="city-btn-k" data-t="city">Miasto</span> <span id="city-btn-name">Warszawa</span>
+          </button>
+          <nav class="cities" id="cities" data-t-label="city" aria-label="Miasto"></nav>
+        </div>
         <span class="count" id="count" aria-live="polite"></span>
       </div>
     </div>

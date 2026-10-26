@@ -1,7 +1,7 @@
 # World Embassies
 
 A Terra Cracovianum tool: every embassy and consulate in a city, on one map. Polish by default, English via the PL/EN switch (or `?lang=en`).
-Cities: 20 European capitals and Kraków (see `data/cities.json`). Open one from the globe, the index beside it, the buttons on a map, or `?city=<slug>`.
+Cities: 20 — Kraków and 19 European capitals (see `data/cities.json`). Open one from the globe, the index beside it, the city menu on a map, or `?city=<slug>`.
 
 Live: https://terra-cracovianum.github.io/World-embassies/
 
@@ -30,7 +30,7 @@ Like the election maps, the page is just the tool, with no masthead or footer, s
   Fonts and colour tokens are copied from the institute's site (see `DESIGN.md` in `Terra-Cracovianum-Website-`).
 - `data/cities.json`: the cities the map knows, each with a bounding box.
 - `data/<city>.json`: a snapshot of the city's missions from OpenStreetMap, written by `tools/fetch-missions.mjs`.
-  The **Refresh mission data** GitHub Action runs it every Monday, on demand, and whenever the data code changes, then commits the result.
+  The **Refresh mission data** GitHub Action runs it every Monday, on demand, and whenever the data code changes — one parallel job per city — then commits the result. `node tools/check-data.mjs` reports per-city health.
   Ambassadors' residences are left out.
 - Photos come from Wikimedia Commons, found by `tools/photos.mjs` in the same Action, using the mission's OSM
   `wikimedia_commons` / `image` / `wikidata` tags first, then categories like "Embassy of Mexico in Warsaw".

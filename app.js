@@ -16,7 +16,9 @@ const T = {
     city: 'Miasto', menu: 'Menu', close: 'Zamknij', dark: 'Tryb ciemny', changeLang: 'Zmień język', languages: 'Języki',
     search: 'Szukaj kraju lub ulicy', show: 'Pokaż', all: 'Wszystkie', embassies: 'Ambasady', consulates: 'Konsulaty',
     empty: 'Brak wyników.', source: 'Dane', loading: 'Wczytywanie placówek…', live: 'na żywo',
+    loadingLive: 'Ta mapa jest jeszcze przygotowywana — pobieram placówki prosto z OpenStreetMap (do pół minuty)…',
     failed: 'Nie udało się wczytać danych z OpenStreetMap.', retry: 'Spróbuj ponownie',
+    preparing: 'Mapa tego miasta jest jeszcze przygotowywana. Zajrzyj za kilka minut.',
     count: (n) => `<b>${n}</b> ${n === 1 ? 'placówka' : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 >= 20) ? 'placówki' : 'placówek'}`,
     website: 'Strona', directions: 'Dojazd', photo: 'Fot.',
     kinds: {
@@ -36,7 +38,9 @@ const T = {
     city: 'City', menu: 'Menu', close: 'Close', dark: 'Dark mode', changeLang: 'Change language', languages: 'Languages',
     search: 'Search a country or street', show: 'Show', all: 'All', embassies: 'Embassies', consulates: 'Consulates',
     empty: 'Nothing matches.', source: 'Data', loading: 'Loading missions…', live: 'live',
+    loadingLive: 'This map is still being prepared — fetching missions straight from OpenStreetMap (up to half a minute)…',
     failed: 'Could not load data from OpenStreetMap.', retry: 'Try again',
+    preparing: 'The map for this city is still being prepared. Check back in a few minutes.',
     count: (n) => `<b>${n}</b> ${n === 1 ? 'mission' : 'missions'}`,
     website: 'Website', directions: 'Directions', photo: 'Photo',
     kinds: {
@@ -114,8 +118,9 @@ function applyLang() {
   if (state.city) {
     $('[data-city]').textContent = state.city.name[state.lang];
     document.title = `${t().title} — ${state.city.name[state.lang]} · Terra Cracovianum`;
-    $('#cities').innerHTML = state.cities.map((c) =>
-      `<button type="button" data-slug="${c.slug}"${c === state.city ? ' aria-current="page"' : ''}>${esc(c.name[state.lang])}</button>`).join('');
+    $('#city-btn-name').textContent = state.city.name[state.lang];
+    $('#cities').innerHTML = state.cities.map((c, i) =>
+      `<button type="button" data-slug="${c.slug}"${c === state.city ? ' aria-current="page"' : ''}><span>${String(i + 1).padStart(2, '0')}</span>${esc(c.name[state.lang])}</button>`).join('');
   } else {
     document.title = `${t().heroA} ${t().heroB} · Terra Cracovianum`;
   }
@@ -277,7 +282,7 @@ async function loadData(city) {
     if (res.ok) data = await res.json();
   } catch {}
   // No snapshot for this city yet: ask OpenStreetMap directly.
-  data ??= await fetchMissions(city, { timeoutMs: 20000, endpoints: OVERPASS_ENDPOINTS.slice(0, 2) });
+  data ??= await fetchMissions(city, { timeoutMs: 15000, endpoints: OVERPASS_ENDPOINTS.slice(0, 2) });
   cache.set(city.slug, data);
   return data;
 }
@@ -300,13 +305,14 @@ async function loadCity(city) {
   $$('.filter').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.group === 'all')));
   $('#list').innerHTML = '';
   status.hidden = false;
-  status.innerHTML = `<p>${t().loading}</p>`;
+  const snapshot = !!state.index[city.slug] || cache.has(city.slug);
+  status.innerHTML = `<p>${snapshot ? t().loading : t().loadingLive}</p>`;
   let data;
   try {
     data = await loadData(city);
   } catch (err) {
     console.error(err);
-    status.innerHTML = `<p>${t().failed}<button type="button">${t().retry}</button></p>`;
+    status.innerHTML = `<p>${snapshot ? t().failed : t().preparing}<button type="button">${t().retry}</button></p>`;
     status.querySelector('button').addEventListener('click', () => loadCity(city));
     return;
   }
@@ -388,7 +394,23 @@ $('#stations').addEventListener('click', (e) => { const b = e.target.closest('.s
 $('#stations').addEventListener('pointerover', (e) => globe?.highlight(e.target.closest('.station')?.dataset.slug ?? null));
 $('#stations').addEventListener('pointerleave', () => globe?.highlight(null));
 $('#stations').addEventListener('focusin', (e) => globe?.highlight(e.target.closest('.station')?.dataset.slug ?? null));
-$('#cities').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b && b.dataset.slug !== state.city?.slug) navigate(b.dataset.slug); });
+/* the city menu: a pill showing the current city that opens every city, in the language menu's style */
+const picker = $('#city-picker');
+const pickerBtn = $('#city-btn');
+function setPickerOpen(open) {
+  picker.classList.toggle('open', open);
+  pickerBtn.setAttribute('aria-expanded', String(open));
+  if (open) $('#cities [aria-current]')?.focus();
+}
+pickerBtn.addEventListener('click', () => setPickerOpen(!picker.classList.contains('open')));
+document.addEventListener('click', (e) => { if (!picker.contains(e.target)) setPickerOpen(false); });
+picker.addEventListener('keydown', (e) => { if (e.key === 'Escape' && picker.classList.contains('open')) { e.stopPropagation(); setPickerOpen(false); pickerBtn.focus(); } });
+$('#cities').addEventListener('click', (e) => {
+  const b = e.target.closest('button');
+  if (!b) return;
+  setPickerOpen(false);
+  if (b.dataset.slug !== state.city?.slug) navigate(b.dataset.slug);
+});
 $('#back').addEventListener('click', () => navigate(null));
 
 /* The globe's resting place: close over Europe, so twenty cities have room. On desktop it sits just

@@ -1,6 +1,8 @@
 name: Refresh mission data
 
 # Pulls embassies and consulates from OpenStreetMap into data/<city>.json and commits the result.
+# One job per city, in parallel: a slow or failing city can't hold up or sink the others, and the
+# whole refresh takes about as long as the slowest city instead of the sum of all of them.
 on:
   workflow_dispatch:
   schedule:
@@ -10,6 +12,7 @@ on:
       - 'data/cities.json'
       - 'data/overrides.json'
       - 'lib/missions.mjs'
+      - 'lib/countries.mjs'
       - 'tools/fetch-missions.mjs'
       - 'tools/photos.mjs'
       - '.github/workflows/refresh-data.yml'
@@ -22,14 +25,51 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  refresh:
+  cities:
+    runs-on: ubuntu-latest
+    outputs:
+      slugs: ${{ steps.list.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: list
+        run: echo "slugs=$(node -e 'console.log(JSON.stringify(require("./data/cities.json").map(c => c.slug)))')" >> "$GITHUB_OUTPUT"
+
+  fetch:
+    needs: cities
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 6 # kind to Overpass and Wikimedia
+      matrix:
+        city: ${{ fromJson(needs.cities.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/fetch-missions.mjs ${{ matrix.city }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: city-${{ matrix.city }}
+          path: data/${{ matrix.city }}.json
+          retention-days: 3
+
+  commit:
+    needs: fetch
+    if: ${{ !cancelled() }} # save every city that finished, even if another failed
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node tools/fetch-missions.mjs
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: city-*
+          path: data
+          merge-multiple: true
+      - run: node tools/fetch-missions.mjs --index-only
       - name: Commit changed data
         run: |
           git add data/*.json
@@ -42,9 +82,9 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
             git commit -m "Refresh mission data from OpenStreetMap"
-            # Someone may have pushed while Overpass was answering; only data/*.json is ours.
+            # Someone may have pushed while the cities were fetched; only data/*.json is ours.
             git pull --rebase origin ${{ github.ref_name }}
             git push origin HEAD:${{ github.ref_name }}
           else
-            echo "Only the timestamp changed; skipping commit."
+            echo "Only the timestamps changed; skipping commit."
           fi

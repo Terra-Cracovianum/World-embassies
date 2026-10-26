@@ -287,16 +287,30 @@ html.nav-open{overflow:hidden}
 .back-btn span[aria-hidden]{transition:transform .35s var(--arrive)}
 .back-btn:hover span[aria-hidden]{transform:translateX(-4px)}
 .tool-head-right{display:flex;align-items:center;gap:18px;padding-bottom:2px}
-/* city switcher: the publications register's instrument toggles */
-.cities{display:flex;gap:6px}
-.cities button{
-  background:none;cursor:pointer;
-  font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;
-  color:var(--ink-soft);border:1px solid var(--hairline);padding:0 12px;min-height:32px;
-  display:inline-flex;align-items:center;transition:border-color .25s,color .25s,background .25s;
+/* the city menu: one pill, opening a grid of every city in the language menu's style */
+.city-picker{position:relative}
+#city-btn::after{content:"▾";font-size:9px;line-height:1}
+.city-btn-k{color:var(--ink-soft)}
+#city-btn:hover .city-btn-k,.city-picker.open .city-btn-k{color:inherit;opacity:.7}
+.city-picker.open #city-btn{background:var(--ink);color:var(--parchment)}
+.cities{
+  position:absolute;top:calc(100% + 10px);right:0;z-index:1500;width:min(560px,calc(100vw - 32px));
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;padding:8px;
+  background:var(--parchment);border:1px solid var(--ink);border-radius:16px;
+  opacity:0;visibility:hidden;transform:translateY(-8px);
+  transition:opacity .3s,visibility .3s,transform .3s var(--arrive);
 }
-.cities button:hover{border-color:var(--ink);color:var(--ink)}
-.cities button[aria-current="page"]{background:var(--ink);border-color:var(--ink);color:var(--parchment)}
+.city-picker.open .cities{opacity:1;visibility:visible;transform:none}
+.cities button{
+  display:flex;align-items:baseline;gap:10px;width:100%;text-align:left;cursor:pointer;
+  background:none;border:0;border-radius:10px;padding:9px 10px;
+  font-family:var(--serif);font-size:17px;font-weight:370;color:var(--ink);transition:background .2s,color .2s;
+}
+.cities button span{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--sienna-ink)}
+.cities button:hover,.cities button:focus-visible{background:var(--ink);color:var(--parchment);outline:none}
+.cities button:hover span,.cities button:focus-visible span{color:var(--sand)}
+.cities button[aria-current="page"]{font-style:italic;color:var(--moss)}
+.cities button[aria-current="page"]:hover{color:var(--parchment)}
 .count{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-variant-numeric:tabular-nums;white-space:nowrap;padding-bottom:4px}
 .count b{color:var(--sienna-ink);font-weight:500}
 
@@ -599,7 +613,8 @@ body.is-moving .stage{pointer-events:none}
   .header-bar::after{display:none}
   .count{display:none}
   .tool-head{flex-direction:column;align-items:flex-start;gap:10px}
-  .cities button{min-height:40px}
+  .cities{left:0;right:auto;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cities button{min-height:44px}
   .atlas{display:flex;flex-direction:column}
   .map-wrap{order:-1;height:56svh;border-bottom:1px solid var(--ink)}
   .panel{border-right:0}
