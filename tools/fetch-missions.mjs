@@ -26,6 +26,9 @@ for (const city of indexOnly ? [] : cities) {
       log: (line) => console.log(`  ${line}`),
     });
     if (data.count === 0) throw new Error('Overpass returned no missions — refusing to overwrite with an empty file');
+    // overrides: `set` corrects fields; `drop` removes an entry that isn't a foreign mission at all
+    data.missions = data.missions.filter((m) => !overrides[m.id]?.drop);
+    data.count = data.missions.length;
     for (const m of data.missions) Object.assign(m, overrides[m.id]?.set);
     const previous = await readFile(new URL(`data/${city.slug}.json`, root), 'utf8')
       .then((text) => Object.fromEntries(JSON.parse(text).missions.filter((m) => m.photo).map((m) => [m.id, m.photo])))

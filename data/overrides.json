@@ -1,6 +1,12 @@
 {
   "node/8350714995": {
     "why": "Tagged country=AL (Albania) in OpenStreetMap, but the mission is named 'Embassy of Algieria'. Remove once fixed on OSM.",
-    "set": { "country": "DZ" }
+    "set": {
+      "country": "DZ"
+    }
+  },
+  "way/986533195": {
+    "why": "The Hong Kong SAR Government's office in Beijing: a Chinese government office, not a foreign mission (it was read as the Republic of the Congo from one of its names).",
+    "drop": true
   }
 }
