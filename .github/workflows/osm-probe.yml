@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - '.github/osm-probe.overpassql'
+      - '.github/wikidata-probe.sparql'
   workflow_dispatch:
     inputs:
       query:
@@ -22,6 +23,14 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Query Wikidata
+        if: ${{ hashFiles('.github/wikidata-probe.sparql') != '' }}
+        run: |
+          curl -sS -f -m 120 -A 'TerraCracovianum-WorldEmbassies/1.0 (+https://github.com/Terra-Cracovianum/World-embassies)' \
+            -H 'Accept: application/sparql-results+json' --data-urlencode "query@.github/wikidata-probe.sparql" \
+            https://query.wikidata.org/sparql -o wd.json
+          jq -c '.results.bindings[] | with_entries(.value |= .value)' wd.json
+          echo "rows: $(jq '.results.bindings | length' wd.json)"
       - name: Query Overpass
         env:
           QUERY: ${{ github.event.inputs.query }}

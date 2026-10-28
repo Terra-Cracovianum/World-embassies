@@ -1,0 +1,11 @@
+SELECT ?m ?mLabel ?coord ?iso ?opLabel ?typeLabel ?end WHERE {
+  SERVICE wikibase:box {
+    ?m wdt:P625 ?coord .
+    bd:serviceParam wikibase:cornerSouthWest "Point(114.1 22.2)"^^geo:wktLiteral ;
+                    wikibase:cornerNorthEast "Point(114.25 22.35)"^^geo:wktLiteral .
+  }
+  ?m wdt:P31 ?type . ?type wdt:P279* wd:Q7843791 .
+  OPTIONAL { ?m wdt:P137 ?op . OPTIONAL { ?op wdt:P297 ?iso } }
+  OPTIONAL { ?m wdt:P576 ?end }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh,pl" . }
+}
