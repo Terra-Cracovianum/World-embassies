@@ -197,7 +197,8 @@ function prepare() {
   // A code Intl can't name (ZZ, a typo) reads as "Unknown Region"; the mission's own name says more.
   const unnamed = (code) => { try { return names.of(code) === names.of('ZZ'); } catch { return true; } };
   state.missions = state.data.missions.map((m) => {
-    const label = !NON_STATE[m.country] && unnamed(m.country) && (m.nameLocal || m.name) ? (m.nameLocal || m.name) : nameOf(m.country);
+    const own = state.lang === 'en' ? m.name || m.nameLocal : m.nameLocal || m.name; // in the page's language where we have it
+    const label = !NON_STATE[m.country] && unnamed(m.country) && own ? own : nameOf(m.country);
     return { ...m, label, haystack: [label, m.country, m.name, m.nameLocal, m.address].filter(Boolean).join(' ').toLowerCase() };
   }).sort((a, b) => a.label.localeCompare(b.label, state.lang) || a.group.localeCompare(b.group));
   // Where a country has two entries of one kind (a consular section, an office mapped twice),

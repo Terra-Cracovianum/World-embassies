@@ -8,5 +8,11 @@
   "way/986533195": {
     "why": "The Hong Kong SAR Government's office in Beijing: a Chinese government office, not a foreign mission (it was read as the Republic of the Congo from one of its names).",
     "drop": true
+  },
+  "node/6439744217": {
+    "why": "Representation of the Turkish Republic of Northern Cyprus, which has no ISO code: shown by its own name rather than read as Cyprus.",
+    "set": {
+      "country": "ZZ"
+    }
   }
 }
