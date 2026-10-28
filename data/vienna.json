@@ -1,6 +1,6 @@
 {
  "city": "vienna",
- "generated": "2026-10-28T10:34:11.701Z",
+ "generated": "2026-10-28T11:09:08.176Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 174,
  "missions": [
@@ -1493,8 +1493,8 @@
   },
   {
    "id": "node/4169945990",
-   "group": "other",
-   "kind": "mission",
+   "group": "embassy",
+   "kind": "embassy",
    "country": "LB",
    "name": "libanesische Botschaft",
    "nameLocal": "libanesische Botschaft",

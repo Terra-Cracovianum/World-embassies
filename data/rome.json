@@ -1,6 +1,6 @@
 {
  "city": "rome",
- "generated": "2026-10-28T10:28:37.744Z",
+ "generated": "2026-10-28T11:05:30.903Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 237,
  "missions": [
@@ -3171,8 +3171,8 @@
   },
   {
    "id": "way/343069798",
-   "group": "other",
-   "kind": "mission",
+   "group": "embassy",
+   "kind": "embassy",
    "country": "RU",
    "name": "Ambasciata della Federazione Russa",
    "nameLocal": "Ambasciata della Federazione Russa",

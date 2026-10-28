@@ -1,8 +1,8 @@
 {
  "city": "dublin",
- "generated": "2026-10-28T10:41:45.832Z",
+ "generated": "2026-10-28T11:20:13.720Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 75,
+ "count": 76,
  "missions": [
   {
    "id": "way/611610901",
@@ -88,6 +88,22 @@
     "author": "David Kernan",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "node/14061122863",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "BB",
+   "name": "Embassy Of Barbados",
+   "nameLocal": "Embassy Of Barbados",
+   "lat": 53.336821,
+   "lon": -6.249637,
+   "address": "Baggot Street Lower 114",
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/685236465",
@@ -376,8 +392,8 @@
    "country": "EG",
    "name": "Embassy of Egypt",
    "nameLocal": "Embassy of Egypt",
-   "lat": 53.329095,
-   "lon": -6.236657,
+   "lat": 53.329074,
+   "lon": -6.236658,
    "address": "Clyde Road 12, Dublin",
    "website": null,
    "phone": null,
@@ -443,21 +459,6 @@
     "author": "ClareWhiteBoat",
     "license": "CC0"
    }
-  },
-  {
-   "id": "node/5110181525",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "EU",
-   "name": "European Commission Representation in Ireland",
-   "nameLocal": "European Commission Representation in Ireland",
-   "lat": 53.338913,
-   "lon": -6.244954,
-   "address": "Mount Street Lower 12-14",
-   "website": "https://ec.europa.eu/ireland/",
-   "phone": "+353 1 634 1111",
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "node/8308587837",
@@ -605,21 +606,6 @@
    }
   },
   {
-   "id": "node/9724782213",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "IL",
-   "name": null,
-   "nameLocal": null,
-   "lat": 53.332299,
-   "lon": -6.232233,
-   "address": "Shelbourne Road 23, Dublin",
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/81355280",
    "group": "embassy",
    "kind": "embassy",
@@ -702,6 +688,22 @@
    "website": "https://www.kenyaembassyireland.net/",
    "phone": null,
    "wikidata": "Q104771444",
+   "photo": null
+  },
+  {
+   "id": "node/14309069709",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "KR",
+   "name": "Embassy of the Republic of Korea",
+   "nameLocal": "Embassy of the Republic of Korea",
+   "lat": 53.338909,
+   "lon": -6.250248,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
    "photo": null
   },
   {
@@ -1162,11 +1164,27 @@
    "country": "SK",
    "name": "Embassy of the Slovak Republic (Commercial Section)",
    "nameLocal": "Embassy of the Slovak Republic (Commercial Section)",
-   "lat": 53.339835,
-   "lon": -6.239279,
-   "address": "Grand Canal Quay 20",
+   "lat": 53.339915,
+   "lon": -6.23924,
+   "address": "Clanwilliam Terrace 20, Dublin",
    "website": null,
    "phone": null,
+   "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "node/14308964678",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "SL",
+   "name": "Embassy Of The Republic Of Sierra Leone",
+   "nameLocal": "Embassy Of The Republic Of Sierra Leone",
+   "lat": 53.338876,
+   "lon": -6.244733,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
    "wikidata": null,
    "photo": null
   },
@@ -1237,8 +1255,8 @@
    "country": "US",
    "name": "Embassy of the United States of America",
    "nameLocal": "Embassy of the United States of America",
-   "lat": 53.330266,
-   "lon": -6.233729,
+   "lat": 53.330286,
+   "lon": -6.233735,
    "address": "Elgin Road 42, Dublin",
    "website": "https://ie.usembassy.gov/",
    "phone": "+353 1 668 8777",

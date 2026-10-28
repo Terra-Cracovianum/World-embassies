@@ -1,6 +1,6 @@
 {
  "city": "warsaw",
- "generated": "2026-10-28T10:28:36.606Z",
+ "generated": "2026-10-28T11:05:26.804Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 122,
  "missions": [
@@ -625,6 +625,27 @@
    "photo": null
   },
   {
+   "id": "node/13916798593",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "ES",
+   "name": "Biuro Radcy ds. Ekonomicznych i Handlowych Ambasady Hiszpanii",
+   "nameLocal": "Biuro Radcy ds. Ekonomicznych i Handlowych Ambasady Hiszpanii",
+   "lat": 52.225732,
+   "lon": 21.057279,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg/500px-Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl"
+   }
+  },
+  {
    "id": "way/390483316",
    "group": "embassy",
    "kind": "embassy",
@@ -642,27 +663,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Kawalerii_Street_in_Warsaw_DSC_1556.JPG",
     "author": "Wistula",
     "license": "CC BY-SA 3.0"
-   }
-  },
-  {
-   "id": "node/13916798593",
-   "group": "other",
-   "kind": "mission",
-   "country": "ES",
-   "name": "Biuro Radcy ds. Ekonomicznych i Handlowych Ambasady Hiszpanii",
-   "nameLocal": "Biuro Radcy ds. Ekonomicznych i Handlowych Ambasady Hiszpanii",
-   "lat": 52.225732,
-   "lon": 21.057279,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg/500px-Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg",
-    "author": "Adrian Grycuk",
-    "license": "CC BY-SA 3.0 pl"
    }
   },
   {

@@ -1,8 +1,8 @@
 {
  "city": "moscow",
- "generated": "2026-10-28T10:53:35.082Z",
+ "generated": "2026-10-28T11:24:46.400Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 181,
+ "count": 182,
  "missions": [
   {
    "id": "node/6054425438",
@@ -203,6 +203,26 @@
     "page": "https://commons.wikimedia.org/wiki/File:Wiki_mindovsky_house_by_lazarev.jpg",
     "author": "NVO",
     "license": "CC BY-SA 2.5"
+   }
+  },
+  {
+   "id": "node/622006644",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "AU",
+   "name": "Embassy of Australia",
+   "nameLocal": "Посольство Австралии",
+   "lat": 55.752586,
+   "lon": 37.642455,
+   "address": "Подколокольный переулок 10, 109028 Москва",
+   "website": "https://russia.embassy.gov.au",
+   "phone": null,
+   "wikidata": "Q4373961",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Podkolokolny_10_02.jpg/500px-Podkolokolny_10_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Podkolokolny_10_02.jpg",
+    "author": "NVO",
+    "license": "CC BY-SA 3.0"
    }
   },
   {
@@ -413,8 +433,8 @@
   },
   {
    "id": "way/52434900",
-   "group": "other",
-   "kind": "mission",
+   "group": "embassy",
+   "kind": "embassy",
    "country": "BN",
    "name": "Embassy of Brunei",
    "nameLocal": "Посольство Бруней Даруссалам",
@@ -499,6 +519,26 @@
     "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Maroseika_17.jpg",
     "author": "NVO",
     "license": "CC BY 2.5"
+   }
+  },
+  {
+   "id": "way/47507780",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "CA",
+   "name": "Embassy of Canada",
+   "nameLocal": "Посольство Канады",
+   "lat": 55.746766,
+   "lon": 37.594938,
+   "address": "Староконюшенный переулок 23 с1",
+   "website": null,
+   "phone": null,
+   "wikidata": "Q4374011",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Canadian_Embassy_Moscow.jpg/500px-Canadian_Embassy_Moscow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Canadian_Embassy_Moscow.jpg",
+    "author": "6speeddiesel",
+    "license": "Public domain"
    }
   },
   {
@@ -1245,7 +1285,7 @@
    "kind": "embassy",
    "country": "HN",
    "name": "Embassy of Honduras",
-   "nameLocal": "Посольство Гондураса",
+   "nameLocal": "посольство Гондураса",
    "lat": 55.727328,
    "lon": 37.616826,
    "address": "4-й Добрынинский переулок 8",
@@ -1935,6 +1975,22 @@
    }
   },
   {
+   "id": "node/13326303472",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "ME",
+   "name": "Первый Почётный Консул Черногории",
+   "nameLocal": "Первый Почётный Консул Черногории",
+   "lat": 55.753235,
+   "lon": 37.646597,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/5523096737",
    "group": "embassy",
    "kind": "embassy",
@@ -1955,22 +2011,6 @@
    }
   },
   {
-   "id": "node/13326303472",
-   "group": "other",
-   "kind": "mission",
-   "country": "ME",
-   "name": "Первый Почётный Консул Черногории",
-   "nameLocal": "Первый Почётный Консул Черногории",
-   "lat": 55.753235,
-   "lon": 37.646597,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/6054998265",
    "group": "embassy",
    "kind": "embassy",
@@ -1989,21 +2029,6 @@
     "author": "Сергей Сазанков",
     "license": "CC BY-SA 2.5"
    }
-  },
-  {
-   "id": "way/52434901",
-   "group": "other",
-   "kind": "mission",
-   "country": "MG",
-   "name": "Посольство Мадагаскара. Канцелярия",
-   "nameLocal": "Посольство Мадагаскара. Канцелярия",
-   "lat": 55.742057,
-   "lon": 37.606092,
-   "address": "Курсовой переулок 5 с3",
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "node/4991373840",
@@ -3306,7 +3331,7 @@
    "kind": "embassy",
    "country": "ZW",
    "name": "Embassy of Zimbabwe",
-   "nameLocal": "Посольство Зимбабве",
+   "nameLocal": "посольство Зимбабве",
    "lat": 55.727562,
    "lon": 37.615636,
    "address": "Мытная улица 3",

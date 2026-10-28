@@ -1,6 +1,6 @@
 {
  "city": "oslo",
- "generated": "2026-10-28T10:40:02.488Z",
+ "generated": "2026-10-28T11:16:57.203Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 74,
  "missions": [
@@ -390,6 +390,22 @@
    }
   },
   {
+   "id": "node/10855742805",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "DZ",
+   "name": "Embassy of Algeria",
+   "nameLocal": null,
+   "lat": 59.91987,
+   "lon": 10.691575,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/5920362243",
    "group": "embassy",
    "kind": "embassy",
@@ -401,22 +417,6 @@
    "address": null,
    "website": "https://algerianembassy.no/",
    "phone": "+47 22 55 75 31",
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/10855742805",
-   "group": "other",
-   "kind": "mission",
-   "country": "DZ",
-   "name": "Embassy of Algeria",
-   "nameLocal": null,
-   "lat": 59.91987,
-   "lon": 10.691575,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
    "wikidata": null,
    "photo": null
   },

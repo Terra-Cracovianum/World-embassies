@@ -1,6 +1,6 @@
 {
  "city": "athens",
- "generated": "2026-10-28T10:44:01.881Z",
+ "generated": "2026-10-28T11:18:43.133Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 95,
  "missions": [
@@ -677,6 +677,22 @@
    "photo": null
   },
   {
+   "id": "node/13681257701",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "IT",
+   "name": "Consular Section of the Embassy of Italy",
+   "nameLocal": "Προξενικό Τμήμα της Πρεσβείας της Ιταλίας",
+   "lat": 37.977952,
+   "lon": 23.744383,
+   "address": "Πατριάρχου Ιωακείμ 38, 10675",
+   "website": "https://ambatene.esteri.it",
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "relation/4271477",
    "group": "embassy",
    "kind": "embassy",
@@ -695,22 +711,6 @@
     "author": "C messier",
     "license": "CC BY-SA 4.0"
    }
-  },
-  {
-   "id": "node/13681257701",
-   "group": "other",
-   "kind": "mission",
-   "country": "IT",
-   "name": "Consular Section of the Embassy of Italy",
-   "nameLocal": "Προξενικό Τμήμα της Πρεσβείας της Ιταλίας",
-   "lat": 37.977952,
-   "lon": 23.744383,
-   "address": "Πατριάρχου Ιωακείμ 38, 10675",
-   "website": "https://ambatene.esteri.it",
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "node/2878151899",

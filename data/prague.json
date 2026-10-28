@@ -1,6 +1,6 @@
 {
  "city": "prague",
- "generated": "2026-10-28T10:33:40.540Z",
+ "generated": "2026-10-28T11:12:46.267Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 99,
  "missions": [
@@ -15,7 +15,7 @@
    "lon": 14.405386,
    "address": "Sibiřské náměstí 730/1, 16000 Praha",
    "website": "https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=f23a2956-b6e0-4d2b-ac98-ee41041698e4",
-   "phone": "+42-0221517777",
+   "phone": "+420 221 517 777",
    "wikidata": "Q80179310",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Embassy_of_the_United_Arab_Emirates.jpg/500px-Embassy_of_the_United_Arab_Emirates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -565,7 +565,7 @@
    "lon": 14.406065,
    "address": "Velkopřevorské náměstí 484/3",
    "website": "https://prague.mfa.ee/",
-   "phone": "257 011 180",
+   "phone": "+420 257 011 180",
    "wikidata": null,
    "photo": null
   },
@@ -675,7 +675,7 @@
    "lon": 14.405542,
    "address": "Mlýnská 4, 160 00 Praha 6",
    "website": "https://www.czech.mfa.gov.ge/",
-   "phone": "+420 233-311-749",
+   "phone": "+420 233 311 749",
    "wikidata": null,
    "photo": null
   },
@@ -1251,7 +1251,7 @@
    "lon": 14.375479,
    "address": "Komornická 1852/25",
    "website": "https://www.kln.gov.my/web/cze_prague",
-   "phone": "+420 234-706-600",
+   "phone": "+420 234 706 600",
    "wikidata": "Q107126171",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Praha%2C_Dejvice%2C_Komornick%C3%A1_25.jpg/500px-Praha%2C_Dejvice%2C_Komornick%C3%A1_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

@@ -1,6 +1,6 @@
 {
  "city": "washington",
- "generated": "2026-10-28T10:41:12.353Z",
+ "generated": "2026-10-28T11:19:45.670Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 202,
  "missions": [
@@ -1731,6 +1731,22 @@
    }
   },
   {
+   "id": "node/14123863702",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "JP",
+   "name": "JICC: Japan Information & Culture Center, Embassy of Japan",
+   "nameLocal": "JICC: Japan Information & Culture Center, Embassy of Japan",
+   "lat": 38.904515,
+   "lon": -77.041936,
+   "address": "18th Street Northwest 1150, #18, 20036",
+   "website": "http://us.emb-japan.go.jp",
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/66790027",
    "group": "embassy",
    "kind": "embassy",
@@ -1749,22 +1765,6 @@
     "author": "Loren",
     "license": "Public domain"
    }
-  },
-  {
-   "id": "node/14123863702",
-   "group": "other",
-   "kind": "mission",
-   "country": "JP",
-   "name": "JICC: Japan Information & Culture Center, Embassy of Japan",
-   "nameLocal": "JICC: Japan Information & Culture Center, Embassy of Japan",
-   "lat": 38.904515,
-   "lon": -77.041936,
-   "address": "18th Street Northwest 1150, #18, 20036",
-   "website": "http://us.emb-japan.go.jp",
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "way/849613857",

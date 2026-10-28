@@ -1,6 +1,6 @@
 {
  "city": "tokyo",
- "generated": "2026-10-28T10:43:55.629Z",
+ "generated": "2026-10-28T11:20:58.599Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 158,
  "missions": [
@@ -1546,6 +1546,22 @@
    "photo": null
   },
   {
+   "id": "node/5036098662",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "KR",
+   "name": "Consulate of the Republic of Korea",
+   "nameLocal": "駐日韓国領事館",
+   "lat": 35.651554,
+   "lon": 139.737036,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/775585650",
    "group": "embassy",
    "kind": "embassy",
@@ -1564,22 +1580,6 @@
     "author": "NMaia",
     "license": "CC BY-SA 4.0"
    }
-  },
-  {
-   "id": "node/5036098662",
-   "group": "other",
-   "kind": "mission",
-   "country": "KR",
-   "name": "Consulate of the Republic of Korea",
-   "nameLocal": "駐日韓国領事館",
-   "lat": 35.651554,
-   "lon": 139.737036,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "way/192017571",
