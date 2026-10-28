@@ -1,8 +1,8 @@
 {
  "city": "washington",
- "generated": "2026-10-28T14:24:11.497Z",
+ "generated": "2026-10-28T16:15:19.003Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 202,
+ "count": 201,
  "missions": [
   {
    "id": "way/73147931",
@@ -451,8 +451,8 @@
    "country": "BR",
    "name": "Embassy of Brazil",
    "nameLocal": "Embassy of Brazil",
-   "lat": 38.918951,
-   "lon": -77.060903,
+   "lat": 38.918947,
+   "lon": -77.06089,
    "address": "Massachusetts Avenue Northwest 3006, Washington",
    "website": "https://www.gov.br/mre/pt-br/embaixada-washington",
    "phone": "+1 202-238-2700",
@@ -1732,23 +1732,6 @@
    }
   },
   {
-   "id": "node/14123863702",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "JP",
-   "name": "JICC: Japan Information & Culture Center, Embassy of Japan",
-   "nameLocal": "JICC: Japan Information & Culture Center, Embassy of Japan",
-   "lat": 38.904515,
-   "lon": -77.041936,
-   "address": "18th Street Northwest 1150, #18, 20036",
-   "website": "http://us.emb-japan.go.jp",
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "japan",
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/66790027",
    "group": "embassy",
    "kind": "embassy",
@@ -1865,7 +1848,7 @@
    "country": "KR",
    "name": "Embassy of the Republic of Korea - Chancery Annex",
    "nameLocal": "Embassy of the Republic of Korea - Chancery Annex",
-   "lat": 38.890518,
+   "lat": 38.890512,
    "lon": -77.087845,
    "address": "Wilson Boulevard 2400",
    "website": null,
@@ -1968,7 +1951,7 @@
    "name": "Embassy of Kazakhstan",
    "nameLocal": "Embassy of Kazakhstan",
    "lat": 38.908866,
-   "lon": -77.036125,
+   "lon": -77.036126,
    "address": "16th Street Northwest 1401, 20036 Washington",
    "website": "https://www.gov.kz/memleket/entities/mfa-washington",
    "phone": "+1-202-232-5488",

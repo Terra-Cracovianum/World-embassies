@@ -1,6 +1,6 @@
 {
  "city": "santiago",
- "generated": "2026-10-28T14:39:45.234Z",
+ "generated": "2026-10-28T16:24:49.895Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 106,
  "missions": [
@@ -1567,7 +1567,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "singapur",
+   "inferredFrom": "singapura",
    "wikidata": null,
    "photo": null
   },

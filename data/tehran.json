@@ -1,6 +1,6 @@
 {
  "city": "tehran",
- "generated": "2026-10-28T14:50:07.532Z",
+ "generated": "2026-10-28T16:43:00.524Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 106,
  "missions": [
@@ -1333,7 +1333,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "senegal",
+   "inferredFrom": "senegala",
    "wikidata": null,
    "photo": null
   },
@@ -1543,6 +1543,23 @@
    "photo": null
   },
   {
+   "id": "node/12211408101",
+   "group": "embassy",
+   "kind": "nunciature",
+   "country": "VA",
+   "name": "سفارت واتیکان",
+   "nameLocal": "سفارت واتیکان",
+   "lat": 35.786754,
+   "lon": 51.436261,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "واتیکان",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/490457663",
    "group": "embassy",
    "kind": "embassy",
@@ -1554,23 +1571,6 @@
    "address": "رازی 83",
    "website": null,
    "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/12211408101",
-   "group": "other",
-   "kind": "mission",
-   "country": "VA",
-   "name": "سفارت واتیکان",
-   "nameLocal": "سفارت واتیکان",
-   "lat": 35.786754,
-   "lon": 51.436261,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "واتیکان",
    "wikidata": null,
    "photo": null
   },

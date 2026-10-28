@@ -1,8 +1,8 @@
 {
  "city": "prague",
- "generated": "2026-10-28T14:11:15.000Z",
+ "generated": "2026-10-28T15:59:37.416Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 110,
+ "count": 115,
  "missions": [
   {
    "id": "node/296786800",
@@ -573,6 +573,23 @@
    }
   },
   {
+   "id": "node/14224772247",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "EC",
+   "name": "Honorární konzulát Ekvádorské republiky",
+   "nameLocal": "Honorární konzulát Ekvádorské republiky",
+   "lat": 50.090624,
+   "lon": 14.447238,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "ekvadora",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/11176164964",
    "group": "embassy",
    "kind": "embassy",
@@ -927,7 +944,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "islanda",
+   "inferredFrom": "islande",
    "wikidata": null,
    "photo": null
   },
@@ -1264,6 +1281,23 @@
    }
   },
   {
+   "id": "node/14224905202",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "MU",
+   "name": "Honorární konzulát Mauricijské republiky",
+   "nameLocal": "Honorární konzulát Mauricijské republiky",
+   "lat": 50.088146,
+   "lon": 14.41915,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "mauricija",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/9692602136",
    "group": "consulate",
    "kind": "consulate",
@@ -1330,6 +1364,40 @@
    "address": null,
    "website": null,
    "phone": null,
+   "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "node/14224825027",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "NA",
+   "name": "Honorární konzulát Namibijské republiky",
+   "nameLocal": "Honorární konzulát Namibijské republiky",
+   "lat": 50.080885,
+   "lon": 14.424055,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "namibija",
+   "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "node/14224735670",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "NG",
+   "name": "Velvyslanectví Nigerijské federativní republiky",
+   "nameLocal": "Velvyslanectví Nigerijské federativní republiky",
+   "lat": 50.10861,
+   "lon": 14.377178,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "nigerija",
    "wikidata": null,
    "photo": null
   },
@@ -1535,7 +1603,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "katar",
+   "inferredFrom": "katara",
    "wikidata": null,
    "photo": null
   },
@@ -1655,6 +1723,23 @@
     "author": "Hynek Moravec",
     "license": "CC BY 2.5"
    }
+  },
+  {
+   "id": "node/14224897017",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "SG",
+   "name": "Honorární konzulát Singapurské republiky",
+   "nameLocal": "Honorární konzulát Singapurské republiky",
+   "lat": 50.083468,
+   "lon": 14.432239,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "singapura",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/14224988311",
@@ -1907,7 +1992,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "uzbekistan",
+   "inferredFrom": "uzbekistana",
    "wikidata": null,
    "photo": null
   },

@@ -1,6 +1,6 @@
 {
  "city": "berlin",
- "generated": "2026-10-28T14:09:24.071Z",
+ "generated": "2026-10-28T15:59:29.680Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 207,
  "missions": [
@@ -392,7 +392,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "benin",
+   "inferredFrom": "benina",
    "wikidata": null,
    "photo": null
   },

@@ -1,6 +1,6 @@
 {
  "city": "lisbon",
- "generated": "2026-10-28T14:11:16.182Z",
+ "generated": "2026-10-28T16:02:58.601Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 99,
  "missions": [
@@ -1478,7 +1478,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "senegal",
+   "inferredFrom": "senegala",
    "wikidata": null,
    "photo": null
   },

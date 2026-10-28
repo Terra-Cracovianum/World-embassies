@@ -1,6 +1,6 @@
 {
  "city": "bogota",
- "generated": "2026-10-28T14:36:02.595Z",
+ "generated": "2026-10-28T16:24:44.531Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 61,
  "missions": [
@@ -977,8 +977,8 @@
   },
   {
    "id": "node/14277551401",
-   "group": "other",
-   "kind": "mission",
+   "group": "embassy",
+   "kind": "nunciature",
    "country": "VA",
    "name": "Vatican Apostolic Nunciature",
    "nameLocal": "Vatican Apostolic Nunciature",

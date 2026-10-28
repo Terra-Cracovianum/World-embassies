@@ -1,8 +1,8 @@
 {
  "city": "budapest",
- "generated": "2026-10-28T12:13:51.734Z",
+ "generated": "2026-10-28T15:59:28.640Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 105,
+ "count": 106,
  "missions": [
   {
    "id": "node/7093022384",
@@ -1687,6 +1687,23 @@
     "author": "Török Ferenc",
     "license": "CC BY-SA 3.0"
    }
+  },
+  {
+   "id": "node/12412130450",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "VE",
+   "name": "Venezuelai Bolivári Köztársaság Nagykövetsége",
+   "nameLocal": "Venezuelai Bolivári Köztársaság Nagykövetsége",
+   "lat": 47.516294,
+   "lon": 19.006939,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "venezuela",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "way/1490539052",

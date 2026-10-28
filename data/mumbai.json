@@ -1,8 +1,8 @@
 {
  "city": "mumbai",
- "generated": "2026-10-28T14:57:50.471Z",
+ "generated": "2026-10-28T16:43:57.127Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 24,
+ "count": 23,
  "missions": [
   {
    "id": "node/5846483285",
@@ -32,21 +32,6 @@
    "website": "https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=b3e3dad0-b35f-4872-8981-d8fdd0ec6e6d",
    "phone": "+91-22-22183021",
    "wikidata": "Q81895504",
-   "photo": null
-  },
-  {
-   "id": "node/14101276030",
-   "group": "consulate",
-   "kind": "consulate",
-   "country": "AF",
-   "name": null,
-   "nameLocal": null,
-   "lat": 18.949342,
-   "lon": 72.801047,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
    "photo": null
   },
   {

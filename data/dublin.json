@@ -1,6 +1,6 @@
 {
  "city": "dublin",
- "generated": "2026-10-28T14:22:11.025Z",
+ "generated": "2026-10-28T16:09:01.412Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 76,
  "missions": [
@@ -102,7 +102,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "barbados",
+   "inferredFrom": "barbadosa",
    "wikidata": null,
    "photo": null
   },

@@ -1,6 +1,6 @@
 {
  "city": "riyadh",
- "generated": "2026-10-28T14:31:09.831Z",
+ "generated": "2026-10-28T16:22:40.645Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 95,
  "missions": [
@@ -504,7 +504,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
-   "inferredFrom": "gabon",
+   "inferredFrom": "gabona",
    "wikidata": null,
    "photo": null
   },

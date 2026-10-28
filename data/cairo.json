@@ -1,8 +1,8 @@
 {
  "city": "cairo",
- "generated": "2026-10-28T14:55:44.904Z",
+ "generated": "2026-10-28T16:37:07.961Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 109,
+ "count": 108,
  "missions": [
   {
    "id": "node/7114099826",
@@ -1101,23 +1101,6 @@
    "photo": null
   },
   {
-   "id": "node/9809732943",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "NE",
-   "name": "سفارة النيجر (بيت السفير)",
-   "nameLocal": "سفارة النيجر (بيت السفير)",
-   "lat": 30.006573,
-   "lon": 31.186558,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "النيجر",
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/503835272",
    "group": "embassy",
    "kind": "embassy",
@@ -1210,7 +1193,7 @@
    "website": "https://mofa.gov.pk/cairo;https://pakistanembassycairo.org",
    "phone": "+20 2 3748 7806;+20 2 3748 7677;+20 122 616 2169",
    "inferred": true,
-   "inferredFrom": "pakistan",
+   "inferredFrom": "pakistana",
    "wikidata": null,
    "photo": null
   },

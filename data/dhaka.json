@@ -1,6 +1,6 @@
 {
  "city": "dhaka",
- "generated": "2026-10-28T14:43:00.820Z",
+ "generated": "2026-10-28T16:30:14.263Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 47,
  "missions": [
@@ -528,7 +528,7 @@
    "phone": null,
    "wikidata": null,
    "inferred": true,
-   "inferredFrom": "nepal",
+   "inferredFrom": "nepala",
    "photo": null
   },
   {

@@ -1,8 +1,8 @@
 {
  "city": "new-delhi",
- "generated": "2026-10-28T14:29:01.633Z",
+ "generated": "2026-10-28T16:08:57.693Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 117,
+ "count": 119,
  "missions": [
   {
    "id": "way/262441512",
@@ -1193,6 +1193,21 @@
    "photo": null
   },
   {
+   "id": "node/14019327174",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "MO",
+   "name": "Embassy of Republic of Moldova",
+   "nameLocal": "Embassy of Republic of Moldova",
+   "lat": 28.586993,
+   "lon": 77.217701,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/1271166572",
    "group": "embassy",
    "kind": "embassy",
@@ -1452,6 +1467,21 @@
    "website": null,
    "phone": "+91 241 080 6263",
    "wikidata": "Q28114098",
+   "photo": null
+  },
+  {
+   "id": "way/348459665",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "PT",
+   "name": "Embassy of Portugal",
+   "nameLocal": "Embassy of Portugal",
+   "lat": 28.600894,
+   "lon": 77.182968,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": null,
    "photo": null
   },
   {
