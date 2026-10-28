@@ -1,8 +1,8 @@
 {
  "city": "jerusalem",
- "generated": "2026-10-28T16:35:50.796Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 20,
+ "generated": "2026-10-28T20:07:59.370Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 21,
  "missions": [
   {
    "id": "node/2955669097",
@@ -63,6 +63,27 @@
    "phone": null,
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q29840960",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "ET",
+   "name": "Ethiopian Consulate",
+   "nameLocal": null,
+   "lat": 31.783961,
+   "lon": 35.223714,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q29840960",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ethiopian_Consulate_Jerusalem_02.jpg/500px-Ethiopian_Consulate_Jerusalem_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ethiopian_Consulate_Jerusalem_02.jpg",
+    "author": "American Colony (Jerusalem). Photo Dept., photographer.",
+    "license": "Public domain"
+   }
   },
   {
    "id": "node/12248092834",

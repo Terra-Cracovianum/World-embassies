@@ -1,8 +1,8 @@
 {
  "city": "paris",
- "generated": "2026-10-28T16:02:05.478Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 223,
+ "generated": "2026-10-28T19:37:39.853Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 224,
  "missions": [
   {
    "id": "node/4663578723",
@@ -1085,6 +1085,22 @@
     "author": "Celette",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "wikidata/Q16507647",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "DO",
+   "name": "consulat général de République dominicaine à Paris",
+   "nameLocal": null,
+   "lat": 48.8842,
+   "lon": 2.291,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q16507647",
+   "photo": null
   },
   {
    "id": "node/4527150301",

@@ -1,6 +1,6 @@
 {
  "city": "kingston",
- "generated": "2026-10-28T17:49:35.931Z",
+ "generated": "2026-10-28T21:12:50.080Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 44,
  "missions": [
@@ -225,7 +225,7 @@
    "lon": -76.780285,
    "address": "Trafalgar Road 9, Kingston",
    "website": "http://www.cubadiplomatica.cu/jamaica",
-   "phone": "+18769780931;+18769780932;+18769780933",
+   "phone": "+8769780931;+8769780932;+8769780933",
    "wikidata": null,
    "photo": null
   },

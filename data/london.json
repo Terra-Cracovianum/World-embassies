@@ -1,8 +1,8 @@
 {
  "city": "london",
- "generated": "2026-10-28T15:59:22.536Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 227,
+ "generated": "2026-10-28T19:37:45.056Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 228,
  "missions": [
   {
    "id": "way/158555475",
@@ -3773,6 +3773,22 @@
     "author": "Sdrawkcab",
     "license": "CC BY-SA 3.0"
    }
+  },
+  {
+   "id": "wikidata/Q7857104",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "TV",
+   "name": "Tuvalu House",
+   "nameLocal": null,
+   "lat": 51.412,
+   "lon": -0.2245,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q7857104",
+   "photo": null
   },
   {
    "id": "way/147253660",

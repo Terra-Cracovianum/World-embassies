@@ -1,9 +1,25 @@
 {
  "city": "barcelona",
- "generated": "2026-10-28T18:05:02.187Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 95,
+ "generated": "2026-10-28T20:34:20.164Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 99,
  "missions": [
+  {
+   "id": "wikidata/Q80307354",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "AE",
+   "name": "Consulate General of the United Arab Emirates, Barcelona",
+   "nameLocal": null,
+   "lat": 41.38629,
+   "lon": 2.16634,
+   "address": null,
+   "website": "https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=9c459907-85ea-4da7-a547-e294e7122163",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q80307354",
+   "photo": null
+  },
   {
    "id": "node/5711682705",
    "group": "consulate",
@@ -138,6 +154,27 @@
    "phone": null,
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q122186978",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BG",
+   "name": "Consulate General of Bulgaria in Barcelona",
+   "nameLocal": null,
+   "lat": 41.405174,
+   "lon": 2.150299,
+   "address": null,
+   "website": "https://www.mfa.bg/es/embassies/spain-barcelona",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q122186978",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Consolat_de_Bulg%C3%A0ria_a_Barcelona_03_%28cropped%29.jpg/500px-Consolat_de_Bulg%C3%A0ria_a_Barcelona_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consolat_de_Bulg%C3%A0ria_a_Barcelona_03_(cropped).jpg",
+    "author": "Brunnaiz",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/5715659420",
@@ -470,6 +507,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q108741339",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "ET",
+   "name": "Honorary Consulate of Ethiopia in Barcelona",
+   "nameLocal": null,
+   "lat": 41.392505,
+   "lon": 2.151939,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q108741339",
+   "photo": null
+  },
+  {
    "id": "node/5763978312",
    "group": "consulate",
    "kind": "consulate_general",
@@ -789,6 +842,22 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q141484786",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "LB",
+   "name": "Lebanese Honorary Consulate in Barcelona",
+   "nameLocal": null,
+   "lat": 41.384268,
+   "lon": 2.127169,
+   "address": null,
+   "website": "https://consuladolibanobcn.com/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q141484786",
    "photo": null
   },
   {
@@ -1390,8 +1459,8 @@
    "country": "US",
    "name": "U.S. Consulate General Barcelona",
    "nameLocal": "Consolat General dels Estats Units d'Amèrica a Barcelona",
-   "lat": 41.397475,
-   "lon": 2.117117,
+   "lat": 41.397467,
+   "lon": 2.117116,
    "address": null,
    "website": "https://es.usembassy.gov/",
    "phone": "+34 93 280 22 27",

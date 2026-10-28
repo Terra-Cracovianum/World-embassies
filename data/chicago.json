@@ -1,8 +1,8 @@
 {
  "city": "chicago",
- "generated": "2026-10-28T17:53:21.723Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 34,
+ "generated": "2026-10-28T21:13:56.954Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 39,
  "missions": [
   {
    "id": "node/7110782525",
@@ -77,6 +77,22 @@
    "website": null,
    "phone": null,
    "wikidata": "Q16247094",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q108471141",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "CH",
+   "name": "Consulate General of Switzerland, Chicago",
+   "nameLocal": null,
+   "lat": 41.899474,
+   "lon": -87.623279,
+   "address": null,
+   "website": "https://www.eda.admin.ch/chicago",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q108471141",
    "photo": null
   },
   {
@@ -200,6 +216,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q16025005",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "Consulate General of France, Chicago",
+   "nameLocal": null,
+   "lat": 41.8826,
+   "lon": -87.6309,
+   "address": null,
+   "website": "https://us.diplomatie.gouv.fr/fr/consulat-general-de-france-chicago",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q16025005",
+   "photo": null
+  },
+  {
    "id": "node/3575206701",
    "group": "consulate",
    "kind": "consulate",
@@ -275,6 +307,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q123419252",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "IL",
+   "name": "Consulate General of Israel, Chicago",
+   "nameLocal": null,
+   "lat": 41.882308,
+   "lon": -87.640384,
+   "address": null,
+   "website": "https://embassies.gov.il/chicago-he/Pages/default.aspx",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q123419252",
+   "photo": null
+  },
+  {
    "id": "node/3575206698",
    "group": "consulate",
    "kind": "consulate_general",
@@ -317,6 +365,22 @@
    "website": "https://www.chicago.us.emb-japan.go.jp/itprtop_ja/index.html",
    "phone": "+1-312-280-0430",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q115679283",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "KR",
+   "name": "Consulate General of South Korea, Chicago",
+   "nameLocal": null,
+   "lat": 41.889958,
+   "lon": -87.621342,
+   "address": null,
+   "website": "https://overseas.mofa.go.kr/us-chicago-ko/index.do",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q115679283",
    "photo": null
   },
   {
@@ -407,6 +471,22 @@
    "website": "http://www.chicagopcg.com",
    "phone": "+1 312 583 0621",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q5164556",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "PK",
+   "name": "Consulate General of Pakistan, Chicago",
+   "nameLocal": null,
+   "lat": 41.888524,
+   "lon": -87.624321,
+   "address": null,
+   "website": "https://cgpkchicago.org/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q5164556",
    "photo": null
   },
   {

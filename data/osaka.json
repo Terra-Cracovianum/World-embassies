@@ -1,8 +1,8 @@
 {
  "city": "osaka",
- "generated": "2026-10-28T17:48:47.037Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 11,
+ "generated": "2026-10-28T21:10:39.202Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 18,
  "missions": [
   {
    "id": "node/3616413744",
@@ -117,6 +117,48 @@
    }
   },
   {
+   "id": "wikidata/Q134270250",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "HU",
+   "name": "Consulate of Hungary, Osaka",
+   "nameLocal": null,
+   "lat": 34.695556,
+   "lon": 135.500833,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q134270250",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%E5%A4%A7%E9%98%AA%E5%A0%82%E5%B3%B6%E6%B5%9C%E3%82%BF%E3%83%AF%E3%83%BC.jpg/500px-%E5%A4%A7%E9%98%AA%E5%A0%82%E5%B3%B6%E6%B5%9C%E3%82%BF%E3%83%AF%E3%83%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%98%AA%E5%A0%82%E5%B3%B6%E6%B5%9C%E3%82%BF%E3%83%AF%E3%83%BC.jpg",
+    "author": "Yama0904",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "wikidata/Q50344678",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "ID",
+   "name": "consulate general of Indonesia, Osaka",
+   "nameLocal": null,
+   "lat": 34.688056,
+   "lon": 135.484944,
+   "address": "Nakanoshima Intes Building 22 F, 6-2-40, Nakanoshima Kita-ku Osaka, 530-0005 Japan",
+   "website": "http://www.indonesia-osaka.org/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q50344678",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Nakanoshima6chome-Ship-20080720.jpg/500px-Nakanoshima6chome-Ship-20080720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nakanoshima6chome-Ship-20080720.jpg",
+    "author": "inue-hiro",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
    "id": "node/7765144376",
    "group": "consulate",
    "kind": "consulate",
@@ -132,6 +174,27 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q56033327",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "IT",
+   "name": "Consulate-General of Italy, Osaka",
+   "nameLocal": null,
+   "lat": 34.693528,
+   "lon": 135.49675,
+   "address": null,
+   "website": "https://consosaka.esteri.it/consolato_osaka/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q56033327",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Nakanoshima_Festival_Tower_Osaka_Japan01.jpg/500px-Nakanoshima_Festival_Tower_Osaka_Japan01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nakanoshima_Festival_Tower_Osaka_Japan01.jpg",
+    "author": "Oilstreet",
+    "license": "CC BY 2.5"
+   }
+  },
+  {
    "id": "node/5916069586",
    "group": "consulate",
    "kind": "honorary_consulate",
@@ -145,6 +208,69 @@
    "phone": null,
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q56237429",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "KR",
+   "name": "Consulate General of South Korea in Osaka",
+   "nameLocal": null,
+   "lat": 34.680944,
+   "lon": 135.503972,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q56237429",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/%E5%9C%A8%E5%A4%A7%E9%98%AA%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD%E7%B7%8F%E9%A0%98%E4%BA%8B%E9%A4%A8.jpg/500px-%E5%9C%A8%E5%A4%A7%E9%98%AA%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD%E7%B7%8F%E9%A0%98%E4%BA%8B%E9%A4%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%9C%A8%E5%A4%A7%E9%98%AA%E5%A4%A7%E9%9F%93%E6%B0%91%E5%9B%BD%E7%B7%8F%E9%A0%98%E4%BA%8B%E9%A4%A8.jpg",
+    "author": "ぽこるん",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "wikidata/Q48200928",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "MN",
+   "name": "Consulate-General of Mongolia, Osaka",
+   "nameLocal": null,
+   "lat": 34.678083,
+   "lon": 135.509028,
+   "address": null,
+   "website": "http://www.osaka.mfa.gov.mn/index.php?lang=en",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q48200928",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Bakuromachi_Estate_building.jpg/500px-Bakuromachi_Estate_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bakuromachi_Estate_building.jpg",
+    "author": "切干大根",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "wikidata/Q112661961",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "NL",
+   "name": "Consulate-General of the Netherlands, Osaka",
+   "nameLocal": null,
+   "lat": 34.691333,
+   "lon": 135.50875,
+   "address": "Kitahama 1-Chome Heiwa building 8B, 1-1-14 Kitahama, Chuo-ku, Osaka 541-0041, Japan",
+   "website": "https://www.nederlandwereldwijd.nl/contact/ambassades-consulaten-generaal/japan/consulaat-generaal-osaka",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q112661961",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%E5%9C%A8%E5%A4%A7%E9%98%AA%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80%E7%B7%8F%E9%A0%98%E4%BA%8B%E9%A4%A8%281%29.jpg/500px-%E5%9C%A8%E5%A4%A7%E9%98%AA%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80%E7%B7%8F%E9%A0%98%E4%BA%8B%E9%A4%A8%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%E5%9C%A8%E5%A4%A7%E9%98%AA%E3%82%AA%E3%83%A9%E3%83%B3%E3%83%80%E7%B7%8F%E9%A0%98%E4%BA%8B%E9%A4%A8(1).jpg",
+    "author": "ぽこるん",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/2791894671",
@@ -164,6 +290,27 @@
     "page": "https://commons.wikimedia.org/wiki/File:TWIN21_in_201409.JPG",
     "author": "Mc681",
     "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "wikidata/Q50319241",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "PK",
+   "name": "Consulate of Pakistan, Osaka",
+   "nameLocal": null,
+   "lat": 34.638,
+   "lon": 135.411,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q50319241",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/ATC_-_panoramio.jpg/500px-ATC_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:ATC_-_panoramio.jpg",
+    "author": "kajikawa",
+    "license": "CC BY 3.0"
    }
   },
   {

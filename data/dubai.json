@@ -1,8 +1,8 @@
 {
  "city": "dubai",
- "generated": "2026-10-28T16:39:59.466Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 54,
+ "generated": "2026-10-28T20:15:41.006Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 55,
  "missions": [
   {
    "id": "node/4579753400",
@@ -363,6 +363,27 @@
    "phone": "04 397 0500",
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q68426527",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "JP",
+   "name": "Consulate-General of Japan, Dubai",
+   "nameLocal": null,
+   "lat": 25.227611,
+   "lon": 55.288778,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q68426527",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Etisalat_Tower_2%2C_Dubai_World_Trade_Centre%2C_and_Dubai_World_Trade_Centre_Residence_on_28_December_2007.jpg/500px-Etisalat_Tower_2%2C_Dubai_World_Trade_Centre%2C_and_Dubai_World_Trade_Centre_Residence_on_28_December_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Etisalat_Tower_2,_Dubai_World_Trade_Centre,_and_Dubai_World_Trade_Centre_Residence_on_28_December_2007.jpg",
+    "author": "Imre Solt",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "node/4856135722",

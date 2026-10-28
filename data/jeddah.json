@@ -1,8 +1,8 @@
 {
  "city": "jeddah",
- "generated": "2026-10-28T17:18:48.648Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 25,
+ "generated": "2026-10-28T20:44:19.992Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 27,
  "missions": [
   {
    "id": "way/762612894",
@@ -17,6 +17,22 @@
    "website": "https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=17126333-8566-4b49-af59-6b5ba4f37c62",
    "phone": "+96-62-6515436",
    "wikidata": "Q81799427",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q5164559",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "AF",
+   "name": "Consulate-General of Afghanistan, Jeddah",
+   "nameLocal": null,
+   "lat": 21.569867,
+   "lon": 39.14838,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q5164559",
    "photo": null
   },
   {
@@ -274,6 +290,22 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q130309652",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "PS",
+   "name": "Consulate of Palestine in Jeddah",
+   "nameLocal": null,
+   "lat": 21.583796,
+   "lon": 39.166606,
+   "address": null,
+   "website": "https://palconjed.org/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q130309652",
    "photo": null
   },
   {

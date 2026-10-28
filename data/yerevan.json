@@ -1,8 +1,8 @@
 {
  "city": "yerevan",
- "generated": "2026-10-28T17:06:34.413Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 47,
+ "generated": "2026-10-28T20:27:54.459Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 48,
  "missions": [
   {
    "id": "way/498373291",
@@ -763,6 +763,27 @@
     "page": "https://commons.wikimedia.org/wiki/File:Syrian_Embassy,_Yerevan_June_2023.jpg",
     "author": "Benoît Prieur",
     "license": "CC0"
+   }
+  },
+  {
+   "id": "wikidata/Q58325277",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "TH",
+   "name": "Thai Consulate, Yerevan",
+   "nameLocal": null,
+   "lat": 40.189555,
+   "lon": 44.513432,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q58325277",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Yerevan_-_Royal_Thai_Consulate_%282018%29.jpg/500px-Yerevan_-_Royal_Thai_Consulate_%282018%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Yerevan_-_Royal_Thai_Consulate_(2018).jpg",
+    "author": "Sebleouf",
+    "license": "CC BY-SA 4.0"
    }
   },
   {

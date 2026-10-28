@@ -1,8 +1,8 @@
 {
  "city": "ljubljana",
- "generated": "2026-10-28T16:43:20.867Z",
+ "generated": "2026-10-28T20:17:48.829Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 45,
+ "count": 47,
  "missions": [
   {
    "id": "node/8860967870",
@@ -410,6 +410,23 @@
    }
   },
   {
+   "id": "node/14129575422",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "KR",
+   "name": "Embassy of the Republic of Korea in Slovenia",
+   "nameLocal": "Ambasada Republike Koreje",
+   "lat": 46.05611,
+   "lon": 14.505676,
+   "address": null,
+   "website": "https://si.mofa.go.kr/",
+   "phone": "+386 1 432 2120",
+   "inferred": true,
+   "inferredFrom": "republic of korea",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/181023775",
    "group": "embassy",
    "kind": "embassy",
@@ -475,6 +492,21 @@
    }
   },
   {
+   "id": "way/908894700",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "NL",
+   "name": null,
+   "nameLocal": null,
+   "lat": 46.069482,
+   "lon": 14.469665,
+   "address": "Draga 52",
+   "website": null,
+   "phone": null,
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/6139656886",
    "group": "consulate",
    "kind": "consulate_general",
@@ -514,8 +546,8 @@
    "lat": 46.064161,
    "lon": 14.506238,
    "address": "Bežigrad 10, 1000 Ljubljana",
-   "website": null,
-   "phone": null,
+   "website": "https://www.gov.pl/web/slowenia/ambasada",
+   "phone": "+386 1 436 54 50",
    "wikidata": "Q48843038",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/20260528_181619195_Polish_Embassy%2C_Ljubljana.jpg/500px-20260528_181619195_Polish_Embassy%2C_Ljubljana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -531,8 +563,8 @@
    "country": "RO",
    "name": "Embassy of Romania",
    "nameLocal": "Romunska ambasada",
-   "lat": 46.072252,
-   "lon": 14.493286,
+   "lat": 46.072268,
+   "lon": 14.493298,
    "address": "Smrekarjeva ulica 33a, 1000 Ljubljana",
    "website": "http://ljubljana.mae.ro",
    "phone": "+386 15057335",
@@ -568,7 +600,7 @@
    "nameLocal": "Veleposlaništvo Ruske Federacije v Republiki Sloveniji - Konzularni oddelek",
    "lat": 46.050823,
    "lon": 14.528344,
-   "address": null,
+   "address": "Povšetoca ulica 40",
    "website": "https://veleposlanistvorusije.mid.ru/ru/consular_service/o_konsulskom_otdele/",
    "phone": "+38614329031",
    "wikidata": null,
@@ -655,15 +687,15 @@
    "photo": null
   },
   {
-   "id": "node/9554528548",
+   "id": "way/272822040",
    "group": "embassy",
    "kind": "embassy",
    "country": "UA",
    "name": "Embassy of Ukraine in the Republic of Slovenia",
    "nameLocal": "Embassy of Ukraine in the Republic of Slovenia",
-   "lat": 46.039783,
-   "lon": 14.501569,
-   "address": null,
+   "lat": 46.039755,
+   "lon": 14.501565,
+   "address": "Mivka 27",
    "website": "https://slovenia.mfa.gov.ua",
    "phone": "+386 1 421 06 04",
    "wikidata": "Q12142727",

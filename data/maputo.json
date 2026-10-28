@@ -1,8 +1,8 @@
 {
  "city": "maputo",
- "generated": "2026-10-28T17:36:32.747Z",
+ "generated": "2026-10-28T21:03:32.702Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 34,
+ "count": 33,
  "missions": [
   {
    "id": "node/7114755806",
@@ -419,21 +419,6 @@
    "lat": -25.964799,
    "lon": 32.595983,
    "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "way/1217814723",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "TH",
-   "name": "Royal Thai Embassy",
-   "nameLocal": "Royal Thai Embassy",
-   "lat": -25.943461,
-   "lon": 32.607534,
-   "address": "Av. Julius Nyerere 4317, Maputo",
    "website": null,
    "phone": null,
    "wikidata": null,

@@ -1,8 +1,8 @@
 {
  "city": "miami",
- "generated": "2026-10-28T18:00:20.270Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 22,
+ "generated": "2026-10-28T21:16:42.382Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 24,
  "missions": [
   {
    "id": "node/6547777409",
@@ -47,6 +47,22 @@
    "website": null,
    "phone": null,
    "wikidata": "Q115792861",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q135792539",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BS",
+   "name": "The Bahamas Consulate General Miami",
+   "nameLocal": null,
+   "lat": 25.77581,
+   "lon": -80.18821,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q135792539",
    "photo": null
   },
   {
@@ -263,6 +279,27 @@
    "phone": "+1 305-925-9400",
    "wikidata": "Q123419416",
    "photo": null
+  },
+  {
+   "id": "wikidata/Q90137866",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "JP",
+   "name": "Consulate-General of Japan, Miami",
+   "nameLocal": null,
+   "lat": 25.765833,
+   "lon": -80.194722,
+   "address": null,
+   "website": "https://www.miami.us.emb-japan.go.jp",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q90137866",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Washington_Mutual_Building%3B_Miami%2C_Florida.jpg/500px-Washington_Mutual_Building%3B_Miami%2C_Florida.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Washington_Mutual_Building;_Miami,_Florida.jpg",
+    "author": "Miami92 at English Wikipedia",
+    "license": "Public domain"
+   }
   },
   {
    "id": "node/6082731053",

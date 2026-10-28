@@ -1,8 +1,8 @@
 {
  "city": "guangzhou",
- "generated": "2026-10-28T17:43:55.116Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 22,
+ "generated": "2026-10-28T21:03:57.726Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 26,
  "missions": [
   {
    "id": "node/7125900054",
@@ -125,6 +125,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q110855493",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "ES",
+   "name": "Consulate General of Spain, Guangzhou",
+   "nameLocal": null,
+   "lat": 23.117292,
+   "lon": 113.321819,
+   "address": null,
+   "website": "https://www.exteriores.gob.es/Consulados/canton/zh/Paginas/index.aspx",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q110855493",
+   "photo": null
+  },
+  {
    "id": "node/5267459122",
    "group": "consulate",
    "kind": "consulate_general",
@@ -230,6 +246,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q108570920",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "PA",
+   "name": "Consulado General de la República de Panamá en Guangzhou",
+   "nameLocal": null,
+   "lat": 23.120347,
+   "lon": 113.318075,
+   "address": null,
+   "website": "https://mire.gob.pa/ministerio/embajada-y-consulado/guangzhou-consulado-general-de-marina-mercante-de-panama/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q108570920",
+   "photo": null
+  },
+  {
    "id": "node/11535169899",
    "group": "consulate",
    "kind": "consulate_general",
@@ -295,6 +327,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q97695747",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "SG",
+   "name": "Consulate General of the Republic of Singapore in Guangzhou",
+   "nameLocal": null,
+   "lat": 23.141944,
+   "lon": 113.324778,
+   "address": "Unit 2418, CITIC Plaza Office Tower233 Tianhe North Road",
+   "website": "https://www.mfa.gov.sg/guangzhou-chinese",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q97695747",
+   "photo": null
+  },
+  {
    "id": "way/369922820",
    "group": "consulate",
    "kind": "consulate_general",
@@ -322,6 +370,22 @@
    "website": "https://guangzhou-bk.mfa.gov.tr",
    "phone": "+86 20 3785 3093;+86 20 3785 3401;+86 20 3785 3157;+86 20 3785 3453",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q119323659",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "UA",
+   "name": "Consulate General of Ukraine in Guangzhou",
+   "nameLocal": null,
+   "lat": 23.144167,
+   "lon": 113.319167,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q119323659",
    "photo": null
   },
   {

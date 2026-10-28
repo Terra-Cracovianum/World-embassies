@@ -1,8 +1,8 @@
 {
  "city": "los-angeles",
- "generated": "2026-10-28T17:54:42.407Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 22,
+ "generated": "2026-10-28T21:16:52.764Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 26,
  "missions": [
   {
    "id": "node/7099874957",
@@ -31,7 +31,7 @@
    "address": "North Central Avenue 346, 91203 Glendale",
    "website": "https://la.mfa.am/en/",
    "phone": "+1 818 265-5900",
-   "wikidata": null,
+   "wikidata": "Q141432423",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Consulate_General_of_Armenia_in_Los_Angeles_%282026%29_-_I.jpg/500px-Consulate_General_of_Armenia_in_Los_Angeles_%282026%29_-_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Consulate_General_of_Armenia_in_Los_Angeles_(2026)_-_I.jpg",
@@ -82,6 +82,22 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q135792381",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BS",
+   "name": "The Bahamas Consulate General Los Angeles",
+   "nameLocal": null,
+   "lat": 34.0598,
+   "lon": -118.44265,
+   "address": "Center West Building, 10877 Wilshire Boulevard, Suite 600, Los Angeles, California, 90024",
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q135792381",
    "photo": null
   },
   {
@@ -203,10 +219,10 @@
    "nameLocal": "Consulate General of the Republic of Indonesia",
    "lat": 34.062174,
    "lon": -118.299563,
-   "address": "Wilshire Boulevard 3457, Los Angeles",
-   "website": null,
-   "phone": null,
-   "wikidata": null,
+   "address": "Wilshire Boulevard 3457, 90010 Los Angeles",
+   "website": "https://kemlu.go.id/losangeles/en",
+   "phone": "+1 213-383-5126",
+   "wikidata": "Q122909287",
    "photo": null
   },
   {
@@ -238,6 +254,27 @@
    "phone": "+12137976060",
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q84689744",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "JP",
+   "name": "Consulate-General of Japan, Los Angeles",
+   "nameLocal": null,
+   "lat": 34.051431,
+   "lon": -118.251508,
+   "address": null,
+   "website": "https://www.la.us.emb-japan.go.jp",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q84689744",
+   "photo": {
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/76/2014_Nagasaki1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:2014_Nagasaki1.jpg",
+    "author": "在ロサンゼルス日本国総領事館",
+    "license": "CC BY 4.0"
+   }
   },
   {
    "id": "way/427272066",
@@ -293,7 +330,7 @@
    "nameLocal": "Consulate General of Peru",
    "lat": 34.062279,
    "lon": -118.298291,
-   "address": "Wilshire Boulevard 3450, Los Angeles",
+   "address": "Wilshire Boulevard 3450, 90010 Los Angeles",
    "website": "http://www.consulado.pe/es/losangeles",
    "phone": "+1 213-988-6097",
    "wikidata": null,
@@ -308,9 +345,9 @@
    "nameLocal": "Consulate General of the Philippines",
    "lat": 34.062278,
    "lon": -118.298897,
-   "address": "Wilshire Boulevard 3600, Los Angeles",
-   "website": "https://www.philippineconsulatela.org/",
-   "phone": null,
+   "address": "Wilshire Boulevard 3435, 90010 Los Angeles",
+   "website": "https://losangelespcg.org/",
+   "phone": "+1-213-639-0980",
    "wikidata": "Q96399084",
    "photo": null
   },
@@ -327,6 +364,38 @@
    "website": "https://losangeles.msz.gov.pl/en/",
    "phone": "+1 310 442 8500",
    "wikidata": "Q11743075",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q124311400",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "SE",
+   "name": "Consulate General of Sweden, Los Angeles",
+   "nameLocal": null,
+   "lat": 34.048054,
+   "lon": -118.462172,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q124311400",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q73460158",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "SV",
+   "name": "Consulate General of El Salvador in Los Angeles",
+   "nameLocal": null,
+   "lat": 34.061511,
+   "lon": -118.293273,
+   "address": "3250 Wilshire Boulevard, Suite #550, Los Angeles, California",
+   "website": "http://consuladolosangeles.rree.gob.sv/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q73460158",
    "photo": null
   },
   {

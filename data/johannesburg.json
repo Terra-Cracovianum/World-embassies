@@ -1,8 +1,8 @@
 {
  "city": "johannesburg",
- "generated": "2026-10-28T17:35:00.701Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 7,
+ "generated": "2026-10-28T20:56:58.669Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 8,
  "missions": [
   {
    "id": "way/631423361",
@@ -17,6 +17,22 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q16507534",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "Consulate General of France, Johannesburg",
+   "nameLocal": null,
+   "lat": -26.2044,
+   "lon": 28.0456,
+   "address": null,
+   "website": "http://www.consulfrance-jhb.org",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q16507534",
    "photo": null
   },
   {

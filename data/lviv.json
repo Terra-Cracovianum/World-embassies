@@ -1,8 +1,8 @@
 {
  "city": "lviv",
- "generated": "2026-10-28T17:14:04.393Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 13,
+ "generated": "2026-10-28T20:34:44.092Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 14,
  "missions": [
   {
    "id": "node/4909389074",
@@ -123,6 +123,27 @@
    "phone": null,
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q26260541",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "LV",
+   "name": "Honorary Consulate of the Republic of Latvia in Lviv",
+   "nameLocal": null,
+   "lat": 49.86851,
+   "lon": 24.05754,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q26260541",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%D0%9F%D0%BE%D1%87%D0%B5%D1%81%D0%BD%D0%B5_%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%9B%D0%B0%D1%82%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D0%BA%D0%B8_%D1%83_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%96.jpg/500px-%D0%9F%D0%BE%D1%87%D0%B5%D1%81%D0%BD%D0%B5_%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%9B%D0%B0%D1%82%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D0%BA%D0%B8_%D1%83_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%96.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D1%87%D0%B5%D1%81%D0%BD%D0%B5_%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE_%D0%9B%D0%B0%D1%82%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D1%97_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D0%BA%D0%B8_%D1%83_%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2%D1%96.jpg",
+    "author": "Stasiv Natalie",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "node/5602608921",

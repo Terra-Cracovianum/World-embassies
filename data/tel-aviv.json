@@ -1,8 +1,8 @@
 {
  "city": "tel-aviv",
- "generated": "2026-10-28T16:38:13.087Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 82,
+ "generated": "2026-10-28T20:09:42.136Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 83,
  "missions": [
   {
    "id": "node/8920368327",
@@ -582,6 +582,22 @@
    "website": "https://finlandabroad.fi/web/isr",
    "phone": "+972 3 745 6600",
    "wikidata": "Q106267250",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q73380791",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "consulat général de France à Tel Aviv",
+   "nameLocal": null,
+   "lat": 32.073475,
+   "lon": 34.767991,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q73380791",
    "photo": null
   },
   {

@@ -1,8 +1,8 @@
 {
  "city": "toronto",
- "generated": "2026-10-28T16:38:51.203Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 25,
+ "generated": "2026-10-28T20:17:57.127Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 28,
  "missions": [
   {
    "id": "node/7097778938",
@@ -50,6 +50,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q135792562",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BS",
+   "name": "The Bahamas Consulate General Toronto",
+   "nameLocal": null,
+   "lat": 43.70734,
+   "lon": -79.39905,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q135792562",
+   "photo": null
+  },
+  {
    "id": "way/60942403",
    "group": "consulate",
    "kind": "consulate_general",
@@ -92,6 +108,43 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q137902003",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "ER",
+   "name": "consulate general of Eritrea in Toronto",
+   "nameLocal": null,
+   "lat": 43.6625,
+   "lon": -79.376111,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q137902003",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Consulate_general_of_Eritrea_in_Toronto.jpg/500px-Consulate_general_of_Eritrea_in_Toronto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulate_general_of_Eritrea_in_Toronto.jpg",
+    "author": "Z1720",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "wikidata/Q16507593",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "Consulate General of France in Toronto",
+   "nameLocal": null,
+   "lat": 43.6535,
+   "lon": -79.384,
+   "address": null,
+   "website": "http://www.consulfrance-toronto.org",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q16507593",
    "photo": null
   },
   {

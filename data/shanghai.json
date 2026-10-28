@@ -1,8 +1,8 @@
 {
  "city": "shanghai",
- "generated": "2026-10-28T16:39:03.194Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 31,
+ "generated": "2026-10-28T20:13:57.872Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 32,
  "missions": [
   {
    "id": "node/7125938573",
@@ -17,6 +17,22 @@
    "website": "https://www.mofaic.gov.ae/en/missions/uae-missions-abroad/uae-missions-abroad-details?countryId=31607547-0521-4d08-8164-48a33ccba985",
    "phone": "+86 21 6255 7776",
    "wikidata": "Q81806409",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q23891861",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "AU",
+   "name": "Australian Consulate-General in Shanghai, China (People's Republic of)",
+   "nameLocal": null,
+   "lat": 31.227973,
+   "lon": 121.455697,
+   "address": null,
+   "website": "http://shanghai.china.embassy.gov.au/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q23891861",
    "photo": null
   },
   {
@@ -255,21 +271,6 @@
    "photo": null
   },
   {
-   "id": "node/14280315759",
-   "group": "consulate",
-   "kind": "consulate_general",
-   "country": "JP",
-   "name": "Consular Department, Annex of the Consulate-General of Japan in Shanghai",
-   "nameLocal": "日本国驻上海总领事馆分馆领事部门",
-   "lat": 31.203279,
-   "lon": 121.394986,
-   "address": null,
-   "website": "https://www.shanghai.cn.emb-japan.go.jp/",
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/141749410",
    "group": "consulate",
    "kind": "consulate",
@@ -330,18 +331,19 @@
    "photo": null
   },
   {
-   "id": "node/14280315753",
+   "id": "wikidata/Q109345567",
    "group": "consulate",
    "kind": "consulate_general",
-   "country": "MY",
-   "name": "Consulate General of Malaysia",
-   "nameLocal": "马来西亚驻上海总领事馆",
-   "lat": 31.199987,
-   "lon": 121.39506,
+   "country": "MN",
+   "name": "Consulate General of Mongolia, Shanghai",
+   "nameLocal": null,
+   "lat": 31.22277,
+   "lon": 121.515541,
    "address": null,
    "website": null,
    "phone": null,
-   "wikidata": null,
+   "source": "wikidata",
+   "wikidata": "Q109345567",
    "photo": null
   },
   {
@@ -467,6 +469,22 @@
    "website": "https://sanghay-bk.mfa.gov.tr",
    "phone": "+86 21 6474 6838;+86 21 6474 6839;+86 21 6474 7237",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q115707609",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "UA",
+   "name": "Consulate General of Ukraine, Shanghai",
+   "nameLocal": null,
+   "lat": 31.205394,
+   "lon": 121.403528,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q115707609",
    "photo": null
   },
   {

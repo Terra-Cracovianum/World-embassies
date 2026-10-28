@@ -1,8 +1,8 @@
 {
  "city": "lima",
- "generated": "2026-10-28T16:24:56.513Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 67,
+ "generated": "2026-10-28T19:59:50.911Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 70,
  "missions": [
   {
    "id": "node/7114004279",
@@ -18,6 +18,27 @@
    "phone": "+51 1 5049666",
    "wikidata": "Q81273351",
    "photo": null
+  },
+  {
+   "id": "wikidata/Q124094506",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "AR",
+   "name": "Consulate-General of Argentina, Lima",
+   "nameLocal": null,
+   "lat": -12.072597,
+   "lon": -77.036967,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q124094506",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Jr_Pablo_Berm%C3%BAdez_-_Consulado_de_Argentina_01.jpg/500px-Jr_Pablo_Berm%C3%BAdez_-_Consulado_de_Argentina_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Jr_Pablo_Berm%C3%BAdez_-_Consulado_de_Argentina_01.jpg",
+    "author": "AlejandroFC",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "way/291979135",
@@ -565,6 +586,22 @@
    }
   },
   {
+   "id": "wikidata/Q124879188",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "GY",
+   "name": "Honorary Consulate of Guyana, Lima",
+   "nameLocal": null,
+   "lat": -12.119344,
+   "lon": -77.030771,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q124879188",
+   "photo": null
+  },
+  {
    "id": "node/6679895285",
    "group": "embassy",
    "kind": "embassy",
@@ -1033,6 +1070,22 @@
     "author": "Privado (imagen donada al publicador)",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "wikidata/Q124879130",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "TT",
+   "name": "Honorary Consulate of Trinidad and Tobago, Lima",
+   "nameLocal": null,
+   "lat": -12.112677,
+   "lon": -77.038522,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q124879130",
+   "photo": null
   },
   {
    "id": "node/4110732289",

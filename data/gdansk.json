@@ -1,9 +1,30 @@
 {
  "city": "gdansk",
- "generated": "2026-10-28T17:08:00.187Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 14,
+ "generated": "2026-10-28T20:35:48.075Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 17,
  "missions": [
+  {
+   "id": "wikidata/Q18426341",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "CN",
+   "name": "Consulate General of China, Gdansk",
+   "nameLocal": null,
+   "lat": 54.37494,
+   "lon": 18.620727,
+   "address": null,
+   "website": "http://gdansk.china-consulate.gov.cn/chn/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q18426341",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Gda%C5%84sk%2C_Konsulat_Generalny_Chi%C5%84skiej_Republiki_Ludowej_-_fotopolska.eu_%28310008%29.jpg/500px-Gda%C5%84sk%2C_Konsulat_Generalny_Chi%C5%84skiej_Republiki_Ludowej_-_fotopolska.eu_%28310008%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk,_Konsulat_Generalny_Chi%C5%84skiej_Republiki_Ludowej_-_fotopolska.eu_(310008).jpg",
+    "author": "Yanek",
+    "license": "CC BY-SA 3.0"
+   }
+  },
   {
    "id": "way/88604913",
    "group": "consulate",
@@ -182,6 +203,43 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q11743077",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "RU",
+   "name": "Consulate General of Russia, Gdansk",
+   "nameLocal": null,
+   "lat": 54.3763,
+   "lon": 18.6032,
+   "address": null,
+   "website": "https://gdansk.mid.ru/web/gdansk_pl",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q11743077",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Gdansk_Batorego15.jpg/500px-Gdansk_Batorego15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gdansk_Batorego15.jpg",
+    "author": "Lisarlena",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "wikidata/Q16567701",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "SE",
+   "name": "Konsulat Szwecji w Gdańsku",
+   "nameLocal": null,
+   "lat": 54.3472,
+   "lon": 18.6573,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q16567701",
    "photo": null
   },
   {

@@ -1,8 +1,8 @@
 {
  "city": "sofia",
- "generated": "2026-10-28T16:54:07.651Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 86,
+ "generated": "2026-10-28T20:27:04.317Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 87,
  "missions": [
   {
    "id": "node/7095797402",
@@ -1228,6 +1228,22 @@
    "website": null,
    "phone": "+359 2 439 1511",
    "wikidata": "Q54857180",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q106441217",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "SC",
+   "name": "consulate of Seychelles in Sofia",
+   "nameLocal": null,
+   "lat": 42.66863,
+   "lon": 23.29052,
+   "address": "60, Bulgaria Blvd",
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q106441217",
    "photo": null
   },
   {

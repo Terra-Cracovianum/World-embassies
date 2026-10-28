@@ -1,8 +1,8 @@
 {
  "city": "karachi",
- "generated": "2026-10-28T17:38:55.493Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 37,
+ "generated": "2026-10-28T21:01:07.280Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 38,
  "missions": [
   {
    "id": "node/4724013531",
@@ -559,6 +559,22 @@
    "website": "http://karachi.cg.mfa.gov.tr/",
    "phone": "+90 312 292 29 29",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q136473688",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "US",
+   "name": "Consulate General of the United States, Karachi",
+   "nameLocal": null,
+   "lat": 24.841555,
+   "lon": 67.009171,
+   "address": null,
+   "website": "https://pk.usembassy.gov/karachi/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q136473688",
    "photo": null
   }
  ]

@@ -1,8 +1,8 @@
 {
  "city": "sao-paulo",
- "generated": "2026-10-28T16:38:53.827Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 32,
+ "generated": "2026-10-28T20:13:06.585Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 34,
  "missions": [
   {
    "id": "node/4894055690",
@@ -47,6 +47,22 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q121701046",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BE",
+   "name": "Consulate General of Belgium in São Paulo",
+   "nameLocal": null,
+   "lat": -23.558685,
+   "lon": -46.660102,
+   "address": null,
+   "website": "https://brazil.diplomatie.belgium.be/fr/ambassade-et-consulats/consulat-general-sao-paulo",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q121701046",
    "photo": null
   },
   {
@@ -197,6 +213,22 @@
    "website": "https://www.exteriores.gob.es/Consulados/saopaulo/es/Paginas/index.aspx",
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q16507590",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "Consulate General of France, in São Paulo",
+   "nameLocal": null,
+   "lat": -23.5477,
+   "lon": -46.6364,
+   "address": null,
+   "website": "https://saopaulo.consulfrance.org/-Portugues-",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q16507590",
    "photo": null
   },
   {

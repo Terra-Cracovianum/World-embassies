@@ -1,8 +1,8 @@
 {
  "city": "bangkok",
- "generated": "2026-10-28T16:27:12.497Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 76,
+ "generated": "2026-10-28T20:04:17.783Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 77,
  "missions": [
   {
    "id": "node/3398023809",
@@ -1244,6 +1244,22 @@
    "website": null,
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q110746029",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "YE",
+   "name": "Consulate of Yemen, Bangkok",
+   "nameLocal": null,
+   "lat": 13.74984,
+   "lon": 100.615553,
+   "address": "24 Ramkhamhaeng 24, (Thawontawat 1), Ramkhamkaeng Road, Hua Mark, Bang Kapi, Bangkok 10240",
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q110746029",
    "photo": null
   },
   {

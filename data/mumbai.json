@@ -1,8 +1,8 @@
 {
  "city": "mumbai",
- "generated": "2026-10-28T16:43:57.127Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 23,
+ "generated": "2026-10-28T20:14:32.991Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 25,
  "missions": [
   {
    "id": "node/5846483285",
@@ -47,6 +47,22 @@
    "website": null,
    "phone": "+91 22 22180101",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q121834816",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BE",
+   "name": "Consulate General of Belgium in Mumbai",
+   "nameLocal": null,
+   "lat": 19.069014,
+   "lon": 72.869007,
+   "address": "C-53, 7th floor, TCG Financial Centre, G-Block,, Bandra Kurla Complex. Bandra East, Mumbai, Maharashtra 400098, India",
+   "website": "https://india.diplomatie.belgium.be/nl/ambassade-en-consulaten/consulaat-generaal-mumbai",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q121834816",
    "photo": null
   },
   {
@@ -152,6 +168,22 @@
    "website": "http://www.exteriores.gob.es/Consulados/MUMBAI/en",
    "phone": "+91 22 22880213",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q134876791",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FI",
+   "name": "Consulate General of Finland, Mumbai",
+   "nameLocal": null,
+   "lat": 19.068922,
+   "lon": 72.869079,
+   "address": null,
+   "website": "https://finlandabroad.fi/web/ind/paakonsulaatti-mumbai",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q134876791",
    "photo": null
   },
   {

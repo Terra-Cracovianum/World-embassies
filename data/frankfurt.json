@@ -1,8 +1,8 @@
 {
  "city": "frankfurt",
- "generated": "2026-10-28T17:05:18.945Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 62,
+ "generated": "2026-10-28T20:32:48.102Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 64,
  "missions": [
   {
    "id": "node/3998601604",
@@ -451,6 +451,27 @@
    }
   },
   {
+   "id": "wikidata/Q115606986",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "KR",
+   "name": "Consulate General of South Korea, Frankfurt",
+   "nameLocal": null,
+   "lat": 50.079177,
+   "lon": 8.623935,
+   "address": null,
+   "website": "https://overseas.mofa.go.kr/de-frankfurt-ko/index.do",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q115606986",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Frankfurt_Lyoner_Stra%C3%9Fe_34.Nord.20130511_%28cropped%29.jpg/500px-Frankfurt_Lyoner_Stra%C3%9Fe_34.Nord.20130511_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Lyoner_Stra%C3%9Fe_34.Nord.20130511_(cropped).jpg",
+    "author": "Epizentrum",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
    "id": "node/3890505823",
    "group": "consulate",
    "kind": "consulate_general",
@@ -752,6 +773,22 @@
    "website": "https://frankfurt.mfa.gov.rs/",
    "phone": "+49 69 90436760",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q57712969",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "SA",
+   "name": "Consulate General of Saudi Arabia, Frankfurt am Main",
+   "nameLocal": null,
+   "lat": 50.112222,
+   "lon": 8.6525,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q57712969",
    "photo": null
   },
   {

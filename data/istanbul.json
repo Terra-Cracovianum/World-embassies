@@ -1,8 +1,8 @@
 {
  "city": "istanbul",
- "generated": "2026-10-28T18:05:53.262Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 102,
+ "generated": "2026-10-28T20:11:03.092Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 103,
  "missions": [
   {
    "id": "node/7130384563",
@@ -363,6 +363,27 @@
    "phone": "+90 216 318 67 67;+90 216 557 69 65",
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q31188633",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "CY",
+   "name": "Consulate General of Northern Cyprus, Istanbul",
+   "nameLocal": null,
+   "lat": 41.061667,
+   "lon": 28.994444,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q31188633",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Consulate-General_of_Turkish_Republic_of_Northern_Cyprus_in_Istanbul.jpg/500px-Consulate-General_of_Turkish_Republic_of_Northern_Cyprus_in_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Consulate-General_of_Turkish_Republic_of_Northern_Cyprus_in_Istanbul.jpg",
+    "author": "Maurice Flesier",
+    "license": "CC0"
+   }
   },
   {
    "id": "node/5459542350",

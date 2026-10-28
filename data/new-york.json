@@ -1,8 +1,8 @@
 {
  "city": "new-york",
- "generated": "2026-10-28T18:06:59.749Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 227,
+ "generated": "2026-10-28T20:14:39.043Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 238,
  "missions": [
   {
    "id": "node/2711692846",
@@ -477,6 +477,22 @@
    "website": null,
    "phone": "+1-212-372-2600",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q135792408",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "BS",
+   "name": "The Bahamas Consulate General  New York City",
+   "nameLocal": null,
+   "lat": 40.75308,
+   "lon": -73.97098,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q135792408",
    "photo": null
   },
   {
@@ -980,6 +996,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q65258818",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "EE",
+   "name": "Consulate General of Estonia, New York",
+   "nameLocal": null,
+   "lat": 40.752907,
+   "lon": -73.969072,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q65258818",
+   "photo": null
+  },
+  {
    "id": "node/3057221163",
    "group": "other",
    "kind": "permanent_mission",
@@ -1090,6 +1122,22 @@
     "author": "Eden, Janine and Jim from New York City",
     "license": "CC BY 2.0"
    }
+  },
+  {
+   "id": "wikidata/Q134876068",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FI",
+   "name": "Consulate General of Finland, New York",
+   "nameLocal": null,
+   "lat": 40.748999,
+   "lon": -73.975027,
+   "address": "605 Third Avenue New York, NY 10158",
+   "website": "https://finlandabroad.fi/web/usa/paakonsulaatti-new-york",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q134876068",
+   "photo": null
   },
   {
    "id": "node/3057221166",
@@ -1442,6 +1490,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q63616520",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "HU",
+   "name": "Consulate General of Hungary, New York",
+   "nameLocal": null,
+   "lat": 40.756667,
+   "lon": -73.968778,
+   "address": "223 East 52nd Street",
+   "website": "https://newyork.mfa.gov.hu/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q63616520",
+   "photo": null
+  },
+  {
    "id": "node/368043788",
    "group": "other",
    "kind": "permanent_mission",
@@ -1499,6 +1563,22 @@
    "website": "https://www.ireland.ie/en/un/newyork/",
    "phone": "+1 212-421-6934",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q115760763",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "IL",
+   "name": "Consulate General of Israel, New York",
+   "nameLocal": null,
+   "lat": 40.750159,
+   "lon": -73.971701,
+   "address": "800 Second Ave, New York, NY",
+   "website": "https://embassies.gov.il/newyork",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q115760763",
    "photo": null
   },
   {
@@ -1774,6 +1854,22 @@
    "website": null,
    "phone": "+1-212-972-3105",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q109533889",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "KR",
+   "name": "Consulate General of South Korea, New York",
+   "nameLocal": null,
+   "lat": 40.762022,
+   "lon": -73.971005,
+   "address": "460 Park Ave 6th Fl, New York, NY 10022",
+   "website": "https://overseas.mofa.go.kr/us-newyork-en/index.do",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q109533889",
    "photo": null
   },
   {
@@ -2352,6 +2448,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q49167127",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "NO",
+   "name": "Consulate General of Norway in New York",
+   "nameLocal": null,
+   "lat": 40.755876,
+   "lon": -73.97021,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q49167127",
+   "photo": null
+  },
+  {
    "id": "node/3058806598",
    "group": "other",
    "kind": "permanent_mission",
@@ -2519,6 +2631,22 @@
    "website": "https://www.un.int/philippines",
    "phone": "+1-212-764-1300",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q130390757",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "PK",
+   "name": "Consulate General of Pakistan, New York",
+   "nameLocal": null,
+   "lat": 40.767462,
+   "lon": -73.969555,
+   "address": null,
+   "website": "https://pakistanconsulateny.org/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q130390757",
    "photo": null
   },
   {
@@ -2807,6 +2935,22 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q19978223",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "SE",
+   "name": "Consulate General of Sweden in New York City",
+   "nameLocal": null,
+   "lat": 40.76089,
+   "lon": -73.97079,
+   "address": null,
+   "website": "https://www.swedenabroad.se/en/embassies/usa-new-york/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q19978223",
+   "photo": null
+  },
+  {
    "id": "node/2447024429",
    "group": "other",
    "kind": "permanent_mission",
@@ -2834,6 +2978,22 @@
    "website": "https://www.mfa.gov.sg/content/mfa/overseasmission/newyork.html",
    "phone": "+1-212-826-0840",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q12789679",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "SI",
+   "name": "Consulate General of Slovenia, New York",
+   "nameLocal": null,
+   "lat": 40.707853,
+   "lon": -74.008972,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q12789679",
    "photo": null
   },
   {
@@ -3149,6 +3309,22 @@
    "website": null,
    "phone": "+1-646-692-3552",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q131448416",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "TR",
+   "name": "Consulate General of Turkey, New York City",
+   "nameLocal": null,
+   "lat": 40.751389,
+   "lon": -73.968333,
+   "address": null,
+   "website": "https://newyork-bk.mfa.gov.tr",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q131448416",
    "photo": null
   },
   {

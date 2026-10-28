@@ -1,8 +1,8 @@
 {
  "city": "warsaw",
- "generated": "2026-10-28T15:59:28.310Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 122,
+ "generated": "2026-10-28T19:37:39.889Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 123,
  "missions": [
   {
    "id": "node/3841172328",
@@ -1697,6 +1697,22 @@
     "author": "Warschauer",
     "license": "CC BY-SA 3.0"
    }
+  },
+  {
+   "id": "wikidata/Q122452240",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "PY",
+   "name": "Konsulat Generalny Paragwaju w Warszawie",
+   "nameLocal": null,
+   "lat": 52.23218,
+   "lon": 21.020295,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q122452240",
+   "photo": null
   },
   {
    "id": "node/3838913962",

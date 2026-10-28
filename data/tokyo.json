@@ -1,8 +1,8 @@
 {
  "city": "tokyo",
- "generated": "2026-10-28T16:09:04.906Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 158,
+ "generated": "2026-10-28T19:48:59.450Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 161,
  "missions": [
   {
    "id": "node/6334653589",
@@ -732,6 +732,27 @@
     "page": "https://commons.wikimedia.org/wiki/File:Royal_Danish_Embassy_in_Japan_2010.jpg",
     "author": "Wiiii",
     "license": "CC BY-SA 3.0"
+   }
+  },
+  {
+   "id": "wikidata/Q117662372",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "DO",
+   "name": "Consulate-General of the Dominican Republic, Tokyo",
+   "nameLocal": null,
+   "lat": 35.656194,
+   "lon": 139.736361,
+   "address": null,
+   "website": "https://jpn.mirex.gob.do/consular/tokio/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q117662372",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Monte_Plaza_Azabu.jpg/500px-Monte_Plaza_Azabu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Monte_Plaza_Azabu.jpg",
+    "author": "Beryllium Transistor",
+    "license": "CC BY-SA 4.0"
    }
   },
   {
@@ -1939,6 +1960,22 @@
    }
   },
   {
+   "id": "wikidata/Q61923727",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "MT",
+   "name": "Honorary Consulate General of Malta, Tokyo",
+   "nameLocal": null,
+   "lat": 35.668754,
+   "lon": 139.665029,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q61923727",
+   "photo": null
+  },
+  {
    "id": "node/6334950441",
    "group": "embassy",
    "kind": "embassy",
@@ -2047,6 +2084,22 @@
     "author": "Senkaku Islands",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "wikidata/Q61877324",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "NE",
+   "name": "Honorary Consulate of Niger, Tokyo",
+   "nameLocal": null,
+   "lat": 35.655263,
+   "lon": 139.750525,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q61877324",
+   "photo": null
   },
   {
    "id": "node/6334923582",

@@ -1,8 +1,8 @@
 {
  "city": "tunis",
- "generated": "2026-10-28T17:23:00.253Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 76,
+ "generated": "2026-10-28T20:44:07.477Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 77,
  "missions": [
   {
    "id": "node/2816135039",
@@ -392,6 +392,22 @@
    "website": "https://finlandabroad.fi/web/tun",
    "phone": "+216 71 861 777",
    "wikidata": "Q106292982",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q73355860",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "consulat général de France à Tunis",
+   "nameLocal": null,
+   "lat": 36.799,
+   "lon": 10.1791,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q73355860",
    "photo": null
   },
   {

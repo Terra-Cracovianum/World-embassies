@@ -1,8 +1,8 @@
 {
  "city": "prague",
- "generated": "2026-10-28T15:59:37.416Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 115,
+ "generated": "2026-10-28T19:37:47.166Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 116,
  "missions": [
   {
    "id": "node/296786800",
@@ -1238,6 +1238,27 @@
     "page": "https://commons.wikimedia.org/wiki/File:Na_v%C4%9Btru_street,_Macedonian_embassy,_Praha.jpg",
     "author": "Pavel Hrdlička (Czech Wikipedia user Packa)",
     "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "id": "wikidata/Q107383811",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "ML",
+   "name": "Honorary consulate of Mali in the Czech Republic",
+   "nameLocal": null,
+   "lat": 50.010597,
+   "lon": 14.465884,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q107383811",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Praha_Libus_V_rohu_1.jpg/500px-Praha_Libus_V_rohu_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Praha_Libus_V_rohu_1.jpg",
+    "author": "JiriMatejicek",
+    "license": "CC BY-SA 3.0"
    }
   },
   {

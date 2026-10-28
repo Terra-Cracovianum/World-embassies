@@ -1,8 +1,8 @@
 {
  "city": "moscow",
- "generated": "2026-10-28T16:13:54.849Z",
+ "generated": "2026-10-28T19:51:03.615Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 177,
+ "count": 180,
  "missions": [
   {
    "id": "node/6054425438",
@@ -135,6 +135,23 @@
    }
   },
   {
+   "id": "node/13970630364",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "AR",
+   "name": "Посольство Аргентины",
+   "nameLocal": "Посольство Аргентины",
+   "lat": 55.727339,
+   "lon": 37.616483,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "аргентина",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/48172598",
    "group": "embassy",
    "kind": "embassy",
@@ -187,26 +204,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Wiki_mindovsky_house_by_lazarev.jpg",
     "author": "NVO",
     "license": "CC BY-SA 2.5"
-   }
-  },
-  {
-   "id": "node/622006644",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "AU",
-   "name": "Embassy of Australia",
-   "nameLocal": "Посольство Австралии",
-   "lat": 55.752586,
-   "lon": 37.642455,
-   "address": "Подколокольный переулок 10, 109028 Москва",
-   "website": "https://russia.embassy.gov.au",
-   "phone": null,
-   "wikidata": "Q4373961",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Podkolokolny_10_02.jpg/500px-Podkolokolny_10_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Podkolokolny_10_02.jpg",
-    "author": "NVO",
-    "license": "CC BY-SA 3.0"
    }
   },
   {
@@ -504,26 +501,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Maroseika_17.jpg",
     "author": "NVO",
     "license": "CC BY 2.5"
-   }
-  },
-  {
-   "id": "way/47507780",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CA",
-   "name": "Embassy of Canada",
-   "nameLocal": "Посольство Канады",
-   "lat": 55.746766,
-   "lon": 37.594938,
-   "address": "Староконюшенный переулок 23 с1",
-   "website": null,
-   "phone": null,
-   "wikidata": "Q4374011",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Canadian_Embassy_Moscow.jpg/500px-Canadian_Embassy_Moscow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Canadian_Embassy_Moscow.jpg",
-    "author": "6speeddiesel",
-    "license": "Public domain"
    }
   },
   {
@@ -937,6 +914,23 @@
    "photo": null
   },
   {
+   "id": "node/13970630363",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "ER",
+   "name": "Посольство государства Эритрея",
+   "nameLocal": "Посольство государства Эритрея",
+   "lat": 55.728144,
+   "lon": 37.615081,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "эритрея",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/39578278",
    "group": "consulate",
    "kind": "consulate_general",
@@ -1133,8 +1127,8 @@
    "country": "GM",
    "name": "Embassy of the Gambia",
    "nameLocal": "Посольство Гамбии",
-   "lat": 55.728648,
-   "lon": 37.617447,
+   "lat": 55.728684,
+   "lon": 37.618148,
    "address": "улица Коровий Вал 7, 119049 Москва",
    "website": "http://gambiaembassy.ru/",
    "phone": "+7 495 988-6205",
@@ -1234,14 +1228,31 @@
    "photo": null
   },
   {
+   "id": "node/13970630359",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "GW",
+   "name": "Посольство Гвинея-Бисау",
+   "nameLocal": "Посольство Гвинея-Бисау",
+   "lat": 55.728714,
+   "lon": 37.617426,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "гвинея-бисау",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/9342121435",
    "group": "embassy",
    "kind": "embassy",
    "country": "HN",
    "name": "Embassy of Honduras",
-   "nameLocal": "посольство Гондураса",
-   "lat": 55.727374,
-   "lon": 37.616438,
+   "nameLocal": "Посольство Гондураса",
+   "lat": 55.727328,
+   "lon": 37.616826,
    "address": "4-й Добрынинский переулок 8",
    "website": null,
    "phone": "+7 495 989-13-02",
@@ -1566,7 +1577,7 @@
    "name": "Embassy of Japan",
    "nameLocal": "посольство Японии",
    "lat": 55.77786,
-   "lon": 37.641813,
+   "lon": 37.641793,
    "address": "Грохольский переулок 27, 129090 Москва",
    "website": "https://www.ru.emb-japan.go.jp/",
    "phone": "+7(495)229-2550",
@@ -2730,6 +2741,23 @@
    "photo": null
   },
   {
+   "id": "node/13970630360",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "SL",
+   "name": "Посольство Сьерра-Леоне",
+   "nameLocal": "Посольство Сьерра-Леоне",
+   "lat": 55.728716,
+   "lon": 37.617338,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "сьерра-леоне",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/2804034329",
    "group": "other",
    "kind": "liaison",
@@ -2987,6 +3015,23 @@
    "photo": null
   },
   {
+   "id": "node/13970630361",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "UG",
+   "name": "Посольство республики Уганда",
+   "nameLocal": "Посольство республики Уганда",
+   "lat": 55.728214,
+   "lon": 37.615086,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "уганда",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "relation/9920538",
    "group": "embassy",
    "kind": "embassy",
@@ -3123,8 +3168,8 @@
    "country": "VA",
    "name": "Апостольская Нунциатура",
    "nameLocal": "Апостольская Нунциатура",
-   "lat": 55.790897,
-   "lon": 37.599404,
+   "lat": 55.790926,
+   "lon": 37.599395,
    "address": "Вадковский переулок 7/37, 103555 Москва",
    "website": "https://www.nuntius.ru/",
    "phone": "+7 495 7265930",
@@ -3257,7 +3302,7 @@
    "kind": "embassy",
    "country": "ZW",
    "name": "Embassy of Zimbabwe",
-   "nameLocal": "посольство Зимбабве",
+   "nameLocal": "Посольство Зимбабве",
    "lat": 55.727562,
    "lon": 37.615636,
    "address": "Мытная улица 3",

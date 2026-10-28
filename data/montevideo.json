@@ -1,9 +1,25 @@
 {
  "city": "montevideo",
- "generated": "2026-10-28T17:52:50.147Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 55,
+ "generated": "2026-10-28T21:11:00.559Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 56,
  "missions": [
+  {
+   "id": "wikidata/Q106313183",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "AO",
+   "name": "Consulate of Angola, Montevideo",
+   "nameLocal": null,
+   "lat": -34.9064,
+   "lon": -56.1343,
+   "address": null,
+   "website": "https://www.consuladoangolaenuruguay.com/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q106313183",
+   "photo": null
+  },
   {
    "id": "node/5724560830",
    "group": "consulate",

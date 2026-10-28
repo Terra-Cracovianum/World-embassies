@@ -1,8 +1,8 @@
 {
  "city": "madrid",
- "generated": "2026-10-28T15:59:25.881Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 152,
+ "generated": "2026-10-28T19:39:52.289Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 154,
  "missions": [
   {
    "id": "node/6723337374",
@@ -470,6 +470,22 @@
    }
   },
   {
+   "id": "wikidata/Q111086811",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "CN",
+   "name": "Consular Section of the Chinese Embassy in Madrid",
+   "nameLocal": null,
+   "lat": 40.448291,
+   "lon": -3.641729,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q111086811",
+   "photo": null
+  },
+  {
    "id": "node/2904138765",
    "group": "embassy",
    "kind": "embassy",
@@ -769,6 +785,22 @@
    "website": null,
    "phone": "+34 91 577 63 08",
    "wikidata": "Q105206135",
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q111150132",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "ET",
+   "name": "Honorary consulate of Ethiopia in Madrid",
+   "nameLocal": null,
+   "lat": 40.424223,
+   "lon": -3.684018,
+   "address": null,
+   "website": "http://conshonetiopia-madrid.org/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q111150132",
    "photo": null
   },
   {

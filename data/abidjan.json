@@ -1,6 +1,6 @@
 {
  "city": "abidjan",
- "generated": "2026-10-28T17:31:52.718Z",
+ "generated": "2026-10-28T20:52:00.954Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 51,
  "missions": [
@@ -314,8 +314,8 @@
    "lat": 5.326112,
    "lon": -4.017045,
    "address": null,
-   "website": null,
-   "phone": null,
+   "website": "https://ci.ambafrance.org/",
+   "phone": "+22520207400",
    "wikidata": "Q2378933",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Entr%C3%A9e_de_l%27ambassade_de_France_%C3%A0_Abidjan.jpg/500px-Entr%C3%A9e_de_l%27ambassade_de_France_%C3%A0_Abidjan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

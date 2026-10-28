@@ -1,8 +1,8 @@
 {
  "city": "kyiv",
- "generated": "2026-10-28T15:59:34.539Z",
+ "generated": "2026-10-28T19:38:37.824Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 81,
+ "count": 82,
  "missions": [
   {
    "id": "way/328528690",
@@ -1003,6 +1003,21 @@
     "author": "Kholodovsky",
     "license": "Public domain"
    }
+  },
+  {
+   "id": "node/4771407527",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "NG",
+   "name": "Consulate of Nigeria",
+   "nameLocal": "Консульство Республіки Нігерія",
+   "lat": 50.409001,
+   "lon": 30.538746,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/978568590",

@@ -1,8 +1,8 @@
 {
  "city": "mexico-city",
- "generated": "2026-10-28T16:16:08.335Z",
+ "generated": "2026-10-28T19:50:52.947Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 90,
+ "count": 89,
  "missions": [
   {
    "id": "node/7099759723",
@@ -15,7 +15,7 @@
    "lon": -99.209381,
    "address": "Avenida Paseo de la Reforma 505, 11000 Mexico",
    "website": "https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=9ee8168d-9426-437d-a17d-b002d766f41d",
-   "phone": "+52-5555400100",
+   "phone": "+52 55 5540 0100",
    "wikidata": "Q80564787",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Embassy_of_the_UAE_in_Mexico.JPG/500px-Embassy_of_the_UAE_in_Mexico.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -55,7 +55,7 @@
    "lon": -99.229249,
    "address": "Avenida Paseo de las Palmas 1685",
    "website": "https://emexi.cancilleria.gob.ar/",
-   "phone": "+52 (55) 5520 9430",
+   "phone": "+52 55 5520 9430",
    "wikidata": "Q110206592",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Embajada_de_Argentina_en_Ciudad_de_M%C3%A9xico2.jpg/500px-Embajada_de_Argentina_en_Ciudad_de_M%C3%A9xico2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -90,7 +90,7 @@
    "lon": -99.183195,
    "address": "Calle Rubén Darío 55",
    "website": "https://mexico.embassy.gov.au/",
-   "phone": "+52-55-11012200",
+   "phone": "+52 55 1101 2200",
    "wikidata": "Q106530479",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Embajada_de_Australia_en_la_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Australia_en_la_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -125,7 +125,7 @@
    "lon": -99.215293,
    "address": "Calle Sierra Nevada 601",
    "website": "https://mexico.mofa.gov.bd",
-   "phone": "+52-55-5540-4740",
+   "phone": "+52 55 5540 4740",
    "wikidata": "Q83584248",
    "photo": null
   },
@@ -195,7 +195,7 @@
    "lon": -99.213805,
    "address": "Calle Lope Díaz de Armendáriz 130",
    "website": "http://mexico.itamaraty.gov.br",
-   "phone": "+52 (55) 5201-4531",
+   "phone": "+52 55 5201 4531",
    "wikidata": "Q10272287",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Embajada_de_Brasil_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Brasil_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -270,7 +270,7 @@
    "lon": -99.194934,
    "address": "Calle Alfredo Tennyson 67",
    "website": "https://www.mexique.diplomatie.gouv.ci/",
-   "phone": "+52(55) 5280 8573",
+   "phone": "+52 55 5280 8573",
    "wikidata": "Q111660604",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Embajada_de_Costa_de_Marfil_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Costa_de_Marfil_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -290,7 +290,7 @@
    "lon": -99.195949,
    "address": "Calle Andrés Bello 10",
    "website": "https://embajadasudafrica.mx/",
-   "phone": "+52–55–5280 9681",
+   "phone": "+52 55 5280 9681",
    "wikidata": "Q110391428",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Edificio_Forum_-_Andr%C3%A9s_Bello_10_-_Ciudad_de_M%C3%A9xico.jpg/500px-Edificio_Forum_-_Andr%C3%A9s_Bello_10_-_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -325,7 +325,7 @@
    "lon": -99.197224,
    "address": "Avenida San Jerónimo 217b",
    "website": "http://mx.china-embassy.org",
-   "phone": "+52-55-56160609",
+   "phone": "+52 55 5616 0609",
    "wikidata": "Q111660512",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Embajada_de_China_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_China_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -435,7 +435,7 @@
    "lon": -99.188229,
    "address": "Tres Picos 43, 11550 Ciudad de México",
    "website": "https://mexico.um.dk/",
-   "phone": "+52 (55) 5255 3405",
+   "phone": "+52 55 5255 3405",
    "wikidata": "Q105947505",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Embajada_de_Dinamarca_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Dinamarca_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -455,7 +455,7 @@
    "lon": -99.23211,
    "address": "Calle Paseo Lomas Altas 132",
    "website": "http://embadom.org",
-   "phone": "+5255 5540-3841",
+   "phone": "+52 55 5540 3841",
    "wikidata": "Q111698635",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Embajada_de_la_Rep._Dominicana_en_Mexico.jpg/500px-Embajada_de_la_Rep._Dominicana_en_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -745,7 +745,7 @@
    "lon": -99.228285,
    "address": "Avenida Montes Auvernia 310, 11000 Ciudad de México",
    "website": "https://mexikovaros.mfa.gov.hu/",
-   "phone": "+52 55 5596-18-22;+52 55 5596-05-23",
+   "phone": "+52 55 5596 1822; +52 55 5596 0523",
    "wikidata": "Q63644097",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Embajada_de_Hungria_en_la_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Hungria_en_la_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -765,7 +765,7 @@
    "lon": -99.19696,
    "address": "Calle Julio Verne 27",
    "website": "https://kemlu.go.id/mexicocity",
-   "phone": "+52 55 5280-6363",
+   "phone": "+52 55 5280 6363",
    "wikidata": "Q107530241",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Embajada_de_Indonesia_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Indonesia_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -917,7 +917,7 @@
    "lon": -99.222994,
    "address": "Avenida Paseo de las Palmas 1340",
    "website": null,
-   "phone": "+52 55 5250-6804",
+   "phone": "+52 55 5250 6804",
    "wikidata": "Q110411295",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Embajada_de_Jamaica_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Jamaica_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -987,7 +987,7 @@
    "lon": -99.179191,
    "address": "Calle Halley 12",
    "website": null,
-   "phone": "+52-55-5250-0263",
+   "phone": "+52 55 5250 0263",
    "wikidata": "Q103892965",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/North_Korean_Embassy_in_Mexico.jpg/500px-North_Korean_Embassy_in_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1007,7 +1007,7 @@
    "lon": -99.213688,
    "address": "Calle Lope Díaz de Armendáriz 110",
    "website": "https://overseas.mofa.go.kr/mx-es/index.do",
-   "phone": "+52-55-5202-9866",
+   "phone": "+52 55 5202 9866",
    "wikidata": "Q55734491",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Embajada_de_Corea_del_Sur_en_la_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Corea_del_Sur_en_la_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1047,7 +1047,7 @@
    "lon": -99.197651,
    "address": "Calle Julio Verne 8",
    "website": "http://mexico.mfa.gov.lb/mexico",
-   "phone": "+55 5280-5614",
+   "phone": "+52 55 5280 5614",
    "wikidata": "Q111692240",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Embajada_de_L%C3%ADbano_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_L%C3%ADbano_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1115,7 +1115,7 @@
    "nameLocal": "Embajada de Nigeria",
    "lat": 19.422404,
    "lon": -99.224457,
-   "address": "Calle Sierra Gorda 145",
+   "address": "Calle Sierra Gorda 145, 11000 Ciudad de México",
    "website": "https://www.nigerianembmexico.org",
    "phone": "+52 55 5245 1487",
    "wikidata": "Q111095851",
@@ -1172,7 +1172,7 @@
    "lon": -99.222236,
    "address": "Boulevard de los Virreyes 1460",
    "website": "https://www.norway.no/es/mexico",
-   "phone": "+52 (55) 50 47 37 00",
+   "phone": "+52 55 5047 3700",
    "wikidata": "Q19383587",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Embajada_de_Noruega_en_la_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Noruega_en_la_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1212,7 +1212,7 @@
    "lon": -99.204328,
    "address": "Calle Sócrates 339",
    "website": "https://mire.gob.pa/ministerio/embajada-y-consulado/mexico-embajada-de-panama/",
-   "phone": "+52 55-5280-8222",
+   "phone": "+52 55 5280 8222",
    "wikidata": "Q111134198",
    "photo": null
   },
@@ -1242,7 +1242,7 @@
    "lon": -99.238931,
    "address": "Avenida Paseo de la Reforma 2601",
    "website": "https://www.gob.pe/embajada-del-peru-en-mexico",
-   "phone": "+52-55 11052270",
+   "phone": "+52 55 1105 2270",
    "wikidata": "Q110656439",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Embajada_del_Per%C3%BA_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_del_Per%C3%BA_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1282,7 +1282,7 @@
    "lon": -99.216212,
    "address": "Boulevard de los Virreyes 1015",
    "website": "https://mofa.gov.pk/mexico",
-   "phone": "+52-55 5203-3636",
+   "phone": "+52 55 5203 3636",
    "wikidata": "Q111096450",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Embajada_de_Pakist%C3%A1n_en_la_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Pakist%C3%A1n_en_la_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1290,21 +1290,6 @@
     "author": "Aquintero82",
     "license": "CC BY-SA 4.0"
    }
-  },
-  {
-   "id": "node/5296585421",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "PL",
-   "name": "Polish Embassy and Consulate",
-   "nameLocal": "Embajada y Consulado de Polonia",
-   "lat": 19.351892,
-   "lon": -99.187708,
-   "address": "Cracovia 40",
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "node/9688502247",
@@ -1352,7 +1337,7 @@
    "lon": -99.187918,
    "address": "Avenida Homero 415",
    "website": null,
-   "phone": "+52 55 5545-0405",
+   "phone": "+52 55 5545 0405",
    "wikidata": "Q110508266",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Embajada_de_Paraguay_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Paraguay_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1407,7 +1392,7 @@
    "lon": -99.218615,
    "address": "Calle Montañas Rocallosas Oriente 515",
    "website": "https://mexico.mfa.gov.rs/",
-   "phone": "5555200524",
+   "phone": "+52 55 5520 0524",
    "wikidata": "Q108527683",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Embajada_de_Serbia_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Serbia_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1427,7 +1412,7 @@
    "lon": -99.182649,
    "address": "Avenida Maestro José Vasconcelos 204, 06170 Ciudad de México",
    "website": "https://mexico.mid.ru",
-   "phone": "+52 (55) 5516-0870",
+   "phone": "+52 55 5516 0870",
    "wikidata": "Q109923479",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Embajada_de_Rusia_en_Ciudad_de_M%C3%A9xico.jpg/500px-Embajada_de_Rusia_en_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1462,7 +1447,7 @@
    "lon": -99.176727,
    "address": "Calle Descartes 91",
    "website": "https://www.embajadasaharauimexico.org",
-   "phone": "+52 (55) 52 54 72 85",
+   "phone": "+52 55 5254 7285",
    "wikidata": "Q102187880",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Embajada_RASD_en_Mexico_2.jpg/500px-Embajada_RASD_en_Mexico_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1647,7 +1632,7 @@
    "lon": -99.195852,
    "address": "Calle Andrés Bello 10",
    "website": "https://embajadasudafrica.mx/",
-   "phone": "+55 1100 4970",
+   "phone": "+52 55 1100 4970",
    "wikidata": "Q106612399",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Edificio_Forum_-_Andr%C3%A9s_Bello_10_-_Ciudad_de_M%C3%A9xico.jpg/500px-Edificio_Forum_-_Andr%C3%A9s_Bello_10_-_Ciudad_de_M%C3%A9xico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",

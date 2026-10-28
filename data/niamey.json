@@ -1,8 +1,8 @@
 {
  "city": "niamey",
- "generated": "2026-10-28T17:35:53.076Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 30,
+ "generated": "2026-10-28T20:56:48.060Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 31,
  "missions": [
   {
    "id": "node/6518632415",
@@ -169,6 +169,22 @@
    "website": "https://www.gov.uk/world/organisations/british-embassy-niamey",
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q111208189",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "GN",
+   "name": "consulat général de Guinée au Niger",
+   "nameLocal": null,
+   "lat": 13.524834,
+   "lon": 2.109823,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q111208189",
    "photo": null
   },
   {

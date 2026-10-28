@@ -1,6 +1,6 @@
 {
  "city": "panama",
- "generated": "2026-10-28T17:49:02.978Z",
+ "generated": "2026-10-28T21:09:49.841Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 43,
  "missions": [
@@ -566,8 +566,8 @@
    "country": "SV",
    "name": "Embassy of El Salvador",
    "nameLocal": "Embajada de El Salvador",
-   "lat": 8.979275,
-   "lon": -79.522246,
+   "lat": 8.979272,
+   "lon": -79.522245,
    "address": "Calle Las Acacias 56",
    "website": null,
    "phone": "+507 223-3020",

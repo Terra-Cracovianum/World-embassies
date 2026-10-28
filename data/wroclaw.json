@@ -1,6 +1,6 @@
 {
  "city": "wroclaw",
- "generated": "2026-10-28T17:07:57.371Z",
+ "generated": "2026-10-28T20:35:07.940Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 14,
  "missions": [
@@ -72,7 +72,7 @@
    "name": "Consulate general of Germany",
    "nameLocal": "Konsulat Generalny Republiki Federalnej Niemiec",
    "lat": 51.106197,
-   "lon": 17.042136,
+   "lon": 17.042134,
    "address": null,
    "website": "https://polen.diplo.de/pl-de/01-vertretungen/01-2-gk-breslau",
    "phone": "+48 71 377 27 00",

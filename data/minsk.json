@@ -1,8 +1,8 @@
 {
  "city": "minsk",
- "generated": "2026-10-28T17:00:44.944Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 57,
+ "generated": "2026-10-28T20:27:03.051Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 59,
  "missions": [
   {
    "id": "node/4405643795",
@@ -487,6 +487,27 @@
    "photo": null
   },
   {
+   "id": "wikidata/Q3656243",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "IS",
+   "name": "Consulate of Iceland in Minsk",
+   "nameLocal": null,
+   "lat": 53.90521,
+   "lon": 27.549159,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q3656243",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Raka%C5%ADskaje_suburb_03.jpg/500px-Raka%C5%ADskaje_suburb_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Raka%C5%ADskaje_suburb_03.jpg",
+    "author": "Homoatrox",
+    "license": "CC BY-SA 3.0"
+   }
+  },
+  {
    "id": "way/804919779",
    "group": "embassy",
    "kind": "embassy",
@@ -580,6 +601,27 @@
    "phone": null,
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "wikidata/Q104813203",
+   "group": "consulate",
+   "kind": "consulate",
+   "country": "LB",
+   "name": "Consulate of Lebanon, Minsk, Belarus",
+   "nameLocal": null,
+   "lat": 53.911761,
+   "lon": 27.58905,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q104813203",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Lebanese_consulate_in_Minsk%2C_Belarus.jpg/500px-Lebanese_consulate_in_Minsk%2C_Belarus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lebanese_consulate_in_Minsk,_Belarus.jpg",
+    "author": "Homoatrox",
+    "license": "CC BY-SA 3.0"
+   }
   },
   {
    "id": "way/25324792",

@@ -1,8 +1,8 @@
 {
  "city": "rabat",
- "generated": "2026-10-28T17:27:35.982Z",
+ "generated": "2026-10-28T20:46:45.551Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 67,
+ "count": 71,
  "missions": [
   {
    "id": "node/10300552063",
@@ -94,6 +94,21 @@
    "website": "https://morocco.diplomatie.belgium.be",
    "phone": "+212 537 26 80 60",
    "wikidata": "Q104586311",
+   "photo": null
+  },
+  {
+   "id": "way/1555330029",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "BE",
+   "name": null,
+   "nameLocal": null,
+   "lat": 33.994138,
+   "lon": -6.842196,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "wikidata": null,
    "photo": null
   },
   {
@@ -506,36 +521,21 @@
    "photo": null
   },
   {
-   "id": "node/11055502928",
+   "id": "way/1557298035",
    "group": "embassy",
    "kind": "embassy",
    "country": "FR",
    "name": "Ambassade de France",
    "nameLocal": "Ambassade de France",
-   "lat": 34.010235,
-   "lon": -6.82409,
-   "address": "rue Ibn Hajar 1, Rabat ⵔⴱⴰⵟ الرباط",
-   "website": "https://ma.ambafrance.org/",
-   "phone": "+212 5 37 68 98 78",
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/3877768357",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "FR",
-   "name": "Ambassade de France",
-   "nameLocal": "Ambassade de France",
-   "lat": 34.007104,
-   "lon": -6.845816,
-   "address": "Rue Ibn Hajar 1, 10000 Rabat",
-   "website": "http://www.ambafrance-ma.org/",
+   "lat": 34.006952,
+   "lon": -6.846625,
+   "address": null,
+   "website": null,
    "phone": "+212 5 37 68 97 00",
    "wikidata": "Q2841661",
    "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ambassade_de_France_Rabat_Maroc2-photo_Bertrand_SOUBEYRAND.jpg/500px-Ambassade_de_France_Rabat_Maroc2-photo_Bertrand_SOUBEYRAND.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_France_Rabat_Maroc2-photo_Bertrand_SOUBEYRAND.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ambassade_de_France_Rabat_Maroc1-photo_Bertrand_SOUBEYRAND.jpg/500px-Ambassade_de_France_Rabat_Maroc1-photo_Bertrand_SOUBEYRAND.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ambassade_de_France_Rabat_Maroc1-photo_Bertrand_SOUBEYRAND.jpg",
     "author": "Bertrand SOUBEYRAND",
     "license": "CC BY-SA 4.0"
    }
@@ -583,6 +583,23 @@
    "website": "https://ghanaembassy-morocco.com",
    "phone": "+212 5 37 75 52 19",
    "wikidata": "Q113030556",
+   "photo": null
+  },
+  {
+   "id": "way/1555330032",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "GN",
+   "name": null,
+   "nameLocal": null,
+   "lat": 33.993411,
+   "lon": -6.842973,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "guineea",
+   "wikidata": null,
    "photo": null
   },
   {
@@ -775,6 +792,23 @@
    "photo": null
   },
   {
+   "id": "way/1104199594",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "NG",
+   "name": "Embassy of the Federal Republic of Nigeria",
+   "nameLocal": null,
+   "lat": 33.996769,
+   "lon": -6.843242,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "nigeria",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/250462699",
    "group": "embassy",
    "kind": "embassy",
@@ -927,6 +961,23 @@
    "photo": null
   },
   {
+   "id": "way/1555330051",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "SE",
+   "name": null,
+   "nameLocal": null,
+   "lat": 33.988862,
+   "lon": -6.845968,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "suede",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "way/341148760",
    "group": "embassy",
    "kind": "embassy",
@@ -953,6 +1004,21 @@
    "address": "Rue Tamanarti 13, Rabat",
    "website": null,
    "phone": null,
+   "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "way/1104943570",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "THAI",
+   "name": "Ambassade Royale de Thaïlande ⵜⴰⵙⵎྦⴰⵙⴰⵜ ⵏ ⵟⴰⵢⵍⴰⵏⴷ السفارة الملكية التايلاندية في الرباط",
+   "nameLocal": "Ambassade Royale de Thaïlande ⵜⴰⵙⵎྦⴰⵙⴰⵜ ⵏ ⵟⴰⵢⵍⴰⵏⴷ السفارة الملكية التايلاندية في الرباط",
+   "lat": 33.96767,
+   "lon": -6.86074,
+   "address": "Avenue Lalla Meriem شارع للا مريم 33",
+   "website": "https://rabat.thaiembassy.org",
+   "phone": "+212 5 37 634 603",
    "wikidata": null,
    "photo": null
   },

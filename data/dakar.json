@@ -1,8 +1,8 @@
 {
  "city": "dakar",
- "generated": "2026-10-28T17:32:17.535Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 87,
+ "generated": "2026-10-28T20:53:03.544Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 88,
  "missions": [
   {
    "id": "node/7114768684",
@@ -392,6 +392,22 @@
    "website": "https://www.eeas.europa.eu/delegations/senegal_fr",
    "phone": "+221 33 889 10 71;+221 33 889 11 00",
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q73412090",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "FR",
+   "name": "consulat général de France à Dakar",
+   "nameLocal": null,
+   "lat": 14.66891,
+   "lon": -17.430065,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q73412090",
    "photo": null
   },
   {

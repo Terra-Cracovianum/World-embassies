@@ -1,8 +1,8 @@
 {
  "city": "cape-town",
- "generated": "2026-10-28T17:35:34.713Z",
- "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 11,
+ "generated": "2026-10-28T20:59:45.981Z",
+ "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
+ "count": 12,
  "missions": [
   {
    "id": "way/414278012",
@@ -47,6 +47,22 @@
    "website": "https://southafrica.diplomatie.belgium.be/en/embassy-and-consulates/consulate-cape-town",
    "phone": null,
    "wikidata": null,
+   "photo": null
+  },
+  {
+   "id": "wikidata/Q131398069",
+   "group": "consulate",
+   "kind": "consulate_general",
+   "country": "DE",
+   "name": "Consulate General of Germany, Cape Town",
+   "nameLocal": null,
+   "lat": -33.932716,
+   "lon": 18.426245,
+   "address": null,
+   "website": "https://kapstadt.diplo.de/",
+   "phone": null,
+   "source": "wikidata",
+   "wikidata": "Q131398069",
    "photo": null
   },
   {

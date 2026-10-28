@@ -1,6 +1,6 @@
 {
  "city": "seoul",
- "generated": "2026-10-28T16:16:33.957Z",
+ "generated": "2026-10-28T19:51:46.455Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 94,
  "missions": [
@@ -169,7 +169,7 @@
    "lat": 37.566869,
    "lon": 126.970894,
    "address": "정동길 21, 04518 서울특별시",
-   "website": "https://www.international.gc.ca/country-pays/republic_korea-republique_coree/seoul.aspx?lang=eng",
+   "website": "https://www.korea.gc.ca/",
    "phone": "+82 02-3783-6000",
    "wikidata": "Q25376727",
    "photo": {
@@ -360,7 +360,7 @@
    "kind": "embassy",
    "country": "EC",
    "name": "Embassy of Ecuador",
-   "nameLocal": "주한에콰도르대사관",
+   "nameLocal": "에콰도르 대사관",
    "lat": 37.570915,
    "lon": 126.982293,
    "address": "종로 47, 03160 서울특별시",
@@ -500,9 +500,9 @@
    "kind": "embassy",
    "country": "FR",
    "name": "French Embassy",
-   "nameLocal": "주한프랑스대사관",
-   "lat": 37.561502,
-   "lon": 126.965418,
+   "nameLocal": "프랑스대사관",
+   "lat": 37.561357,
+   "lon": 126.965537,
    "address": null,
    "website": null,
    "phone": null,
