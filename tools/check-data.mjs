@@ -15,6 +15,8 @@ const REFERENCE = {
   warsaw: 100, krakow: 0, paris: 165, london: 160, kyiv: 75, berlin: 155, rome: 130, madrid: 120,
   lisbon: 85, vienna: 115, prague: 90, budapest: 85, brussels: 180, amsterdam: 0, copenhagen: 75,
   stockholm: 100, helsinki: 70, oslo: 60, dublin: 60, athens: 85,
+  washington: 175, beijing: 165, tokyo: 155, 'new-delhi': 140, ottawa: 125, brasilia: 130, moscow: 145,
+  seoul: 115, canberra: 85, 'mexico-city': 85, ankara: 120, jakarta: 100, riyadh: 115, 'the-hague': 105,
 };
 
 let problems = 0;

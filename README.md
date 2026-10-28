@@ -1,7 +1,7 @@
 # World Embassies
 
 A Terra Cracovianum tool: every embassy and consulate in a city, on one map. Polish by default, English via the PL/EN switch (or `?lang=en`).
-Cities: 20 — Kraków and 19 European capitals (see `data/cities.json`). Open one from the globe, the index beside it, the city menu on a map, or `?city=<slug>`.
+Cities: 34 — the capitals of the 20 largest economies (IMF, nominal GDP 2025), 19 European capitals, Kraków, and The Hague, where the Netherlands' embassies are (see `data/cities.json`). Open one from the globe, the index beside it, the city menu on a map, or `?city=<slug>`.
 
 Live: https://terra-cracovianum.github.io/World-embassies/
 

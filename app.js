@@ -391,9 +391,24 @@ function renderStations() {
     </button></li>`).join('');
 }
 $('#stations').addEventListener('click', (e) => { const b = e.target.closest('.station'); if (b) navigate(b.dataset.slug); });
-$('#stations').addEventListener('pointerover', (e) => globe?.highlight(e.target.closest('.station')?.dataset.slug ?? null));
-$('#stations').addEventListener('pointerleave', () => globe?.highlight(null));
-$('#stations').addEventListener('focusin', (e) => globe?.highlight(e.target.closest('.station')?.dataset.slug ?? null));
+/* Pointing at a city in the list lights its pin and turns the globe to face it (it may be on the far
+   side); the globe holds still while the list or the globe itself is under the pointer. */
+let facing = null;
+function pointAt(slug) {
+  globe?.highlight(slug);
+  if (!slug || slug === facing || state.busy) return;
+  facing = slug;
+  const city = state.cities.find((c) => c.slug === slug);
+  if (city && document.body.dataset.view === 'globe') globe.face(city);
+}
+$('#stations').addEventListener('pointerover', (e) => pointAt(e.target.closest('.station')?.dataset.slug ?? null));
+$('#stations').addEventListener('focusin', (e) => pointAt(e.target.closest('.station')?.dataset.slug ?? null));
+$('#stations').addEventListener('pointerenter', () => globe?.hold(true));
+$('#stations').addEventListener('pointerleave', () => { globe?.highlight(null); globe?.hold(false); facing = null; });
+$('#globe').addEventListener('pointerenter', () => globe?.hold(true));
+$('#globe').addEventListener('pointerleave', () => globe?.hold(false));
+$('#gpins').addEventListener('pointerover', () => globe?.hold(true));
+$('#gpins').addEventListener('pointerout', () => globe?.hold(false));
 /* the city menu: a pill showing the current city that opens every city, in the language menu's style */
 const picker = $('#city-picker');
 const pickerBtn = $('#city-btn');
@@ -413,14 +428,15 @@ $('#cities').addEventListener('click', (e) => {
 });
 $('#back').addEventListener('click', () => navigate(null));
 
-/* The globe's resting place: close over Europe, so twenty cities have room. On desktop it sits just
-   right of the copy and runs off the screen's edge; on phones it fills the width under the headline. */
+/* The globe's resting place: the whole Earth, tilted so Europe sits high and both the Americas
+   and Asia turn into view. On desktop it sits in the space right of the copy; on phones under the
+   headline. */
 function homeView() {
   const { w, h } = globe;
-  if (w < 761) return { lon: 15, lat: 50, scale: w * 0.95, x: w / 2, y: h * 0.56 };
-  // Europe centred in the space right of the copy; the globe's limb sweeps off behind the text.
+  if (w < 761) return { lon: 15, lat: 28, scale: Math.min(w * 0.44, h * 0.27), x: w / 2, y: h * 0.56 };
   const copyRight = $('.landing-copy').getBoundingClientRect().right - stage.getBoundingClientRect().left;
-  return { lon: 13, lat: 50, scale: Math.min(h * 1.05, w * 0.62), x: copyRight + (w - copyRight) * 0.5, y: h * 0.52 };
+  const room = w - copyRight;
+  return { lon: 15, lat: 28, scale: Math.min(h * 0.43, room * 0.42), x: copyRight + room * 0.5, y: h * 0.52 };
 }
 
 /* Where the city sits on screen when the map is at DIVE_ZOOM around it: the map pane's centre. */

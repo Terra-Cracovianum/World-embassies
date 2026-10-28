@@ -97,11 +97,14 @@ export class Globe {
   start() {
     if (this.running) return;
     this.running = true;
+    let last = performance.now();
     const tick = (now) => {
       if (!this.running) return;
-      if (this.drift && this.home && !this.dragging && !this.tweening) {
-        // the slow sway of an instrument left on the bench, around the home view
-        this.view.lon = this.home.lon + Math.sin((now - this.home.t0) / 9000) * 7;
+      const dt = Math.min(now - last, 50);
+      last = now;
+      if (this.drift && this.home && !this.held && !this.dragging && !this.tweening) {
+        // the world turns slowly under the instrument, west to east, a full turn in a minute and a half
+        this.view.lon += dt * 0.004;
       }
       this.#inertia();
       this.render();
@@ -112,10 +115,20 @@ export class Globe {
 
   stop() { this.running = false; }
 
-  /* Where the idle sway centres; it starts from zero offset, so settling never jumps. */
+  /* The globe is at rest: let it turn. */
   setHome() {
-    this.home = { lon: this.view.lon, t0: performance.now() };
+    this.home = { lon: this.view.lon };
     this.drift = !reducedMotion;
+  }
+
+  /* `held`: the visitor is pointing at the globe or the city list, so it stops turning under them. */
+  hold(on) { this.held = on; }
+
+  /* Turn to face a city without changing the zoom — for a city chosen from the list that may be
+     on the far side. */
+  face(city, duration = 900) {
+    if (this.locked) return Promise.resolve();
+    return this.animate({ lon: city.center[1], lat: Math.max(-35, Math.min(55, city.center[0])) }, { duration, curve: ease.inOut });
   }
 
   /* Tween to `to` ({lon, lat, scale, x, y}, any subset). The centre travels the great circle,

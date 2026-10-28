@@ -418,5 +418,299 @@
     "zoom": 12,
     "code": "ATH",
     "labelSide": "e"
+  },
+  {
+    "slug": "washington",
+    "name": {
+      "pl": "Waszyngton",
+      "en": "Washington"
+    },
+    "country": "US",
+    "bbox": [
+      38.79,
+      -77.12,
+      38.996,
+      -76.909
+    ],
+    "center": [
+      38.9072,
+      -77.0369
+    ],
+    "zoom": 12,
+    "code": "WAS",
+    "labelSide": "w"
+  },
+  {
+    "slug": "beijing",
+    "name": {
+      "pl": "Pekin",
+      "en": "Beijing"
+    },
+    "country": "CN",
+    "bbox": [
+      39.83,
+      116.25,
+      40.03,
+      116.55
+    ],
+    "center": [
+      39.93,
+      116.44
+    ],
+    "zoom": 12,
+    "code": "BJS",
+    "labelSide": "e"
+  },
+  {
+    "slug": "tokyo",
+    "name": {
+      "pl": "Tokio",
+      "en": "Tokyo"
+    },
+    "country": "JP",
+    "bbox": [
+      35.6,
+      139.65,
+      35.75,
+      139.85
+    ],
+    "center": [
+      35.665,
+      139.74
+    ],
+    "zoom": 12,
+    "code": "TYO",
+    "labelSide": "e"
+  },
+  {
+    "slug": "new-delhi",
+    "name": {
+      "pl": "Nowe Delhi",
+      "en": "New Delhi"
+    },
+    "country": "IN",
+    "bbox": [
+      28.5,
+      77.05,
+      28.68,
+      77.3
+    ],
+    "center": [
+      28.59,
+      77.19
+    ],
+    "zoom": 12,
+    "code": "DEL",
+    "labelSide": "e"
+  },
+  {
+    "slug": "ottawa",
+    "name": {
+      "pl": "Ottawa",
+      "en": "Ottawa"
+    },
+    "country": "CA",
+    "bbox": [
+      45.33,
+      -75.8,
+      45.47,
+      -75.6
+    ],
+    "center": [
+      45.4215,
+      -75.6972
+    ],
+    "zoom": 13,
+    "code": "YOW",
+    "labelSide": "w"
+  },
+  {
+    "slug": "brasilia",
+    "name": {
+      "pl": "Brasília",
+      "en": "Brasília"
+    },
+    "country": "BR",
+    "bbox": [
+      -15.9,
+      -47.98,
+      -15.7,
+      -47.78
+    ],
+    "center": [
+      -15.8,
+      -47.88
+    ],
+    "zoom": 12,
+    "code": "BSB",
+    "labelSide": "w"
+  },
+  {
+    "slug": "moscow",
+    "name": {
+      "pl": "Moskwa",
+      "en": "Moscow"
+    },
+    "country": "RU",
+    "bbox": [
+      55.6,
+      37.35,
+      55.9,
+      37.85
+    ],
+    "center": [
+      55.7558,
+      37.6173
+    ],
+    "zoom": 11,
+    "code": "MOW",
+    "labelSide": "e"
+  },
+  {
+    "slug": "seoul",
+    "name": {
+      "pl": "Seul",
+      "en": "Seoul"
+    },
+    "country": "KR",
+    "bbox": [
+      37.45,
+      126.85,
+      37.65,
+      127.15
+    ],
+    "center": [
+      37.5665,
+      126.978
+    ],
+    "zoom": 12,
+    "code": "SEL",
+    "labelSide": "e"
+  },
+  {
+    "slug": "canberra",
+    "name": {
+      "pl": "Canberra",
+      "en": "Canberra"
+    },
+    "country": "AU",
+    "bbox": [
+      -35.4,
+      149.03,
+      -35.22,
+      149.2
+    ],
+    "center": [
+      -35.3,
+      149.12
+    ],
+    "zoom": 12,
+    "code": "CBR",
+    "labelSide": "e"
+  },
+  {
+    "slug": "mexico-city",
+    "name": {
+      "pl": "Meksyk",
+      "en": "Mexico City"
+    },
+    "country": "MX",
+    "bbox": [
+      19.3,
+      -99.25,
+      19.5,
+      -99.1
+    ],
+    "center": [
+      19.4326,
+      -99.1932
+    ],
+    "zoom": 12,
+    "code": "MEX",
+    "labelSide": "w"
+  },
+  {
+    "slug": "ankara",
+    "name": {
+      "pl": "Ankara",
+      "en": "Ankara"
+    },
+    "country": "TR",
+    "bbox": [
+      39.82,
+      32.7,
+      40.0,
+      32.95
+    ],
+    "center": [
+      39.905,
+      32.86
+    ],
+    "zoom": 12,
+    "code": "ANK",
+    "labelSide": "e"
+  },
+  {
+    "slug": "jakarta",
+    "name": {
+      "pl": "Dżakarta",
+      "en": "Jakarta"
+    },
+    "country": "ID",
+    "bbox": [
+      -6.37,
+      106.7,
+      -6.08,
+      106.97
+    ],
+    "center": [
+      -6.2088,
+      106.8256
+    ],
+    "zoom": 12,
+    "code": "JKT",
+    "labelSide": "e"
+  },
+  {
+    "slug": "riyadh",
+    "name": {
+      "pl": "Rijad",
+      "en": "Riyadh"
+    },
+    "country": "SA",
+    "bbox": [
+      24.55,
+      46.5,
+      24.85,
+      46.85
+    ],
+    "center": [
+      24.68,
+      46.63
+    ],
+    "zoom": 12,
+    "code": "RUH",
+    "labelSide": "e"
+  },
+  {
+    "slug": "the-hague",
+    "name": {
+      "pl": "Haga",
+      "en": "The Hague"
+    },
+    "country": "NL",
+    "bbox": [
+      52.02,
+      4.2,
+      52.13,
+      4.4
+    ],
+    "center": [
+      52.0905,
+      4.29
+    ],
+    "zoom": 13,
+    "code": "HAG",
+    "labelSide": "e"
   }
 ]
