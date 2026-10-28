@@ -2,7 +2,7 @@
  "city": "beijing",
  "generated": "2026-10-28T19:46:50.993Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API; Wikidata, CC0",
- "count": 132,
+ "count": 131,
  "missions": [
   {
    "id": "node/10753758544",
@@ -1443,27 +1443,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Embassy_of_the_Netherlands_in_Beijing_(20200512124600).jpg",
     "author": "N509FZ",
     "license": "CC BY-SA 4.0"
-   }
-  },
-  {
-   "id": "wikidata/Q3435605",
-   "group": "consulate",
-   "kind": "consulate_general",
-   "country": "NO",
-   "name": "Consulate General of Norway in Guangzhou",
-   "nameLocal": null,
-   "lat": 39.935431,
-   "lon": 116.460705,
-   "address": null,
-   "website": "https://www.norway.no/zh/china/norway-china/guangzhou/",
-   "phone": null,
-   "source": "wikidata",
-   "wikidata": "Q3435605",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Guangzhou_CITIC_Plaza_DSC02461.jpg/500px-Guangzhou_CITIC_Plaza_DSC02461.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Guangzhou_CITIC_Plaza_DSC02461.jpg",
-    "author": null,
-    "license": "CC BY-SA 3.0"
    }
   },
   {

@@ -6,9 +6,9 @@
   "generated": "2026-10-28T19:37:39.889Z"
  },
  "krakow": {
-  "count": 19,
+  "count": 18,
   "embassies": 0,
-  "consulates": 18,
+  "consulates": 17,
   "generated": "2026-10-28T19:37:37.736Z"
  },
  "paris": {
@@ -126,9 +126,9 @@
   "generated": "2026-10-28T19:47:39.851Z"
  },
  "beijing": {
-  "count": 132,
+  "count": 131,
   "embassies": 124,
-  "consulates": 8,
+  "consulates": 7,
   "generated": "2026-10-28T19:46:50.993Z"
  },
  "tokyo": {
@@ -564,9 +564,9 @@
   "generated": "2026-10-28T20:34:44.092Z"
  },
  "gdansk": {
-  "count": 17,
+  "count": 16,
   "embassies": 0,
-  "consulates": 17,
+  "consulates": 16,
   "generated": "2026-10-28T20:35:48.075Z"
  },
  "wroclaw": {

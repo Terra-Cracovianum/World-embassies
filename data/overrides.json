@@ -26,5 +26,23 @@
   "way/232726217": {
     "drop": true,
     "why": "a proposed embassy building site"
+  },
+  "wikidata/Q3435605": {
+    "drop": true,
+    "why": "Wikidata: the Consulate General of Norway in Guangzhou, with coordinates in Beijing"
+  },
+  "wikidata/Q48851771": {
+    "drop": true,
+    "why": "Russian consulate general in Kraków: Poland withdrew its consent and it closed in 2025; Wikidata still lists it"
+  },
+  "wikidata/Q11743077": {
+    "drop": true,
+    "why": "Russian consulate general in Gdańsk: closed by Poland in 2025; Wikidata still lists it"
+  },
+  "wikidata/Q31188633": {
+    "why": "Wikidata gives Cyprus as operator of the Northern Cyprus consulate general",
+    "set": {
+      "country": "ZZ"
+    }
   }
 }
