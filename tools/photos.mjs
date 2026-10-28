@@ -11,6 +11,11 @@ const english = new Intl.DisplayNames(['en'], { type: 'region' });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const GAP_MS = 250; // ~4 requests a second: Wikimedia answers 429 to anything much faster
 let last = 0;
+// A city's photos get a fixed share of the job: when many cities run at once Wikimedia slows to a
+// crawl, and a job cut off by its timeout saves nothing at all. Past the budget, missions keep the
+// photo an earlier run found and the rest wait for the next run.
+const BUDGET_MS = Number(process.env.PHOTO_BUDGET_MIN || 12) * 60000;
+let deadline = Infinity;
 
 /* Paced, and retried when Wikimedia says "too many" (429) or is briefly down (5xx). */
 async function getJSON(url, params) {
@@ -22,7 +27,7 @@ async function getJSON(url, params) {
     last = Date.now();
     const res = await fetch(u, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
     if (res.ok) return res.json();
-    if ((res.status === 429 || res.status >= 500) && attempt < 4) {
+    if ((res.status === 429 || res.status >= 500) && attempt < 4 && Date.now() < deadline) {
       const after = Number(res.headers.get('retry-after'));
       await sleep(Math.min(60, after > 0 ? after : 5 * 2 ** attempt) * 1000);
       continue;
@@ -116,8 +121,13 @@ async function photoFor(m, city) {
 export async function addPhotos(data, city, log = () => {}, previous = {}) {
   let found = 0;
   let failed = 0;
+  let skipped = 0;
+  deadline = Date.now() + BUDGET_MS;
   for (const m of data.missions) {
-    try {
+    if (!('photo' in m) && Date.now() > deadline) {
+      m.photo = previous[m.id] ?? null;
+      if (!m.photo) skipped++;
+    } else try {
       // An override may already have set the photo (or null, to hide a bad one). A photo found on an
       // earlier run is kept without asking again, so the weekly run only looks for the missing ones;
       // PHOTO_REFRESH=1 re-checks everything.
@@ -133,5 +143,5 @@ export async function addPhotos(data, city, log = () => {}, previous = {}) {
     delete m.commons;
     delete m.image;
   }
-  log(`photos: ${found} of ${data.missions.length}${failed ? ` (${failed} lookups failed)` : ''}`);
+  log(`photos: ${found} of ${data.missions.length}${failed ? ` (${failed} lookups failed)` : ''}${skipped ? ` (${skipped} left for the next run: out of time)` : ''}`);
 }
