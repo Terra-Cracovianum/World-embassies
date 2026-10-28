@@ -1,8 +1,8 @@
 {
  "city": "prague",
- "generated": "2026-10-26T15:40:01.292Z",
+ "generated": "2026-10-28T10:33:40.540Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 104,
+ "count": 99,
  "missions": [
   {
    "id": "node/296786800",
@@ -15,7 +15,7 @@
    "lon": 14.405386,
    "address": "Sibiřské náměstí 730/1, 16000 Praha",
    "website": "https://www.mofaic.gov.ae/missions/UAE-Missions-Abroad/UAE-Missions-Abroad-Details?countryId=f23a2956-b6e0-4d2b-ac98-ee41041698e4",
-   "phone": "+420 221 517 777",
+   "phone": "+42-0221517777",
    "wikidata": "Q80179310",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Embassy_of_the_United_Arab_Emirates.jpg/500px-Embassy_of_the_United_Arab_Emirates.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -95,7 +95,7 @@
    }
   },
   {
-   "id": "node/14224988314",
+   "id": "way/32020996",
    "group": "embassy",
    "kind": "embassy",
    "country": "AM",
@@ -115,7 +115,7 @@
    "kind": "embassy",
    "country": "AR",
    "name": "Embassy of Argentina",
-   "nameLocal": "Velvyslanectví Argentinské republiky",
+   "nameLocal": "Velvyslanectví Argentiny",
    "lat": 50.084589,
    "lon": 14.426803,
    "address": "Panská 6",
@@ -170,7 +170,7 @@
    "kind": "embassy",
    "country": "AZ",
    "name": "Embassy of the Republic of Azerbaijan",
-   "nameLocal": "Velvyslanectví Ázerbájdžánské republiky",
+   "nameLocal": "Velvyslanectví Ázerbajdžánské republiky",
    "lat": 50.101323,
    "lon": 14.413471,
    "address": "Na Zátorce 783/17, 16000 Praha",
@@ -280,7 +280,7 @@
    }
   },
   {
-   "id": "node/14224988305",
+   "id": "way/49911039",
    "group": "embassy",
    "kind": "embassy",
    "country": "BY",
@@ -340,21 +340,6 @@
    }
   },
   {
-   "id": "node/14224988315",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CH",
-   "name": "Embassy of Switzerland",
-   "nameLocal": "Velvyslanectví Švýcarské konfederace",
-   "lat": 50.096304,
-   "lon": 14.388243,
-   "address": "Pevnostní 7, 16201 Praha",
-   "website": "https://www.eda.admin.ch/prag",
-   "phone": "+420 220 400 611",
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/26345992",
    "group": "embassy",
    "kind": "embassy",
@@ -370,20 +355,39 @@
    "photo": null
   },
   {
-   "id": "node/14224758980",
-   "group": "consulate",
-   "kind": "honorary_consulate",
-   "country": "CI",
-   "name": "Honorární konzulát Republiky Pobřeží slonoviny",
-   "nameLocal": "Honorární konzulát Republiky Pobřeží slonoviny",
-   "lat": 50.083003,
-   "lon": 14.429398,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
+   "id": "way/31715113",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "CH",
+   "name": "Embassy of Switzerland",
+   "nameLocal": "Velvyslanectví Švýcarské konfederace",
+   "lat": 50.096304,
+   "lon": 14.388243,
+   "address": "Pevnostní 7, 16201 Praha",
+   "website": "https://www.eda.admin.ch/prag",
+   "phone": "+420 220 400 611",
    "wikidata": null,
    "photo": null
+  },
+  {
+   "id": "way/30067291",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "CL",
+   "name": "Embassy of Chile",
+   "nameLocal": "Velvyslanectví Chile",
+   "lat": 50.099323,
+   "lon": 14.411475,
+   "address": "U Vorlíků 4",
+   "website": "https://chile.gob.cl/republica-checa/",
+   "phone": "+420 224 315 064",
+   "wikidata": "Q107115732",
+   "photo": {
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chilean_embassy_Prague_2729s.jpg/500px-Chilean_embassy_Prague_2729s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chilean_embassy_Prague_2729s.jpg",
+    "author": "Hynek Moravec",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "node/331950378",
@@ -401,7 +405,7 @@
    "photo": null
   },
   {
-   "id": "node/14224988318",
+   "id": "way/30122963",
    "group": "embassy",
    "kind": "embassy",
    "country": "CN",
@@ -465,7 +469,7 @@
    "lat": 50.080537,
    "lon": 14.42933,
    "address": "Václavské náměstí 1282/51",
-   "website": "http://www.mfa.gov.cy/embassyprague",
+   "website": null,
    "phone": "+420 281 910 536",
    "wikidata": "Q107124467",
    "photo": {
@@ -474,22 +478,6 @@
     "author": "ŠJů (cs:ŠJů)",
     "license": "CC BY-SA 3.0"
    }
-  },
-  {
-   "id": "node/14224766448",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "DD",
-   "name": "Konzulární oddělení Velvyslanectví Spolkové republiky Německo",
-   "nameLocal": "Konzulární oddělení Velvyslanectví Spolkové republiky Německo",
-   "lat": 50.086965,
-   "lon": 14.39711,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "node/1087312111",
@@ -547,15 +535,15 @@
    "photo": null
   },
   {
-   "id": "node/14224988310",
+   "id": "way/41774512",
    "group": "embassy",
    "kind": "embassy",
    "country": "DZ",
    "name": "Embassy of Algeria",
-   "nameLocal": "Velvyslanectví Alžírské demokratické a lidové republiky",
+   "nameLocal": "Alžírské velvyslanectví",
    "lat": 50.102179,
    "lon": 14.412,
-   "address": "V Tišině 483/10",
+   "address": "V Tišině 483/10",
    "website": "https://www.algerie.cz",
    "phone": "+420 233 101 770",
    "wikidata": "Q100268088",
@@ -571,25 +559,25 @@
    "group": "embassy",
    "kind": "embassy",
    "country": "EE",
-   "name": "Velvyslanectví Estonské republiky",
-   "nameLocal": "Velvyslanectví Estonské republiky",
+   "name": "Embassy of Estonia Prague",
+   "nameLocal": "Embassy of Estonia Prague",
    "lat": 50.086012,
    "lon": 14.406065,
    "address": "Velkopřevorské náměstí 484/3",
    "website": "https://prague.mfa.ee/",
-   "phone": "+420 257 011 180",
+   "phone": "257 011 180",
    "wikidata": null,
    "photo": null
   },
   {
-   "id": "node/14224894799",
+   "id": "way/113453274",
    "group": "embassy",
    "kind": "embassy",
    "country": "EG",
    "name": "Embassy of the Arab Republic of Egypt",
-   "nameLocal": "Velvyslanectví Egyptské arabské republiky",
-   "lat": 50.100388,
-   "lon": 14.407658,
+   "nameLocal": "Velvyslanectví arabské republiky Egypt",
+   "lat": 50.100471,
+   "lon": 14.407637,
    "address": "Pelléova 14",
    "website": null,
    "phone": "+420 224 311 506",
@@ -597,12 +585,12 @@
    "photo": null
   },
   {
-   "id": "node/14224894797",
+   "id": "way/216401217",
    "group": "embassy",
    "kind": "embassy",
    "country": "ES",
    "name": "Embassy of Spain",
-   "nameLocal": "Velvyslanectví Španělského království",
+   "nameLocal": "Velvyslanectví Španělska",
    "lat": 50.097281,
    "lon": 14.408174,
    "address": "Badeniho 401/4, 17000 Praha",
@@ -687,17 +675,17 @@
    "lon": 14.405542,
    "address": "Mlýnská 4, 160 00 Praha 6",
    "website": "https://www.czech.mfa.gov.ge/",
-   "phone": "+420 233 311 749",
+   "phone": "+420 233-311-749",
    "wikidata": null,
    "photo": null
   },
   {
-   "id": "node/14224988308",
+   "id": "way/44384535",
    "group": "embassy",
    "kind": "embassy",
    "country": "GH",
    "name": "Embassy of Ghana",
-   "nameLocal": "Velvyslanectví Ghanské republiky",
+   "nameLocal": "Velvyslanectví Ghany",
    "lat": 50.095011,
    "lon": 14.373556,
    "address": null,
@@ -732,12 +720,12 @@
    }
   },
   {
-   "id": "node/14224988313",
+   "id": "way/32687610",
    "group": "embassy",
    "kind": "embassy",
    "country": "HR",
    "name": "Embassy of the Republic of Croatia",
-   "nameLocal": "Velvyslanectví Chorvatské republiky",
+   "nameLocal": "Velvyslanectví Chorvatské Republiky",
    "lat": 50.094832,
    "lon": 14.372083,
    "address": "V Průhledu 9",
@@ -752,7 +740,7 @@
    }
   },
   {
-   "id": "node/14224988312",
+   "id": "way/36973534",
    "group": "embassy",
    "kind": "embassy",
    "country": "HU",
@@ -776,8 +764,8 @@
    "group": "embassy",
    "kind": "embassy",
    "country": "ID",
-   "name": "Velvyslanectví Indonéské republiky",
-   "nameLocal": "Velvyslanectví Indonéské republiky",
+   "name": "Velvyslanectví Indonéské republiky Praha",
+   "nameLocal": "Velvyslanectví Indonéské republiky Praha",
    "lat": 50.071072,
    "lon": 14.372885,
    "address": null,
@@ -807,7 +795,7 @@
    }
   },
   {
-   "id": "node/14224988322",
+   "id": "way/28714582",
    "group": "embassy",
    "kind": "embassy",
    "country": "IL",
@@ -827,7 +815,7 @@
    }
   },
   {
-   "id": "node/14224988321",
+   "id": "way/28714594",
    "group": "embassy",
    "kind": "embassy",
    "country": "IN",
@@ -847,7 +835,7 @@
    }
   },
   {
-   "id": "node/14224988302",
+   "id": "way/50711441",
    "group": "embassy",
    "kind": "embassy",
    "country": "IQ",
@@ -927,7 +915,7 @@
    "kind": "embassy",
    "country": "JP",
    "name": "Embassy of Japan in the Czech Republic",
-   "nameLocal": "Velvyslanectví Japonska",
+   "nameLocal": "Velvyslanectví Japonska v České republice",
    "lat": 50.069595,
    "lon": 14.40193,
    "address": "Klicperova 3208/12, 15000 Praha",
@@ -958,7 +946,7 @@
    "photo": null
   },
   {
-   "id": "node/14224988326",
+   "id": "way/25857917",
    "group": "embassy",
    "kind": "embassy",
    "country": "KP",
@@ -988,12 +976,12 @@
    "photo": null
   },
   {
-   "id": "node/14224988319",
+   "id": "way/30067280",
    "group": "embassy",
    "kind": "embassy",
    "country": "KW",
    "name": "Embassy of the State of Kuwait",
-   "nameLocal": "Velvyslanectví Kuvajtského státu",
+   "nameLocal": "Velvyslanectví Státu Kuvajt",
    "lat": 50.101414,
    "lon": 14.414224,
    "address": "Na Zátorce",
@@ -1008,7 +996,7 @@
    }
   },
   {
-   "id": "node/14224988316",
+   "id": "way/30167463",
    "group": "embassy",
    "kind": "embassy",
    "country": "KZ",
@@ -1016,7 +1004,7 @@
    "nameLocal": "Velvyslanectví Republiky Kazachstán",
    "lat": 50.095291,
    "lon": 14.393056,
-   "address": null,
+   "address": "Pod hradbami 662/9, 16000",
    "website": "https://www.gov.kz/memleket/entities/mfa-prague",
    "phone": "+420 233 375 642",
    "wikidata": "Q107119264",
@@ -1088,7 +1076,7 @@
    }
   },
   {
-   "id": "node/14224988307",
+   "id": "way/49511263",
    "group": "embassy",
    "kind": "embassy",
    "country": "LV",
@@ -1096,14 +1084,14 @@
    "nameLocal": "Velvyslanectví Lotyšské republiky",
    "lat": 50.073506,
    "lon": 14.450119,
-   "address": null,
+   "address": "Hradešínská 1022/3, 10100 Praha",
    "website": "https://www.mfa.gov.lv/",
    "phone": "+420 255 700 881",
    "wikidata": null,
    "photo": null
   },
   {
-   "id": "node/14224894800",
+   "id": "way/51757658",
    "group": "embassy",
    "kind": "embassy",
    "country": "LY",
@@ -1123,7 +1111,7 @@
    }
   },
   {
-   "id": "node/14224894798",
+   "id": "way/216401206",
    "group": "embassy",
    "kind": "embassy",
    "country": "MA",
@@ -1158,12 +1146,12 @@
    "photo": null
   },
   {
-   "id": "node/14224988325",
+   "id": "way/27118878",
    "group": "embassy",
    "kind": "embassy",
    "country": "MK",
    "name": "Embassy of North Macedonia",
-   "nameLocal": "Velvyslanectví Republiky Severní Makedonie",
+   "nameLocal": "Velvyslanectví Severní Makedonie",
    "lat": 50.091206,
    "lon": 14.353946,
    "address": "Na Větru 236/4",
@@ -1238,7 +1226,7 @@
    "kind": "embassy",
    "country": "MX",
    "name": "Embassy of Mexico",
-   "nameLocal": "Velvyslanectví Spojených států mexických",
+   "nameLocal": "Velvyslanectví Mexika",
    "lat": 50.080099,
    "lon": 14.416861,
    "address": "V Jirchářích 10, 11000 Praha",
@@ -1253,7 +1241,7 @@
    }
   },
   {
-   "id": "node/14224988327",
+   "id": "way/10591856",
    "group": "embassy",
    "kind": "embassy",
    "country": "MY",
@@ -1263,7 +1251,7 @@
    "lon": 14.375479,
    "address": "Komornická 1852/25",
    "website": "https://www.kln.gov.my/web/cze_prague",
-   "phone": "+420 234 706 600",
+   "phone": "+420 234-706-600",
    "wikidata": "Q107126171",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Praha%2C_Dejvice%2C_Komornick%C3%A1_25.jpg/500px-Praha%2C_Dejvice%2C_Komornick%C3%A1_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1288,7 +1276,7 @@
    "photo": null
   },
   {
-   "id": "node/14224988309",
+   "id": "way/41777205",
    "group": "embassy",
    "kind": "embassy",
    "country": "NL",
@@ -1328,22 +1316,6 @@
    }
   },
   {
-   "id": "node/14224772248",
-   "group": "consulate",
-   "kind": "honorary_consulate",
-   "country": "OM",
-   "name": "Honorární konzulát Sultanátu Omán",
-   "nameLocal": "Honorární konzulát Sultanátu Omán",
-   "lat": 50.071345,
-   "lon": 14.430985,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/8809949283",
    "group": "embassy",
    "kind": "embassy",
@@ -1369,7 +1341,7 @@
    "kind": "embassy",
    "country": "PH",
    "name": "Embassy of the Philippines",
-   "nameLocal": "Velvyslanectví Filipínské republiky",
+   "nameLocal": "Velvyslanectví Filipín",
    "lat": 50.086149,
    "lon": 14.431636,
    "address": "Senovážné náměstí 8",
@@ -1389,7 +1361,7 @@
    "kind": "embassy",
    "country": "PK",
    "name": "Embassy of the Islamic Republic of Pakistan",
-   "nameLocal": "Velvyslanectví Pákistánské islámské republiky",
+   "nameLocal": "Velvyslanectví Pákistánu",
    "lat": 50.093362,
    "lon": 14.371895,
    "address": "Střešovická 854/56, 16200 Praha",
@@ -1419,12 +1391,12 @@
    "photo": null
   },
   {
-   "id": "node/14224894796",
+   "id": "way/255937586",
    "group": "embassy",
    "kind": "embassy",
    "country": "PS",
    "name": "Embassy of the State of Palestine",
-   "nameLocal": "Velvyslanectví Palestinských autonomních území",
+   "nameLocal": "Velvyslanectví Státu Palestina",
    "lat": 50.135107,
    "lon": 14.3788,
    "address": "Internacionální 1307/12",
@@ -1459,22 +1431,6 @@
    }
   },
   {
-   "id": "node/14224725432",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "QA",
-   "name": "Velvyslanectví Státu Katar",
-   "nameLocal": "Velvyslanectví Státu Katar",
-   "lat": 50.102415,
-   "lon": 14.409612,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/1094041525",
    "group": "embassy",
    "kind": "embassy",
@@ -1500,7 +1456,7 @@
    "kind": "embassy",
    "country": "RS",
    "name": "Embassy of the Republic of Serbia",
-   "nameLocal": "Velvyslanectví Srbské republiky",
+   "nameLocal": "Velvyslanectví Republiky Srbsko",
    "lat": 50.087312,
    "lon": 14.405442,
    "address": "Mostecká 277/15, 11800 Praha",
@@ -1515,7 +1471,7 @@
    }
   },
   {
-   "id": "node/14224988323",
+   "id": "way/28549910",
    "group": "embassy",
    "kind": "embassy",
    "country": "RU",
@@ -1526,23 +1482,18 @@
    "address": null,
    "website": "https://czech.mid.ru/cz/",
    "phone": "+420 233 374 100",
-   "wikidata": "Q4374049",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Russian_embassy_Prague_3209.JPG/500px-Russian_embassy_Prague_3209.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Russian_embassy_Prague_3209.JPG",
-    "author": "Hynek Moravec",
-    "license": "CC BY 2.5"
-   }
+   "wikidata": null,
+   "photo": null
   },
   {
-   "id": "node/14224988320",
+   "id": "way/30067259",
    "group": "embassy",
    "kind": "embassy",
    "country": "SA",
    "name": "Embassy of the Kingdom of Saudi Arabia",
    "nameLocal": "Velvyslanectví Království Saúdské Arábie",
-   "lat": 50.102488,
-   "lon": 14.414523,
+   "lat": 50.10244,
+   "lon": 14.414473,
    "address": "Ukrajinských hrdinů 622/5",
    "website": "https://embassies.mofa.gov.sa/",
    "phone": "+420 257 316 066",
@@ -1560,7 +1511,7 @@
    "kind": "embassy",
    "country": "SE",
    "name": "Embassy of Sweden",
-   "nameLocal": "Velvyslanectví Švédského království",
+   "nameLocal": "Velvyslanectví Švédska",
    "lat": 50.08752,
    "lon": 14.390958,
    "address": "Úvoz 156/13, 11800 Praha",
@@ -1575,7 +1526,7 @@
    }
   },
   {
-   "id": "node/14224988311",
+   "id": "way/36973535",
    "group": "embassy",
    "kind": "embassy",
    "country": "SI",
@@ -1595,7 +1546,7 @@
    }
   },
   {
-   "id": "node/14224894794",
+   "id": "way/488938853",
    "group": "embassy",
    "kind": "embassy",
    "country": "SK",
@@ -1610,28 +1561,12 @@
    "photo": null
   },
   {
-   "id": "node/14224803432",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "SM",
-   "name": "Honorární konzulát Republiky San Marino",
-   "nameLocal": "Honorární konzulát Republiky San Marino",
-   "lat": 50.088971,
-   "lon": 14.401312,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/1097328580",
    "group": "embassy",
    "kind": "embassy",
    "country": "SMOM",
    "name": "Embassy of the Sovereign Military Order of Malta",
-   "nameLocal": "Velvyslanectví Suverénního řádu Maltézských rytířů",
+   "nameLocal": "Suverénní řád maltézských rytířů",
    "lat": 50.086751,
    "lon": 14.406165,
    "address": "Lázeňská 287/4, 11800 Praha",
@@ -1641,7 +1576,7 @@
    "photo": null
   },
   {
-   "id": "node/14224988304",
+   "id": "way/50711132",
    "group": "embassy",
    "kind": "embassy",
    "country": "SY",
@@ -1681,7 +1616,7 @@
    }
   },
   {
-   "id": "node/14224988306",
+   "id": "way/49774343",
    "group": "embassy",
    "kind": "embassy",
    "country": "TN",
@@ -1736,7 +1671,7 @@
    "photo": null
   },
   {
-   "id": "node/14224988301",
+   "id": "way/50711451",
    "group": "embassy",
    "kind": "embassy",
    "country": "UA",
@@ -1776,28 +1711,12 @@
    }
   },
   {
-   "id": "node/14224888618",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "UZ",
-   "name": "Velvyslanectví Republiky Uzbekistán",
-   "nameLocal": "Velvyslanectví Republiky Uzbekistán",
-   "lat": 50.080557,
-   "lon": 14.429294,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/5624028473",
    "group": "embassy",
    "kind": "embassy",
    "country": "VA",
-   "name": "Apoštolská nunciatura Vatikánského městského státu",
-   "nameLocal": "Apoštolská nunciatura Vatikánského městského státu",
+   "name": "Vatikán - Apoštolská nunciatura",
+   "nameLocal": "Vatikán - Apoštolská nunciatura",
    "lat": 50.081104,
    "lon": 14.416816,
    "address": null,
@@ -1811,8 +1730,8 @@
    "group": "embassy",
    "kind": "embassy",
    "country": "VN",
-   "name": "Konzulární oddělení Vietnamské socialistické republiky",
-   "nameLocal": "Konzulární oddělení Vietnamské socialistické republiky",
+   "name": "Embassy of Vietnam",
+   "nameLocal": "Embassy of Vietnam",
    "lat": 50.074691,
    "lon": 14.414074,
    "address": "Rašínovo nábřeží 72, 12000 Praha",
@@ -1826,8 +1745,8 @@
    "group": "embassy",
    "kind": "embassy",
    "country": "VN",
-   "name": "Obchodní oddělení Velvyslanectví Vietnamské socialistické republiky",
-   "nameLocal": "Obchodní oddělení Velvyslanectví Vietnamské socialistické republiky",
+   "name": "Vietnam",
+   "nameLocal": "Vietnam",
    "lat": 50.068851,
    "lon": 14.41503,
    "address": "Rašínovo nábřeží 38, 12800 Praha",
@@ -1877,12 +1796,12 @@
    }
   },
   {
-   "id": "node/14224988317",
+   "id": "way/30167461",
    "group": "embassy",
    "kind": "embassy",
    "country": "YE",
    "name": "Embassy of Yemen",
-   "nameLocal": "Velvyslanectví Jemenské republiky",
+   "nameLocal": "Velvyslanectví Jemenu",
    "lat": 50.095343,
    "lon": 14.394044,
    "address": "Pod Hradbami 664/5, 16000",

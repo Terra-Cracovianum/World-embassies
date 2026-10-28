@@ -1,122 +1,206 @@
 {
  "warsaw": {
-  "count": 120,
-  "embassies": 99,
+  "count": 122,
+  "embassies": 100,
   "consulates": 20,
-  "generated": "2026-10-26T15:35:44.762Z"
+  "generated": "2026-10-28T10:28:36.606Z"
  },
  "krakow": {
-  "count": 17,
+  "count": 18,
   "embassies": 0,
-  "consulates": 16,
-  "generated": "2026-10-26T15:33:30.050Z"
+  "consulates": 17,
+  "generated": "2026-10-28T10:28:36.857Z"
  },
  "paris": {
   "count": 224,
   "embassies": 174,
   "consulates": 35,
-  "generated": "2026-10-26T15:33:34.912Z"
+  "generated": "2026-10-28T10:28:31.835Z"
  },
  "london": {
-  "count": 227,
+  "count": 228,
   "embassies": 191,
   "consulates": 31,
-  "generated": "2026-10-26T15:33:36.997Z"
+  "generated": "2026-10-28T10:28:46.573Z"
  },
  "kyiv": {
   "count": 81,
   "embassies": 71,
   "consulates": 10,
-  "generated": "2026-10-26T15:33:31.938Z"
+  "generated": "2026-10-28T10:28:40.021Z"
  },
  "berlin": {
   "count": 207,
   "embassies": 174,
   "consulates": 13,
-  "generated": "2026-10-26T15:33:37.146Z"
+  "generated": "2026-10-28T10:28:56.085Z"
  },
  "rome": {
   "count": 237,
   "embassies": 223,
   "consulates": 11,
-  "generated": "2026-10-26T15:36:47.429Z"
+  "generated": "2026-10-28T10:28:37.744Z"
  },
  "madrid": {
   "count": 153,
   "embassies": 132,
   "consulates": 19,
-  "generated": "2026-10-26T15:41:11.959Z"
+  "generated": "2026-10-28T10:28:32.128Z"
  },
  "lisbon": {
   "count": 99,
   "embassies": 92,
   "consulates": 6,
-  "generated": "2026-10-26T15:38:12.195Z"
+  "generated": "2026-10-28T10:34:38.008Z"
  },
  "vienna": {
   "count": 174,
   "embassies": 136,
   "consulates": 24,
-  "generated": "2026-10-26T15:39:07.945Z"
+  "generated": "2026-10-28T10:34:11.701Z"
  },
  "prague": {
-  "count": 104,
-  "embassies": 96,
-  "consulates": 6,
-  "generated": "2026-10-26T15:40:01.292Z"
+  "count": 99,
+  "embassies": 93,
+  "consulates": 4,
+  "generated": "2026-10-28T10:33:40.540Z"
  },
  "budapest": {
   "count": 105,
   "embassies": 94,
   "consulates": 10,
-  "generated": "2026-10-26T15:42:06.298Z"
+  "generated": "2026-10-28T10:33:55.497Z"
  },
  "brussels": {
   "count": 350,
   "embassies": 187,
   "consulates": 13,
-  "generated": "2026-10-26T15:44:47.730Z"
+  "generated": "2026-10-28T10:35:04.855Z"
  },
  "amsterdam": {
   "count": 23,
   "embassies": 1,
   "consulates": 22,
-  "generated": "2026-10-26T15:42:54.900Z"
+  "generated": "2026-10-28T10:35:56.290Z"
  },
  "copenhagen": {
   "count": 86,
   "embassies": 81,
   "consulates": 2,
-  "generated": "2026-10-26T15:44:04.722Z"
+  "generated": "2026-10-28T10:37:56.953Z"
  },
  "stockholm": {
   "count": 134,
   "embassies": 107,
   "consulates": 27,
-  "generated": "2026-10-26T15:48:12.447Z"
+  "generated": "2026-10-28T10:44:33.380Z"
  },
  "helsinki": {
   "count": 74,
   "embassies": 70,
   "consulates": 4,
-  "generated": "2026-10-26T15:49:56.506Z"
+  "generated": "2026-10-28T10:40:13.733Z"
  },
  "oslo": {
   "count": 74,
   "embassies": 73,
   "consulates": 0,
-  "generated": "2026-10-26T15:49:57.974Z"
+  "generated": "2026-10-28T10:40:02.488Z"
  },
  "dublin": {
-  "count": 76,
-  "embassies": 70,
+  "count": 75,
+  "embassies": 69,
   "consulates": 4,
-  "generated": "2026-10-26T15:51:04.072Z"
+  "generated": "2026-10-28T10:41:45.832Z"
  },
  "athens": {
   "count": 95,
   "embassies": 82,
   "consulates": 11,
-  "generated": "2026-10-26T15:54:49.684Z"
+  "generated": "2026-10-28T10:44:01.881Z"
+ },
+ "washington": {
+  "count": 202,
+  "embassies": 189,
+  "consulates": 10,
+  "generated": "2026-10-28T10:41:12.353Z"
+ },
+ "beijing": {
+  "count": 132,
+  "embassies": 123,
+  "consulates": 7,
+  "generated": "2026-10-28T10:42:02.427Z"
+ },
+ "tokyo": {
+  "count": 158,
+  "embassies": 153,
+  "consulates": 3,
+  "generated": "2026-10-28T10:43:55.629Z"
+ },
+ "new-delhi": {
+  "count": 120,
+  "embassies": 110,
+  "consulates": 3,
+  "generated": "2026-10-28T10:46:34.751Z"
+ },
+ "ottawa": {
+  "count": 136,
+  "embassies": 131,
+  "consulates": 3,
+  "generated": "2026-10-28T10:44:57.212Z"
+ },
+ "brasilia": {
+  "count": 134,
+  "embassies": 133,
+  "consulates": 0,
+  "generated": "2026-10-28T10:49:59.504Z"
+ },
+ "moscow": {
+  "count": 181,
+  "embassies": 157,
+  "consulates": 17,
+  "generated": "2026-10-28T10:53:35.082Z"
+ },
+ "seoul": {
+  "count": 94,
+  "embassies": 91,
+  "consulates": 1,
+  "generated": "2026-10-28T10:51:06.698Z"
+ },
+ "canberra": {
+  "count": 115,
+  "embassies": 114,
+  "consulates": 0,
+  "generated": "2026-10-28T10:51:47.781Z"
+ },
+ "mexico-city": {
+  "count": 88,
+  "embassies": 81,
+  "consulates": 6,
+  "generated": "2026-10-28T10:52:07.710Z"
+ },
+ "ankara": {
+  "count": 160,
+  "embassies": 148,
+  "consulates": 11,
+  "generated": "2026-10-28T10:53:09.034Z"
+ },
+ "jakarta": {
+  "count": 105,
+  "embassies": 102,
+  "consulates": 3,
+  "generated": "2026-10-28T10:54:04.459Z"
+ },
+ "riyadh": {
+  "count": 95,
+  "embassies": 95,
+  "consulates": 0,
+  "generated": "2026-10-28T10:54:49.500Z"
+ },
+ "the-hague": {
+  "count": 129,
+  "embassies": 112,
+  "consulates": 8,
+  "generated": "2026-10-28T10:57:01.745Z"
  }
 }
