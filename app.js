@@ -287,7 +287,8 @@ async function loadData(city) {
     if (res.ok) data = await res.json();
   } catch {}
   // No snapshot for this city yet: ask OpenStreetMap directly.
-  data ??= await fetchMissions(city, { timeoutMs: 15000, endpoints: OVERPASS_ENDPOINTS.slice(0, 2) });
+  // Every server at once, the first answer wins: one of them is usually overloaded.
+  data ??= await Promise.any(OVERPASS_ENDPOINTS.map((url) => fetchMissions(city, { timeoutMs: 30000, endpoints: [url] })));
   cache.set(city.slug, data);
   return data;
 }

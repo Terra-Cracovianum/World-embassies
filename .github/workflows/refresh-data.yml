@@ -56,6 +56,24 @@ jobs:
         with:
           node-version: 20
       - run: node tools/fetch-missions.mjs ${{ matrix.city }}
+      # A city with no snapshot yet goes live as soon as it is fetched, rather than waiting for the
+      # whole run: until then the page has to ask Overpass itself, which is slow. Cities that already
+      # have one are saved together by the commit job, so a refresh is one commit, not 164.
+      - name: Publish a new city now
+        env:
+          CITY: ${{ matrix.city }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git ls-files --error-unmatch "data/$CITY.json" >/dev/null 2>&1 && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add "data/$CITY.json"
+          git commit -q -m "Add $CITY from OpenStreetMap"
+          for attempt in 1 2 3 4 5 6 7 8; do
+            git pull -q --rebase origin "$BRANCH" && git push -q origin "HEAD:$BRANCH" && exit 0
+            sleep $((attempt * 5 + RANDOM % 10))
+          done
+          echo "::warning::could not publish $CITY early; the commit job will save it"
       - uses: actions/upload-artifact@v4
         with:
           name: city-${{ matrix.city }}
