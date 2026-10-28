@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f3eee3">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<title>Ambasady świata · Terra Cracovianum</title>
+<meta name="description" content="Ambasady i konsulaty w 164 miastach — wszystkie stolice Europy, stolice największych gospodarek, Bliskiego Wschodu, Afryki i Ameryki Łacińskiej oraz miasta dyplomacji (Nowy Jork, Genewa, Strasburg, Hongkong) — na jednej mapie. Narzędzie Terra Cracovianum, dane z OpenStreetMap.">
+<link rel="preload" href="assets/fonts/fraunces-roman-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+<script>/* apply a saved theme before the first paint, so a dark-mode visitor never sees a light flash */
+try{var t=localStorage.getItem('tc-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+
+<header>
+  <div class="header-bar">
+    <a class="brand" href="https://terracracovianum.org/" aria-label="Terra Cracovianum">
+      <img class="brand-logo" src="assets/logo.svg" alt="Terra Cracovianum">
+    </a>
+    <div class="header-right">
+      <nav class="desktop" data-t-label="navLabel" aria-label="Główne">
+        <a href="https://terracracovianum.org/publications/" data-t="navPublications">Publikacje</a>
+        <a href="https://terracracovianum.org/projects/" data-t="navProjects">Projekty</a>
+        <a href="https://terracracovianum.org/about-terra/" data-t="navAbout">O nas</a>
+      </nav>
+      <button class="pill theme-btn" id="theme" type="button" aria-pressed="false" data-t-label="dark" aria-label="Tryb ciemny">
+        <svg class="moon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1Z"/></svg>
+        <svg class="sun" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="8" cy="8" r="3"/><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></svg>
+      </button>
+      <div class="lang" id="lang">
+        <button class="pill" type="button" aria-haspopup="listbox" aria-expanded="false" data-t-label="changeLang" aria-label="Zmień język"><span id="lang-code">PL</span></button>
+        <ul class="lang-menu" role="listbox" data-t-label="languages" aria-label="Języki">
+          <li><button type="button" role="option" data-lang="pl" aria-selected="true">Polski <span class="code">PL</span></button></li>
+          <li><button type="button" role="option" data-lang="en" aria-selected="false">English <span class="code">EN</span></button></li>
+        </ul>
+      </div>
+      <button class="pill menu-btn" id="menu" type="button" aria-expanded="false" aria-controls="mobile-nav" data-t="menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <button class="mobile-close" id="menu-close" type="button" data-t="close">Zamknij</button>
+  <a href="https://terracracovianum.org/"><em>01</em><span data-t="navHome">Strona główna</span></a>
+  <a href="https://terracracovianum.org/publications/"><em>02</em><span data-t="navPublications">Publikacje</span></a>
+  <a href="https://terracracovianum.org/projects/"><em>03</em><span data-t="navProjects">Projekty</span></a>
+  <a href="https://terracracovianum.org/about-terra/"><em>04</em><span data-t="navAbout">O nas</span></a>
+  <div class="mobile-nav-foot">Kraków · 50°03′N 19°56′E</div>
+</div>
+
+<main class="stage" id="stage">
+
+  <!-- the opening: a survey globe of the cities the map covers -->
+  <section class="globe-view" id="globe-view" aria-labelledby="landing-title">
+    <canvas id="globe" aria-hidden="true"></canvas>
+    <div class="gpins" id="gpins" role="group" data-t-label="cities" aria-label="Miasta"></div>
+    <div class="route-readout" id="readout" aria-hidden="true"></div>
+
+    <div class="landing" id="landing">
+      <div class="landing-copy">
+        <span class="kicker on-ink" data-t="kickerLanding">Terra Cracovianum · Mapa dyplomatyczna</span>
+        <h1 class="display" id="landing-title">
+          <span class="line"><span data-t="heroA">Ambasady</span></span>
+          <span class="line"><span><em data-t="heroB">świata</em></span></span>
+        </h1>
+        <p class="landing-lede" data-t="lede">Każda ambasada i konsulat w mieście — na jednej mapie. Wybierz miasto na globusie albo z listy.</p>
+        <ol class="stations" id="stations"></ol>
+      </div>
+      <div class="landing-foot">
+        <span>Kraków · 50°03′N 19°56′E</span>
+        <span class="hint" data-t="drag">Przeciągnij, aby obrócić</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- a city: the register beside the map -->
+  <section class="map-view" id="map-view" hidden aria-labelledby="city-title">
+    <div class="tool-head">
+      <div class="tool-head-left">
+        <button class="pill back-btn" id="back" type="button"><span aria-hidden="true">←</span> <span data-t="globe">Globus</span></button>
+        <div>
+          <span class="kicker" data-t="kicker">Mapa dyplomatyczna</span>
+          <h2 id="city-title"><span data-t="title">Ambasady i konsulaty</span> — <em data-city>Warszawa</em></h2>
+        </div>
+      </div>
+      <div class="tool-head-right">
+        <div class="city-picker" id="city-picker">
+          <button class="pill" id="city-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="cities">
+            <span class="city-btn-k" data-t="city">Miasto</span> <span id="city-btn-name">Warszawa</span>
+          </button>
+          <nav class="cities" id="cities" data-t-label="city" aria-label="Miasto"></nav>
+        </div>
+        <span class="count" id="count" aria-live="polite"></span>
+      </div>
+    </div>
+
+    <div class="atlas">
+      <div class="panel">
+        <div class="panel-tools">
+          <label class="search">
+            <span class="visually-hidden" data-t="search">Szukaj kraju lub ulicy</span>
+            <input id="q" type="search" autocomplete="off" spellcheck="false" data-t-placeholder="search" placeholder="Szukaj kraju lub ulicy">
+          </label>
+          <div class="filters" role="group" data-t-label="show" aria-label="Pokaż">
+            <button class="filter" data-group="all" aria-pressed="true" data-t="all">Wszystkie</button>
+            <button class="filter" data-group="embassy" aria-pressed="false" data-t="embassies">Ambasady</button>
+            <button class="filter" data-group="consulate" aria-pressed="false" data-t="consulates">Konsulaty</button>
+          </div>
+        </div>
+        <ul class="list" id="list"></ul>
+        <p class="empty" id="empty" hidden data-t="empty">Brak wyników.</p>
+        <p class="source"><span data-t="source">Dane</span>: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a> · <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a> <span id="updated"></span></p>
+      </div>
+
+      <div class="map-wrap">
+        <div id="map"></div>
+        <div class="status" id="status" hidden><p data-t="loading">Wczytywanie placówek…</p></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="assets/vendor/d3/d3-array.min.js"></script>
+<script src="assets/vendor/d3/d3-geo.min.js"></script>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,3610 @@
+[
+  {
+    "slug": "warsaw",
+    "name": {
+      "pl": "Warszawa",
+      "en": "Warsaw"
+    },
+    "country": "PL",
+    "bbox": [
+      52.0977,
+      20.8516,
+      52.3681,
+      21.2711
+    ],
+    "center": [
+      52.2297,
+      21.0122
+    ],
+    "zoom": 12,
+    "code": "WAW",
+    "labelSide": "ne",
+    "region": "europe"
+  },
+  {
+    "slug": "krakow",
+    "name": {
+      "pl": "Kraków",
+      "en": "Kraków"
+    },
+    "country": "PL",
+    "bbox": [
+      49.9674,
+      19.7922,
+      50.1262,
+      20.2173
+    ],
+    "center": [
+      50.0614,
+      19.9366
+    ],
+    "zoom": 13,
+    "code": "KRK",
+    "labelSide": "se",
+    "region": "europe"
+  },
+  {
+    "slug": "paris",
+    "name": {
+      "pl": "Paryż",
+      "en": "Paris"
+    },
+    "country": "FR",
+    "bbox": [
+      48.8156,
+      2.2242,
+      48.9022,
+      2.4699
+    ],
+    "center": [
+      48.8566,
+      2.3522
+    ],
+    "zoom": 12,
+    "code": "PAR",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "london",
+    "name": {
+      "pl": "Londyn",
+      "en": "London"
+    },
+    "country": "GB",
+    "bbox": [
+      51.2868,
+      -0.5103,
+      51.6919,
+      0.334
+    ],
+    "center": [
+      51.5074,
+      -0.1278
+    ],
+    "zoom": 11,
+    "code": "LON",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "kyiv",
+    "name": {
+      "pl": "Kijów",
+      "en": "Kyiv"
+    },
+    "country": "UA",
+    "bbox": [
+      50.2133,
+      30.2394,
+      50.59,
+      30.8259
+    ],
+    "center": [
+      50.4501,
+      30.5234
+    ],
+    "zoom": 11,
+    "code": "IEV",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "berlin",
+    "name": {
+      "pl": "Berlin",
+      "en": "Berlin"
+    },
+    "country": "DE",
+    "bbox": [
+      52.3383,
+      13.0884,
+      52.6755,
+      13.7612
+    ],
+    "center": [
+      52.52,
+      13.405
+    ],
+    "zoom": 11,
+    "code": "BER",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "rome",
+    "name": {
+      "pl": "Rzym",
+      "en": "Rome"
+    },
+    "country": "IT",
+    "bbox": [
+      41.76,
+      12.34,
+      42.05,
+      12.64
+    ],
+    "center": [
+      41.9028,
+      12.4964
+    ],
+    "zoom": 12,
+    "code": "ROM",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "madrid",
+    "name": {
+      "pl": "Madryt",
+      "en": "Madrid"
+    },
+    "country": "ES",
+    "bbox": [
+      40.3121,
+      -3.8889,
+      40.5643,
+      -3.518
+    ],
+    "center": [
+      40.4168,
+      -3.7038
+    ],
+    "zoom": 12,
+    "code": "MAD",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "lisbon",
+    "name": {
+      "pl": "Lizbona",
+      "en": "Lisbon"
+    },
+    "country": "PT",
+    "bbox": [
+      38.6913,
+      -9.2298,
+      38.796,
+      -9.0901
+    ],
+    "center": [
+      38.7223,
+      -9.1393
+    ],
+    "zoom": 13,
+    "code": "LIS",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "vienna",
+    "name": {
+      "pl": "Wiedeń",
+      "en": "Vienna"
+    },
+    "country": "AT",
+    "bbox": [
+      48.1183,
+      16.1826,
+      48.3231,
+      16.5775
+    ],
+    "center": [
+      48.2082,
+      16.3738
+    ],
+    "zoom": 12,
+    "code": "VIE",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "prague",
+    "name": {
+      "pl": "Praga",
+      "en": "Prague"
+    },
+    "country": "CZ",
+    "bbox": [
+      49.9419,
+      14.2244,
+      50.1774,
+      14.7067
+    ],
+    "center": [
+      50.0755,
+      14.4378
+    ],
+    "zoom": 12,
+    "code": "PRG",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "budapest",
+    "name": {
+      "pl": "Budapeszt",
+      "en": "Budapest"
+    },
+    "country": "HU",
+    "bbox": [
+      47.3493,
+      18.9251,
+      47.6131,
+      19.3349
+    ],
+    "center": [
+      47.4979,
+      19.0402
+    ],
+    "zoom": 12,
+    "code": "BUD",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "brussels",
+    "name": {
+      "pl": "Bruksela",
+      "en": "Brussels"
+    },
+    "country": "BE",
+    "bbox": [
+      50.7637,
+      4.2438,
+      50.9136,
+      4.4827
+    ],
+    "center": [
+      50.8503,
+      4.3517
+    ],
+    "zoom": 12,
+    "code": "BRU",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "amsterdam",
+    "name": {
+      "pl": "Amsterdam",
+      "en": "Amsterdam"
+    },
+    "country": "NL",
+    "bbox": [
+      52.2782,
+      4.7287,
+      52.4311,
+      5.0791
+    ],
+    "center": [
+      52.3676,
+      4.9041
+    ],
+    "zoom": 12,
+    "code": "AMS",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "copenhagen",
+    "name": {
+      "pl": "Kopenhaga",
+      "en": "Copenhagen"
+    },
+    "country": "DK",
+    "bbox": [
+      55.615,
+      12.4533,
+      55.76,
+      12.65
+    ],
+    "center": [
+      55.6761,
+      12.5683
+    ],
+    "zoom": 12,
+    "code": "CPH",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "stockholm",
+    "name": {
+      "pl": "Sztokholm",
+      "en": "Stockholm"
+    },
+    "country": "SE",
+    "bbox": [
+      59.235,
+      17.85,
+      59.415,
+      18.2
+    ],
+    "center": [
+      59.3293,
+      18.0686
+    ],
+    "zoom": 12,
+    "code": "STO",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "helsinki",
+    "name": {
+      "pl": "Helsinki",
+      "en": "Helsinki"
+    },
+    "country": "FI",
+    "bbox": [
+      60.13,
+      24.8,
+      60.26,
+      25.1
+    ],
+    "center": [
+      60.1699,
+      24.9384
+    ],
+    "zoom": 12,
+    "code": "HEL",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "oslo",
+    "name": {
+      "pl": "Oslo",
+      "en": "Oslo"
+    },
+    "country": "NO",
+    "bbox": [
+      59.88,
+      10.6,
+      59.99,
+      10.86
+    ],
+    "center": [
+      59.9139,
+      10.7522
+    ],
+    "zoom": 12,
+    "code": "OSL",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "dublin",
+    "name": {
+      "pl": "Dublin",
+      "en": "Dublin"
+    },
+    "country": "IE",
+    "bbox": [
+      53.29,
+      -6.39,
+      53.41,
+      -6.11
+    ],
+    "center": [
+      53.3498,
+      -6.2603
+    ],
+    "zoom": 12,
+    "code": "DUB",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "athens",
+    "name": {
+      "pl": "Ateny",
+      "en": "Athens"
+    },
+    "country": "GR",
+    "bbox": [
+      37.9,
+      23.65,
+      38.08,
+      23.85
+    ],
+    "center": [
+      37.9838,
+      23.7275
+    ],
+    "zoom": 12,
+    "code": "ATH",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "washington",
+    "name": {
+      "pl": "Waszyngton",
+      "en": "Washington"
+    },
+    "country": "US",
+    "bbox": [
+      38.79,
+      -77.12,
+      38.996,
+      -76.909
+    ],
+    "center": [
+      38.9072,
+      -77.0369
+    ],
+    "zoom": 12,
+    "code": "WAS",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "beijing",
+    "name": {
+      "pl": "Pekin",
+      "en": "Beijing"
+    },
+    "country": "CN",
+    "bbox": [
+      39.83,
+      116.25,
+      40.03,
+      116.55
+    ],
+    "center": [
+      39.93,
+      116.44
+    ],
+    "zoom": 12,
+    "code": "BJS",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "tokyo",
+    "name": {
+      "pl": "Tokio",
+      "en": "Tokyo"
+    },
+    "country": "JP",
+    "bbox": [
+      35.6,
+      139.65,
+      35.75,
+      139.85
+    ],
+    "center": [
+      35.665,
+      139.74
+    ],
+    "zoom": 12,
+    "code": "TYO",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "new-delhi",
+    "name": {
+      "pl": "Nowe Delhi",
+      "en": "New Delhi"
+    },
+    "country": "IN",
+    "bbox": [
+      28.5,
+      77.05,
+      28.68,
+      77.3
+    ],
+    "center": [
+      28.59,
+      77.19
+    ],
+    "zoom": 12,
+    "code": "DEL",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "ottawa",
+    "name": {
+      "pl": "Ottawa",
+      "en": "Ottawa"
+    },
+    "country": "CA",
+    "bbox": [
+      45.33,
+      -75.8,
+      45.47,
+      -75.6
+    ],
+    "center": [
+      45.4215,
+      -75.6972
+    ],
+    "zoom": 13,
+    "code": "YOW",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "brasilia",
+    "name": {
+      "pl": "Brasília",
+      "en": "Brasília"
+    },
+    "country": "BR",
+    "bbox": [
+      -15.9,
+      -47.98,
+      -15.7,
+      -47.78
+    ],
+    "center": [
+      -15.8,
+      -47.88
+    ],
+    "zoom": 12,
+    "code": "BSB",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "moscow",
+    "name": {
+      "pl": "Moskwa",
+      "en": "Moscow"
+    },
+    "country": "RU",
+    "bbox": [
+      55.6,
+      37.35,
+      55.9,
+      37.85
+    ],
+    "center": [
+      55.7558,
+      37.6173
+    ],
+    "zoom": 11,
+    "code": "MOW",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "seoul",
+    "name": {
+      "pl": "Seul",
+      "en": "Seoul"
+    },
+    "country": "KR",
+    "bbox": [
+      37.45,
+      126.85,
+      37.65,
+      127.15
+    ],
+    "center": [
+      37.5665,
+      126.978
+    ],
+    "zoom": 12,
+    "code": "SEL",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "canberra",
+    "name": {
+      "pl": "Canberra",
+      "en": "Canberra"
+    },
+    "country": "AU",
+    "bbox": [
+      -35.4,
+      149.03,
+      -35.22,
+      149.2
+    ],
+    "center": [
+      -35.3,
+      149.12
+    ],
+    "zoom": 12,
+    "code": "CBR",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "mexico-city",
+    "name": {
+      "pl": "Meksyk",
+      "en": "Mexico City"
+    },
+    "country": "MX",
+    "bbox": [
+      19.3,
+      -99.25,
+      19.5,
+      -99.1
+    ],
+    "center": [
+      19.4326,
+      -99.1932
+    ],
+    "zoom": 12,
+    "code": "MEX",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "ankara",
+    "name": {
+      "pl": "Ankara",
+      "en": "Ankara"
+    },
+    "country": "TR",
+    "bbox": [
+      39.82,
+      32.7,
+      40,
+      32.95
+    ],
+    "center": [
+      39.905,
+      32.86
+    ],
+    "zoom": 12,
+    "code": "ANK",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "jakarta",
+    "name": {
+      "pl": "Dżakarta",
+      "en": "Jakarta"
+    },
+    "country": "ID",
+    "bbox": [
+      -6.37,
+      106.7,
+      -6.08,
+      106.97
+    ],
+    "center": [
+      -6.2088,
+      106.8256
+    ],
+    "zoom": 12,
+    "code": "JKT",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "riyadh",
+    "name": {
+      "pl": "Rijad",
+      "en": "Riyadh"
+    },
+    "country": "SA",
+    "bbox": [
+      24.55,
+      46.5,
+      24.85,
+      46.85
+    ],
+    "center": [
+      24.68,
+      46.63
+    ],
+    "zoom": 12,
+    "code": "RUH",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "the-hague",
+    "name": {
+      "pl": "Haga",
+      "en": "The Hague"
+    },
+    "country": "NL",
+    "bbox": [
+      52.02,
+      4.2,
+      52.13,
+      4.4
+    ],
+    "center": [
+      52.0905,
+      4.29
+    ],
+    "zoom": 13,
+    "code": "HAG",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "bern",
+    "name": {
+      "pl": "Berno",
+      "en": "Bern"
+    },
+    "country": "CH",
+    "bbox": [
+      46.9,
+      7.35,
+      46.99,
+      7.5
+    ],
+    "center": [
+      46.948,
+      7.4474
+    ],
+    "zoom": 13,
+    "code": "BRN",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "bucharest",
+    "name": {
+      "pl": "Bukareszt",
+      "en": "Bucharest"
+    },
+    "country": "RO",
+    "bbox": [
+      44.36,
+      26,
+      44.54,
+      26.22
+    ],
+    "center": [
+      44.4568,
+      26.0925
+    ],
+    "zoom": 12,
+    "code": "BUH",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "buenos-aires",
+    "name": {
+      "pl": "Buenos Aires",
+      "en": "Buenos Aires"
+    },
+    "country": "AR",
+    "bbox": [
+      -34.71,
+      -58.53,
+      -34.53,
+      -58.33
+    ],
+    "center": [
+      -34.5875,
+      -58.41
+    ],
+    "zoom": 12,
+    "code": "BUE",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "bogota",
+    "name": {
+      "pl": "Bogota",
+      "en": "Bogotá"
+    },
+    "country": "CO",
+    "bbox": [
+      4.55,
+      -74.15,
+      4.78,
+      -74
+    ],
+    "center": [
+      4.665,
+      -74.054
+    ],
+    "zoom": 12,
+    "code": "BOG",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "santiago",
+    "name": {
+      "pl": "Santiago",
+      "en": "Santiago"
+    },
+    "country": "CL",
+    "bbox": [
+      -33.55,
+      -70.7,
+      -33.35,
+      -70.5
+    ],
+    "center": [
+      -33.42,
+      -70.6
+    ],
+    "zoom": 12,
+    "code": "SCL",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "lima",
+    "name": {
+      "pl": "Lima",
+      "en": "Lima"
+    },
+    "country": "PE",
+    "bbox": [
+      -12.15,
+      -77.1,
+      -12.03,
+      -76.95
+    ],
+    "center": [
+      -12.095,
+      -77.036
+    ],
+    "zoom": 12,
+    "code": "LIM",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "taipei",
+    "name": {
+      "pl": "Tajpej",
+      "en": "Taipei"
+    },
+    "country": "TW",
+    "bbox": [
+      24.96,
+      121.45,
+      25.12,
+      121.62
+    ],
+    "center": [
+      25.0478,
+      121.5319
+    ],
+    "zoom": 12,
+    "code": "TPE",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "singapore",
+    "name": {
+      "pl": "Singapur",
+      "en": "Singapore"
+    },
+    "country": "SG",
+    "bbox": [
+      1.22,
+      103.6,
+      1.47,
+      104.05
+    ],
+    "center": [
+      1.3001,
+      103.8302
+    ],
+    "zoom": 12,
+    "code": "SIN",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "bangkok",
+    "name": {
+      "pl": "Bangkok",
+      "en": "Bangkok"
+    },
+    "country": "TH",
+    "bbox": [
+      13.65,
+      100.45,
+      13.85,
+      100.65
+    ],
+    "center": [
+      13.7367,
+      100.5432
+    ],
+    "zoom": 12,
+    "code": "BKK",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "manila",
+    "name": {
+      "pl": "Manila",
+      "en": "Manila"
+    },
+    "country": "PH",
+    "bbox": [
+      14.48,
+      120.95,
+      14.68,
+      121.1
+    ],
+    "center": [
+      14.5547,
+      121.0244
+    ],
+    "zoom": 12,
+    "code": "MNL",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "hanoi",
+    "name": {
+      "pl": "Hanoi",
+      "en": "Hanoi"
+    },
+    "country": "VN",
+    "bbox": [
+      20.97,
+      105.77,
+      21.08,
+      105.89
+    ],
+    "center": [
+      21.0285,
+      105.8342
+    ],
+    "zoom": 13,
+    "code": "HAN",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "dhaka",
+    "name": {
+      "pl": "Dhaka",
+      "en": "Dhaka"
+    },
+    "country": "BD",
+    "bbox": [
+      23.7,
+      90.34,
+      23.86,
+      90.46
+    ],
+    "center": [
+      23.7925,
+      90.4078
+    ],
+    "zoom": 13,
+    "code": "DAC",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "kuala-lumpur",
+    "name": {
+      "pl": "Kuala Lumpur",
+      "en": "Kuala Lumpur"
+    },
+    "country": "MY",
+    "bbox": [
+      3.05,
+      101.62,
+      3.25,
+      101.75
+    ],
+    "center": [
+      3.1569,
+      101.7123
+    ],
+    "zoom": 12,
+    "code": "KUL",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "islamabad",
+    "name": {
+      "pl": "Islamabad",
+      "en": "Islamabad"
+    },
+    "country": "PK",
+    "bbox": [
+      33.65,
+      72.95,
+      33.78,
+      73.2
+    ],
+    "center": [
+      33.7215,
+      73.086
+    ],
+    "zoom": 12,
+    "code": "ISB",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "astana",
+    "name": {
+      "pl": "Astana",
+      "en": "Astana"
+    },
+    "country": "KZ",
+    "bbox": [
+      51.05,
+      71.3,
+      51.25,
+      71.55
+    ],
+    "center": [
+      51.128,
+      71.43
+    ],
+    "zoom": 12,
+    "code": "NQZ",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "hong-kong",
+    "name": {
+      "pl": "Hongkong",
+      "en": "Hong Kong"
+    },
+    "country": "HK",
+    "bbox": [
+      22.2,
+      114.1,
+      22.35,
+      114.25
+    ],
+    "center": [
+      22.2793,
+      114.1628
+    ],
+    "zoom": 13,
+    "code": "HKG",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "abu-dhabi",
+    "name": {
+      "pl": "Abu Zabi",
+      "en": "Abu Dhabi"
+    },
+    "country": "AE",
+    "bbox": [
+      24.33,
+      54.3,
+      24.52,
+      54.68
+    ],
+    "center": [
+      24.45,
+      54.38
+    ],
+    "zoom": 12,
+    "code": "AUH",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "tel-aviv",
+    "name": {
+      "pl": "Tel Awiw",
+      "en": "Tel Aviv"
+    },
+    "country": "IL",
+    "bbox": [
+      32.02,
+      34.74,
+      32.2,
+      34.86
+    ],
+    "center": [
+      32.0853,
+      34.7818
+    ],
+    "zoom": 12,
+    "code": "TLV",
+    "labelSide": "w",
+    "region": "mideast"
+  },
+  {
+    "slug": "jerusalem",
+    "name": {
+      "pl": "Jerozolima",
+      "en": "Jerusalem"
+    },
+    "country": "IL",
+    "bbox": [
+      31.73,
+      35.15,
+      31.86,
+      35.27
+    ],
+    "center": [
+      31.7767,
+      35.2345
+    ],
+    "zoom": 13,
+    "code": "JRS",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "cairo",
+    "name": {
+      "pl": "Kair",
+      "en": "Cairo"
+    },
+    "country": "EG",
+    "bbox": [
+      29.95,
+      31.15,
+      30.15,
+      31.4
+    ],
+    "center": [
+      30.0444,
+      31.2357
+    ],
+    "zoom": 12,
+    "code": "CAI",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "tehran",
+    "name": {
+      "pl": "Teheran",
+      "en": "Tehran"
+    },
+    "country": "IR",
+    "bbox": [
+      35.65,
+      51.25,
+      35.82,
+      51.52
+    ],
+    "center": [
+      35.7219,
+      51.4089
+    ],
+    "zoom": 12,
+    "code": "THR",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "pretoria",
+    "name": {
+      "pl": "Pretoria",
+      "en": "Pretoria"
+    },
+    "country": "ZA",
+    "bbox": [
+      -25.82,
+      28.13,
+      -25.7,
+      28.32
+    ],
+    "center": [
+      -25.7461,
+      28.2093
+    ],
+    "zoom": 12,
+    "code": "PRY",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "geneva",
+    "name": {
+      "pl": "Genewa",
+      "en": "Geneva"
+    },
+    "country": "CH",
+    "bbox": [
+      46.17,
+      6.08,
+      46.26,
+      6.2
+    ],
+    "center": [
+      46.2205,
+      6.1395
+    ],
+    "zoom": 13,
+    "code": "GVA",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "istanbul",
+    "name": {
+      "pl": "Stambuł",
+      "en": "Istanbul"
+    },
+    "country": "TR",
+    "bbox": [
+      40.95,
+      28.85,
+      41.12,
+      29.1
+    ],
+    "center": [
+      41.035,
+      28.985
+    ],
+    "zoom": 12,
+    "code": "IST",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "new-york",
+    "name": {
+      "pl": "Nowy Jork",
+      "en": "New York"
+    },
+    "country": "US",
+    "bbox": [
+      40.7,
+      -74.02,
+      40.82,
+      -73.93
+    ],
+    "center": [
+      40.7527,
+      -73.9772
+    ],
+    "zoom": 13,
+    "code": "NYC",
+    "labelSide": "e",
+    "region": "americas"
+  },
+  {
+    "slug": "toronto",
+    "name": {
+      "pl": "Toronto",
+      "en": "Toronto"
+    },
+    "country": "CA",
+    "bbox": [
+      43.62,
+      -79.48,
+      43.74,
+      -79.3
+    ],
+    "center": [
+      43.66,
+      -79.39
+    ],
+    "zoom": 13,
+    "code": "YTO",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "sao-paulo",
+    "name": {
+      "pl": "São Paulo",
+      "en": "São Paulo"
+    },
+    "country": "BR",
+    "bbox": [
+      -23.65,
+      -46.75,
+      -23.5,
+      -46.6
+    ],
+    "center": [
+      -23.575,
+      -46.67
+    ],
+    "zoom": 12,
+    "code": "SAO",
+    "labelSide": "e",
+    "region": "americas"
+  },
+  {
+    "slug": "shanghai",
+    "name": {
+      "pl": "Szanghaj",
+      "en": "Shanghai"
+    },
+    "country": "CN",
+    "bbox": [
+      31.13,
+      121.38,
+      31.28,
+      121.53
+    ],
+    "center": [
+      31.2235,
+      121.4498
+    ],
+    "zoom": 12,
+    "code": "SHA",
+    "labelSide": "w",
+    "region": "asia"
+  },
+  {
+    "slug": "mumbai",
+    "name": {
+      "pl": "Mumbaj",
+      "en": "Mumbai"
+    },
+    "country": "IN",
+    "bbox": [
+      18.88,
+      72.79,
+      19.15,
+      72.95
+    ],
+    "center": [
+      18.97,
+      72.81
+    ],
+    "zoom": 12,
+    "code": "BOM",
+    "labelSide": "w",
+    "region": "asia"
+  },
+  {
+    "slug": "sydney",
+    "name": {
+      "pl": "Sydney",
+      "en": "Sydney"
+    },
+    "country": "AU",
+    "bbox": [
+      -33.95,
+      151.12,
+      -33.8,
+      151.3
+    ],
+    "center": [
+      -33.87,
+      151.21
+    ],
+    "zoom": 13,
+    "code": "SYD",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "dubai",
+    "name": {
+      "pl": "Dubaj",
+      "en": "Dubai"
+    },
+    "country": "AE",
+    "bbox": [
+      25.05,
+      55.1,
+      25.3,
+      55.4
+    ],
+    "center": [
+      25.2285,
+      55.29
+    ],
+    "zoom": 12,
+    "code": "DXB",
+    "labelSide": "w",
+    "region": "mideast"
+  },
+  {
+    "slug": "bratislava",
+    "name": {
+      "pl": "Bratysława",
+      "en": "Bratislava"
+    },
+    "country": "SK",
+    "bbox": [
+      48.068,
+      16.986,
+      48.23,
+      17.229
+    ],
+    "center": [
+      48.1486,
+      17.1077
+    ],
+    "zoom": 12,
+    "code": "BTS",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "ljubljana",
+    "name": {
+      "pl": "Lublana",
+      "en": "Ljubljana"
+    },
+    "country": "SI",
+    "bbox": [
+      45.994,
+      14.415,
+      46.12,
+      14.597
+    ],
+    "center": [
+      46.0569,
+      14.5058
+    ],
+    "zoom": 13,
+    "code": "LJU",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "zagreb",
+    "name": {
+      "pl": "Zagrzeb",
+      "en": "Zagreb"
+    },
+    "country": "HR",
+    "bbox": [
+      45.734,
+      15.866,
+      45.896,
+      16.098
+    ],
+    "center": [
+      45.815,
+      15.9819
+    ],
+    "zoom": 12,
+    "code": "ZAG",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "belgrade",
+    "name": {
+      "pl": "Belgrad",
+      "en": "Belgrade"
+    },
+    "country": "RS",
+    "bbox": [
+      44.706,
+      20.31,
+      44.904,
+      20.59
+    ],
+    "center": [
+      44.805,
+      20.45
+    ],
+    "zoom": 12,
+    "code": "BEG",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "sarajevo",
+    "name": {
+      "pl": "Sarajewo",
+      "en": "Sarajevo"
+    },
+    "country": "BA",
+    "bbox": [
+      43.775,
+      18.301,
+      43.937,
+      18.526
+    ],
+    "center": [
+      43.8563,
+      18.4131
+    ],
+    "zoom": 12,
+    "code": "SJJ",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "podgorica",
+    "name": {
+      "pl": "Podgorica",
+      "en": "Podgorica"
+    },
+    "country": "ME",
+    "bbox": [
+      42.367,
+      19.174,
+      42.493,
+      19.345
+    ],
+    "center": [
+      42.4304,
+      19.2594
+    ],
+    "zoom": 13,
+    "code": "TGD",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "skopje",
+    "name": {
+      "pl": "Skopje",
+      "en": "Skopje"
+    },
+    "country": "MK",
+    "bbox": [
+      41.926,
+      21.328,
+      42.07,
+      21.522
+    ],
+    "center": [
+      41.9981,
+      21.4254
+    ],
+    "zoom": 13,
+    "code": "SKP",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "tirana",
+    "name": {
+      "pl": "Tirana",
+      "en": "Tirana"
+    },
+    "country": "AL",
+    "bbox": [
+      41.264,
+      19.735,
+      41.391,
+      19.903
+    ],
+    "center": [
+      41.3275,
+      19.8187
+    ],
+    "zoom": 13,
+    "code": "TIA",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "pristina",
+    "name": {
+      "pl": "Prisztina",
+      "en": "Pristina"
+    },
+    "country": "XK",
+    "bbox": [
+      42.6,
+      21.08,
+      42.726,
+      21.251
+    ],
+    "center": [
+      42.6629,
+      21.1655
+    ],
+    "zoom": 13,
+    "code": "PRN",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "sofia",
+    "name": {
+      "pl": "Sofia",
+      "en": "Sofia"
+    },
+    "country": "BG",
+    "bbox": [
+      42.595,
+      23.199,
+      42.775,
+      23.444
+    ],
+    "center": [
+      42.685,
+      23.3219
+    ],
+    "zoom": 12,
+    "code": "SOF",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "vilnius",
+    "name": {
+      "pl": "Wilno",
+      "en": "Vilnius"
+    },
+    "country": "LT",
+    "bbox": [
+      54.606,
+      25.139,
+      54.768,
+      25.42
+    ],
+    "center": [
+      54.6872,
+      25.2797
+    ],
+    "zoom": 12,
+    "code": "VNO",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "riga",
+    "name": {
+      "pl": "Ryga",
+      "en": "Riga"
+    },
+    "country": "LV",
+    "bbox": [
+      56.869,
+      23.957,
+      57.031,
+      24.254
+    ],
+    "center": [
+      56.9496,
+      24.1052
+    ],
+    "zoom": 12,
+    "code": "RIX",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "tallinn",
+    "name": {
+      "pl": "Tallinn",
+      "en": "Tallinn"
+    },
+    "country": "EE",
+    "bbox": [
+      59.365,
+      24.612,
+      59.509,
+      24.895
+    ],
+    "center": [
+      59.437,
+      24.7536
+    ],
+    "zoom": 13,
+    "code": "TLL",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "minsk",
+    "name": {
+      "pl": "Mińsk",
+      "en": "Minsk"
+    },
+    "country": "BY",
+    "bbox": [
+      53.802,
+      27.391,
+      54,
+      27.727
+    ],
+    "center": [
+      53.9006,
+      27.559
+    ],
+    "zoom": 12,
+    "code": "MSQ",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "chisinau",
+    "name": {
+      "pl": "Kiszyniów",
+      "en": "Chișinău"
+    },
+    "country": "MD",
+    "bbox": [
+      46.938,
+      28.758,
+      47.083,
+      28.969
+    ],
+    "center": [
+      47.0105,
+      28.8638
+    ],
+    "zoom": 13,
+    "code": "KIV",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "tbilisi",
+    "name": {
+      "pl": "Tbilisi",
+      "en": "Tbilisi"
+    },
+    "country": "GE",
+    "bbox": [
+      41.616,
+      44.657,
+      41.814,
+      44.923
+    ],
+    "center": [
+      41.7151,
+      44.79
+    ],
+    "zoom": 12,
+    "code": "TBS",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "yerevan",
+    "name": {
+      "pl": "Erywań",
+      "en": "Yerevan"
+    },
+    "country": "AM",
+    "bbox": [
+      40.098,
+      44.393,
+      40.26,
+      44.605
+    ],
+    "center": [
+      40.1792,
+      44.4991
+    ],
+    "zoom": 12,
+    "code": "EVN",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "baku",
+    "name": {
+      "pl": "Baku",
+      "en": "Baku"
+    },
+    "country": "AZ",
+    "bbox": [
+      40.283,
+      49.713,
+      40.517,
+      50.021
+    ],
+    "center": [
+      40.4,
+      49.8671
+    ],
+    "zoom": 11,
+    "code": "GYD",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "luxembourg",
+    "name": {
+      "pl": "Luksemburg",
+      "en": "Luxembourg"
+    },
+    "country": "LU",
+    "bbox": [
+      49.54,
+      6.021,
+      49.684,
+      6.243
+    ],
+    "center": [
+      49.6116,
+      6.1319
+    ],
+    "zoom": 13,
+    "code": "LUX",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "valletta",
+    "name": {
+      "pl": "Valletta",
+      "en": "Valletta"
+    },
+    "country": "MT",
+    "bbox": [
+      35.828,
+      14.401,
+      35.972,
+      14.579
+    ],
+    "center": [
+      35.9,
+      14.49
+    ],
+    "zoom": 13,
+    "code": "MLA",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "nicosia",
+    "name": {
+      "pl": "Nikozja",
+      "en": "Nicosia"
+    },
+    "country": "CY",
+    "bbox": [
+      35.098,
+      33.282,
+      35.242,
+      33.458
+    ],
+    "center": [
+      35.17,
+      33.37
+    ],
+    "zoom": 13,
+    "code": "NIC",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "reykjavik",
+    "name": {
+      "pl": "Reykjavík",
+      "en": "Reykjavík"
+    },
+    "country": "IS",
+    "bbox": [
+      64.077,
+      -22.045,
+      64.203,
+      -21.755
+    ],
+    "center": [
+      64.14,
+      -21.9
+    ],
+    "zoom": 13,
+    "code": "REK",
+    "labelSide": "w",
+    "region": "europe"
+  },
+  {
+    "slug": "strasbourg",
+    "name": {
+      "pl": "Strasburg",
+      "en": "Strasbourg"
+    },
+    "country": "FR",
+    "bbox": [
+      48.508,
+      7.651,
+      48.652,
+      7.869
+    ],
+    "center": [
+      48.58,
+      7.76
+    ],
+    "zoom": 13,
+    "code": "SXB",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "frankfurt",
+    "name": {
+      "pl": "Frankfurt nad Menem",
+      "en": "Frankfurt"
+    },
+    "country": "DE",
+    "bbox": [
+      50.021,
+      8.542,
+      50.201,
+      8.823
+    ],
+    "center": [
+      50.1109,
+      8.6821
+    ],
+    "zoom": 12,
+    "code": "FRA",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "munich",
+    "name": {
+      "pl": "Monachium",
+      "en": "Munich"
+    },
+    "country": "DE",
+    "bbox": [
+      48.05,
+      11.447,
+      48.23,
+      11.717
+    ],
+    "center": [
+      48.14,
+      11.582
+    ],
+    "zoom": 12,
+    "code": "MUC",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "hamburg",
+    "name": {
+      "pl": "Hamburg",
+      "en": "Hamburg"
+    },
+    "country": "DE",
+    "bbox": [
+      53.461,
+      9.823,
+      53.659,
+      10.157
+    ],
+    "center": [
+      53.56,
+      9.99
+    ],
+    "zoom": 12,
+    "code": "HAM",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "milan",
+    "name": {
+      "pl": "Mediolan",
+      "en": "Milan"
+    },
+    "country": "IT",
+    "bbox": [
+      45.389,
+      9.074,
+      45.551,
+      9.306
+    ],
+    "center": [
+      45.47,
+      9.19
+    ],
+    "zoom": 12,
+    "code": "MIL",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "barcelona",
+    "name": {
+      "pl": "Barcelona",
+      "en": "Barcelona"
+    },
+    "country": "ES",
+    "bbox": [
+      41.323,
+      2.064,
+      41.467,
+      2.256
+    ],
+    "center": [
+      41.395,
+      2.16
+    ],
+    "zoom": 13,
+    "code": "BCN",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "lviv",
+    "name": {
+      "pl": "Lwów",
+      "en": "Lviv"
+    },
+    "country": "UA",
+    "bbox": [
+      49.777,
+      23.932,
+      49.903,
+      24.127
+    ],
+    "center": [
+      49.8397,
+      24.0297
+    ],
+    "zoom": 13,
+    "code": "LWO",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "gdansk",
+    "name": {
+      "pl": "Gdańsk",
+      "en": "Gdańsk"
+    },
+    "country": "PL",
+    "bbox": [
+      54.274,
+      18.383,
+      54.526,
+      18.817
+    ],
+    "center": [
+      54.4,
+      18.6
+    ],
+    "zoom": 11,
+    "code": "GDN",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "wroclaw",
+    "name": {
+      "pl": "Wrocław",
+      "en": "Wrocław"
+    },
+    "country": "PL",
+    "bbox": [
+      51.027,
+      16.909,
+      51.189,
+      17.168
+    ],
+    "center": [
+      51.1079,
+      17.0385
+    ],
+    "zoom": 12,
+    "code": "WRO",
+    "labelSide": "e",
+    "region": "europe"
+  },
+  {
+    "slug": "doha",
+    "name": {
+      "pl": "Doha",
+      "en": "Doha"
+    },
+    "country": "QA",
+    "bbox": [
+      25.174,
+      51.36,
+      25.426,
+      51.64
+    ],
+    "center": [
+      25.3,
+      51.5
+    ],
+    "zoom": 11,
+    "code": "DOH",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "kuwait",
+    "name": {
+      "pl": "Kuwejt",
+      "en": "Kuwait City"
+    },
+    "country": "KW",
+    "bbox": [
+      29.214,
+      47.855,
+      29.466,
+      48.145
+    ],
+    "center": [
+      29.34,
+      48
+    ],
+    "zoom": 11,
+    "code": "KWI",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "muscat",
+    "name": {
+      "pl": "Maskat",
+      "en": "Muscat"
+    },
+    "country": "OM",
+    "bbox": [
+      23.474,
+      58.292,
+      23.726,
+      58.568
+    ],
+    "center": [
+      23.6,
+      58.43
+    ],
+    "zoom": 11,
+    "code": "MCT",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "manama",
+    "name": {
+      "pl": "Manama",
+      "en": "Manama"
+    },
+    "country": "BH",
+    "bbox": [
+      26.139,
+      50.49,
+      26.301,
+      50.67
+    ],
+    "center": [
+      26.22,
+      50.58
+    ],
+    "zoom": 12,
+    "code": "BAH",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "amman",
+    "name": {
+      "pl": "Amman",
+      "en": "Amman"
+    },
+    "country": "JO",
+    "bbox": [
+      31.852,
+      35.753,
+      32.068,
+      36.007
+    ],
+    "center": [
+      31.96,
+      35.88
+    ],
+    "zoom": 12,
+    "code": "AMM",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "beirut",
+    "name": {
+      "pl": "Bejrut",
+      "en": "Beirut"
+    },
+    "country": "LB",
+    "bbox": [
+      33.799,
+      35.422,
+      33.961,
+      35.618
+    ],
+    "center": [
+      33.88,
+      35.52
+    ],
+    "zoom": 12,
+    "code": "BEY",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "damascus",
+    "name": {
+      "pl": "Damaszek",
+      "en": "Damascus"
+    },
+    "country": "SY",
+    "bbox": [
+      33.433,
+      36.179,
+      33.595,
+      36.374
+    ],
+    "center": [
+      33.5138,
+      36.2765
+    ],
+    "zoom": 12,
+    "code": "DAM",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "baghdad",
+    "name": {
+      "pl": "Bagdad",
+      "en": "Baghdad"
+    },
+    "country": "IQ",
+    "bbox": [
+      33.193,
+      44.24,
+      33.427,
+      44.52
+    ],
+    "center": [
+      33.31,
+      44.38
+    ],
+    "zoom": 11,
+    "code": "BGW",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "erbil",
+    "name": {
+      "pl": "Irbil",
+      "en": "Erbil"
+    },
+    "country": "IQ",
+    "bbox": [
+      36.101,
+      43.898,
+      36.281,
+      44.121
+    ],
+    "center": [
+      36.1912,
+      44.0092
+    ],
+    "zoom": 12,
+    "code": "EBL",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "ramallah",
+    "name": {
+      "pl": "Ramallah",
+      "en": "Ramallah"
+    },
+    "country": "PS",
+    "bbox": [
+      31.846,
+      35.14,
+      31.954,
+      35.267
+    ],
+    "center": [
+      31.9,
+      35.2034
+    ],
+    "zoom": 13,
+    "code": "RMH",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "jeddah",
+    "name": {
+      "pl": "Dżudda",
+      "en": "Jeddah"
+    },
+    "country": "SA",
+    "bbox": [
+      21.415,
+      39.025,
+      21.685,
+      39.315
+    ],
+    "center": [
+      21.55,
+      39.17
+    ],
+    "zoom": 11,
+    "code": "JED",
+    "labelSide": "e",
+    "region": "mideast"
+  },
+  {
+    "slug": "algiers",
+    "name": {
+      "pl": "Algier",
+      "en": "Algiers"
+    },
+    "country": "DZ",
+    "bbox": [
+      36.641,
+      2.916,
+      36.839,
+      3.164
+    ],
+    "center": [
+      36.74,
+      3.04
+    ],
+    "zoom": 12,
+    "code": "ALG",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "rabat",
+    "name": {
+      "pl": "Rabat",
+      "en": "Rabat"
+    },
+    "country": "MA",
+    "bbox": [
+      33.909,
+      -6.938,
+      34.071,
+      -6.742
+    ],
+    "center": [
+      33.99,
+      -6.84
+    ],
+    "zoom": 12,
+    "code": "RBA",
+    "labelSide": "w",
+    "region": "africa"
+  },
+  {
+    "slug": "tunis",
+    "name": {
+      "pl": "Tunis",
+      "en": "Tunis"
+    },
+    "country": "TN",
+    "bbox": [
+      36.731,
+      10.076,
+      36.929,
+      10.324
+    ],
+    "center": [
+      36.83,
+      10.2
+    ],
+    "zoom": 12,
+    "code": "TUN",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "tripoli",
+    "name": {
+      "pl": "Trypolis",
+      "en": "Tripoli"
+    },
+    "country": "LY",
+    "bbox": [
+      32.771,
+      13.073,
+      32.969,
+      13.309
+    ],
+    "center": [
+      32.87,
+      13.1913
+    ],
+    "zoom": 12,
+    "code": "TIP",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "addis-ababa",
+    "name": {
+      "pl": "Addis Abeba",
+      "en": "Addis Ababa"
+    },
+    "country": "ET",
+    "bbox": [
+      8.911,
+      38.66,
+      9.109,
+      38.86
+    ],
+    "center": [
+      9.01,
+      38.76
+    ],
+    "zoom": 12,
+    "code": "ADD",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "nairobi",
+    "name": {
+      "pl": "Nairobi",
+      "en": "Nairobi"
+    },
+    "country": "KE",
+    "bbox": [
+      -1.378,
+      36.692,
+      -1.162,
+      36.908
+    ],
+    "center": [
+      -1.27,
+      36.8
+    ],
+    "zoom": 12,
+    "code": "NBO",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "djibouti",
+    "name": {
+      "pl": "Dżibuti",
+      "en": "Djibouti"
+    },
+    "country": "DJ",
+    "bbox": [
+      11.509,
+      43.081,
+      11.635,
+      43.21
+    ],
+    "center": [
+      11.5721,
+      43.1456
+    ],
+    "zoom": 13,
+    "code": "JIB",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "kampala",
+    "name": {
+      "pl": "Kampala",
+      "en": "Kampala"
+    },
+    "country": "UG",
+    "bbox": [
+      0.24,
+      32.5,
+      0.42,
+      32.68
+    ],
+    "center": [
+      0.33,
+      32.59
+    ],
+    "zoom": 12,
+    "code": "KLA",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "dar-es-salaam",
+    "name": {
+      "pl": "Dar es Salaam",
+      "en": "Dar es Salaam"
+    },
+    "country": "TZ",
+    "bbox": [
+      -6.869,
+      39.16,
+      -6.671,
+      39.36
+    ],
+    "center": [
+      -6.77,
+      39.26
+    ],
+    "zoom": 12,
+    "code": "DAR",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "kinshasa",
+    "name": {
+      "pl": "Kinszasa",
+      "en": "Kinshasa"
+    },
+    "country": "CD",
+    "bbox": [
+      -4.4,
+      15.2,
+      -4.22,
+      15.38
+    ],
+    "center": [
+      -4.31,
+      15.29
+    ],
+    "zoom": 12,
+    "code": "FIH",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "luanda",
+    "name": {
+      "pl": "Luanda",
+      "en": "Luanda"
+    },
+    "country": "AO",
+    "bbox": [
+      -8.938,
+      13.16,
+      -8.74,
+      13.36
+    ],
+    "center": [
+      -8.839,
+      13.26
+    ],
+    "zoom": 12,
+    "code": "LAD",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "abuja",
+    "name": {
+      "pl": "Abudża",
+      "en": "Abuja"
+    },
+    "country": "NG",
+    "bbox": [
+      8.943,
+      7.341,
+      9.177,
+      7.579
+    ],
+    "center": [
+      9.06,
+      7.46
+    ],
+    "zoom": 11,
+    "code": "ABV",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "lagos",
+    "name": {
+      "pl": "Lagos",
+      "en": "Lagos"
+    },
+    "country": "NG",
+    "bbox": [
+      6.323,
+      3.312,
+      6.557,
+      3.548
+    ],
+    "center": [
+      6.44,
+      3.43
+    ],
+    "zoom": 11,
+    "code": "LOS",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "accra",
+    "name": {
+      "pl": "Akra",
+      "en": "Accra"
+    },
+    "country": "GH",
+    "bbox": [
+      5.501,
+      -0.287,
+      5.699,
+      -0.087
+    ],
+    "center": [
+      5.6,
+      -0.187
+    ],
+    "zoom": 12,
+    "code": "ACC",
+    "labelSide": "w",
+    "region": "africa"
+  },
+  {
+    "slug": "abidjan",
+    "name": {
+      "pl": "Abidżan",
+      "en": "Abidjan"
+    },
+    "country": "CI",
+    "bbox": [
+      5.232,
+      -4.109,
+      5.448,
+      -3.891
+    ],
+    "center": [
+      5.34,
+      -4
+    ],
+    "zoom": 12,
+    "code": "ABJ",
+    "labelSide": "w",
+    "region": "africa"
+  },
+  {
+    "slug": "dakar",
+    "name": {
+      "pl": "Dakar",
+      "en": "Dakar"
+    },
+    "country": "SN",
+    "bbox": [
+      14.62,
+      -17.563,
+      14.8,
+      -17.377
+    ],
+    "center": [
+      14.71,
+      -17.47
+    ],
+    "zoom": 12,
+    "code": "DKR",
+    "labelSide": "w",
+    "region": "africa"
+  },
+  {
+    "slug": "bamako",
+    "name": {
+      "pl": "Bamako",
+      "en": "Bamako"
+    },
+    "country": "ML",
+    "bbox": [
+      12.53,
+      -8.092,
+      12.71,
+      -7.908
+    ],
+    "center": [
+      12.62,
+      -8
+    ],
+    "zoom": 12,
+    "code": "BKO",
+    "labelSide": "w",
+    "region": "africa"
+  },
+  {
+    "slug": "niamey",
+    "name": {
+      "pl": "Niamey",
+      "en": "Niamey"
+    },
+    "country": "NE",
+    "bbox": [
+      13.44,
+      2.051,
+      13.584,
+      2.2
+    ],
+    "center": [
+      13.5116,
+      2.1254
+    ],
+    "zoom": 13,
+    "code": "NIM",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "harare",
+    "name": {
+      "pl": "Harare",
+      "en": "Harare"
+    },
+    "country": "ZW",
+    "bbox": [
+      -17.89,
+      30.955,
+      -17.71,
+      31.145
+    ],
+    "center": [
+      -17.8,
+      31.05
+    ],
+    "zoom": 12,
+    "code": "HRE",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "maputo",
+    "name": {
+      "pl": "Maputo",
+      "en": "Maputo"
+    },
+    "country": "MZ",
+    "bbox": [
+      -26.041,
+      32.5,
+      -25.879,
+      32.68
+    ],
+    "center": [
+      -25.96,
+      32.59
+    ],
+    "zoom": 12,
+    "code": "MPM",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "johannesburg",
+    "name": {
+      "pl": "Johannesburg",
+      "en": "Johannesburg"
+    },
+    "country": "ZA",
+    "bbox": [
+      -26.274,
+      27.879,
+      -25.986,
+      28.201
+    ],
+    "center": [
+      -26.13,
+      28.04
+    ],
+    "zoom": 11,
+    "code": "JNB",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "cape-town",
+    "name": {
+      "pl": "Kapsztad",
+      "en": "Cape Town"
+    },
+    "country": "ZA",
+    "bbox": [
+      -34.02,
+      18.331,
+      -33.84,
+      18.549
+    ],
+    "center": [
+      -33.93,
+      18.44
+    ],
+    "zoom": 12,
+    "code": "CPT",
+    "labelSide": "e",
+    "region": "africa"
+  },
+  {
+    "slug": "tashkent",
+    "name": {
+      "pl": "Taszkent",
+      "en": "Tashkent"
+    },
+    "country": "UZ",
+    "bbox": [
+      41.192,
+      69.126,
+      41.408,
+      69.414
+    ],
+    "center": [
+      41.3,
+      69.27
+    ],
+    "zoom": 12,
+    "code": "TAS",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "almaty",
+    "name": {
+      "pl": "Ałmaty",
+      "en": "Almaty"
+    },
+    "country": "KZ",
+    "bbox": [
+      43.132,
+      76.752,
+      43.348,
+      77.048
+    ],
+    "center": [
+      43.24,
+      76.9
+    ],
+    "zoom": 12,
+    "code": "ALA",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "bishkek",
+    "name": {
+      "pl": "Biszkek",
+      "en": "Bishkek"
+    },
+    "country": "KG",
+    "bbox": [
+      42.794,
+      74.479,
+      42.956,
+      74.701
+    ],
+    "center": [
+      42.8746,
+      74.59
+    ],
+    "zoom": 12,
+    "code": "FRU",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "dushanbe",
+    "name": {
+      "pl": "Duszanbe",
+      "en": "Dushanbe"
+    },
+    "country": "TJ",
+    "bbox": [
+      38.479,
+      68.683,
+      38.641,
+      68.891
+    ],
+    "center": [
+      38.5598,
+      68.787
+    ],
+    "zoom": 12,
+    "code": "DYU",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "ashgabat",
+    "name": {
+      "pl": "Aszchabad",
+      "en": "Ashgabat"
+    },
+    "country": "TM",
+    "bbox": [
+      37.85,
+      58.266,
+      38.03,
+      58.494
+    ],
+    "center": [
+      37.94,
+      58.38
+    ],
+    "zoom": 12,
+    "code": "ASB",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "kabul",
+    "name": {
+      "pl": "Kabul",
+      "en": "Kabul"
+    },
+    "country": "AF",
+    "bbox": [
+      34.44,
+      69.071,
+      34.62,
+      69.289
+    ],
+    "center": [
+      34.53,
+      69.18
+    ],
+    "zoom": 12,
+    "code": "KBL",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "karachi",
+    "name": {
+      "pl": "Karaczi",
+      "en": "Karachi"
+    },
+    "country": "PK",
+    "bbox": [
+      24.723,
+      66.921,
+      24.957,
+      67.179
+    ],
+    "center": [
+      24.84,
+      67.05
+    ],
+    "zoom": 11,
+    "code": "KHI",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "kathmandu",
+    "name": {
+      "pl": "Katmandu",
+      "en": "Kathmandu"
+    },
+    "country": "NP",
+    "bbox": [
+      27.638,
+      85.243,
+      27.782,
+      85.405
+    ],
+    "center": [
+      27.71,
+      85.324
+    ],
+    "zoom": 13,
+    "code": "KTM",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "colombo",
+    "name": {
+      "pl": "Kolombo",
+      "en": "Colombo"
+    },
+    "country": "LK",
+    "bbox": [
+      6.819,
+      79.778,
+      6.981,
+      79.942
+    ],
+    "center": [
+      6.9,
+      79.86
+    ],
+    "zoom": 12,
+    "code": "CMB",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "yangon",
+    "name": {
+      "pl": "Rangun",
+      "en": "Yangon"
+    },
+    "country": "MM",
+    "bbox": [
+      16.73,
+      96.066,
+      16.91,
+      96.254
+    ],
+    "center": [
+      16.82,
+      96.16
+    ],
+    "zoom": 12,
+    "code": "RGN",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "phnom-penh",
+    "name": {
+      "pl": "Phnom Penh",
+      "en": "Phnom Penh"
+    },
+    "country": "KH",
+    "bbox": [
+      11.484,
+      104.846,
+      11.628,
+      104.994
+    ],
+    "center": [
+      11.5564,
+      104.92
+    ],
+    "zoom": 13,
+    "code": "PNH",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "vientiane",
+    "name": {
+      "pl": "Wientian",
+      "en": "Vientiane"
+    },
+    "country": "LA",
+    "bbox": [
+      17.904,
+      102.544,
+      18.048,
+      102.696
+    ],
+    "center": [
+      17.9757,
+      102.62
+    ],
+    "zoom": 13,
+    "code": "VTE",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "ho-chi-minh",
+    "name": {
+      "pl": "Ho Chi Minh",
+      "en": "Ho Chi Minh City"
+    },
+    "country": "VN",
+    "bbox": [
+      10.708,
+      106.617,
+      10.852,
+      106.763
+    ],
+    "center": [
+      10.78,
+      106.69
+    ],
+    "zoom": 13,
+    "code": "SGN",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "guangzhou",
+    "name": {
+      "pl": "Kanton",
+      "en": "Guangzhou"
+    },
+    "country": "CN",
+    "bbox": [
+      23.003,
+      113.183,
+      23.255,
+      113.457
+    ],
+    "center": [
+      23.1291,
+      113.32
+    ],
+    "zoom": 11,
+    "code": "CAN",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "ulaanbaatar",
+    "name": {
+      "pl": "Ułan Bator",
+      "en": "Ulaanbaatar"
+    },
+    "country": "MN",
+    "bbox": [
+      47.839,
+      106.789,
+      48.001,
+      107.031
+    ],
+    "center": [
+      47.92,
+      106.91
+    ],
+    "zoom": 12,
+    "code": "ULN",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "pyongyang",
+    "name": {
+      "pl": "Pjongjang",
+      "en": "Pyongyang"
+    },
+    "country": "KP",
+    "bbox": [
+      38.958,
+      125.658,
+      39.12,
+      125.867
+    ],
+    "center": [
+      39.0392,
+      125.7625
+    ],
+    "zoom": 12,
+    "code": "FNJ",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "osaka",
+    "name": {
+      "pl": "Osaka",
+      "en": "Osaka"
+    },
+    "country": "JP",
+    "bbox": [
+      34.609,
+      135.401,
+      34.771,
+      135.599
+    ],
+    "center": [
+      34.69,
+      135.5
+    ],
+    "zoom": 12,
+    "code": "OSA",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "wellington",
+    "name": {
+      "pl": "Wellington",
+      "en": "Wellington"
+    },
+    "country": "NZ",
+    "bbox": [
+      -41.341,
+      174.704,
+      -41.232,
+      174.848
+    ],
+    "center": [
+      -41.2865,
+      174.7762
+    ],
+    "zoom": 13,
+    "code": "WLG",
+    "labelSide": "e",
+    "region": "asia"
+  },
+  {
+    "slug": "havana",
+    "name": {
+      "pl": "Hawana",
+      "en": "Havana"
+    },
+    "country": "CU",
+    "bbox": [
+      23.02,
+      -82.498,
+      23.2,
+      -82.302
+    ],
+    "center": [
+      23.11,
+      -82.4
+    ],
+    "zoom": 12,
+    "code": "HAV",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "santo-domingo",
+    "name": {
+      "pl": "Santo Domingo",
+      "en": "Santo Domingo"
+    },
+    "country": "DO",
+    "bbox": [
+      18.38,
+      -70.025,
+      18.56,
+      -69.835
+    ],
+    "center": [
+      18.47,
+      -69.93
+    ],
+    "zoom": 12,
+    "code": "SDQ",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "kingston",
+    "name": {
+      "pl": "Kingston",
+      "en": "Kingston"
+    },
+    "country": "JM",
+    "bbox": [
+      17.929,
+      -76.865,
+      18.091,
+      -76.695
+    ],
+    "center": [
+      18.01,
+      -76.78
+    ],
+    "zoom": 12,
+    "code": "KIN",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "guatemala",
+    "name": {
+      "pl": "Gwatemala",
+      "en": "Guatemala City"
+    },
+    "country": "GT",
+    "bbox": [
+      14.51,
+      -90.613,
+      14.69,
+      -90.427
+    ],
+    "center": [
+      14.6,
+      -90.52
+    ],
+    "zoom": 12,
+    "code": "GUA",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "san-salvador",
+    "name": {
+      "pl": "San Salvador",
+      "en": "San Salvador"
+    },
+    "country": "SV",
+    "bbox": [
+      13.618,
+      -89.304,
+      13.762,
+      -89.156
+    ],
+    "center": [
+      13.69,
+      -89.23
+    ],
+    "zoom": 13,
+    "code": "SAL",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "managua",
+    "name": {
+      "pl": "Managua",
+      "en": "Managua"
+    },
+    "country": "NI",
+    "bbox": [
+      12.034,
+      -86.343,
+      12.196,
+      -86.177
+    ],
+    "center": [
+      12.115,
+      -86.26
+    ],
+    "zoom": 12,
+    "code": "MGA",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "san-jose",
+    "name": {
+      "pl": "San José",
+      "en": "San José"
+    },
+    "country": "CR",
+    "bbox": [
+      9.84,
+      -84.182,
+      10.02,
+      -83.999
+    ],
+    "center": [
+      9.93,
+      -84.0907
+    ],
+    "zoom": 12,
+    "code": "SJO",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "panama",
+    "name": {
+      "pl": "Panama",
+      "en": "Panama City"
+    },
+    "country": "PA",
+    "bbox": [
+      8.909,
+      -79.602,
+      9.071,
+      -79.438
+    ],
+    "center": [
+      8.99,
+      -79.5199
+    ],
+    "zoom": 12,
+    "code": "PTY",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "caracas",
+    "name": {
+      "pl": "Caracas",
+      "en": "Caracas"
+    },
+    "country": "VE",
+    "bbox": [
+      10.391,
+      -66.961,
+      10.589,
+      -66.759
+    ],
+    "center": [
+      10.49,
+      -66.86
+    ],
+    "zoom": 12,
+    "code": "CCS",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "quito",
+    "name": {
+      "pl": "Quito",
+      "en": "Quito"
+    },
+    "country": "EC",
+    "bbox": [
+      -0.28,
+      -78.579,
+      -0.082,
+      -78.381
+    ],
+    "center": [
+      -0.1807,
+      -78.48
+    ],
+    "zoom": 12,
+    "code": "UIO",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "la-paz",
+    "name": {
+      "pl": "La Paz",
+      "en": "La Paz"
+    },
+    "country": "BO",
+    "bbox": [
+      -16.591,
+      -68.204,
+      -16.429,
+      -68.035
+    ],
+    "center": [
+      -16.51,
+      -68.1193
+    ],
+    "zoom": 12,
+    "code": "LPB",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "asuncion",
+    "name": {
+      "pl": "Asunción",
+      "en": "Asunción"
+    },
+    "country": "PY",
+    "bbox": [
+      -25.371,
+      -57.68,
+      -25.209,
+      -57.5
+    ],
+    "center": [
+      -25.29,
+      -57.59
+    ],
+    "zoom": 12,
+    "code": "ASU",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "montevideo",
+    "name": {
+      "pl": "Montevideo",
+      "en": "Montevideo"
+    },
+    "country": "UY",
+    "bbox": [
+      -34.991,
+      -56.24,
+      -34.811,
+      -56.02
+    ],
+    "center": [
+      -34.9011,
+      -56.13
+    ],
+    "zoom": 12,
+    "code": "MVD",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "rio-de-janeiro",
+    "name": {
+      "pl": "Rio de Janeiro",
+      "en": "Rio de Janeiro"
+    },
+    "country": "BR",
+    "bbox": [
+      -23.029,
+      -43.298,
+      -22.831,
+      -43.082
+    ],
+    "center": [
+      -22.93,
+      -43.19
+    ],
+    "zoom": 12,
+    "code": "RIO",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "los-angeles",
+    "name": {
+      "pl": "Los Angeles",
+      "en": "Los Angeles"
+    },
+    "country": "US",
+    "bbox": [
+      33.916,
+      -118.524,
+      34.204,
+      -118.176
+    ],
+    "center": [
+      34.06,
+      -118.35
+    ],
+    "zoom": 11,
+    "code": "LAX",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "chicago",
+    "name": {
+      "pl": "Chicago",
+      "en": "Chicago"
+    },
+    "country": "US",
+    "bbox": [
+      41.818,
+      -87.727,
+      41.962,
+      -87.533
+    ],
+    "center": [
+      41.89,
+      -87.63
+    ],
+    "zoom": 13,
+    "code": "CHI",
+    "labelSide": "w",
+    "region": "americas"
+  },
+  {
+    "slug": "miami",
+    "name": {
+      "pl": "Miami",
+      "en": "Miami"
+    },
+    "country": "US",
+    "bbox": [
+      25.68,
+      -80.3,
+      25.86,
+      -80.1
+    ],
+    "center": [
+      25.77,
+      -80.2
+    ],
+    "zoom": 12,
+    "code": "MIA",
+    "labelSide": "w",
+    "region": "americas"
+  }
+]

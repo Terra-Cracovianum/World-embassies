@@ -1,0 +1,48 @@
+{
+  "node/8350714995": {
+    "why": "Tagged country=AL (Albania) in OpenStreetMap, but the mission is named 'Embassy of Algieria'. Remove once fixed on OSM.",
+    "set": {
+      "country": "DZ"
+    }
+  },
+  "way/986533195": {
+    "why": "The Hong Kong SAR Government's office in Beijing: a Chinese government office, not a foreign mission (it was read as the Republic of the Congo from one of its names).",
+    "drop": true
+  },
+  "node/6439744217": {
+    "why": "Representation of the Turkish Republic of Northern Cyprus, which has no ISO code: shown by its own name rather than read as Cyprus.",
+    "set": {
+      "country": "ZZ"
+    }
+  },
+  "node/14303893582": {
+    "drop": true,
+    "why": "Armenian Prelature — a church office, not a mission"
+  },
+  "node/607973176": {
+    "drop": true,
+    "why": "Norwegian Refugee Council — an NGO"
+  },
+  "way/232726217": {
+    "drop": true,
+    "why": "a proposed embassy building site"
+  },
+  "wikidata/Q3435605": {
+    "drop": true,
+    "why": "Wikidata: the Consulate General of Norway in Guangzhou, with coordinates in Beijing"
+  },
+  "wikidata/Q48851771": {
+    "drop": true,
+    "why": "Russian consulate general in Kraków: Poland withdrew its consent and it closed in 2025; Wikidata still lists it"
+  },
+  "wikidata/Q11743077": {
+    "drop": true,
+    "why": "Russian consulate general in Gdańsk: closed by Poland in 2025; Wikidata still lists it"
+  },
+  "wikidata/Q31188633": {
+    "why": "Wikidata gives Cyprus as operator of the Northern Cyprus consulate general",
+    "set": {
+      "country": "ZZ"
+    }
+  }
+}

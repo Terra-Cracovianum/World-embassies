@@ -1,0 +1,664 @@
+/* Terra Cracovianum design tokens and type — copied verbatim from the institute's site
+   (Terra-Cracovianum-Website-/styles.css, see its DESIGN.md). Keep in sync rather than diverge. */
+
+/* ---------- fonts (self-hosted, SIL OFL) ---------- */
+/* Variable files: one face per family/style/subset, with the real weight range so
+   the intermediate weights this design uses (330, 340, 350, 370, 420 …) render as
+   written instead of snapping to the nearest of Google's discrete declarations. */
+@font-face{
+  font-family:'Fraunces';
+  font-style:italic;
+  font-weight:300 400;
+  font-display:swap;
+  src:url('assets/fonts/fraunces-italic-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Fraunces';
+  font-style:italic;
+  font-weight:300 400;
+  font-display:swap;
+  src:url('assets/fonts/fraunces-italic-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+  font-family:'Fraunces';
+  font-style:normal;
+  font-weight:300 600;
+  font-display:swap;
+  src:url('assets/fonts/fraunces-roman-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Fraunces';
+  font-style:normal;
+  font-weight:300 600;
+  font-display:swap;
+  src:url('assets/fonts/fraunces-roman-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+  font-family:'Instrument Sans';
+  font-style:normal;
+  font-weight:400 600;
+  font-display:swap;
+  src:url('assets/fonts/instrument-sans-roman-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Instrument Sans';
+  font-style:normal;
+  font-weight:400 600;
+  font-display:swap;
+  src:url('assets/fonts/instrument-sans-roman-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+  font-family:'Spline Sans Mono';
+  font-style:normal;
+  font-weight:400 500;
+  font-display:swap;
+  src:url('assets/fonts/spline-sans-mono-roman-latin.woff2') format('woff2');
+  unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+  font-family:'Spline Sans Mono';
+  font-style:normal;
+  font-weight:400 500;
+  font-display:swap;
+  src:url('assets/fonts/spline-sans-mono-roman-latin-ext.woff2') format('woff2');
+  unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Metric-matched stand-in for the split second before Fraunces arrives. Georgia sets the
+   same string ~13.4% wider (measured at 200px: 2148px vs 1859px), which at the hero's
+   clamp(36px,11.5vw,196px) rewraps the whole headline when the real font lands.
+   size-adjust removes that; line-height is a unitless number so box height is unaffected. */
+@font-face{
+  font-family:'Fraunces Fallback';
+  src:local('Georgia'), local('Times New Roman'), local('Times');
+  size-adjust:86.6%;
+  ascent-override:96%;
+  descent-override:24%;
+  line-gap-override:0%;
+}
+
+:root{
+  /* surfaces */
+  --parchment:#f3eee3;
+  --parchment-deep:#e9e2d2;
+  --ink:#181c17;
+  --ink-deep:#10140f;      /* dark-band background (CTA, globe, findings) */
+  --ink-soft:#3c4238;
+  --moss:#2e4636;
+  /* accents */
+  --sienna:#c2451e;        /* large/graphic use only */
+  --sienna-ink:#a83a17;    /* sienna for text ≤18px on light surfaces (AA) */
+  --sand:#d9a06b;          /* supporting tone; the accent for text on dark */
+  --sand-soft:#e6b8a6;     /* globe-tip accent */
+  /* lines & ghosts */
+  --hairline:rgba(24,28,23,.18);
+  --hairline-dark:rgba(243,238,227,.22);
+  --text-on-dark:rgba(243,238,227,.72);
+  --ghost:rgba(24,28,23,.06);
+  --ghost-dark:rgba(243,238,227,.07);
+  /* type */
+  --serif:"Fraunces", "Fraunces Fallback", Georgia, serif;
+  --sans:"Instrument Sans", -apple-system, sans-serif;
+  --mono:"Spline Sans Mono", ui-monospace, monospace;
+  --display-1:clamp(36px,11.5vw,196px);
+  --display-2:clamp(44px,9.5vw,164px);
+  --display-3:clamp(38px,8vw,122px);
+  --title-1:clamp(30px,4.8vw,68px);
+  --title-2:clamp(23px,2.4vw,33px);
+  /* space */
+  --gutter:clamp(20px, 4vw, 64px);
+  --sect-pad:clamp(56px,9vh,110px);
+  --cell-pad:clamp(24px,3.2vw,44px);
+}
+/* ---------- theme ----------
+   The site itself has no dark mode; this one is built from its dark bands (CTA, footer, mobile
+   menu): ink-deep ground, parchment type, sand as the accent for words. Light/dark follows the
+   system until the visitor picks one with the toggle (stored as data-theme on <html>). */
+:root{
+  --arrive:cubic-bezier(.22,1,.36,1);
+  --wipe:cubic-bezier(.76,0,.24,1);
+  --g-embassy:var(--sienna);
+  --g-consulate:var(--moss);
+  --g-other:var(--sand);
+  --panel:340px;
+  --gutter:clamp(16px,2.4vw,32px);
+  --bar-bg:rgba(243,238,227,.86);
+  --veil:rgba(243,238,227,.86);       /* status overlay, attribution */
+  --on-ink-soft:rgba(243,238,227,.72);/* secondary text on an ink fill (the selected row) */
+  --logo-filter:none;
+  --tiles:grayscale(1) sepia(.22) contrast(.82) brightness(1.04);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --parchment:#10140f;--parchment-deep:#1c221b;
+    --ink:#f3eee3;--ink-soft:rgba(243,238,227,.68);--ink-deep:#0b0e0a;
+    --moss:#8db59a;--sienna:#d4572c;--sienna-ink:#d9a06b;
+    --hairline:rgba(243,238,227,.16);
+    --bar-bg:rgba(16,20,15,.86);--veil:rgba(16,20,15,.86);--on-ink-soft:rgba(16,20,15,.68);
+    --logo-filter:invert(.95) sepia(.18);
+    --tiles:grayscale(1) invert(1) brightness(.78) contrast(.9);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --parchment:#10140f;--parchment-deep:#1c221b;
+  --ink:#f3eee3;--ink-soft:rgba(243,238,227,.68);--ink-deep:#0b0e0a;
+  --moss:#8db59a;--sienna:#d4572c;--sienna-ink:#d9a06b;
+  --hairline:rgba(243,238,227,.16);
+  --bar-bg:rgba(16,20,15,.86);--veil:rgba(16,20,15,.86);--on-ink-soft:rgba(16,20,15,.68);
+  --logo-filter:invert(.95) sepia(.18);
+  --tiles:grayscale(1) invert(1) brightness(.78) contrast(.9);
+  color-scheme:dark;
+}
+
+/* ---------- base ---------- */
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{
+  background:var(--parchment);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;
+  transition:background-color .3s,color .3s;
+}
+::selection{background:var(--sienna);color:#f3eee3}
+button{font:inherit;color:inherit}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--sienna-ink);outline-offset:2px}
+
+/* ---------- masthead: the institute's header bar ---------- */
+header{position:relative;z-index:1000;flex:0 0 auto}
+.header-bar{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:14px var(--gutter);position:relative;
+  background:var(--bar-bg);
+  -webkit-backdrop-filter:blur(14px) saturate(1.15);backdrop-filter:blur(14px) saturate(1.15);
+  border-bottom:1px solid var(--hairline);
+}
+.header-bar::after{ /* instrument-bar ruler ticks */
+  content:"";position:absolute;left:var(--gutter);right:var(--gutter);bottom:0;height:6px;
+  background:repeating-linear-gradient(90deg,var(--hairline) 0 1px,transparent 1px 12px);
+  opacity:.7;pointer-events:none;
+}
+.brand{display:flex;align-items:center}
+.brand-logo{display:block;height:clamp(32px,3.6vw,42px);width:auto;filter:var(--logo-filter);transition:filter .3s}
+.header-right{display:flex;align-items:center;gap:clamp(12px,2vw,28px)}
+nav.desktop{display:flex;gap:30px}
+nav.desktop a{
+  font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink);text-decoration:none;position:relative;padding:8px 0;
+}
+nav.desktop a::after{
+  content:"";position:absolute;left:0;bottom:2px;height:1px;width:0;background:var(--sienna);
+  transition:width .35s var(--arrive);
+}
+nav.desktop a:hover::after,nav.desktop a:focus-visible::after{width:100%}
+.pill{ /* the site's .lang-btn / .menu-btn */
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  background:none;border:1.5px solid var(--ink);border-radius:999px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink);padding:0 14px;min-height:36px;cursor:pointer;
+  transition:background .3s,color .3s;
+}
+.pill:hover,.lang.open .pill{background:var(--ink);color:var(--parchment)}
+.theme-btn{width:36px;padding:0}
+.theme-btn svg{width:15px;height:15px}
+.theme-btn .moon,[data-dark] .theme-btn .sun{display:block}
+.theme-btn .sun,[data-dark] .theme-btn .moon{display:none}
+.menu-btn{display:none}
+
+.lang{position:relative}
+.lang .pill::after{content:"▾";font-size:9px;line-height:1}
+.lang-menu{
+  position:absolute;top:calc(100% + 10px);right:0;min-width:170px;
+  background:var(--parchment);border:1px solid var(--ink);border-radius:16px;
+  padding:6px;list-style:none;z-index:150;
+  opacity:0;visibility:hidden;transform:translateY(-8px);
+  transition:opacity .3s,visibility .3s,transform .3s var(--arrive);
+}
+.lang.open .lang-menu{opacity:1;visibility:visible;transform:none}
+.lang-menu button{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:18px;
+  background:none;border:0;border-radius:10px;padding:10px 12px;
+  font-family:var(--sans);font-size:14px;cursor:pointer;text-align:left;transition:background .2s,color .2s;
+}
+.lang-menu .code{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;color:var(--ink-soft)}
+.lang-menu button:hover{background:var(--ink);color:var(--parchment)}
+.lang-menu button:hover .code{color:var(--on-ink-soft)}
+.lang-menu button[aria-selected="true"] .code{color:var(--sienna-ink)}
+
+/* mobile overlay nav — the site's, always on ink in either theme */
+.mobile-nav{
+  position:fixed;inset:0;z-index:2000;background:#10140f;color:#f3eee3;
+  display:flex;flex-direction:column;justify-content:center;padding:0 var(--gutter);
+  clip-path:inset(0 0 100% 0);visibility:hidden;
+  transition:clip-path .6s var(--wipe),visibility 0s linear .6s;
+}
+.mobile-nav.open{clip-path:inset(0 0 0% 0);visibility:visible;transition:clip-path .6s var(--wipe),visibility 0s}
+.mobile-nav::before{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(243,238,227,.22) 1px,transparent 1px),linear-gradient(90deg,rgba(243,238,227,.22) 1px,transparent 1px);
+  background-size:64px 64px;opacity:.3;
+  -webkit-mask-image:radial-gradient(130% 80% at 0% 50%,#000 20%,transparent 75%);mask-image:radial-gradient(130% 80% at 0% 50%,#000 20%,transparent 75%);
+}
+.mobile-nav a{
+  position:relative;font-family:var(--serif);font-size:clamp(36px,10vw,60px);font-weight:300;
+  color:#f3eee3;text-decoration:none;padding:10px 0;opacity:0;transform:translateY(18px);
+  transition:opacity .5s ease,transform .5s var(--arrive),color .3s;
+}
+.mobile-nav a::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:rgba(243,238,227,.22);
+  transform:scaleX(0);transform-origin:left;transition:transform .7s var(--wipe);
+}
+.mobile-nav.open a{opacity:1;transform:none;transition-delay:var(--d,0s)}
+.mobile-nav.open a::after{transform:scaleX(1);transition-delay:calc(var(--d,0s) + .08s)}
+.mobile-nav.open a:nth-of-type(1){--d:.16s}
+.mobile-nav.open a:nth-of-type(2){--d:.24s}
+.mobile-nav.open a:nth-of-type(3){--d:.32s}
+.mobile-nav.open a:nth-of-type(4){--d:.40s}
+.mobile-nav a:hover{font-style:italic;color:#d9a06b}
+.mobile-nav a em{font-family:var(--mono);font-style:normal;font-size:12px;vertical-align:super;color:#d9a06b;margin-right:14px}
+.mobile-nav-foot{position:relative;margin-top:clamp(28px,6vh,48px);font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#d9a06b}
+.mobile-close{
+  position:absolute;top:18px;right:var(--gutter);background:none;border:1.5px solid #f3eee3;border-radius:999px;
+  color:#f3eee3;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  padding:0 16px;min-height:36px;cursor:pointer;
+}
+.mobile-nav a:focus-visible,.mobile-close:focus-visible{outline:2px solid #d9a06b;outline-offset:4px}
+html.nav-open{overflow:hidden}
+
+/* ---------- the tool's own title row ---------- */
+.tool-head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex:0 0 auto;
+  padding:14px var(--gutter) 12px;border-bottom:1px solid var(--ink);
+}
+.kicker{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--sienna-ink)}
+.tool-head h2{font-family:var(--serif);font-weight:370;font-size:clamp(22px,2.6vw,32px);line-height:1.15;letter-spacing:-.01em;margin-top:2px}
+.tool-head h2 em{font-style:italic;font-weight:300;color:var(--moss)}
+.tool-head-left{display:flex;align-items:flex-end;gap:clamp(14px,2vw,26px)}
+.back-btn{margin-bottom:3px;gap:10px}
+.back-btn span[aria-hidden]{transition:transform .35s var(--arrive)}
+.back-btn:hover span[aria-hidden]{transform:translateX(-4px)}
+.tool-head-right{display:flex;align-items:center;gap:18px;padding-bottom:2px}
+/* the city menu: one pill, opening a grid of every city in the language menu's style */
+.city-picker{position:relative}
+#city-btn::after{content:"▾";font-size:9px;line-height:1}
+.city-btn-k{color:var(--ink-soft)}
+#city-btn:hover .city-btn-k,.city-picker.open .city-btn-k{color:inherit;opacity:.7}
+.city-picker.open #city-btn{background:var(--ink);color:var(--parchment)}
+.cities{
+  position:absolute;top:calc(100% + 10px);right:0;z-index:1500;width:min(560px,calc(100vw - 32px));
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;padding:8px;
+  background:var(--parchment);border:1px solid var(--ink);border-radius:16px;
+  opacity:0;visibility:hidden;transform:translateY(-8px);
+  transition:opacity .3s,visibility .3s,transform .3s var(--arrive);
+}
+.city-picker.open .cities{opacity:1;visibility:visible;transform:none;transition:opacity .3s,visibility 0s,transform .3s var(--arrive)} /* visible at once, so focus can move in */
+.cities{max-height:min(70vh,640px);overflow-y:auto;overscroll-behavior:contain;align-content:start}
+.cities-region{grid-column:1/-1;margin:10px 10px 2px;padding-bottom:4px;border-bottom:1px solid var(--hairline);
+  font-family:var(--mono);font-size:10.5px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--sienna-ink)}
+.cities-region:first-of-type{margin-top:4px}
+.cities-find{grid-column:1/-1;position:sticky;top:-8px;z-index:1;margin:-8px -8px 4px;padding:14px 18px;
+  border:0;border-bottom:1px solid var(--hairline);border-radius:16px 16px 0 0;background:var(--parchment);color:var(--ink);
+  font:inherit;font-size:15px}
+.cities-find::placeholder{color:var(--ink-soft);opacity:.8}
+.cities-find:focus-visible{outline:none;border-bottom-color:var(--ink)}
+.cities-find::-webkit-search-cancel-button{-webkit-appearance:none}
+.cities [hidden]{display:none}
+.cities button{
+  display:flex;align-items:baseline;gap:10px;width:100%;text-align:left;cursor:pointer;
+  background:none;border:0;border-radius:10px;padding:9px 10px;
+  font-family:var(--serif);font-size:17px;font-weight:370;color:var(--ink);transition:background .2s,color .2s;
+}
+.cities button span{font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:var(--sienna-ink)}
+.cities button:hover,.cities button:focus-visible{background:var(--ink);color:var(--parchment);outline:none}
+.cities button:hover span,.cities button:focus-visible span{color:var(--sand)}
+.cities button[aria-current="page"]{font-style:italic;color:var(--moss)}
+.cities button[aria-current="page"]:hover{color:var(--parchment)}
+.count{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-variant-numeric:tabular-nums;white-space:nowrap;padding-bottom:4px}
+.count b{color:var(--sienna-ink);font-weight:500}
+
+/* ---------- the stage: the globe and the map, stacked ---------- */
+.stage{position:relative;flex:1;min-height:0;overflow:hidden}
+.map-view{position:absolute;inset:0;display:flex;flex-direction:column;background:var(--parchment);z-index:2}
+.map-view[hidden]{display:none}
+
+/* While the globe or a flight is on screen the masthead is ink, part of the band (as the site
+   does over its dark bands). It fades over the site's .45s. */
+body[data-view="globe"] .header-bar,body[data-view="flight"] .header-bar{background:#10140f;border-bottom-color:rgba(243,238,227,.22)}
+body[data-view="globe"] .header-bar::after,body[data-view="flight"] .header-bar::after{background:repeating-linear-gradient(90deg,rgba(243,238,227,.22) 0 1px,transparent 1px 12px)}
+body[data-view="globe"] .brand-logo,body[data-view="flight"] .brand-logo{filter:invert(.95) sepia(.18)}
+body[data-view="globe"] nav.desktop a,body[data-view="flight"] nav.desktop a,
+body[data-view="globe"] .pill,body[data-view="flight"] .pill{color:#f3eee3;border-color:#f3eee3}
+body[data-view="globe"] .pill:hover,body[data-view="globe"] .lang.open .pill{background:#f3eee3;color:#10140f}
+.header-bar,.header-bar::after,nav.desktop a,.pill{transition:background-color .45s,border-color .45s,color .45s}
+body.is-moving{cursor:progress}
+body.is-moving .stage{pointer-events:none}
+
+/* ---------- the globe band: always ink, in either theme ---------- */
+.globe-view{
+  position:absolute;inset:0;background:#10140f;color:#f3eee3;overflow:hidden;z-index:1;
+  --hair:rgba(243,238,227,.22);--soft:rgba(243,238,227,.68);
+}
+.globe-view::before{ /* the dark band's graticule, fading toward the globe */
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(var(--hair) 1px,transparent 1px),linear-gradient(90deg,var(--hair) 1px,transparent 1px);
+  background-size:64px 64px;opacity:.16;
+  -webkit-mask-image:radial-gradient(120% 90% at 0% 40%,#000 15%,transparent 70%);mask-image:radial-gradient(120% 90% at 0% 40%,#000 15%,transparent 70%);
+}
+.globe-view.is-off{visibility:hidden} /* behind an open map: no painting, no running rings */
+.globe-view.is-off *{animation-play-state:paused!important}
+#globe{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none}
+#globe.is-dragging{cursor:grabbing}
+
+.landing{position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(28px,5.5vh,72px) var(--gutter) clamp(18px,3vh,28px)}
+.landing-copy{pointer-events:auto;max-width:min(620px,46vw)}
+.landing::before{ /* a scrim behind the copy, so the headline and index read over the globe's limb */
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;
+  background:linear-gradient(90deg,#10140f 0,rgba(16,20,15,.92) 34%,rgba(16,20,15,.55) 46%,transparent 58%);
+  transition:opacity .6s var(--wipe);
+}
+.landing.is-leaving::before{opacity:0}
+.landing{z-index:1}
+.kicker.on-ink{color:#d9a06b;margin-bottom:clamp(14px,2.4vh,24px)}
+.display{
+  font-family:var(--serif);font-weight:340;font-size:clamp(52px,7vw,124px);
+  line-height:.9;letter-spacing:-.03em;color:#f3eee3;
+}
+.display .line{display:block;overflow:hidden;padding-bottom:.14em;margin-bottom:-.14em}
+.display .line>span{display:inline-block}
+.display em{font-style:italic;font-weight:300;color:#d9a06b}
+.landing-lede{max-width:400px;margin-top:clamp(18px,3vh,30px);font-size:clamp(15px,1.25vw,17px);color:var(--soft);text-wrap:pretty}
+
+/* the stations: a compact index of every city, three columns of survey entries */
+/* Thirty-odd cities: four columns where there's room, and the index scrolls within its own space
+   rather than pushing the page, fading at its lower edge so the cut reads as "more below". */
+.stations{list-style:none;margin-top:clamp(18px,3.5vh,36px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:18px;border-top:1px solid var(--hair);
+  max-height:var(--stations-h,46vh);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(243,238,227,.25) transparent;
+  -webkit-mask-image:linear-gradient(180deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(180deg,#000 calc(100% - 28px),transparent);padding-bottom:22px}
+@media (min-width:1500px){.stations{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* region headings: a mono label across the columns, ruled like the survey sheet */
+.stations-region{grid-column:1/-1;display:flex;align-items:baseline;justify-content:space-between;padding:16px 2px 6px;border-bottom:1px solid var(--hair)}
+.stations-region:first-child{padding-top:8px}
+.stations-region span{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:#d9a06b}
+.stations-region small{font-family:var(--mono);font-size:10px;color:var(--soft)}
+.station{
+  width:100%;display:grid;grid-template-columns:22px 1fr;grid-template-areas:"n name" "n meta";
+  align-items:baseline;column-gap:8px;text-align:left;background:none;border:0;border-bottom:1px solid var(--hair);
+  color:#f3eee3;padding:9px 2px 8px;cursor:pointer;position:relative;isolation:isolate;
+}
+.station::before{ /* the site's wipe hover */
+  content:"";position:absolute;inset:0;z-index:-1;background:rgba(243,238,227,.07);
+  transform:scaleY(0);transform-origin:bottom;transition:transform .45s var(--wipe);
+}
+.station:hover::before,.station:focus-visible::before,.station.is-lit::before{transform:scaleY(1);transform-origin:top}
+.station:focus-visible{outline:2px solid #d9a06b;outline-offset:-2px}
+.station-n{grid-area:n;font-family:var(--mono);font-size:10px;letter-spacing:.06em;color:#d9a06b}
+.station-name{grid-area:name;font-family:var(--serif);font-size:clamp(17px,1.4vw,21px);font-weight:350;line-height:1.15;transition:color .3s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.station:hover .station-name,.station.is-lit .station-name{font-style:italic;color:#d9a06b}
+.station-meta{grid-area:meta;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-top:2px;font-variant-numeric:tabular-nums}
+.station-go{display:none}
+@media (max-height:820px) and (min-width:761px){
+  .stations{--stations-h:40vh}
+  .landing-lede{display:none}
+  .display{font-size:clamp(48px,6vw,96px)}
+  .station{padding:7px 2px 6px}
+}
+
+.landing-foot{display:flex;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:#d9a06b;pointer-events:none}
+.landing-foot .hint{color:var(--soft);letter-spacing:.14em;display:flex;align-items:center;gap:10px}
+.landing-foot .hint::before{content:"";width:7px;height:7px;border:1px solid currentColor;transform:rotate(45deg)}
+
+/* the opening: the headline rises out of its lines, the rest follows (the site's intro, in CSS) */
+.display .line>span{animation:introLine .9s var(--arrive) backwards} /* backwards, not both: a held end state would block the leaving transition */
+.display .line:nth-child(2)>span{animation-delay:.1s}
+.landing .kicker,.landing-lede,.stations li,.landing-foot{animation:introFade .8s var(--arrive) backwards}
+.landing .kicker{animation-delay:.05s}
+.landing-lede{animation-delay:.3s}
+.stations li{animation-delay:calc(.4s + var(--i) * .035s)}
+.landing-foot{animation-delay:.9s}
+@keyframes introLine{from{transform:translateY(105%)}to{transform:none}}
+@keyframes introFade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+
+/* leaving for a city: the copy lifts away on the mechanical curve, staggered */
+.landing-copy>*,.landing-foot{transition:opacity .5s var(--wipe),transform .6s var(--wipe)}
+.landing.is-leaving .landing-copy>*,.landing.is-leaving .landing-foot{opacity:0;transform:translateY(-22px);pointer-events:none}
+/* once left, the intro is over for good: a paused intro (the globe band switched off behind a map
+   opened from a link) would otherwise resume when a flight turns the band back on, and fade the copy in */
+.landing.is-leaving .landing-copy>*,.landing.is-leaving .landing-foot,.landing.is-leaving .stations li,.landing.is-leaving .display .line>span{animation:none}
+.landing.is-leaving .landing-copy>:nth-child(2){transition-delay:.05s}
+.landing.is-leaving .landing-copy>:nth-child(3){transition-delay:.1s}
+.landing.is-leaving .landing-copy>:nth-child(4){transition-delay:.15s}
+.landing:not(.is-leaving) .landing-copy>:nth-child(2){transition-delay:.12s}
+.landing:not(.is-leaving) .landing-copy>:nth-child(3){transition-delay:.2s}
+.landing:not(.is-leaving) .landing-copy>:nth-child(4){transition-delay:.28s}
+
+/* globe pins: a sienna station diamond with a radar ring, labelled like a survey slip */
+.gpins{position:absolute;inset:0;pointer-events:none}
+.gpin{
+  position:absolute;left:0;top:0;width:0;height:0;padding:0;border:0;background:none;color:#f3eee3;
+  pointer-events:auto;cursor:pointer;transition:opacity .5s var(--arrive);
+}
+.gpin.is-away{opacity:0;pointer-events:none}
+.gpin-mark{position:absolute;left:-16px;top:-16px;width:32px;height:32px;display:block} /* the tap target */
+@media (pointer:fine){.gpin-mark{left:-11px;top:-11px;width:22px;height:22px}} /* cities sit close in Europe */
+.gpin-mark::before{ /* the diamond */
+  content:"";position:absolute;left:50%;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;background:#d4572c;border:1.5px solid #f3eee3;
+  transform:rotate(45deg);transition:transform .4s var(--arrive);
+}
+.gpin-mark::after{ /* radar ring, as on the hero's cities, each out of step with the others */
+  content:"";position:absolute;left:50%;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border:1px solid rgba(212,87,44,.8);border-radius:50%;
+  animation:ring 2.4s var(--arrive) infinite;animation-delay:var(--ring,0s);
+}
+.gpin.is-home .gpin-mark::after{border-color:#d9a06b;animation:none;transform:scale(.62);opacity:.9} /* Kraków: the steady home ring */
+@keyframes ring{from{transform:scale(.25);opacity:1}to{transform:scale(1.15);opacity:0}}
+.gpin:hover,.gpin:focus-visible,.gpin.is-lit{z-index:2}
+.gpin:hover .gpin-mark::before,.gpin:focus-visible .gpin-mark::before,.gpin.is-lit .gpin-mark::before{transform:rotate(45deg) scale(1.5);background:#d9a06b}
+.gpin:focus-visible{outline:none}
+.gpin:focus-visible .gpin-mark{outline:2px solid #d9a06b;outline-offset:2px;border-radius:50%}
+/* the label: a survey slip that appears for the city you point at (twenty always-on labels would bury Europe) */
+.gpin-label{
+  position:absolute;white-space:nowrap;display:flex;flex-direction:column;gap:3px;text-align:left;
+  padding:7px 10px 7px 12px;margin-left:22px;top:-18px;left:0;pointer-events:none;
+  background:rgba(16,20,15,.88);border:1px solid rgba(243,238,227,.28);
+  opacity:0;transform:translateX(-6px);transition:opacity .3s var(--arrive),transform .4s var(--arrive);
+}
+.gpin:hover .gpin-label,.gpin:focus-visible .gpin-label,.gpin.is-lit .gpin-label{opacity:1;transform:none}
+.gpin-label b{font-family:var(--serif);font-weight:370;font-size:19px;line-height:1;font-style:italic;color:#f3eee3}
+.gpin-label small{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:#d9a06b}
+.gpin-w .gpin-label{left:auto;right:0;margin-left:0;margin-right:22px;text-align:right;align-items:flex-end;transform:translateX(6px)}
+.gpin-w:hover .gpin-label,.gpin-w:focus-visible .gpin-label,.gpin-w.is-lit .gpin-label{transform:none}
+/* pins rise in, one after another, once the globe settles */
+.gpin .gpin-mark{transition:opacity .6s var(--arrive),transform .6s var(--arrive);transition-delay:calc(var(--i,0) * 45ms)}
+.gpin.is-away .gpin-mark{opacity:0;transform:translateY(8px)}
+.gpin.is-away .gpin-label{opacity:0}
+
+/* a flight's live readout, riding the head of the route */
+.route-readout{
+  position:absolute;left:0;top:0;z-index:3;pointer-events:none;white-space:nowrap;
+  margin:-44px 0 0 14px;padding:7px 11px;background:rgba(16,20,15,.82);border:1px solid rgba(243,238,227,.3);
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#f3eee3;font-variant-numeric:tabular-nums;
+  opacity:0;transition:opacity .4s;
+}
+.route-readout.is-on{opacity:1}
+.route-readout b{font-weight:500;color:#d9a06b}
+.route-readout span{margin-left:10px;color:#f3eee3}
+
+/* map markers rise in, scattered, as the map opens */
+#map.is-rising .pin span{animation:pinRise .7s var(--arrive) both;animation-delay:var(--d,0s)}
+@keyframes pinRise{from{opacity:0;transform:translateY(-14px) rotate(45deg) scale(.4)}to{opacity:1;transform:rotate(45deg) scale(1)}}
+
+/* ---------- body: list + map ---------- */
+.atlas{flex:1;min-height:0;display:grid;grid-template-columns:var(--panel) minmax(0,1fr)}
+
+.panel{display:flex;flex-direction:column;min-height:0;min-width:0;border-right:1px solid var(--ink)}
+.panel-tools{padding:14px 20px 12px;border-bottom:1px solid var(--hairline)}
+.search input{
+  width:100%;font:inherit;font-size:16px;color:var(--ink);
+  background:transparent;border:0;border-bottom:1px solid var(--ink);border-radius:0;
+  padding:8px 0;min-height:40px;
+}
+.search input::placeholder{color:var(--ink-soft);opacity:.8}
+.search input:focus{outline:none;border-bottom-color:var(--sienna)}
+.filters{display:flex;gap:6px;margin-top:12px}
+.filter{ /* the site's instrument toggle */
+  background:none;border:1px solid var(--hairline);cursor:pointer;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);
+  padding:0 8px;min-height:32px;display:inline-flex;align-items:center;justify-content:center;gap:7px;flex:1 1 auto;
+  transition:border-color .25s,color .25s,background .25s;
+}
+.filter[data-group="all"]::before{display:none}
+.filter::before{content:"";width:7px;height:7px;transform:rotate(45deg);background:var(--dot,transparent);border:1px solid var(--dot,currentColor)}
+.filter[data-group="embassy"]{--dot:var(--g-embassy)}
+.filter[data-group="consulate"]{--dot:var(--g-consulate)}
+.filter[data-group="other"]{--dot:var(--g-other)}
+.filter:hover{border-color:var(--ink);color:var(--ink)}
+.filter[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--parchment)}
+
+.list{list-style:none;overflow-y:auto;flex:1;min-height:0;overscroll-behavior:contain}
+.row{
+  display:grid;grid-template-columns:10px 1fr;gap:12px;align-items:baseline;
+  width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--hairline);
+  padding:11px 20px;cursor:pointer;transition:background .2s;
+}
+.row::before{content:"";width:7px;height:7px;transform:translateY(-2px) rotate(45deg);background:var(--dot)}
+.row[data-group="embassy"]{--dot:var(--g-embassy)}
+.row[data-group="consulate"]{--dot:var(--g-consulate)}
+.row[data-group="other"]{--dot:var(--g-other)}
+.row:hover{background:var(--parchment-deep)}
+.row:focus-visible{outline-offset:-2px}
+.row-name{display:block;font-family:var(--serif);font-size:17px;font-weight:370;line-height:1.25}
+.row-meta{display:block;font-size:12.5px;color:var(--ink-soft);margin-top:1px}
+.row[aria-current="true"]{background:var(--ink);color:var(--parchment)}
+.row[aria-current="true"] .row-meta{color:var(--on-ink-soft)}
+.empty{padding:20px;color:var(--ink-soft);font-size:14px}
+.source{
+  padding:10px 20px;border-top:1px solid var(--hairline);
+  font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);
+}
+.source a{color:inherit;text-decoration:none;border-bottom:1px solid var(--sienna)}
+
+.map-wrap{position:relative;min-width:0;min-height:0;isolation:isolate}
+#map{position:absolute;inset:0;background:var(--parchment-deep);font-family:var(--sans)}
+/* OSM's colourful tiles, pressed into the site's palette. The filter sits on each tile, not on the
+   pane: a tile is filtered once and then only moved, where a filter (or blend) on the whole pane is
+   recomputed over the full map on every frame of a pan or zoom, which is what made opening a city lag. */
+#map .leaflet-tile{filter:var(--tiles)}
+.status{
+  position:absolute;inset:0;z-index:700;display:grid;place-items:center;padding:24px;text-align:center;
+  background:var(--veil);
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
+}
+.status[hidden]{display:none}
+.status p{max-width:340px}
+.status button{
+  display:block;margin:14px auto 0;background:var(--ink);color:var(--parchment);border:0;border-radius:999px;
+  padding:10px 20px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;
+}
+
+/* Leaflet chrome, quietened */
+.leaflet-bar{border:1px solid var(--ink)!important;border-radius:0!important;box-shadow:none!important}
+.leaflet-bar a{
+  width:36px!important;height:36px!important;line-height:34px!important;border-radius:0!important;
+  background:var(--parchment)!important;color:var(--ink)!important;border-bottom-color:var(--hairline)!important;
+  font-family:var(--mono);font-weight:400;
+}
+.leaflet-bar a:hover{background:var(--ink)!important;color:var(--parchment)!important}
+.leaflet-control-attribution{background:var(--veil)!important;font-family:var(--mono);font-size:10px;color:var(--ink-soft)!important}
+.leaflet-container a{color:inherit}
+
+/* pins: the site's station diamond inside a 28px tap target */
+.pin span{
+  position:absolute;left:50%;top:50%;width:11px;height:11px;margin:-5.5px 0 0 -5.5px;
+  background:var(--dot);border:1.5px solid var(--parchment);transform:rotate(45deg);
+  transition:transform .3s var(--arrive);
+}
+.pin[data-group="embassy"]{--dot:var(--g-embassy)}
+.pin[data-group="consulate"]{--dot:var(--g-consulate)}
+.pin[data-group="other"]{--dot:var(--g-other)}
+.pin:hover span{transform:rotate(45deg) scale(1.3)}
+.pin.is-active{z-index:10000!important}
+.pin.is-active span{transform:rotate(45deg) scale(1.6);border-color:var(--ink)}
+
+/* popup */
+.leaflet-popup-content-wrapper{background:var(--parchment);color:var(--ink);border-radius:0;box-shadow:none;border:1px solid var(--ink);padding:0}
+.leaflet-popup-tip{background:var(--parchment);box-shadow:none;border:1px solid var(--ink)}
+.leaflet-popup-content{margin:0;min-width:220px;font-family:var(--sans);font-size:13.5px;line-height:1.5}
+.leaflet-container a.leaflet-popup-close-button{width:32px;height:32px;font:400 18px/32px var(--mono);color:var(--ink-soft)}
+.slip{padding:14px 16px 12px}
+.slip.has-photo{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:16px;align-items:start;width:min(460px,calc(100vw - 80px))}
+.slip-photo{margin:22px 0 0} /* clear of the close button */
+.slip-photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border:1px solid var(--hairline);background:var(--parchment-deep)}
+.slip-photo figcaption{margin-top:5px;font-family:var(--mono);font-size:9.5px;letter-spacing:.04em;line-height:1.4;color:var(--ink-soft)}
+.slip-photo figcaption a{text-decoration:none;border-bottom:1px solid var(--hairline)}
+/* flags: a small plate with a hairline, so white-edged flags (Japan, Poland) still read on parchment */
+.flag{display:inline-block;width:20px;height:15px;margin-right:9px;vertical-align:-1px;object-fit:cover;outline:1px solid var(--hairline)}
+.slip h3 .flag{width:24px;height:18px;vertical-align:0}
+.slip-kind{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--sienna-ink);padding-right:22px}
+.slip h3{font-family:var(--serif);font-weight:370;font-size:21px;line-height:1.2;margin:4px 0 6px}
+.slip p{color:var(--ink-soft)}
+.slip .slip-name{font-family:var(--serif);font-style:italic;margin:-4px 0 6px}
+.slip-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;padding-top:10px;border-top:1px solid var(--hairline)}
+.slip-links a{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--sienna);padding:4px 0}
+.slip-links a:hover{color:var(--sienna-ink)}
+
+/* ---------- phones: map on top, list below ---------- */
+/* the site's nav breakpoint: links move into the Menu overlay */
+@media (max-width:900px){
+  nav.desktop{display:none}
+  .menu-btn{display:inline-flex}
+}
+@media (max-width:760px){
+  .map-view{overflow-y:auto;display:block}
+  .landing{padding:28px 16px 14px;justify-content:flex-start}
+  .landing::before{background:linear-gradient(180deg,#10140f 0,rgba(16,20,15,.8) 24%,transparent 38%,transparent 78%,rgba(16,20,15,.85) 90%)}
+  .landing-copy{max-width:none}
+  .display{font-size:clamp(46px,14vw,64px)}
+  .landing-lede{display:none}
+  .stations{position:absolute;left:0;right:0;bottom:44px;margin:0;display:flex;gap:6px;border:0;padding:0 16px;max-height:none;overflow-y:hidden;
+    overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16px,#000 85%,transparent);mask-image:linear-gradient(90deg,transparent 0,#000 16px,#000 85%,transparent)}
+  .stations::-webkit-scrollbar{display:none}
+  .stations li{flex:0 0 128px;scroll-snap-align:start}
+  .stations .stations-region{flex:0 0 auto;padding:0 4px;border:0;writing-mode:vertical-rl;transform:rotate(180deg);align-items:center;justify-content:center}
+  .stations .stations-region small{display:none}
+  .station{grid-template-columns:1fr;grid-template-areas:"n" "name" "meta";border:1px solid var(--hair);padding:10px 10px 9px;
+    background:rgba(16,20,15,.78);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+  .station-name{font-size:19px}
+  .station-meta{font-size:9px;letter-spacing:.06em}
+  .landing-foot{position:absolute;left:16px;right:16px;bottom:14px;font-size:9.5px;justify-content:center}
+  .landing-foot>span:first-child{display:none}
+  .gpin-label b{font-size:16px}
+  .tool-head-left{flex-direction:column;align-items:flex-start;gap:8px}
+  .header-bar::after{display:none}
+  .count{display:none}
+  .tool-head{flex-direction:column;align-items:flex-start;gap:10px}
+  .cities{left:0;right:auto;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cities button{min-height:44px}
+  .atlas{display:flex;flex-direction:column}
+  .map-wrap{order:-1;height:56svh;border-bottom:1px solid var(--ink)}
+  .panel{border-right:0}
+  .panel-tools{padding:12px 16px}
+  .filter{min-height:40px;flex:1;justify-content:center}
+  .list{overflow:visible}
+  .row{padding:12px 16px}
+}
+/* phones: the map is only ~half the screen tall, so the photo stays beside the text, narrower */
+@media (max-width:520px){
+  .slip{padding:12px 12px 10px}
+  .slip.has-photo{grid-template-columns:minmax(0,1fr) 92px;gap:12px}
+  .slip h3{font-size:19px}
+  .slip-photo figcaption{font-size:8.5px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important}
+  .display .line>span,.landing .kicker,.landing-lede,.stations li,.landing-foot,#map.is-rising .pin span{animation:none!important}
+  .gpin-mark::after{animation:none}
+}

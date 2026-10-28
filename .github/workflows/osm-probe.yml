@@ -1,0 +1,48 @@
+name: OSM probe
+
+# Run one Overpass query and print what comes back: for checking what OpenStreetMap holds for a city
+# (how a missing consulate is tagged, say) without fetching anything into data/.
+# Run it by pushing a query to .github/osm-probe.overpassql, or by hand once this file is on the default branch.
+on:
+  push:
+    paths:
+      - '.github/osm-probe.overpassql'
+      - '.github/wikidata-probe.sparql'
+  workflow_dispatch:
+    inputs:
+      query:
+        description: 'Overpass QL, e.g. [out:json];nwr["name"~"consul",i](22.2,114.1,22.35,114.25);out center tags;'
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query Wikidata
+        if: ${{ hashFiles('.github/wikidata-probe.sparql') != '' }}
+        run: |
+          curl -sS -f -m 120 -A 'TerraCracovianum-WorldEmbassies/1.0 (+https://github.com/Terra-Cracovianum/World-embassies)' \
+            -H 'Accept: application/sparql-results+json' --data-urlencode "query@.github/wikidata-probe.sparql" \
+            https://query.wikidata.org/sparql -o wd.json
+          jq -c '.results.bindings[] | with_entries(.value |= .value)' wd.json
+          echo "rows: $(jq '.results.bindings | length' wd.json)"
+      - name: Query Overpass
+        env:
+          QUERY: ${{ github.event.inputs.query }}
+        run: |
+          [ -n "$QUERY" ] || QUERY=$(cat .github/osm-probe.overpassql)
+          for url in https://overpass-api.de/api/interpreter https://overpass.kumi.systems/api/interpreter https://maps.mail.ru/osm/tools/overpass/api/interpreter; do
+            if curl -sS -f -m 180 -A 'TerraCracovianum-WorldEmbassies/1.0 (+https://github.com/Terra-Cracovianum/World-embassies)' \
+                 --data-urlencode "data=$QUERY" "$url" -o out.json; then
+              jq -c '.elements[] | {id: "\(.type)/\(.id)", tags}' out.json
+              echo "elements: $(jq '.elements | length' out.json)"
+              exit 0
+            fi
+            echo "$url failed"
+          done
+          exit 1
