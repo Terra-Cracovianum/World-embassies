@@ -30,6 +30,7 @@ Like the election maps, the page is just the tool, with no masthead or footer, s
   Fonts and colour tokens are copied from the institute's site (see `DESIGN.md` in `Terra-Cracovianum-Website-`).
 - `data/cities.json`: the cities the map knows, each with a bounding box.
 - `data/<city>.json`: a snapshot of the city's missions from OpenStreetMap, written by `tools/fetch-missions.mjs`.
+  Missions OpenStreetMap lacks are added from Wikidata (`tools/wikidata.mjs`): only those whose sending country and kind aren't already on the city's map, so Hong Kong gets Poland's consulate general without doubling Britain's.
   The **Refresh mission data** GitHub Action runs it every Monday, on demand, and whenever the data code changes — one parallel job per city — then commits the result. `node tools/check-data.mjs` reports per-city health.
   Ambassadors' residences are left out.
 - Photos come from Wikimedia Commons, found by `tools/photos.mjs` in the same Action, using the mission's OSM
