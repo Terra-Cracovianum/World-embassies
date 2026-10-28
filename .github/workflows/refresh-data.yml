@@ -40,7 +40,7 @@ jobs:
     timeout-minutes: 25
     strategy:
       fail-fast: false
-      max-parallel: 8 # each job is its own runner and IP; still kind to Overpass and Wikimedia
+      max-parallel: 10 # each job is its own runner and IP; still kind to Overpass and Wikimedia
       matrix:
         city: ${{ fromJson(needs.cities.outputs.slugs) }}
     steps:

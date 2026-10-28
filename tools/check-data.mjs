@@ -10,13 +10,19 @@ const root = new URL('../', import.meta.url);
 const cities = JSON.parse(await readFile(new URL('data/cities.json', root), 'utf8'));
 
 // Approximate resident embassies to the host state (diplomatic lists, rounded). Kraków and
-// Amsterdam host consulates only; the Netherlands' embassies are in The Hague.
+// Amsterdam host consulates only; the Netherlands' embassies are in The Hague, Israel's mostly in
+// Tel Aviv, and Taiwan has a dozen embassies and many representative offices.
 const REFERENCE = {
   warsaw: 100, krakow: 0, paris: 165, london: 160, kyiv: 75, berlin: 155, rome: 130, madrid: 120,
   lisbon: 85, vienna: 115, prague: 90, budapest: 85, brussels: 180, amsterdam: 0, copenhagen: 75,
   stockholm: 100, helsinki: 70, oslo: 60, dublin: 60, athens: 85,
   washington: 175, beijing: 165, tokyo: 155, 'new-delhi': 140, ottawa: 125, brasilia: 130, moscow: 145,
   seoul: 115, canberra: 85, 'mexico-city': 85, ankara: 120, jakarta: 100, riyadh: 115, 'the-hague': 105,
+  bern: 85, bucharest: 80, 'buenos-aires': 85, bogota: 65, santiago: 70, lima: 60, taipei: 12, singapore: 70,
+  bangkok: 85, manila: 70, hanoi: 80, dhaka: 50, 'kuala-lumpur': 105, islamabad: 80, astana: 70, 'abu-dhabi': 110,
+  'tel-aviv': 85, jerusalem: 3, cairo: 130, tehran: 100, pretoria: 130,
+  // consular and UN cities: few or no embassies to the host state, by design
+  'hong-kong': 0, geneva: 0, istanbul: 0, 'new-york': 0, toronto: 0, 'sao-paulo': 0, shanghai: 0, mumbai: 0, sydney: 0, dubai: 0,
 };
 
 let problems = 0;

@@ -12,6 +12,7 @@ const T = {
     kickerLanding: 'Terra Cracovianum · Mapa dyplomatyczna', heroA: 'Ambasady', heroB: 'świata',
     lede: 'Każda ambasada i konsulat w mieście — na jednej mapie. Wybierz miasto na globusie albo z listy.',
     drag: 'Przeciągnij, aby obrócić', globe: 'Globus', cities: 'Miasta', open: 'Otwórz mapę',
+    regions: { europe: 'Europa', americas: 'Ameryki', asia: 'Azja i Pacyfik', mideast: 'Bliski Wschód i Afryka' },
     navLabel: 'Główne', navHome: 'Strona główna', navPublications: 'Publikacje', navProjects: 'Projekty', navAbout: 'O nas',
     city: 'Miasto', menu: 'Menu', close: 'Zamknij', dark: 'Tryb ciemny', changeLang: 'Zmień język', languages: 'Języki',
     search: 'Szukaj kraju lub ulicy', show: 'Pokaż', all: 'Wszystkie', embassies: 'Ambasady', consulates: 'Konsulaty',
@@ -34,6 +35,7 @@ const T = {
     kickerLanding: 'Terra Cracovianum · Diplomatic map', heroA: 'Embassies', heroB: 'of the world',
     lede: 'Every embassy and consulate in a city, on one map. Choose a city on the globe or from the list.',
     drag: 'Drag to turn the globe', globe: 'Globe', cities: 'Cities', open: 'Open the map',
+    regions: { europe: 'Europe', americas: 'Americas', asia: 'Asia & Pacific', mideast: 'Middle East & Africa' },
     navLabel: 'Primary', navHome: 'Home', navPublications: 'Publications', navProjects: 'Projects', navAbout: 'About Terra',
     city: 'City', menu: 'Menu', close: 'Close', dark: 'Dark mode', changeLang: 'Change language', languages: 'Languages',
     search: 'Search a country or street', show: 'Show', all: 'All', embassies: 'Embassies', consulates: 'Consulates',
@@ -119,8 +121,9 @@ function applyLang() {
     $('[data-city]').textContent = state.city.name[state.lang];
     document.title = `${t().title} — ${state.city.name[state.lang]} · Terra Cracovianum`;
     $('#city-btn-name').textContent = state.city.name[state.lang];
-    $('#cities').innerHTML = state.cities.map((c, i) =>
-      `<button type="button" data-slug="${c.slug}"${c === state.city ? ' aria-current="page"' : ''}><span>${String(i + 1).padStart(2, '0')}</span>${esc(c.name[state.lang])}</button>`).join('');
+    $('#cities').innerHTML = byRegion().map(([region, list]) =>
+      `<h3 class="cities-region">${esc(t().regions[region])}</h3>` + list.map(({ city: c, n }) =>
+        `<button type="button" data-slug="${c.slug}"${c === state.city ? ' aria-current="page"' : ''}><span>${String(n).padStart(2, '0')}</span>${esc(c.name[state.lang])}</button>`).join('')).join('');
   } else {
     document.title = `${t().heroA} ${t().heroB} · Terra Cracovianum`;
   }
@@ -382,14 +385,25 @@ const coordsOf = (c) => {
 const countOf = (c) => state.index[c.slug]?.count;
 const pinLabel = (c) => `<b>${esc(c.name[state.lang])}</b><small>${countOf(c) != null ? t().count(countOf(c)).replace(/<\/?b>/g, '') : coordsOf(c)}</small>`;
 
+/* The cities by region, in the order regions are listed, numbered straight through. */
+const REGIONS = ['europe', 'americas', 'asia', 'mideast'];
+function byRegion() {
+  let n = 0;
+  return REGIONS.map((r) => [r, state.cities.filter((c) => (c.region || 'europe') === r)])
+    .filter(([, list]) => list.length)
+    .map(([r, list]) => [r, list.map((city) => ({ city, n: ++n }))]);
+}
+
 function renderStations() {
-  $('#stations').innerHTML = state.cities.map((c, i) => `
-    <li style="--i:${i}"><button type="button" class="station" data-slug="${c.slug}">
-      <span class="station-n">${String(i + 1).padStart(2, '0')}</span>
+  $('#stations').innerHTML = byRegion().map(([region, list]) =>
+    `<li class="stations-region" role="presentation"><span>${esc(t().regions[region])}</span><small>${list.length}</small></li>` +
+    list.map(({ city: c, n }) => `
+    <li style="--i:${Math.min(n, 24)}"><button type="button" class="station" data-slug="${c.slug}">
+      <span class="station-n">${String(n).padStart(2, '0')}</span>
       <span class="station-name">${esc(c.name[state.lang])}</span>
       <span class="station-meta">${countOf(c) != null ? t().count(countOf(c)).replace(/<\/?b>/g, '') : coordsOf(c)}</span>
       <span class="station-go" aria-hidden="true">→</span>
-    </button></li>`).join('');
+    </button></li>`).join('')).join('');
 }
 $('#stations').addEventListener('click', (e) => { const b = e.target.closest('.station'); if (b) navigate(b.dataset.slug); });
 /* Pointing at a city in the list lights its pin and turns the globe to face it (it may be on the far
