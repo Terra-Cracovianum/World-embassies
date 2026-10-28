@@ -1,6 +1,6 @@
 {
  "city": "washington",
- "generated": "2026-10-28T11:19:45.670Z",
+ "generated": "2026-10-28T12:25:44.455Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 202,
  "missions": [
@@ -747,6 +747,7 @@
    "website": "https://www.colombiaemb.org",
    "phone": null,
    "inferred": true,
+   "inferredFrom": "kolumbien",
    "wikidata": "Q1156636",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Embassy_of_Colombia_United_States_DC.JPG/500px-Embassy_of_Colombia_United_States_DC.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1743,6 +1744,7 @@
    "website": "http://us.emb-japan.go.jp",
    "phone": null,
    "inferred": true,
+   "inferredFrom": "japan",
    "wikidata": null,
    "photo": null
   },
@@ -1954,6 +1956,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "kuwait",
    "wikidata": null,
    "photo": null
   },

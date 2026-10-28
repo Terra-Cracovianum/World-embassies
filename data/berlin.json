@@ -1,6 +1,6 @@
 {
  "city": "berlin",
- "generated": "2026-10-28T11:05:52.276Z",
+ "generated": "2026-10-28T12:08:21.756Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 207,
  "missions": [
@@ -392,6 +392,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "benin",
    "wikidata": null,
    "photo": null
   },
@@ -1713,6 +1714,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "indonesien",
    "wikidata": null,
    "photo": null
   },
@@ -1809,6 +1811,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "iran",
    "wikidata": null,
    "photo": null
   },
@@ -2190,6 +2193,7 @@
    "website": "https://srilanka-botschaft.de/",
    "phone": "+49 30 80909749",
    "inferred": true,
+   "inferredFrom": "sri lanka",
    "wikidata": "Q73274876",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Botschaft_Sri_Lanka_Berlin_Niklasstra%C3%9Fe_19.jpg/500px-Botschaft_Sri_Lanka_Berlin_Niklasstra%C3%9Fe_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2596,6 +2600,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "mauritius",
    "wikidata": null,
    "photo": null
   },
@@ -3387,6 +3392,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "eswatini",
    "wikidata": null,
    "photo": null
   },

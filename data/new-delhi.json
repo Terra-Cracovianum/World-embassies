@@ -1,6 +1,6 @@
 {
  "city": "new-delhi",
- "generated": "2026-10-28T11:20:55.326Z",
+ "generated": "2026-10-28T12:27:11.664Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 120,
  "missions": [
@@ -52,6 +52,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "albania",
    "wikidata": null,
    "photo": null
   },
@@ -68,6 +69,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "angola",
    "wikidata": null,
    "photo": null
   },
@@ -119,6 +121,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "bosnia and herzegovina",
    "wikidata": null,
    "photo": null
   },
@@ -170,6 +173,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "burkina faso",
    "wikidata": null,
    "photo": null
   },
@@ -201,6 +205,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "bahrain",
    "wikidata": null,
    "photo": null
   },
@@ -247,6 +252,7 @@
    "website": null,
    "phone": "+91 11 4606 0934",
    "inferred": true,
+   "inferredFrom": "bolivia",
    "wikidata": null,
    "photo": null
   },
@@ -298,6 +304,7 @@
    "website": "https://www.botswanahighcom.in/",
    "phone": "+91 11 4653 7000",
    "inferred": true,
+   "inferredFrom": "botswana",
    "wikidata": null,
    "photo": null
   },
@@ -314,6 +321,7 @@
    "website": "https://www.india.mfa.gov.by/",
    "phone": null,
    "inferred": true,
+   "inferredFrom": "беларусь",
    "wikidata": null,
    "photo": null
   },
@@ -365,6 +373,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "congo",
    "wikidata": null,
    "photo": null
   },
@@ -396,6 +405,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "chile",
    "wikidata": null,
    "photo": null
   },
@@ -442,6 +452,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "cuba",
    "wikidata": null,
    "photo": null
   },
@@ -538,6 +549,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "dominican republic",
    "wikidata": null,
    "photo": null
   },
@@ -774,6 +786,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "guatemala",
    "wikidata": null,
    "photo": null
   },
@@ -790,6 +803,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "guyana",
    "wikidata": null,
    "photo": null
   },
@@ -1086,6 +1100,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "lebanon",
    "wikidata": null,
    "photo": null
   },
@@ -1347,6 +1362,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "nauru",
    "wikidata": null,
    "photo": null
   },
@@ -1898,6 +1914,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "zambia",
    "wikidata": null,
    "photo": null
   },
@@ -1914,6 +1931,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "zimbabwe",
    "wikidata": null,
    "photo": null
   }

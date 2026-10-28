@@ -1,8 +1,8 @@
 {
  "city": "beijing",
- "generated": "2026-10-28T10:42:02.427Z",
+ "generated": "2026-10-28T12:26:44.836Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 132,
+ "count": 131,
  "missions": [
   {
    "id": "node/10753758544",
@@ -127,6 +127,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "azerbaijan",
    "wikidata": null,
    "photo": null
   },
@@ -303,22 +304,6 @@
    "website": null,
    "phone": null,
    "wikidata": "Q100272608",
-   "photo": null
-  },
-  {
-   "id": "way/986533195",
-   "group": "other",
-   "kind": "liaison",
-   "country": "CG",
-   "name": "Beijing Office of the Government of the Hong Kong Special Administrative Region",
-   "nameLocal": "香港特別行政區政府駐北京辦事處",
-   "lat": 39.932318,
-   "lon": 116.382633,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "wikidata": "Q11702823",
    "photo": null
   },
   {
@@ -617,6 +602,23 @@
    "photo": null
   },
   {
+   "id": "node/14175266901",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "FI",
+   "name": "Embassy of Finland",
+   "nameLocal": "芬兰大使馆",
+   "lat": 39.94636,
+   "lon": 116.45069,
+   "address": "新源南路 8, 100027",
+   "website": "https://finlandabroad.fi/web/chn/mission",
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "finland",
+   "wikidata": null,
+   "photo": null
+  },
+  {
    "id": "node/8576602538",
    "group": "embassy",
    "kind": "embassy",
@@ -629,22 +631,6 @@
    "website": "https://finlandabroad.fi/web/chn",
    "phone": "+86 10 8519 8300",
    "wikidata": "Q106291907",
-   "photo": null
-  },
-  {
-   "id": "node/14175266901",
-   "group": "other",
-   "kind": "mission",
-   "country": "FI",
-   "name": "Embassy of Finland",
-   "nameLocal": "芬兰大使馆",
-   "lat": 39.94636,
-   "lon": 116.45069,
-   "address": "新源南路 8, 100027",
-   "website": "https://finlandabroad.fi/web/chn/mission",
-   "phone": null,
-   "inferred": true,
-   "wikidata": null,
    "photo": null
   },
   {
@@ -1285,6 +1271,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "myanmar",
    "wikidata": "Q48927556",
    "photo": null
   },
@@ -2041,6 +2028,7 @@
    "website": "https://china.usembassy-china.org.cn/",
    "phone": "+86 10 8531 3000",
    "inferred": true,
+   "inferredFrom": "美国",
    "wikidata": "Q12057126",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wider_Photograph_of_Chancery_Office_Building_Showing_Glass_Curtain_Wall_large.jpg/500px-Wider_Photograph_of_Chancery_Office_Building_Showing_Glass_Curtain_Wall_large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2082,6 +2070,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "乌兹别克斯坦",
    "wikidata": null,
    "photo": null
   },

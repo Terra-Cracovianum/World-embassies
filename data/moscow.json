@@ -1,8 +1,8 @@
 {
  "city": "moscow",
- "generated": "2026-10-28T11:24:46.400Z",
+ "generated": "2026-10-28T12:31:41.268Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 182,
+ "count": 180,
  "missions": [
   {
    "id": "node/6054425438",
@@ -147,6 +147,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "аргентина",
    "wikidata": null,
    "photo": null
   },
@@ -203,26 +204,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Wiki_mindovsky_house_by_lazarev.jpg",
     "author": "NVO",
     "license": "CC BY-SA 2.5"
-   }
-  },
-  {
-   "id": "node/622006644",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "AU",
-   "name": "Embassy of Australia",
-   "nameLocal": "Посольство Австралии",
-   "lat": 55.752586,
-   "lon": 37.642455,
-   "address": "Подколокольный переулок 10, 109028 Москва",
-   "website": "https://russia.embassy.gov.au",
-   "phone": null,
-   "wikidata": "Q4373961",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Podkolokolny_10_02.jpg/500px-Podkolokolny_10_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Podkolokolny_10_02.jpg",
-    "author": "NVO",
-    "license": "CC BY-SA 3.0"
    }
   },
   {
@@ -373,6 +354,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "бахреин",
    "wikidata": null,
    "photo": null
   },
@@ -519,26 +501,6 @@
     "page": "https://commons.wikimedia.org/wiki/File:Moscow,_Maroseika_17.jpg",
     "author": "NVO",
     "license": "CC BY 2.5"
-   }
-  },
-  {
-   "id": "way/47507780",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CA",
-   "name": "Embassy of Canada",
-   "nameLocal": "Посольство Канады",
-   "lat": 55.746766,
-   "lon": 37.594938,
-   "address": "Староконюшенный переулок 23 с1",
-   "website": null,
-   "phone": null,
-   "wikidata": "Q4374011",
-   "photo": {
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Canadian_Embassy_Moscow.jpg/500px-Canadian_Embassy_Moscow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Canadian_Embassy_Moscow.jpg",
-    "author": "6speeddiesel",
-    "license": "Public domain"
    }
   },
   {
@@ -964,6 +926,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "эритрея",
    "wikidata": null,
    "photo": null
   },
@@ -1245,6 +1208,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "греция",
    "wikidata": null,
    "photo": null
   },
@@ -1276,6 +1240,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "гвинея-бисау",
    "wikidata": null,
    "photo": null
   },
@@ -1285,7 +1250,7 @@
    "kind": "embassy",
    "country": "HN",
    "name": "Embassy of Honduras",
-   "nameLocal": "посольство Гондураса",
+   "nameLocal": "Посольство Гондураса",
    "lat": 55.727328,
    "lon": 37.616826,
    "address": "4-й Добрынинский переулок 8",
@@ -1987,6 +1952,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "черногория",
    "wikidata": null,
    "photo": null
   },
@@ -2168,6 +2134,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "маврикии",
    "wikidata": null,
    "photo": null
   },
@@ -2559,6 +2526,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "катар",
    "wikidata": null,
    "photo": null
   },
@@ -2785,6 +2753,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "сьерра-леоне",
    "wikidata": null,
    "photo": null
   },
@@ -2911,6 +2880,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "таджикистан",
    "wikidata": null,
    "photo": null
   },
@@ -3057,6 +3027,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "уганда",
    "wikidata": null,
    "photo": null
   },
@@ -3331,7 +3302,7 @@
    "kind": "embassy",
    "country": "ZW",
    "name": "Embassy of Zimbabwe",
-   "nameLocal": "посольство Зимбабве",
+   "nameLocal": "Посольство Зимбабве",
    "lat": 55.727562,
    "lon": 37.615636,
    "address": "Мытная улица 3",

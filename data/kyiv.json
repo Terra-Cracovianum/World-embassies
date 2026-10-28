@@ -1,6 +1,6 @@
 {
  "city": "kyiv",
- "generated": "2026-10-28T11:08:10.228Z",
+ "generated": "2026-10-28T12:08:11.242Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 81,
  "missions": [
@@ -1067,6 +1067,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "перу",
    "wikidata": null,
    "photo": null
   },

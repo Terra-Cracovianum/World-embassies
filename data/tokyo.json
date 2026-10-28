@@ -1,6 +1,6 @@
 {
  "city": "tokyo",
- "generated": "2026-10-28T11:20:58.599Z",
+ "generated": "2026-10-28T12:24:00.953Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 158,
  "missions": [
@@ -1277,6 +1277,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "イントネシア",
    "wikidata": null,
    "photo": null
   },
@@ -1558,6 +1559,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "republic of korea",
    "wikidata": null,
    "photo": null
   },

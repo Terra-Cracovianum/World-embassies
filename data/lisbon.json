@@ -1,6 +1,6 @@
 {
  "city": "lisbon",
- "generated": "2026-10-28T11:08:41.614Z",
+ "generated": "2026-10-28T12:12:05.982Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 99,
  "missions": [
@@ -17,6 +17,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "andorra",
    "wikidata": null,
    "photo": null
   },
@@ -273,6 +274,7 @@
    "website": "https://www.portugal.diplomatie.gouv.ci/",
    "phone": "+351 218 031 486",
    "inferred": true,
+   "inferredFrom": "costa do marfim",
    "wikidata": "Q105395673",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Embaixada_da_Costa_de_Marfim_em_Lisboa_01.jpg/500px-Embaixada_da_Costa_de_Marfim_em_Lisboa_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1129,6 +1131,7 @@
    "website": "https://www.norway.no/pt/portugal",
    "phone": "+351 21 300 9100",
    "inferred": true,
+   "inferredFrom": "noruega",
    "wikidata": "Q19383581",
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Embaixada_da_Noruega_em_Lisboa.jpg/500px-Embaixada_da_Noruega_em_Lisboa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1475,6 +1478,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "senegal",
    "wikidata": null,
    "photo": null
   },

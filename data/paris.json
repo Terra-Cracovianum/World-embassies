@@ -1,8 +1,8 @@
 {
  "city": "paris",
- "generated": "2026-10-28T11:08:17.971Z",
+ "generated": "2026-10-28T12:08:16.045Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 224,
+ "count": 223,
  "missions": [
   {
    "id": "node/4663578723",
@@ -277,6 +277,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "azerbaidjan",
    "wikidata": null,
    "photo": null
   },
@@ -1843,6 +1844,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "japon",
    "wikidata": null,
    "photo": null
   },
@@ -2249,6 +2251,7 @@
    "website": "http://consulat.ma",
    "phone": "+33 1 56 56 72 01",
    "inferred": true,
+   "inferredFrom": "morocco",
    "wikidata": null,
    "photo": null
   },
@@ -3585,6 +3588,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "syrien",
    "wikidata": null,
    "photo": null
   },
@@ -4062,22 +4066,6 @@
     "author": "Pymouss",
     "license": "CC BY-SA 4.0"
    }
-  },
-  {
-   "id": "node/12630604801",
-   "group": "other",
-   "kind": "mission",
-   "country": "YT",
-   "name": "Délégation de Mayotte à Paris",
-   "nameLocal": "Délégation de Mayotte à Paris",
-   "lat": 48.852748,
-   "lon": 2.264793,
-   "address": "Rue du Docteur Blanche 51, 75016 Paris",
-   "website": null,
-   "phone": "+33 1 55 03 03 03",
-   "inferred": true,
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "way/103187108",

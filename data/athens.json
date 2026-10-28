@@ -1,6 +1,6 @@
 {
  "city": "athens",
- "generated": "2026-10-28T11:18:43.133Z",
+ "generated": "2026-10-28T12:22:06.971Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 95,
  "missions": [
@@ -147,6 +147,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "αζερμπαιτζαν",
    "wikidata": null,
    "photo": null
   },
@@ -593,6 +594,7 @@
    "website": "https://kemlu.go.id/athens/en",
    "phone": "+30 210 6774692;+30 210 6742345;+30 210 6746448",
    "inferred": true,
+   "inferredFrom": "indonesia",
    "wikidata": null,
    "photo": null
   },
@@ -689,6 +691,7 @@
    "website": "https://ambatene.esteri.it",
    "phone": null,
    "inferred": true,
+   "inferredFrom": "italie",
    "wikidata": null,
    "photo": null
   },
@@ -1265,6 +1268,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "singapore",
    "wikidata": null,
    "photo": null
   },
@@ -1326,6 +1330,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "τσαντ",
    "wikidata": null,
    "photo": null
   },

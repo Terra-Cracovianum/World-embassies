@@ -1,6 +1,6 @@
 {
  "city": "warsaw",
- "generated": "2026-10-28T11:05:26.804Z",
+ "generated": "2026-10-28T12:08:19.499Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 122,
  "missions": [
@@ -637,6 +637,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "hiszpania",
    "wikidata": null,
    "photo": {
     "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg/500px-Ambasada_Hiszpanii_w_Polsce_ul._My%C5%9Bliwiecka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1128,6 +1129,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "kuwejt",
    "wikidata": null,
    "photo": null
   },

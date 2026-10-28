@@ -1,8 +1,8 @@
 {
  "city": "copenhagen",
- "generated": "2026-10-28T11:14:03.852Z",
+ "generated": "2026-10-28T12:20:07.306Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 86,
+ "count": 83,
  "missions": [
   {
    "id": "node/7095401300",
@@ -285,21 +285,6 @@
    "photo": null
   },
   {
-   "id": "node/14304182899",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CO",
-   "name": "Republikken Colombias ambassade",
-   "nameLocal": "Republikken Colombias ambassade",
-   "lat": 55.679427,
-   "lon": 12.584764,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/3090678545",
    "group": "embassy",
    "kind": "embassy",
@@ -505,7 +490,7 @@
    "lon": 12.583125,
    "address": null,
    "website": "https://dk.ambafrance.org/-Section-consulaire-",
-   "phone": "+45 35 15 80 18;+33 1 86 65 32 85",
+   "phone": "+35 33 67 01 00",
    "wikidata": null,
    "photo": null
   },
@@ -831,8 +816,8 @@
    "country": "JP",
    "name": "Embassy of Japan in Denmark",
    "nameLocal": "Den Japanske Ambassade",
-   "lat": 55.661425,
-   "lon": 12.563621,
+   "lat": 55.661325,
+   "lon": 12.563602,
    "address": null,
    "website": "https://www.dk.emb-japan.go.jp/itprtop_en/index.html",
    "phone": null,
@@ -1128,36 +1113,6 @@
     "author": "Leif Jørgensen",
     "license": "CC BY-SA 4.0"
    }
-  },
-  {
-   "id": "node/14304190974",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "PE",
-   "name": "Perus ambassade",
-   "nameLocal": "Perus ambassade",
-   "lat": 55.678813,
-   "lon": 12.580605,
-   "address": null,
-   "website": "https://www.gob.pe/embajada-del- peru-en--reino-de-dinamarca",
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/8539522981",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "PH",
-   "name": null,
-   "nameLocal": null,
-   "lat": 55.631829,
-   "lon": 12.57685,
-   "address": null,
-   "website": "https://copenhagenpe.dfa.gov.ph",
-   "phone": null,
-   "wikidata": "Q104821862",
-   "photo": null
   },
   {
    "id": "way/919590953",

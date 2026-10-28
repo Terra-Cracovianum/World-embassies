@@ -1,6 +1,6 @@
 {
  "city": "budapest",
- "generated": "2026-10-28T11:14:42.807Z",
+ "generated": "2026-10-28T12:13:51.734Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 105,
  "missions": [
@@ -257,6 +257,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "cote d'ivoire",
    "wikidata": null,
    "photo": null
   },
@@ -329,7 +330,7 @@
    "id": "node/6439744217",
    "group": "other",
    "kind": "liaison",
-   "country": "CY",
+   "country": "ZZ",
    "name": "North Cyprus Representative Office",
    "nameLocal": "Észak Ciprusi Török Képviselet",
    "lat": 47.513052,
@@ -338,6 +339,7 @@
    "website": null,
    "phone": null,
    "inferred": true,
+   "inferredFrom": "cyprus",
    "wikidata": null,
    "photo": null
   },
