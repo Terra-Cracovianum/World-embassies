@@ -2,7 +2,7 @@
  "city": "colombo",
  "generated": "2026-10-28T17:40:00.113Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 45,
+ "count": 44,
  "missions": [
   {
    "id": "node/7119561746",
@@ -121,23 +121,6 @@
    "address": null,
    "website": null,
    "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "way/232726217",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CN",
-   "name": "Proposed Embassy of China",
-   "nameLocal": "Proposed Embassy of China",
-   "lat": 6.91173,
-   "lon": 79.874949,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "china",
    "wikidata": null,
    "photo": null
   },

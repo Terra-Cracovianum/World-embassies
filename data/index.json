@@ -510,7 +510,7 @@
   "generated": "2026-10-28T17:05:09.465Z"
  },
  "nicosia": {
-  "count": 66,
+  "count": 65,
   "embassies": 57,
   "consulates": 7,
   "generated": "2026-10-28T17:02:50.725Z"
@@ -666,7 +666,7 @@
   "generated": "2026-10-28T17:30:53.193Z"
  },
  "kampala": {
-  "count": 60,
+  "count": 59,
   "embassies": 47,
   "consulates": 10,
   "generated": "2026-10-28T17:27:17.101Z"
@@ -798,8 +798,8 @@
   "generated": "2026-10-28T17:39:05.218Z"
  },
  "colombo": {
-  "count": 45,
-  "embassies": 39,
+  "count": 44,
+  "embassies": 38,
   "consulates": 4,
   "generated": "2026-10-28T17:40:00.113Z"
  },

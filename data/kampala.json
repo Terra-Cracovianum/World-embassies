@@ -2,7 +2,7 @@
  "city": "kampala",
  "generated": "2026-10-28T17:27:17.101Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 60,
+ "count": 59,
  "missions": [
   {
    "id": "node/3564383168",
@@ -643,23 +643,6 @@
    "website": "http://www.norway.go.ug/",
    "phone": "+256 417 112000",
    "wikidata": "Q19383574",
-   "photo": null
-  },
-  {
-   "id": "node/607973176",
-   "group": "other",
-   "kind": "mission",
-   "country": "NO",
-   "name": "Norwegian Refugee Council",
-   "nameLocal": "Norwegian Refugee Council",
-   "lat": 0.289194,
-   "lon": 32.616212,
-   "address": null,
-   "website": "https://www.nrc.no/",
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "norwegia",
-   "wikidata": null,
    "photo": null
   },
   {

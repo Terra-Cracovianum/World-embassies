@@ -2,7 +2,7 @@
  "city": "nicosia",
  "generated": "2026-10-28T17:02:50.725Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 66,
+ "count": 65,
  "missions": [
   {
    "id": "node/12281909747",
@@ -31,23 +31,6 @@
    "address": null,
    "website": "https://cyprus.mfa.am",
    "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
-   "id": "node/14303893582",
-   "group": "other",
-   "kind": "mission",
-   "country": "AM",
-   "name": "Armenian Prelature in Cyprus",
-   "nameLocal": "Armenian Prelature in Cyprus",
-   "lat": 35.152639,
-   "lon": 33.367601,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "armenia",
    "wikidata": null,
    "photo": null
   },

@@ -14,5 +14,17 @@
     "set": {
       "country": "ZZ"
     }
+  },
+  "node/14303893582": {
+    "drop": true,
+    "why": "Armenian Prelature — a church office, not a mission"
+  },
+  "node/607973176": {
+    "drop": true,
+    "why": "Norwegian Refugee Council — an NGO"
+  },
+  "way/232726217": {
+    "drop": true,
+    "why": "a proposed embassy building site"
   }
 }
