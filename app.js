@@ -12,11 +12,11 @@ const T = {
     kickerLanding: 'Terra Cracovianum · Mapa dyplomatyczna', heroA: 'Ambasady', heroB: 'świata',
     lede: 'Każda ambasada i konsulat w mieście — na jednej mapie. Wybierz miasto na globusie albo z listy.',
     drag: 'Przeciągnij, aby obrócić', globe: 'Globus', cities: 'Miasta', open: 'Otwórz mapę',
-    regions: { europe: 'Europa', americas: 'Ameryki', asia: 'Azja i Pacyfik', mideast: 'Bliski Wschód i Afryka' },
+    regions: { europe: 'Europa', americas: 'Ameryki', asia: 'Azja i Pacyfik', mideast: 'Bliski Wschód', africa: 'Afryka' },
     navLabel: 'Główne', navHome: 'Strona główna', navPublications: 'Publikacje', navProjects: 'Projekty', navAbout: 'O nas',
     city: 'Miasto', menu: 'Menu', close: 'Zamknij', dark: 'Tryb ciemny', changeLang: 'Zmień język', languages: 'Języki',
     search: 'Szukaj kraju lub ulicy', show: 'Pokaż', all: 'Wszystkie', embassies: 'Ambasady', consulates: 'Konsulaty',
-    empty: 'Brak wyników.', source: 'Dane', loading: 'Wczytywanie placówek…', live: 'na żywo',
+    findCity: 'Miasto lub kraj', empty: 'Brak wyników.', source: 'Dane', loading: 'Wczytywanie placówek…', live: 'na żywo',
     loadingLive: 'Ta mapa jest jeszcze przygotowywana — pobieram placówki prosto z OpenStreetMap (do pół minuty)…',
     failed: 'Nie udało się wczytać danych z OpenStreetMap.', retry: 'Spróbuj ponownie',
     preparing: 'Mapa tego miasta jest jeszcze przygotowywana. Zajrzyj za kilka minut.',
@@ -35,11 +35,11 @@ const T = {
     kickerLanding: 'Terra Cracovianum · Diplomatic map', heroA: 'Embassies', heroB: 'of the world',
     lede: 'Every embassy and consulate in a city, on one map. Choose a city on the globe or from the list.',
     drag: 'Drag to turn the globe', globe: 'Globe', cities: 'Cities', open: 'Open the map',
-    regions: { europe: 'Europe', americas: 'Americas', asia: 'Asia & Pacific', mideast: 'Middle East & Africa' },
+    regions: { europe: 'Europe', americas: 'Americas', asia: 'Asia & Pacific', mideast: 'Middle East', africa: 'Africa' },
     navLabel: 'Primary', navHome: 'Home', navPublications: 'Publications', navProjects: 'Projects', navAbout: 'About Terra',
     city: 'City', menu: 'Menu', close: 'Close', dark: 'Dark mode', changeLang: 'Change language', languages: 'Languages',
     search: 'Search a country or street', show: 'Show', all: 'All', embassies: 'Embassies', consulates: 'Consulates',
-    empty: 'Nothing matches.', source: 'Data', loading: 'Loading missions…', live: 'live',
+    findCity: 'City or country', empty: 'Nothing matches.', source: 'Data', loading: 'Loading missions…', live: 'live',
     loadingLive: 'This map is still being prepared — fetching missions straight from OpenStreetMap (up to half a minute)…',
     failed: 'Could not load data from OpenStreetMap.', retry: 'Try again',
     preparing: 'The map for this city is still being prepared. Check back in a few minutes.',
@@ -121,9 +121,10 @@ function applyLang() {
     $('[data-city]').textContent = state.city.name[state.lang];
     document.title = `${t().title} — ${state.city.name[state.lang]} · Terra Cracovianum`;
     $('#city-btn-name').textContent = state.city.name[state.lang];
-    $('#cities').innerHTML = byRegion().map(([region, list]) =>
-      `<h3 class="cities-region">${esc(t().regions[region])}</h3>` + list.map(({ city: c, n }) =>
-        `<button type="button" data-slug="${c.slug}"${c === state.city ? ' aria-current="page"' : ''}><span>${String(n).padStart(2, '0')}</span>${esc(c.name[state.lang])}</button>`).join('')).join('');
+    $('#cities').innerHTML = `<input class="cities-find" type="search" autocomplete="off" spellcheck="false" placeholder="${esc(t().findCity)}" aria-label="${esc(t().findCity)}">` +
+      byRegion().map(([region, list]) =>
+      `<h3 class="cities-region" data-region="${region}">${esc(t().regions[region])}</h3>` + list.map(({ city: c, n }) =>
+        `<button type="button" data-slug="${c.slug}" data-region="${region}"${c === state.city ? ' aria-current="page"' : ''}><span>${String(n).padStart(2, '0')}</span>${esc(c.name[state.lang])}</button>`).join('')).join('');
   } else {
     document.title = `${t().heroA} ${t().heroB} · Terra Cracovianum`;
   }
@@ -386,7 +387,7 @@ const countOf = (c) => state.index[c.slug]?.count;
 const pinLabel = (c) => `<b>${esc(c.name[state.lang])}</b><small>${countOf(c) != null ? t().count(countOf(c)).replace(/<\/?b>/g, '') : coordsOf(c)}</small>`;
 
 /* The cities by region, in the order regions are listed, numbered straight through. */
-const REGIONS = ['europe', 'americas', 'asia', 'mideast'];
+const REGIONS = ['europe', 'americas', 'asia', 'mideast', 'africa'];
 function byRegion() {
   let n = 0;
   return REGIONS.map((r) => [r, state.cities.filter((c) => (c.region || 'europe') === r)])
@@ -430,8 +431,30 @@ const pickerBtn = $('#city-btn');
 function setPickerOpen(open) {
   picker.classList.toggle('open', open);
   pickerBtn.setAttribute('aria-expanded', String(open));
-  if (open) $('#cities [aria-current]')?.focus();
+  if (!open) return;
+  const find = $('#cities .cities-find');
+  if (find.value) { find.value = ''; filterCities(''); }
+  // a typing cursor where there is a keyboard; on touch screens the keyboard would cover the list
+  (matchMedia('(pointer:fine)').matches ? find : $('#cities [aria-current]'))?.focus();
 }
+/* 164 cities: type a city, or a country to see every city it has ("Nigeria" → Abuja, Lagos) */
+const fold = (s) => s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
+function filterCities(q) {
+  q = fold(q.trim());
+  const country = new Intl.DisplayNames([state.lang], { type: 'region' });
+  const shown = new Set();
+  $$('#cities button').forEach((b) => {
+    const c = state.cities.find((x) => x.slug === b.dataset.slug);
+    const hit = !q || [c.name.pl, c.name.en, country.of(c.country)].some((n) => fold(n).includes(q));
+    b.hidden = !hit;
+    if (hit) shown.add(b.dataset.region);
+  });
+  $$('#cities .cities-region').forEach((h) => { h.hidden = !shown.has(h.dataset.region); });
+}
+$('#cities').addEventListener('input', (e) => { if (e.target.matches('.cities-find')) filterCities(e.target.value); });
+$('#cities').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && e.target.matches('.cities-find')) $('#cities button:not([hidden])')?.click();
+});
 pickerBtn.addEventListener('click', () => setPickerOpen(!picker.classList.contains('open')));
 document.addEventListener('click', (e) => { if (!picker.contains(e.target)) setPickerOpen(false); });
 picker.addEventListener('keydown', (e) => { if (e.key === 'Escape' && picker.classList.contains('open')) { e.stopPropagation(); setPickerOpen(false); pickerBtn.focus(); } });

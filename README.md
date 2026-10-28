@@ -1,7 +1,7 @@
 # World Embassies
 
 A Terra Cracovianum tool: every embassy and consulate in a city, on one map. Polish by default, English via the PL/EN switch (or `?lang=en`).
-Cities: 65 — the capitals of the 50 largest economies (IMF, nominal GDP 2025), the rest of Europe's capitals, Kraków, The Hague, and the cities where diplomacy happens away from a capital: New York, Geneva, Hong Kong, Istanbul, Shanghai, Mumbai, São Paulo, Toronto, Sydney, Dubai, plus Tel Aviv and Jerusalem side by side (see `data/cities.json`). The globe's index and the city menu group them by region. Open one from the globe, the index beside it, the city menu on a map, or `?city=<slug>`.
+Cities: 164 — every European capital, the capitals of the 50 largest economies (IMF, nominal GDP 2025) and of most other states a foreign-policy analyst asks about (the Gulf, the Levant, Central Asia, the Sahel, Latin America), the seats of international organisations (New York, Geneva, Strasbourg, Brussels, Vienna, Nairobi, Addis Ababa), and the consular cities where most countries keep a post outside the capital (Istanbul, Frankfurt, Milan, Shanghai, Hong Kong, Mumbai, Lagos, Los Angeles, São Paulo …), plus Kraków, Gdańsk, Wrocław and Lviv. See `data/cities.json`. The globe's index and the city menu group them by region: Europe, the Americas, Asia & Pacific, the Middle East, Africa. Open one from the globe, the index beside it, the city menu on a map, or `?city=<slug>`.
 
 Live: https://terra-cracovianum.github.io/World-embassies/
 

@@ -46,7 +46,7 @@ export class Globe {
 
     this.cities = cities.map((c, i) => {
       const pin = document.createElement('button');
-      pin.style.setProperty('--i', i);                              // rise-in order
+      pin.style.setProperty('--i', Math.round(i * 64 / cities.length)); // rise-in order, about three seconds however many cities
       pin.style.setProperty('--ring', `${((i * 0.37) % 2.4).toFixed(2)}s`); // rings out of step, never in unison
       pin.type = 'button';
       pin.className = `gpin gpin-${c.labelSide || 'e'}${c.slug === 'krakow' ? ' is-home' : ''}`;

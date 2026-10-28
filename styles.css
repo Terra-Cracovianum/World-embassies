@@ -300,11 +300,18 @@ html.nav-open{overflow:hidden}
   opacity:0;visibility:hidden;transform:translateY(-8px);
   transition:opacity .3s,visibility .3s,transform .3s var(--arrive);
 }
-.city-picker.open .cities{opacity:1;visibility:visible;transform:none}
+.city-picker.open .cities{opacity:1;visibility:visible;transform:none;transition:opacity .3s,visibility 0s,transform .3s var(--arrive)} /* visible at once, so focus can move in */
 .cities{max-height:min(70vh,640px);overflow-y:auto;overscroll-behavior:contain;align-content:start}
 .cities-region{grid-column:1/-1;margin:10px 10px 2px;padding-bottom:4px;border-bottom:1px solid var(--hairline);
   font-family:var(--mono);font-size:10.5px;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--sienna-ink)}
-.cities-region:first-child{margin-top:4px}
+.cities-region:first-of-type{margin-top:4px}
+.cities-find{grid-column:1/-1;position:sticky;top:-8px;z-index:1;margin:-8px -8px 4px;padding:14px 18px;
+  border:0;border-bottom:1px solid var(--hairline);border-radius:16px 16px 0 0;background:var(--parchment);color:var(--ink);
+  font:inherit;font-size:15px}
+.cities-find::placeholder{color:var(--ink-soft);opacity:.8}
+.cities-find:focus-visible{outline:none;border-bottom-color:var(--ink)}
+.cities-find::-webkit-search-cancel-button{-webkit-appearance:none}
+.cities [hidden]{display:none}
 .cities button{
   display:flex;align-items:baseline;gap:10px;width:100%;text-align:left;cursor:pointer;
   background:none;border:0;border-radius:10px;padding:9px 10px;
