@@ -1,6 +1,6 @@
 {
  "city": "madrid",
- "generated": "2026-10-28T12:08:51.148Z",
+ "generated": "2026-10-28T14:14:55.398Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 152,
  "missions": [
@@ -357,6 +357,21 @@
    "website": "https://ambardcmadrid.com/",
    "phone": "+34 917 332 647",
    "wikidata": "Q105179047",
+   "photo": null
+  },
+  {
+   "id": "node/12204793540",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "CG",
+   "name": "Embassy of the Democratic Republic of Congo in Madrid",
+   "nameLocal": "Embajada de la República Democrática del Congo en Madrid",
+   "lat": 40.457303,
+   "lon": -3.648047,
+   "address": "Calle del Moscatelar 23",
+   "website": "https://ambardcmadrid.com/",
+   "phone": "+34 91 737 9999",
+   "wikidata": null,
    "photo": null
   },
   {
@@ -1069,21 +1084,6 @@
    }
   },
   {
-   "id": "node/390582278",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "HT",
-   "name": "Haiti",
-   "nameLocal": "Haiti",
-   "lat": 40.420487,
-   "lon": -3.691597,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "node/8388578774",
    "group": "embassy",
    "kind": "embassy",
@@ -1218,12 +1218,12 @@
    "group": "embassy",
    "kind": "embassy",
    "country": "IQ",
-   "name": "Embajada de la República de Irak",
-   "nameLocal": "Embajada de la República de Irak",
+   "name": "Embassy of the Republic of Iraq in Madrid",
+   "nameLocal": "Embajada de la República de Iraq en Madrid",
    "lat": 40.454393,
    "lon": -3.643773,
    "address": "Ronda de Sobradiel 67",
-   "website": null,
+   "website": "https://mofa.gov.iq/madrid/",
    "phone": null,
    "wikidata": null,
    "photo": null

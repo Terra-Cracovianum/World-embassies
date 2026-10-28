@@ -1,8 +1,8 @@
 {
  "city": "new-delhi",
- "generated": "2026-10-28T12:27:11.664Z",
+ "generated": "2026-10-28T14:29:01.633Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 120,
+ "count": 117,
  "missions": [
   {
    "id": "way/262441512",
@@ -359,23 +359,6 @@
     "author": "Krokodyl",
     "license": "CC BY-SA 3.0"
    }
-  },
-  {
-   "id": "node/12356548226",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "CG",
-   "name": "Embassy of The Republic of Congo",
-   "nameLocal": "Embassy of The Republic of Congo",
-   "lat": 28.561654,
-   "lon": 77.160112,
-   "address": "E-14 1, New Delhi",
-   "website": null,
-   "phone": null,
-   "inferred": true,
-   "inferredFrom": "congo",
-   "wikidata": null,
-   "photo": null
   },
   {
    "id": "way/359604297",
@@ -1210,21 +1193,6 @@
    "photo": null
   },
   {
-   "id": "node/14019327174",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "MO",
-   "name": "Embassy of Republic of Moldova",
-   "nameLocal": "Embassy of Republic of Moldova",
-   "lat": 28.586993,
-   "lon": 77.217701,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
-   "photo": null
-  },
-  {
    "id": "way/1271166572",
    "group": "embassy",
    "kind": "embassy",
@@ -1484,21 +1452,6 @@
    "website": null,
    "phone": "+91 241 080 6263",
    "wikidata": "Q28114098",
-   "photo": null
-  },
-  {
-   "id": "way/348459665",
-   "group": "embassy",
-   "kind": "embassy",
-   "country": "PT",
-   "name": "Embassy of Portugal",
-   "nameLocal": "Embassy of Portugal",
-   "lat": 28.600894,
-   "lon": 77.182968,
-   "address": null,
-   "website": null,
-   "phone": null,
-   "wikidata": null,
    "photo": null
   },
   {

@@ -1,8 +1,8 @@
 {
  "city": "prague",
- "generated": "2026-10-28T12:13:53.752Z",
+ "generated": "2026-10-28T14:11:15.000Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 109,
+ "count": 110,
  "missions": [
   {
    "id": "node/296786800",
@@ -913,6 +913,23 @@
     "author": "Krokodyl",
     "license": "CC BY 3.0"
    }
+  },
+  {
+   "id": "node/14224735680",
+   "group": "consulate",
+   "kind": "honorary_consulate",
+   "country": "IS",
+   "name": "Honorární konzulát Islandské republiky",
+   "nameLocal": "Honorární konzulát Islandské republiky",
+   "lat": 50.091146,
+   "lon": 14.441746,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "islanda",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/3621362835",

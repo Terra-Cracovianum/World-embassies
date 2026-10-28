@@ -1,8 +1,8 @@
 {
  "city": "mexico-city",
- "generated": "2026-10-28T12:29:51.044Z",
+ "generated": "2026-10-28T14:28:59.282Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
- "count": 88,
+ "count": 89,
  "missions": [
   {
    "id": "node/7099759723",
@@ -868,6 +868,23 @@
     "author": "Aquintero82",
     "license": "CC BY-SA 4.0"
    }
+  },
+  {
+   "id": "node/13541216458",
+   "group": "embassy",
+   "kind": "embassy",
+   "country": "IT",
+   "name": "Instituto Italiano de Cultura",
+   "nameLocal": "Instituto Italiano de Cultura",
+   "lat": 19.349462,
+   "lon": -99.166566,
+   "address": null,
+   "website": null,
+   "phone": null,
+   "inferred": true,
+   "inferredFrom": "italie",
+   "wikidata": null,
+   "photo": null
   },
   {
    "id": "node/8343466113",

@@ -1,6 +1,6 @@
 {
  "city": "beijing",
- "generated": "2026-10-28T12:26:44.836Z",
+ "generated": "2026-10-28T14:23:04.585Z",
  "source": "OpenStreetMap contributors, ODbL — via the Overpass API",
  "count": 131,
  "missions": [
@@ -614,7 +614,7 @@
    "website": "https://finlandabroad.fi/web/chn/mission",
    "phone": null,
    "inferred": true,
-   "inferredFrom": "finland",
+   "inferredFrom": "finlanda",
    "wikidata": null,
    "photo": null
   },
