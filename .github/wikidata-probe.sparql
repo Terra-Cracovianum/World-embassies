@@ -1,11 +1,15 @@
-SELECT DISTINCT ?m ?mLabel ?coord ?iso ?end WHERE {
+SELECT ?m ?mLabel ?coord ?iso (GROUP_CONCAT(DISTINCT ?tl; separator="|") AS ?types)
+       (SAMPLE(?site) AS ?website) (SAMPLE(?addr) AS ?address) WHERE {
   SERVICE wikibase:box {
     ?m wdt:P625 ?coord .
     bd:serviceParam wikibase:cornerSouthWest "Point(114.1 22.2)"^^geo:wktLiteral ;
                     wikibase:cornerNorthEast "Point(114.25 22.35)"^^geo:wktLiteral .
   }
   ?m wdt:P31/wdt:P279* wd:Q7843791 .
+  FILTER NOT EXISTS { ?m wdt:P576 [] }
   OPTIONAL { ?m wdt:P137 ?op . ?op wdt:P297 ?iso }
-  OPTIONAL { ?m wdt:P576 ?end }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,zh" . }
-}
+  OPTIONAL { ?m wdt:P31 ?t . ?t rdfs:label ?tl . FILTER(lang(?tl) = "en") }
+  OPTIONAL { ?m wdt:P856 ?site }
+  OPTIONAL { ?m wdt:P6375 ?addr . FILTER(lang(?addr) = "en" || lang(?addr) = "") }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,mul,fr,de,es,ru,zh,ar,pl" . ?m rdfs:label ?mLabel . }
+} GROUP BY ?m ?mLabel ?coord ?iso
